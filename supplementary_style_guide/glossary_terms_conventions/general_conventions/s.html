@@ -1,0 +1,1837 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="generator" content="Asciidoctor 2.0.18">
+<title>session persistence (noun)</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic%7CNoto+Serif:400,400italic,700,700italic%7CDroid+Sans+Mono:400,700">
+<style>
+/*! Asciidoctor default stylesheet | MIT License | https://asciidoctor.org */
+/* Uncomment the following line when using as a custom stylesheet */
+/* @import "https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic%7CNoto+Serif:400,400italic,700,700italic%7CDroid+Sans+Mono:400,700"; */
+html{font-family:sans-serif;-webkit-text-size-adjust:100%}
+a{background:none}
+a:focus{outline:thin dotted}
+a:active,a:hover{outline:0}
+h1{font-size:2em;margin:.67em 0}
+b,strong{font-weight:bold}
+abbr{font-size:.9em}
+abbr[title]{cursor:help;border-bottom:1px dotted #dddddf;text-decoration:none}
+dfn{font-style:italic}
+hr{height:0}
+mark{background:#ff0;color:#000}
+code,kbd,pre,samp{font-family:monospace;font-size:1em}
+pre{white-space:pre-wrap}
+q{quotes:"\201C" "\201D" "\2018" "\2019"}
+small{font-size:80%}
+sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}
+sup{top:-.5em}
+sub{bottom:-.25em}
+img{border:0}
+svg:not(:root){overflow:hidden}
+figure{margin:0}
+audio,video{display:inline-block}
+audio:not([controls]){display:none;height:0}
+fieldset{border:1px solid silver;margin:0 2px;padding:.35em .625em .75em}
+legend{border:0;padding:0}
+button,input,select,textarea{font-family:inherit;font-size:100%;margin:0}
+button,input{line-height:normal}
+button,select{text-transform:none}
+button,html input[type=button],input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer}
+button[disabled],html input[disabled]{cursor:default}
+input[type=checkbox],input[type=radio]{padding:0}
+button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}
+textarea{overflow:auto;vertical-align:top}
+table{border-collapse:collapse;border-spacing:0}
+*,::before,::after{box-sizing:border-box}
+html,body{font-size:100%}
+body{background:#fff;color:rgba(0,0,0,.8);padding:0;margin:0;font-family:"Noto Serif","DejaVu Serif",serif;line-height:1;position:relative;cursor:auto;-moz-tab-size:4;-o-tab-size:4;tab-size:4;word-wrap:anywhere;-moz-osx-font-smoothing:grayscale;-webkit-font-smoothing:antialiased}
+a:hover{cursor:pointer}
+img,object,embed{max-width:100%;height:auto}
+object,embed{height:100%}
+img{-ms-interpolation-mode:bicubic}
+.left{float:left!important}
+.right{float:right!important}
+.text-left{text-align:left!important}
+.text-right{text-align:right!important}
+.text-center{text-align:center!important}
+.text-justify{text-align:justify!important}
+.hide{display:none}
+img,object,svg{display:inline-block;vertical-align:middle}
+textarea{height:auto;min-height:50px}
+select{width:100%}
+.subheader,.admonitionblock td.content>.title,.audioblock>.title,.exampleblock>.title,.imageblock>.title,.listingblock>.title,.literalblock>.title,.stemblock>.title,.openblock>.title,.paragraph>.title,.quoteblock>.title,table.tableblock>.title,.verseblock>.title,.videoblock>.title,.dlist>.title,.olist>.title,.ulist>.title,.qlist>.title,.hdlist>.title{line-height:1.45;color:#7a2518;font-weight:400;margin-top:0;margin-bottom:.25em}
+div,dl,dt,dd,ul,ol,li,h1,h2,h3,#toctitle,.sidebarblock>.content>.title,h4,h5,h6,pre,form,p,blockquote,th,td{margin:0;padding:0}
+a{color:#2156a5;text-decoration:underline;line-height:inherit}
+a:hover,a:focus{color:#1d4b8f}
+a img{border:0}
+p{line-height:1.6;margin-bottom:1.25em;text-rendering:optimizeLegibility}
+p aside{font-size:.875em;line-height:1.35;font-style:italic}
+h1,h2,h3,#toctitle,.sidebarblock>.content>.title,h4,h5,h6{font-family:"Open Sans","DejaVu Sans",sans-serif;font-weight:300;font-style:normal;color:#ba3925;text-rendering:optimizeLegibility;margin-top:1em;margin-bottom:.5em;line-height:1.0125em}
+h1 small,h2 small,h3 small,#toctitle small,.sidebarblock>.content>.title small,h4 small,h5 small,h6 small{font-size:60%;color:#e99b8f;line-height:0}
+h1{font-size:2.125em}
+h2{font-size:1.6875em}
+h3,#toctitle,.sidebarblock>.content>.title{font-size:1.375em}
+h4,h5{font-size:1.125em}
+h6{font-size:1em}
+hr{border:solid #dddddf;border-width:1px 0 0;clear:both;margin:1.25em 0 1.1875em}
+em,i{font-style:italic;line-height:inherit}
+strong,b{font-weight:bold;line-height:inherit}
+small{font-size:60%;line-height:inherit}
+code{font-family:"Droid Sans Mono","DejaVu Sans Mono",monospace;font-weight:400;color:rgba(0,0,0,.9)}
+ul,ol,dl{line-height:1.6;margin-bottom:1.25em;list-style-position:outside;font-family:inherit}
+ul,ol{margin-left:1.5em}
+ul li ul,ul li ol{margin-left:1.25em;margin-bottom:0}
+ul.circle{list-style-type:circle}
+ul.disc{list-style-type:disc}
+ul.square{list-style-type:square}
+ul.circle ul:not([class]),ul.disc ul:not([class]),ul.square ul:not([class]){list-style:inherit}
+ol li ul,ol li ol{margin-left:1.25em;margin-bottom:0}
+dl dt{margin-bottom:.3125em;font-weight:bold}
+dl dd{margin-bottom:1.25em}
+blockquote{margin:0 0 1.25em;padding:.5625em 1.25em 0 1.1875em;border-left:1px solid #ddd}
+blockquote,blockquote p{line-height:1.6;color:rgba(0,0,0,.85)}
+@media screen and (min-width:768px){h1,h2,h3,#toctitle,.sidebarblock>.content>.title,h4,h5,h6{line-height:1.2}
+h1{font-size:2.75em}
+h2{font-size:2.3125em}
+h3,#toctitle,.sidebarblock>.content>.title{font-size:1.6875em}
+h4{font-size:1.4375em}}
+table{background:#fff;margin-bottom:1.25em;border:1px solid #dedede;word-wrap:normal}
+table thead,table tfoot{background:#f7f8f7}
+table thead tr th,table thead tr td,table tfoot tr th,table tfoot tr td{padding:.5em .625em .625em;font-size:inherit;color:rgba(0,0,0,.8);text-align:left}
+table tr th,table tr td{padding:.5625em .625em;font-size:inherit;color:rgba(0,0,0,.8)}
+table tr.even,table tr.alt{background:#f8f8f7}
+table thead tr th,table tfoot tr th,table tbody tr td,table tr td,table tfoot tr td{line-height:1.6}
+h1,h2,h3,#toctitle,.sidebarblock>.content>.title,h4,h5,h6{line-height:1.2;word-spacing:-.05em}
+h1 strong,h2 strong,h3 strong,#toctitle strong,.sidebarblock>.content>.title strong,h4 strong,h5 strong,h6 strong{font-weight:400}
+.center{margin-left:auto;margin-right:auto}
+.stretch{width:100%}
+.clearfix::before,.clearfix::after,.float-group::before,.float-group::after{content:" ";display:table}
+.clearfix::after,.float-group::after{clear:both}
+:not(pre).nobreak{word-wrap:normal}
+:not(pre).nowrap{white-space:nowrap}
+:not(pre).pre-wrap{white-space:pre-wrap}
+:not(pre):not([class^=L])>code{font-size:.9375em;font-style:normal!important;letter-spacing:0;padding:.1em .5ex;word-spacing:-.15em;background:#f7f7f8;border-radius:4px;line-height:1.45;text-rendering:optimizeSpeed}
+pre{color:rgba(0,0,0,.9);font-family:"Droid Sans Mono","DejaVu Sans Mono",monospace;line-height:1.45;text-rendering:optimizeSpeed}
+pre code,pre pre{color:inherit;font-size:inherit;line-height:inherit}
+pre>code{display:block}
+pre.nowrap,pre.nowrap pre{white-space:pre;word-wrap:normal}
+em em{font-style:normal}
+strong strong{font-weight:400}
+.keyseq{color:rgba(51,51,51,.8)}
+kbd{font-family:"Droid Sans Mono","DejaVu Sans Mono",monospace;display:inline-block;color:rgba(0,0,0,.8);font-size:.65em;line-height:1.45;background:#f7f7f7;border:1px solid #ccc;border-radius:3px;box-shadow:0 1px 0 rgba(0,0,0,.2),inset 0 0 0 .1em #fff;margin:0 .15em;padding:.2em .5em;vertical-align:middle;position:relative;top:-.1em;white-space:nowrap}
+.keyseq kbd:first-child{margin-left:0}
+.keyseq kbd:last-child{margin-right:0}
+.menuseq,.menuref{color:#000}
+.menuseq b:not(.caret),.menuref{font-weight:inherit}
+.menuseq{word-spacing:-.02em}
+.menuseq b.caret{font-size:1.25em;line-height:.8}
+.menuseq i.caret{font-weight:bold;text-align:center;width:.45em}
+b.button::before,b.button::after{position:relative;top:-1px;font-weight:400}
+b.button::before{content:"[";padding:0 3px 0 2px}
+b.button::after{content:"]";padding:0 2px 0 3px}
+p a>code:hover{color:rgba(0,0,0,.9)}
+#header,#content,#footnotes,#footer{width:100%;margin:0 auto;max-width:62.5em;*zoom:1;position:relative;padding-left:.9375em;padding-right:.9375em}
+#header::before,#header::after,#content::before,#content::after,#footnotes::before,#footnotes::after,#footer::before,#footer::after{content:" ";display:table}
+#header::after,#content::after,#footnotes::after,#footer::after{clear:both}
+#content{margin-top:1.25em}
+#content::before{content:none}
+#header>h1:first-child{color:rgba(0,0,0,.85);margin-top:2.25rem;margin-bottom:0}
+#header>h1:first-child+#toc{margin-top:8px;border-top:1px solid #dddddf}
+#header>h1:only-child,body.toc2 #header>h1:nth-last-child(2){border-bottom:1px solid #dddddf;padding-bottom:8px}
+#header .details{border-bottom:1px solid #dddddf;line-height:1.45;padding-top:.25em;padding-bottom:.25em;padding-left:.25em;color:rgba(0,0,0,.6);display:flex;flex-flow:row wrap}
+#header .details span:first-child{margin-left:-.125em}
+#header .details span.email a{color:rgba(0,0,0,.85)}
+#header .details br{display:none}
+#header .details br+span::before{content:"\00a0\2013\00a0"}
+#header .details br+span.author::before{content:"\00a0\22c5\00a0";color:rgba(0,0,0,.85)}
+#header .details br+span#revremark::before{content:"\00a0|\00a0"}
+#header #revnumber{text-transform:capitalize}
+#header #revnumber::after{content:"\00a0"}
+#content>h1:first-child:not([class]){color:rgba(0,0,0,.85);border-bottom:1px solid #dddddf;padding-bottom:8px;margin-top:0;padding-top:1rem;margin-bottom:1.25rem}
+#toc{border-bottom:1px solid #e7e7e9;padding-bottom:.5em}
+#toc>ul{margin-left:.125em}
+#toc ul.sectlevel0>li>a{font-style:italic}
+#toc ul.sectlevel0 ul.sectlevel1{margin:.5em 0}
+#toc ul{font-family:"Open Sans","DejaVu Sans",sans-serif;list-style-type:none}
+#toc li{line-height:1.3334;margin-top:.3334em}
+#toc a{text-decoration:none}
+#toc a:active{text-decoration:underline}
+#toctitle{color:#7a2518;font-size:1.2em}
+@media screen and (min-width:768px){#toctitle{font-size:1.375em}
+body.toc2{padding-left:15em;padding-right:0}
+#toc.toc2{margin-top:0!important;background:#f8f8f7;position:fixed;width:15em;left:0;top:0;border-right:1px solid #e7e7e9;border-top-width:0!important;border-bottom-width:0!important;z-index:1000;padding:1.25em 1em;height:100%;overflow:auto}
+#toc.toc2 #toctitle{margin-top:0;margin-bottom:.8rem;font-size:1.2em}
+#toc.toc2>ul{font-size:.9em;margin-bottom:0}
+#toc.toc2 ul ul{margin-left:0;padding-left:1em}
+#toc.toc2 ul.sectlevel0 ul.sectlevel1{padding-left:0;margin-top:.5em;margin-bottom:.5em}
+body.toc2.toc-right{padding-left:0;padding-right:15em}
+body.toc2.toc-right #toc.toc2{border-right-width:0;border-left:1px solid #e7e7e9;left:auto;right:0}}
+@media screen and (min-width:1280px){body.toc2{padding-left:20em;padding-right:0}
+#toc.toc2{width:20em}
+#toc.toc2 #toctitle{font-size:1.375em}
+#toc.toc2>ul{font-size:.95em}
+#toc.toc2 ul ul{padding-left:1.25em}
+body.toc2.toc-right{padding-left:0;padding-right:20em}}
+#content #toc{border:1px solid #e0e0dc;margin-bottom:1.25em;padding:1.25em;background:#f8f8f7;border-radius:4px}
+#content #toc>:first-child{margin-top:0}
+#content #toc>:last-child{margin-bottom:0}
+#footer{max-width:none;background:rgba(0,0,0,.8);padding:1.25em}
+#footer-text{color:hsla(0,0%,100%,.8);line-height:1.44}
+#content{margin-bottom:.625em}
+.sect1{padding-bottom:.625em}
+@media screen and (min-width:768px){#content{margin-bottom:1.25em}
+.sect1{padding-bottom:1.25em}}
+.sect1:last-child{padding-bottom:0}
+.sect1+.sect1{border-top:1px solid #e7e7e9}
+#content h1>a.anchor,h2>a.anchor,h3>a.anchor,#toctitle>a.anchor,.sidebarblock>.content>.title>a.anchor,h4>a.anchor,h5>a.anchor,h6>a.anchor{position:absolute;z-index:1001;width:1.5ex;margin-left:-1.5ex;display:block;text-decoration:none!important;visibility:hidden;text-align:center;font-weight:400}
+#content h1>a.anchor::before,h2>a.anchor::before,h3>a.anchor::before,#toctitle>a.anchor::before,.sidebarblock>.content>.title>a.anchor::before,h4>a.anchor::before,h5>a.anchor::before,h6>a.anchor::before{content:"\00A7";font-size:.85em;display:block;padding-top:.1em}
+#content h1:hover>a.anchor,#content h1>a.anchor:hover,h2:hover>a.anchor,h2>a.anchor:hover,h3:hover>a.anchor,#toctitle:hover>a.anchor,.sidebarblock>.content>.title:hover>a.anchor,h3>a.anchor:hover,#toctitle>a.anchor:hover,.sidebarblock>.content>.title>a.anchor:hover,h4:hover>a.anchor,h4>a.anchor:hover,h5:hover>a.anchor,h5>a.anchor:hover,h6:hover>a.anchor,h6>a.anchor:hover{visibility:visible}
+#content h1>a.link,h2>a.link,h3>a.link,#toctitle>a.link,.sidebarblock>.content>.title>a.link,h4>a.link,h5>a.link,h6>a.link{color:#ba3925;text-decoration:none}
+#content h1>a.link:hover,h2>a.link:hover,h3>a.link:hover,#toctitle>a.link:hover,.sidebarblock>.content>.title>a.link:hover,h4>a.link:hover,h5>a.link:hover,h6>a.link:hover{color:#a53221}
+details,.audioblock,.imageblock,.literalblock,.listingblock,.stemblock,.videoblock{margin-bottom:1.25em}
+details{margin-left:1.25rem}
+details>summary{cursor:pointer;display:block;position:relative;line-height:1.6;margin-bottom:.625rem;outline:none;-webkit-tap-highlight-color:transparent}
+details>summary::-webkit-details-marker{display:none}
+details>summary::before{content:"";border:solid transparent;border-left:solid;border-width:.3em 0 .3em .5em;position:absolute;top:.5em;left:-1.25rem;transform:translateX(15%)}
+details[open]>summary::before{border:solid transparent;border-top:solid;border-width:.5em .3em 0;transform:translateY(15%)}
+details>summary::after{content:"";width:1.25rem;height:1em;position:absolute;top:.3em;left:-1.25rem}
+.admonitionblock td.content>.title,.audioblock>.title,.exampleblock>.title,.imageblock>.title,.listingblock>.title,.literalblock>.title,.stemblock>.title,.openblock>.title,.paragraph>.title,.quoteblock>.title,table.tableblock>.title,.verseblock>.title,.videoblock>.title,.dlist>.title,.olist>.title,.ulist>.title,.qlist>.title,.hdlist>.title{text-rendering:optimizeLegibility;text-align:left;font-family:"Noto Serif","DejaVu Serif",serif;font-size:1rem;font-style:italic}
+table.tableblock.fit-content>caption.title{white-space:nowrap;width:0}
+.paragraph.lead>p,#preamble>.sectionbody>[class=paragraph]:first-of-type p{font-size:1.21875em;line-height:1.6;color:rgba(0,0,0,.85)}
+.admonitionblock>table{border-collapse:separate;border:0;background:none;width:100%}
+.admonitionblock>table td.icon{text-align:center;width:80px}
+.admonitionblock>table td.icon img{max-width:none}
+.admonitionblock>table td.icon .title{font-weight:bold;font-family:"Open Sans","DejaVu Sans",sans-serif;text-transform:uppercase}
+.admonitionblock>table td.content{padding-left:1.125em;padding-right:1.25em;border-left:1px solid #dddddf;color:rgba(0,0,0,.6);word-wrap:anywhere}
+.admonitionblock>table td.content>:last-child>:last-child{margin-bottom:0}
+.exampleblock>.content{border:1px solid #e6e6e6;margin-bottom:1.25em;padding:1.25em;background:#fff;border-radius:4px}
+.exampleblock>.content>:first-child{margin-top:0}
+.exampleblock>.content>:last-child{margin-bottom:0}
+.sidebarblock{border:1px solid #dbdbd6;margin-bottom:1.25em;padding:1.25em;background:#f3f3f2;border-radius:4px}
+.sidebarblock>:first-child{margin-top:0}
+.sidebarblock>:last-child{margin-bottom:0}
+.sidebarblock>.content>.title{color:#7a2518;margin-top:0;text-align:center}
+.exampleblock>.content>:last-child>:last-child,.exampleblock>.content .olist>ol>li:last-child>:last-child,.exampleblock>.content .ulist>ul>li:last-child>:last-child,.exampleblock>.content .qlist>ol>li:last-child>:last-child,.sidebarblock>.content>:last-child>:last-child,.sidebarblock>.content .olist>ol>li:last-child>:last-child,.sidebarblock>.content .ulist>ul>li:last-child>:last-child,.sidebarblock>.content .qlist>ol>li:last-child>:last-child{margin-bottom:0}
+.literalblock pre,.listingblock>.content>pre{border-radius:4px;overflow-x:auto;padding:1em;font-size:.8125em}
+@media screen and (min-width:768px){.literalblock pre,.listingblock>.content>pre{font-size:.90625em}}
+@media screen and (min-width:1280px){.literalblock pre,.listingblock>.content>pre{font-size:1em}}
+.literalblock pre,.listingblock>.content>pre:not(.highlight),.listingblock>.content>pre[class=highlight],.listingblock>.content>pre[class^="highlight "]{background:#f7f7f8}
+.literalblock.output pre{color:#f7f7f8;background:rgba(0,0,0,.9)}
+.listingblock>.content{position:relative}
+.listingblock code[data-lang]::before{display:none;content:attr(data-lang);position:absolute;font-size:.75em;top:.425rem;right:.5rem;line-height:1;text-transform:uppercase;color:inherit;opacity:.5}
+.listingblock:hover code[data-lang]::before{display:block}
+.listingblock.terminal pre .command::before{content:attr(data-prompt);padding-right:.5em;color:inherit;opacity:.5}
+.listingblock.terminal pre .command:not([data-prompt])::before{content:"$"}
+.listingblock pre.highlightjs{padding:0}
+.listingblock pre.highlightjs>code{padding:1em;border-radius:4px}
+.listingblock pre.prettyprint{border-width:0}
+.prettyprint{background:#f7f7f8}
+pre.prettyprint .linenums{line-height:1.45;margin-left:2em}
+pre.prettyprint li{background:none;list-style-type:inherit;padding-left:0}
+pre.prettyprint li code[data-lang]::before{opacity:1}
+pre.prettyprint li:not(:first-child) code[data-lang]::before{display:none}
+table.linenotable{border-collapse:separate;border:0;margin-bottom:0;background:none}
+table.linenotable td[class]{color:inherit;vertical-align:top;padding:0;line-height:inherit;white-space:normal}
+table.linenotable td.code{padding-left:.75em}
+table.linenotable td.linenos,pre.pygments .linenos{border-right:1px solid;opacity:.35;padding-right:.5em;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}
+pre.pygments span.linenos{display:inline-block;margin-right:.75em}
+.quoteblock{margin:0 1em 1.25em 1.5em;display:table}
+.quoteblock:not(.excerpt)>.title{margin-left:-1.5em;margin-bottom:.75em}
+.quoteblock blockquote,.quoteblock p{color:rgba(0,0,0,.85);font-size:1.15rem;line-height:1.75;word-spacing:.1em;letter-spacing:0;font-style:italic;text-align:justify}
+.quoteblock blockquote{margin:0;padding:0;border:0}
+.quoteblock blockquote::before{content:"\201c";float:left;font-size:2.75em;font-weight:bold;line-height:.6em;margin-left:-.6em;color:#7a2518;text-shadow:0 1px 2px rgba(0,0,0,.1)}
+.quoteblock blockquote>.paragraph:last-child p{margin-bottom:0}
+.quoteblock .attribution{margin-top:.75em;margin-right:.5ex;text-align:right}
+.verseblock{margin:0 1em 1.25em}
+.verseblock pre{font-family:"Open Sans","DejaVu Sans",sans-serif;font-size:1.15rem;color:rgba(0,0,0,.85);font-weight:300;text-rendering:optimizeLegibility}
+.verseblock pre strong{font-weight:400}
+.verseblock .attribution{margin-top:1.25rem;margin-left:.5ex}
+.quoteblock .attribution,.verseblock .attribution{font-size:.9375em;line-height:1.45;font-style:italic}
+.quoteblock .attribution br,.verseblock .attribution br{display:none}
+.quoteblock .attribution cite,.verseblock .attribution cite{display:block;letter-spacing:-.025em;color:rgba(0,0,0,.6)}
+.quoteblock.abstract blockquote::before,.quoteblock.excerpt blockquote::before,.quoteblock .quoteblock blockquote::before{display:none}
+.quoteblock.abstract blockquote,.quoteblock.abstract p,.quoteblock.excerpt blockquote,.quoteblock.excerpt p,.quoteblock .quoteblock blockquote,.quoteblock .quoteblock p{line-height:1.6;word-spacing:0}
+.quoteblock.abstract{margin:0 1em 1.25em;display:block}
+.quoteblock.abstract>.title{margin:0 0 .375em;font-size:1.15em;text-align:center}
+.quoteblock.excerpt>blockquote,.quoteblock .quoteblock{padding:0 0 .25em 1em;border-left:.25em solid #dddddf}
+.quoteblock.excerpt,.quoteblock .quoteblock{margin-left:0}
+.quoteblock.excerpt blockquote,.quoteblock.excerpt p,.quoteblock .quoteblock blockquote,.quoteblock .quoteblock p{color:inherit;font-size:1.0625rem}
+.quoteblock.excerpt .attribution,.quoteblock .quoteblock .attribution{color:inherit;font-size:.85rem;text-align:left;margin-right:0}
+p.tableblock:last-child{margin-bottom:0}
+td.tableblock>.content{margin-bottom:1.25em;word-wrap:anywhere}
+td.tableblock>.content>:last-child{margin-bottom:-1.25em}
+table.tableblock,th.tableblock,td.tableblock{border:0 solid #dedede}
+table.grid-all>*>tr>*{border-width:1px}
+table.grid-cols>*>tr>*{border-width:0 1px}
+table.grid-rows>*>tr>*{border-width:1px 0}
+table.frame-all{border-width:1px}
+table.frame-ends{border-width:1px 0}
+table.frame-sides{border-width:0 1px}
+table.frame-none>colgroup+*>:first-child>*,table.frame-sides>colgroup+*>:first-child>*{border-top-width:0}
+table.frame-none>:last-child>:last-child>*,table.frame-sides>:last-child>:last-child>*{border-bottom-width:0}
+table.frame-none>*>tr>:first-child,table.frame-ends>*>tr>:first-child{border-left-width:0}
+table.frame-none>*>tr>:last-child,table.frame-ends>*>tr>:last-child{border-right-width:0}
+table.stripes-all>*>tr,table.stripes-odd>*>tr:nth-of-type(odd),table.stripes-even>*>tr:nth-of-type(even),table.stripes-hover>*>tr:hover{background:#f8f8f7}
+th.halign-left,td.halign-left{text-align:left}
+th.halign-right,td.halign-right{text-align:right}
+th.halign-center,td.halign-center{text-align:center}
+th.valign-top,td.valign-top{vertical-align:top}
+th.valign-bottom,td.valign-bottom{vertical-align:bottom}
+th.valign-middle,td.valign-middle{vertical-align:middle}
+table thead th,table tfoot th{font-weight:bold}
+tbody tr th{background:#f7f8f7}
+tbody tr th,tbody tr th p,tfoot tr th,tfoot tr th p{color:rgba(0,0,0,.8);font-weight:bold}
+p.tableblock>code:only-child{background:none;padding:0}
+p.tableblock{font-size:1em}
+ol{margin-left:1.75em}
+ul li ol{margin-left:1.5em}
+dl dd{margin-left:1.125em}
+dl dd:last-child,dl dd:last-child>:last-child{margin-bottom:0}
+li p,ul dd,ol dd,.olist .olist,.ulist .ulist,.ulist .olist,.olist .ulist{margin-bottom:.625em}
+ul.checklist,ul.none,ol.none,ul.no-bullet,ol.no-bullet,ol.unnumbered,ul.unstyled,ol.unstyled{list-style-type:none}
+ul.no-bullet,ol.no-bullet,ol.unnumbered{margin-left:.625em}
+ul.unstyled,ol.unstyled{margin-left:0}
+li>p:empty:only-child::before{content:"";display:inline-block}
+ul.checklist>li>p:first-child{margin-left:-1em}
+ul.checklist>li>p:first-child>.fa-square-o:first-child,ul.checklist>li>p:first-child>.fa-check-square-o:first-child{width:1.25em;font-size:.8em;position:relative;bottom:.125em}
+ul.checklist>li>p:first-child>input[type=checkbox]:first-child{margin-right:.25em}
+ul.inline{display:flex;flex-flow:row wrap;list-style:none;margin:0 0 .625em -1.25em}
+ul.inline>li{margin-left:1.25em}
+.unstyled dl dt{font-weight:400;font-style:normal}
+ol.arabic{list-style-type:decimal}
+ol.decimal{list-style-type:decimal-leading-zero}
+ol.loweralpha{list-style-type:lower-alpha}
+ol.upperalpha{list-style-type:upper-alpha}
+ol.lowerroman{list-style-type:lower-roman}
+ol.upperroman{list-style-type:upper-roman}
+ol.lowergreek{list-style-type:lower-greek}
+.hdlist>table,.colist>table{border:0;background:none}
+.hdlist>table>tbody>tr,.colist>table>tbody>tr{background:none}
+td.hdlist1,td.hdlist2{vertical-align:top;padding:0 .625em}
+td.hdlist1{font-weight:bold;padding-bottom:1.25em}
+td.hdlist2{word-wrap:anywhere}
+.literalblock+.colist,.listingblock+.colist{margin-top:-.5em}
+.colist td:not([class]):first-child{padding:.4em .75em 0;line-height:1;vertical-align:top}
+.colist td:not([class]):first-child img{max-width:none}
+.colist td:not([class]):last-child{padding:.25em 0}
+.thumb,.th{line-height:0;display:inline-block;border:4px solid #fff;box-shadow:0 0 0 1px #ddd}
+.imageblock.left{margin:.25em .625em 1.25em 0}
+.imageblock.right{margin:.25em 0 1.25em .625em}
+.imageblock>.title{margin-bottom:0}
+.imageblock.thumb,.imageblock.th{border-width:6px}
+.imageblock.thumb>.title,.imageblock.th>.title{padding:0 .125em}
+.image.left,.image.right{margin-top:.25em;margin-bottom:.25em;display:inline-block;line-height:0}
+.image.left{margin-right:.625em}
+.image.right{margin-left:.625em}
+a.image{text-decoration:none;display:inline-block}
+a.image object{pointer-events:none}
+sup.footnote,sup.footnoteref{font-size:.875em;position:static;vertical-align:super}
+sup.footnote a,sup.footnoteref a{text-decoration:none}
+sup.footnote a:active,sup.footnoteref a:active{text-decoration:underline}
+#footnotes{padding-top:.75em;padding-bottom:.75em;margin-bottom:.625em}
+#footnotes hr{width:20%;min-width:6.25em;margin:-.25em 0 .75em;border-width:1px 0 0}
+#footnotes .footnote{padding:0 .375em 0 .225em;line-height:1.3334;font-size:.875em;margin-left:1.2em;margin-bottom:.2em}
+#footnotes .footnote a:first-of-type{font-weight:bold;text-decoration:none;margin-left:-1.05em}
+#footnotes .footnote:last-of-type{margin-bottom:0}
+#content #footnotes{margin-top:-.625em;margin-bottom:0;padding:.75em 0}
+div.unbreakable{page-break-inside:avoid}
+.big{font-size:larger}
+.small{font-size:smaller}
+.underline{text-decoration:underline}
+.overline{text-decoration:overline}
+.line-through{text-decoration:line-through}
+.aqua{color:#00bfbf}
+.aqua-background{background:#00fafa}
+.black{color:#000}
+.black-background{background:#000}
+.blue{color:#0000bf}
+.blue-background{background:#0000fa}
+.fuchsia{color:#bf00bf}
+.fuchsia-background{background:#fa00fa}
+.gray{color:#606060}
+.gray-background{background:#7d7d7d}
+.green{color:#006000}
+.green-background{background:#007d00}
+.lime{color:#00bf00}
+.lime-background{background:#00fa00}
+.maroon{color:#600000}
+.maroon-background{background:#7d0000}
+.navy{color:#000060}
+.navy-background{background:#00007d}
+.olive{color:#606000}
+.olive-background{background:#7d7d00}
+.purple{color:#600060}
+.purple-background{background:#7d007d}
+.red{color:#bf0000}
+.red-background{background:#fa0000}
+.silver{color:#909090}
+.silver-background{background:#bcbcbc}
+.teal{color:#006060}
+.teal-background{background:#007d7d}
+.white{color:#bfbfbf}
+.white-background{background:#fafafa}
+.yellow{color:#bfbf00}
+.yellow-background{background:#fafa00}
+span.icon>.fa{cursor:default}
+a span.icon>.fa{cursor:inherit}
+.admonitionblock td.icon [class^="fa icon-"]{font-size:2.5em;text-shadow:1px 1px 2px rgba(0,0,0,.5);cursor:default}
+.admonitionblock td.icon .icon-note::before{content:"\f05a";color:#19407c}
+.admonitionblock td.icon .icon-tip::before{content:"\f0eb";text-shadow:1px 1px 2px rgba(155,155,0,.8);color:#111}
+.admonitionblock td.icon .icon-warning::before{content:"\f071";color:#bf6900}
+.admonitionblock td.icon .icon-caution::before{content:"\f06d";color:#bf3400}
+.admonitionblock td.icon .icon-important::before{content:"\f06a";color:#bf0000}
+.conum[data-value]{display:inline-block;color:#fff!important;background:rgba(0,0,0,.8);border-radius:50%;text-align:center;font-size:.75em;width:1.67em;height:1.67em;line-height:1.67em;font-family:"Open Sans","DejaVu Sans",sans-serif;font-style:normal;font-weight:bold}
+.conum[data-value] *{color:#fff!important}
+.conum[data-value]+b{display:none}
+.conum[data-value]::after{content:attr(data-value)}
+pre .conum[data-value]{position:relative;top:-.125em}
+b.conum *{color:inherit!important}
+.conum:not([data-value]):empty{display:none}
+dt,th.tableblock,td.content,div.footnote{text-rendering:optimizeLegibility}
+h1,h2,p,td.content,span.alt,summary{letter-spacing:-.01em}
+p strong,td.content strong,div.footnote strong{letter-spacing:-.005em}
+p,blockquote,dt,td.content,span.alt,summary{font-size:1.0625rem}
+p{margin-bottom:1.25rem}
+.sidebarblock p,.sidebarblock dt,.sidebarblock td.content,p.tableblock{font-size:1em}
+.exampleblock>.content{background:#fffef7;border-color:#e0e0dc;box-shadow:0 1px 4px #e0e0dc}
+.print-only{display:none!important}
+@page{margin:1.25cm .75cm}
+@media print{*{box-shadow:none!important;text-shadow:none!important}
+html{font-size:80%}
+a{color:inherit!important;text-decoration:underline!important}
+a.bare,a[href^="#"],a[href^="mailto:"]{text-decoration:none!important}
+a[href^="http:"]:not(.bare)::after,a[href^="https:"]:not(.bare)::after{content:"(" attr(href) ")";display:inline-block;font-size:.875em;padding-left:.25em}
+abbr[title]{border-bottom:1px dotted}
+abbr[title]::after{content:" (" attr(title) ")"}
+pre,blockquote,tr,img,object,svg{page-break-inside:avoid}
+thead{display:table-header-group}
+svg{max-width:100%}
+p,blockquote,dt,td.content{font-size:1em;orphans:3;widows:3}
+h2,h3,#toctitle,.sidebarblock>.content>.title{page-break-after:avoid}
+#header,#content,#footnotes,#footer{max-width:none}
+#toc,.sidebarblock,.exampleblock>.content{background:none!important}
+#toc{border-bottom:1px solid #dddddf!important;padding-bottom:0!important}
+body.book #header{text-align:center}
+body.book #header>h1:first-child{border:0!important;margin:2.5em 0 1em}
+body.book #header .details{border:0!important;display:block;padding:0!important}
+body.book #header .details span:first-child{margin-left:0!important}
+body.book #header .details br{display:block}
+body.book #header .details br+span::before{content:none!important}
+body.book #toc{border:0!important;text-align:left!important;padding:0!important;margin:0!important}
+body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-break-before:always}
+.listingblock code[data-lang]::before{display:block}
+#footer{padding:0 .9375em}
+.hide-on-print{display:none!important}
+.print-only{display:block!important}
+.hide-for-print{display:none!important}
+.show-for-print{display:inherit!important}}
+@media amzn-kf8,print{#header>h1:first-child{margin-top:1.25rem}
+.sect1{padding:0!important}
+.sect1+.sect1{border:0}
+#footer{background:none}
+#footer-text{color:rgba(0,0,0,.6);font-size:.9em}}
+@media amzn-kf8{#header,#content,#footnotes,#footer{padding:0}}
+</style>
+</head>
+<body class="article">
+<div id="header">
+</div>
+<div id="content">
+<h4 id="s-record" class="discrete"><span class="image"><img src="images/yes.png" alt="yes"></span> S-record (noun)</h4>
+<div class="paragraph">
+<p><strong>Description</strong>: Motorola <em>S-record</em> is a file format that stores binary information in ASCII hex text form.</p>
+</div>
+<div class="paragraph">
+<p><strong>Use it</strong>: yes</p>
+</div>
+<div class="paragraph">
+<p><strong>Incorrect forms</strong>: s-record, S-Record, s-Record, SREC, or any other variation</p>
+</div>
+<div class="paragraph">
+<p><strong>See also</strong>:</p>
+</div>
+<h4 id="saas" class="discrete"><span class="image"><img src="images/yes.png" alt="yes"></span> SaaS (noun)</h4>
+<div class="paragraph">
+<p><strong>Description</strong>: <em>SaaS</em> is an acronym for "Software-as-a-Service". In the spelled-out version and its variants (for example, Infrastructure-as-a-Service and Platform-as-a-Service), hyphens are always used. Note for Marketing, Brand, or Customer Portal usage: For all-uppercase text (such as banners), use "&lt;VARIANT&gt;-AS-A-SERVICE" for the spelled-out version. The same acronym is used across all groups.</p>
+</div>
+<div class="paragraph">
+<p><strong>Use it</strong>: yes</p>
+</div>
+<div class="paragraph">
+<p><strong>Incorrect forms</strong>:</p>
+</div>
+<div class="paragraph">
+<p><strong>See also</strong>: <a href="#iaas">IaaS</a>, <a href="#paas">PaaS</a></p>
+</div>
+<h4 id="samba" class="discrete"><span class="image"><img src="images/yes.png" alt="yes"></span> Samba (noun)</h4>
+<div class="paragraph">
+<p><strong>Description</strong>: <em>Samba</em> provides file, printing, and Active Directory (AD) domain services for Microsoft Windows and other clients that use the Server Message Block (SMB) protocol to access network resources.</p>
+</div>
+<div class="paragraph">
+<p><strong>Use it</strong>: yes</p>
+</div>
+<div class="paragraph">
+<p><strong>Incorrect forms</strong>: samba, SAMBA</p>
+</div>
+<div class="paragraph">
+<p><strong>See also</strong>:</p>
+</div>
+<h4 id="sar" class="discrete"><span class="image"><img src="images/yes.png" alt="yes"></span> sar subsystem (noun)</h4>
+<div class="paragraph">
+<p><strong>Description</strong>: In Red Hat JBoss Enterprise Application Platform, the <em>sar subsystem</em> enables deployment of SAR archives containing MBean services. In general text, write in lowercase as one word. Use "SAR subsystem" when referring to the <code>sar</code> subsystem in titles and headings.</p>
+</div>
+<div class="paragraph">
+<p><strong>Use it</strong>: yes</p>
+</div>
+<div class="paragraph">
+<p><strong>Incorrect forms</strong>:</p>
+</div>
+<div class="paragraph">
+<p><strong>See also</strong>:</p>
+</div>
+<h4 id="satellite-server" class="discrete"><span class="image"><img src="images/yes.png" alt="yes"></span> Satellite Server (noun)</h4>
+<div class="paragraph">
+<p><strong>Description</strong>: In Red Hat Satellite, <em>Satellite Server</em> synchronizes the content from Red Hat Customer Portal and other sources, and provides lifecycle management, user and group role-based access control, integrated subscription management, as well as GUI, CLI, and API access. It is the core component of Red Hat Satellite, the systems management tool for Linux-based infrastructure. Use the two-word name on first use in a section; the single term "Satellite" is acceptable thereafter.</p>
+</div>
+<div class="paragraph">
+<p><strong>Use it</strong>: yes</p>
+</div>
+<div class="paragraph">
+<p><strong>Incorrect forms</strong>: Satellite server</p>
+</div>
+<div class="paragraph">
+<p><strong>See also</strong>:</p>
+</div>
+<h4 id="scheduler" class="discrete"><span class="image"><img src="images/yes.png" alt="yes"></span> scheduler (noun)</h4>
+<div class="paragraph">
+<p><strong>Description</strong>: In Red Hat OpenShift, the <em>scheduler</em> is a control plane component that manages the state of the system, places pods on nodes, and ensures that all containers that are expected to be running are actually running.</p>
+</div>
+<div class="paragraph">
+<p><strong>Use it</strong>: yes</p>
+</div>
+<div class="paragraph">
+<p><strong>Incorrect forms</strong>:</p>
+</div>
+<div class="paragraph">
+<p><strong>See also</strong>:</p>
+</div>
+<h4 id="scorecard" class="discrete"><span class="image"><img src="images/yes.png" alt="yes"></span> Scorecard (noun)</h4>
+<div class="paragraph">
+<p><strong>Description</strong>: In Red Hat JBoss BRMS and Red Hat JBoss BPM Suite, <em>Scorecard</em> is a risk management tool that is a graphical representation of a formula used to calculate an overall score. It is mostly used by financial institutions or banks to calculate the risk they can take to sell a product in the market. It can predict the likelihood or probability of a certain outcome. Red Hat JBoss BRMS supports additive scorecards that calculates an overall score by adding all partial scores assigned to individual rule conditions.</p>
+</div>
+<div class="paragraph">
+<p><strong>Use it</strong>: yes</p>
+</div>
+<div class="paragraph">
+<p><strong>Incorrect forms</strong>:</p>
+</div>
+<div class="paragraph">
+<p><strong>See also</strong>:</p>
+</div>
+<h4 id="screen-saver" class="discrete"><span class="image"><img src="images/yes.png" alt="yes"></span> screen saver (noun)</h4>
+<div class="paragraph">
+<p><strong>Description</strong>: A <em>screen saver</em> is an image or animation that replaces a computer&#8217;s display after a set amount of time without user activity.</p>
+</div>
+<div class="paragraph">
+<p><strong>Use it</strong>: yes</p>
+</div>
+<div class="paragraph">
+<p><strong>Incorrect forms</strong>: screensaver</p>
+</div>
+<div class="paragraph">
+<p><strong>See also</strong>:</p>
+</div>
+<h4 id="scrollbar" class="discrete"><span class="image"><img src="images/yes.png" alt="yes"></span> scrollbar (noun)</h4>
+<div class="paragraph">
+<p><strong>Description</strong>: A <em>scrollbar</em> is a long, thin rectangle on the edge of the screen that allows a user to view information that does not fit on a single screen display.</p>
+</div>
+<div class="paragraph">
+<p><strong>Use it</strong>: yes</p>
+</div>
+<div class="paragraph">
+<p><strong>Incorrect forms</strong>: scroll bar, scroll-bar</p>
+</div>
+<div class="paragraph">
+<p><strong>See also</strong>:</p>
+</div>
+<h4 id="scrubbing" class="discrete"><span class="image"><img src="images/yes.png" alt="yes"></span> scrubbing (noun)</h4>
+<div class="paragraph">
+<p><strong>Description</strong>: In Red Hat Ceph Storage, <em>scrubbing</em> is a process when Ceph OSD Daemons compare object metadata in one placement group with its replicas in placement groups stored on other OSD node.</p>
+</div>
+<div class="paragraph">
+<p><strong>Use it</strong>: yes</p>
+</div>
+<div class="paragraph">
+<p><strong>Incorrect forms</strong>:</p>
+</div>
+<div class="paragraph">
+<p><strong>See also</strong>:</p>
+</div>
+<h4 id="security-elytron" class="discrete"><span class="image"><img src="images/yes.png" alt="yes"></span> Security - Elytron (noun)</h4>
+<div class="paragraph">
+<p><strong>Description</strong>: In Red Hat JBoss Enterprise Application Platform, use "Security - Elytron" when describing the <code>elytron</code> subsystem in the management console. Write as two capitalized words separated by two spaces and a hyphen.</p>
+</div>
+<div class="paragraph">
+<p><strong>Use it</strong>: yes</p>
+</div>
+<div class="paragraph">
+<p><strong>Incorrect forms</strong>:</p>
+</div>
+<div class="paragraph">
+<p><strong>See also</strong>: <a href="#elytron">elytron</a></p>
+</div>
+<h4 id="security" class="discrete"><span class="image"><img src="images/yes.png" alt="yes"></span> security subsystem (noun)</h4>
+<div class="paragraph">
+<p><strong>Description</strong>: In Red Hat JBoss Enterprise Application Platform, the legacy security subsystem is called <em>security</em>. Write in lowercase in general text. Use "Security subsystem" when referring to the legacy <code>security</code> subsystem in titles and headings.</p>
+</div>
+<div class="paragraph">
+<p><strong>Use it</strong>: yes</p>
+</div>
+<div class="paragraph">
+<p><strong>Incorrect forms</strong>:</p>
+</div>
+<div class="paragraph">
+<p><strong>See also</strong>:</p>
+</div>
+<h4 id="security-manager" class="discrete"><span class="image"><img src="images/yes.png" alt="yes"></span> security-manager subsystem (noun)</h4>
+<div class="paragraph">
+<p><strong>Description</strong>: In Red Hat JBoss Enterprise Application Platform, the <em>security-manager subsystem</em> is used to configure security policies used by the Java Security Manager. In general text, write in lowercase as two words separated by a hyphen. Use "Security Manager subsystem" when referring to the <code>security-manager</code> subsystem in titles and headings.</p>
+</div>
+<div class="paragraph">
+<p><strong>Use it</strong>: yes</p>
+</div>
+<div class="paragraph">
+<p><strong>Incorrect forms</strong>:</p>
+</div>
+<div class="paragraph">
+<p><strong>See also</strong>:</p>
+</div>
+<h4 id="see" class="discrete"><span class="image"><img src="images/yes.png" alt="yes"></span> see (verb)</h4>
+<div class="paragraph">
+<p><strong>Description</strong>: Use "see" to refer readers to another resource, for example, "See the <strong>Red Hat Enterprise Linux Installation Guide</strong> for more information." Avoid using "refer to" in this context.</p>
+</div>
+<div class="paragraph">
+<p><strong>Use it</strong>: yes</p>
+</div>
+<div class="paragraph">
+<p><strong>Incorrect forms</strong>: refer to</p>
+</div>
+<div class="paragraph">
+<p><strong>See also</strong>:</p>
+</div>
+<h4 id="segmentation-fault" class="discrete"><span class="image"><img src="images/yes.png" alt="yes"></span> segmentation fault (noun)</h4>
+<div class="paragraph">
+<p><strong>Description</strong>:  A <em>segmentation fault</em> occurs when a process tries to access a memory location that it is not allowed to access, or tries to access a memory location in a way that is not allowed (for example, if the process tries to write to a read-only location or to overwrite part of the operating system). Only use the abbreviation "segfault" if absolutely necessary, and never use it as a verb.</p>
+</div>
+<div class="paragraph">
+<p><strong>Use it</strong>: yes</p>
+</div>
+<div class="paragraph">
+<p><strong>Incorrect forms</strong>: segfault as a verb</p>
+</div>
+<div class="paragraph">
+<p><strong>See also</strong>:</p>
+</div>
+<h4 id="self-hosted-engine" class="discrete"><span class="image"><img src="images/yes.png" alt="yes"></span> self-hosted engine (noun)</h4>
+<div class="paragraph">
+<p><strong>Description</strong>: In Red Hat Virtualization, a <em>self-hosted engine</em> is a virtualized environment in which the Manager, or engine, runs on a virtual machine on the hosts managed by that Manager. The virtual machine is created as part of the host configuration, and the Manager is installed and configured in parallel to the host configuration process.</p>
+</div>
+<div class="paragraph">
+<p>Use all lower case, unless used in a title or at the beginning of a sentence.</p>
+</div>
+<div class="paragraph">
+<p><strong>Use it</strong>: yes</p>
+</div>
+<div class="paragraph">
+<p><strong>Incorrect forms</strong>: hosted engine, hosted-engine</p>
+</div>
+<div class="paragraph">
+<p><strong>See also</strong>: <a href="#self-hosted-engine-node">self-hosted engine node</a></p>
+</div>
+<h4 id="self-hosted-engine-node" class="discrete"><span class="image"><img src="images/yes.png" alt="yes"></span> self-hosted engine node (noun)</h4>
+<div class="paragraph">
+<p><strong>Description</strong>: In Red Hat Virtualization, a self-hosted engine is a virtualized environment in which the Manager, or engine, runs on a virtual machine on the hosts managed by that Manager. A <em>self-hosted engine node</em> is a host that has self-hosted engine packages installed so that it can host the Manager virtual machine. Regular hosts can also be attached to a self-hosted engine environment, but cannot host the Manager virtual machine.</p>
+</div>
+<div class="paragraph">
+<p>Use all lower case, unless used in a title or at the beginning of a sentence.</p>
+</div>
+<div class="paragraph">
+<p><strong>Use it</strong>: yes</p>
+</div>
+<div class="paragraph">
+<p><strong>Incorrect forms</strong>: hosted engine host, hosted-engine host, self-hosted engine host, hosted engine node, hosted-engine node</p>
+</div>
+<div class="paragraph">
+<p><strong>See also</strong>: <a href="#self-hosted-engine">self-hosted engine</a></p>
+</div>
+<h4 id="selinux" class="discrete"><span class="image"><img src="images/yes.png" alt="yes"></span> SELinux (noun)</h4>
+<div class="paragraph">
+<p><strong>Description</strong>: <em>SELinux</em> is an abbreviation for "Security-Enhanced Linux". SELinux uses Linux Security Modules (LSM) in the Linux kernel to provide a range of minimum-privilege-required security policies. Do not use alternatives such as "SE-Linux", "S-E Linux", or "SE Linux".</p>
+</div>
+<div class="paragraph">
+<p><strong>Use it</strong>: yes</p>
+</div>
+<div class="paragraph">
+<p><strong>Incorrect forms</strong>: SE-Linux, S-E Linux, SE Linux, selinux</p>
+</div>
+<div class="paragraph">
+<p><strong>See also</strong>:</p>
+</div>
+<h4 id="sender" class="discrete"><span class="image"><img src="images/yes.png" alt="yes"></span> sender (noun)</h4>
+<div class="paragraph">
+<p><strong>Description</strong>: In Red Hat AMQ, a <em>sender</em> is a channel for sending messages to a target.</p>
+</div>
+<div class="paragraph">
+<p><strong>Use it</strong>: yes</p>
+</div>
+<div class="paragraph">
+<p><strong>Incorrect forms</strong>:</p>
+</div>
+<div class="paragraph">
+<p><strong>See also</strong>: <a href="#producer">producer</a>, <a href="#target">target</a>, <a href="#receiver">receiver</a></p>
+</div>
+<h4 id="server-cluster" class="discrete"><span class="image"><img src="images/yes.png" alt="yes"></span> server cluster (noun)</h4>
+<div class="paragraph">
+<p><strong>Description</strong>: A <em>server cluster</em> is a group of networked servers housed in one location. This organization of servers streamlines internal processes by distributing the workload between the individual components of the group. It also expedites computing processes by harnessing the power of multiple servers. The clusters rely on load-balancing software that accomplishes tasks such as tracking demand for processing power from different machines, prioritizing the tasks, and scheduling and rescheduling them, depending on priority and demand on the network. When one server in the cluster fails, another server can serve as a backup.</p>
+</div>
+<div class="paragraph">
+<p><strong>Use it</strong>: yes</p>
+</div>
+<div class="paragraph">
+<p><strong>Incorrect forms</strong>: computer farm, computer ranch</p>
+</div>
+<div class="paragraph">
+<p><strong>See also</strong>: <a href="#server-farm">server farm</a></p>
+</div>
+<h4 id="server-farm" class="discrete"><span class="image"><img src="images/yes.png" alt="yes"></span> server farm (noun)</h4>
+<div class="paragraph">
+<p><strong>Description</strong>: A <em>server farm</em> is a group of networked servers housed in one location. This organization of servers streamlines internal processes by distributing the workload between the individual components of the group. It also expedites computing processes by harnessing the power of multiple servers. The farms rely on load-balancing software that accomplishes tasks such as tracking demand for processing power from different machines, prioritizing the tasks, and scheduling and rescheduling them, depending on priority and demand on the network. When one server in the farm fails, another server can serve as a backup.</p>
+</div>
+<div class="paragraph">
+<p><strong>Use it</strong>: yes</p>
+</div>
+<div class="paragraph">
+<p><strong>Incorrect forms</strong>: computer farm, computer ranch</p>
+</div>
+<div class="paragraph">
+<p><strong>See also</strong>: <a href="#server-cluster">server cluster</a></p>
+</div>
+<h4 id="service" class="discrete"><span class="image"><img src="images/yes.png" alt="yes"></span> service (noun)</h4>
+<div class="paragraph">
+<p><strong>Description</strong>: In Red Hat OpenShift, a <em>service</em> functions as a load balancer and proxy to underlying pods. Services are assigned IP addresses and ports and delegate requests to an appropriate pod that can field it. The API object for a service is <code>Service</code>.</p>
+</div>
+<div class="paragraph">
+<p><strong>Use it</strong>: yes</p>
+</div>
+<div class="paragraph">
+<p><strong>Incorrect forms</strong>:</p>
+</div>
+<div class="paragraph">
+<p><strong>See also</strong>:</p>
+</div>
+<h4 id="service-account" class="discrete"><span class="image"><img src="images/yes.png" alt="yes"></span> service account (noun)</h4>
+<div class="paragraph">
+<p><strong>Description</strong>: In Red Hat Single Sign-On, each client has a built-in <em>service account</em> to obtain an access token.</p>
+</div>
+<div class="paragraph">
+<p><strong>Use it</strong>: yes</p>
+</div>
+<div class="paragraph">
+<p><strong>Incorrect forms</strong>:</p>
+</div>
+<div class="paragraph">
+<p><strong>See also</strong>:</p>
+</div>
+<h4 id="session" class="discrete"><span class="image"><img src="images/caution.png" alt="with caution"></span> session (noun)</h4>
+<div class="paragraph">
+<p><strong>Description</strong>: 1) In Red Hat Single Sign-On, when a user logs in, a <em>session</em> is created to manage the login session. A session contains information such as when the user logged in and what applications have participated within single sign-on during that session. Both administrators and users can view session information. 2) In Red Hat AMQ, a <em>session</em> is a serialized context for producing and consuming messages. Sessions are established between AMQ peers over connections. Sending and receiving links are established over sessions. Use this term with caution, as users typically do not need to understand it to use AMQ.</p>
+</div>
+<div class="paragraph">
+<p><strong>Use it</strong>: with caution</p>
+</div>
+<div class="paragraph">
+<p><strong>Incorrect forms</strong>:</p>
+</div>
+<div class="paragraph">
+<p><strong>See also</strong>: <a href="#connection">connection</a></p>
+</div>
+<h4 id="session-externalization" class="discrete"><span class="image"><img src="images/yes.png" alt="yes"></span> session externalization (noun)</h4>
+<div class="paragraph">
+<p><strong>Description</strong>: In Red Hat Data Grid, clusters can provide external cache containers that store application-specific data. These external caches store HTTP sessions and other data to make applications stateless and achieve elastic scalability as well as high availability.</p>
+</div>
+<div class="paragraph">
+<p><strong>Use it</strong>: yes</p>
+</div>
+<div class="paragraph">
+<p><strong>Incorrect forms</strong>:</p>
+</div>
+<div class="paragraph">
+<p><strong>See also</strong>:</p>
+</div>
+<div class="sect3">
+<h4 id="session-persistence"><span class="image"><img src="images/yes.png" alt="yes"></span> session persistence (noun)</h4>
+<div class="paragraph">
+<p><strong>Description</strong>: <em>Session persistence</em>, also known as a <em>sticky session</em>, is a process in which a load balancer sends all requests in a user session to a specific network server. Session persistence can improve performance and network resource usage. Depending on which term your audience is most familiar with, use either "session persistence" or "sticky session" consistently.</p>
+</div>
+<div class="paragraph">
+<p><strong>Use it</strong>: yes</p>
+</div>
+<div class="paragraph">
+<p><strong>Incorrect forms</strong>:</p>
+</div>
+<div class="paragraph">
+<p><strong>See also</strong>: <a href="#sticky-session">sticky session</a></p>
+</div>
+<h4 id="sha-1" class="discrete"><span class="image"><img src="images/yes.png" alt="yes"></span> SHA-1 (noun)</h4>
+<div class="paragraph">
+<p><strong>Description</strong>: <em>SHA</em> is an acronym for "Secure Hash Algorithm" and is a cryptographic hash function. SHA-1 is an earlier hashing algorithm that is being replaced by SHA-2.</p>
+</div>
+<div class="paragraph">
+<p><strong>Use it</strong>: yes</p>
+</div>
+<div class="paragraph">
+<p><strong>Incorrect forms</strong>:</p>
+</div>
+<div class="paragraph">
+<p><strong>See also</strong>: <a href="#sha-2">SHA-2</a></p>
+</div>
+<h4 id="sha-2" class="discrete"><span class="image"><img src="images/yes.png" alt="yes"></span> SHA-2 (noun)</h4>
+<div class="paragraph">
+<p><strong>Description</strong>: <em>SHA</em> is an acronym for "Secure Hash Algorithm" and is a cryptographic hash function. The encryption hash used in SHA-2 is significantly stronger and not subject to the same vulnerabilities as SHA-1. SHA-2 variants are often specified using their digest size, in bits, as the trailing number, instead of 2. "SHA-224", "SHA-256", "SHA-384", and "SHA-512" are all correct when referring to these specific hash functions.</p>
+</div>
+<div class="paragraph">
+<p><strong>Use it</strong>: yes</p>
+</div>
+<div class="paragraph">
+<p><strong>Incorrect forms</strong>:</p>
+</div>
+<div class="paragraph">
+<p><strong>See also</strong>: <a href="#sha-1">SHA-1</a></p>
+</div>
+<h4 id="shadow-passwords" class="discrete"><span class="image"><img src="images/yes.png" alt="yes"></span> shadow passwords (noun)</h4>
+<div class="paragraph">
+<p><strong>Description</strong>: <em>Shadow passwords</em> are a method of improving system security by moving the encrypted passwords (normally found in <code>/etc/passwd</code>) to <code>/etc/shadow</code>, which is readable only by root. This option is available during installation and is part of the shadow utilities package. "Shadow passwords" is not a proper noun and is only capitalized at the beginning of a sentence.</p>
+</div>
+<div class="paragraph">
+<p><strong>Use it</strong>: yes</p>
+</div>
+<div class="paragraph">
+<p><strong>Incorrect forms</strong>: Shadow passwords</p>
+</div>
+<div class="paragraph">
+<p><strong>See also</strong>:</p>
+</div>
+<h4 id="shadow-utilities" class="discrete"><span class="image"><img src="images/yes.png" alt="yes"></span> shadow utilities (noun)</h4>
+<div class="paragraph">
+<p><strong>Description</strong>: <em>Shadow utilities</em> are the specific system programs that operate on the shadow password files. "Shadow utilities" is not a proper noun and is only capitalized at the beginning of a sentence.</p>
+</div>
+<div class="paragraph">
+<p><strong>Use it</strong>: yes</p>
+</div>
+<div class="paragraph">
+<p><strong>Incorrect forms</strong>: Shadow utilities</p>
+</div>
+<div class="paragraph">
+<p><strong>See also</strong>:</p>
+</div>
+<h4 id="shadowman" class="discrete"><span class="image"><img src="images/yes.png" alt="yes"></span> Shadowman (noun)</h4>
+<div class="paragraph">
+<p><strong>Description</strong>: <em>Shadowman</em> is a Red Hat corporate logo and is a trademark of Red Hat, Inc., registered in the United States and other countries.</p>
+</div>
+<div class="paragraph">
+<p><strong>Use it</strong>: yes</p>
+</div>
+<div class="paragraph">
+<p><strong>Incorrect forms</strong>: Shadow Man, ShadowMan</p>
+</div>
+<div class="paragraph">
+<p><strong>See also</strong>: <a href="http://brand.redhat.com/logos/shadowman/">Red Hat Brand Standards: Shadowman</a></p>
+</div>
+<h4 id="shard-n" class="discrete"><span class="image"><img src="images/yes.png" alt="yes"></span> shard (noun)</h4>
+<div class="paragraph">
+<p><strong>Description</strong>: A database <em>shard</em> is a horizontal partition of data in a database or search engine. Each individual partition is referred to as a shard or database shard. Each shard is held on a separate database server instance, to spread load.</p>
+</div>
+<div class="paragraph">
+<p><strong>Use it</strong>: yes</p>
+</div>
+<div class="paragraph">
+<p><strong>Incorrect forms</strong>:</p>
+</div>
+<div class="paragraph">
+<p><strong>See also</strong>: <a href="#bucket-sharding">bucket sharding</a></p>
+</div>
+<h4 id="sharded-queue" class="discrete"><span class="image"><img src="images/yes.png" alt="yes"></span> sharded queue (noun)</h4>
+<div class="paragraph">
+<p><strong>Description</strong>: In Red Hat AMQ, a <em>sharded queue</em> is a distributed queue in which a single logical queue is hosted on multiple brokers. Routers are typically used with sharded queues to enable clients to access the entire sharded queue instead of only a single shard of the queue.</p>
+</div>
+<div class="paragraph">
+<p><strong>Use it</strong>: yes</p>
+</div>
+<div class="paragraph">
+<p><strong>Incorrect forms</strong>:</p>
+</div>
+<div class="paragraph">
+<p><strong>See also</strong>: <a href="#queue">queue</a></p>
+</div>
+<h4 id="share-name" class="discrete"><span class="image"><img src="images/yes.png" alt="yes"></span> share name (noun)</h4>
+<div class="paragraph">
+<p><strong>Description</strong>: <em>Share name</em> is the name of a shared resource. Use it as two words unless you are quoting the output of commands, such as "smbclient -L".</p>
+</div>
+<div class="paragraph">
+<p><strong>Use it</strong>: yes</p>
+</div>
+<div class="paragraph">
+<p><strong>Incorrect forms</strong>: sharename, Sharename</p>
+</div>
+<div class="paragraph">
+<p><strong>See also</strong>:</p>
+</div>
+<h4 id="she" class="discrete"><span class="image"><img src="images/no.png" alt="no"></span> she (pronoun)</h4>
+<div class="paragraph">
+<p><strong>Description</strong>: Reword the sentence to avoid using "he" or "she".</p>
+</div>
+<div class="paragraph">
+<p><strong>Use it</strong>: no</p>
+</div>
+<div class="paragraph">
+<p><strong>Incorrect forms</strong>:</p>
+</div>
+<div class="paragraph">
+<p><strong>See also</strong>: <a href="#he">he</a></p>
+</div>
+<h4 id="shell" class="discrete"><span class="image"><img src="images/yes.png" alt="yes"></span> shell (noun)</h4>
+<div class="paragraph">
+<p><strong>Description</strong>: A <em>shell</em> is a software application (for example, <code>/bin/bash</code> or <code>/bin/sh</code>) that provides an interface to a computer. Do not use this term to describe the prompt where you type commands.</p>
+</div>
+<div class="paragraph">
+<p><strong>Use it</strong>: yes</p>
+</div>
+<div class="paragraph">
+<p><strong>Incorrect forms</strong>:</p>
+</div>
+<div class="paragraph">
+<p><strong>See also</strong>: <a href="#shell-prompt">shell prompt</a></p>
+</div>
+<h4 id="shell-prompt" class="discrete"><span class="image"><img src="images/yes.png" alt="yes"></span> shell prompt (noun)</h4>
+<div class="paragraph">
+<p><strong>Description</strong>:  The <em>shell prompt</em> is the character at the beginning of the command line, for example "$" or "#". It indicates that the shell is ready to accept commands. Do not use "command prompt", "terminal", or "shell".</p>
+</div>
+<div class="paragraph">
+<p><strong>Use it</strong>: yes</p>
+</div>
+<div class="paragraph">
+<p><strong>Incorrect forms</strong>: command prompt, terminal, shell</p>
+</div>
+<div class="paragraph">
+<p><strong>See also</strong>: <a href="#shell">shell</a></p>
+</div>
+<h4 id="signal-topology" class="discrete"><span class="image"><img src="images/yes.png" alt="yes"></span> signal topology (noun)</h4>
+<div class="paragraph">
+<p><strong>Description</strong>: Every LAN has a topology, or the way that the devices on a network are arranged and how they communicate with each other. The <em>signal topology</em> is the way that the signals act on the network media, or the way that the data passes through the network from one device to the next without regard to the physical interconnection of the devices. The signal topology is also called "logical topology".</p>
+</div>
+<div class="paragraph">
+<p><strong>Use it</strong>: yes</p>
+</div>
+<div class="paragraph">
+<p><strong>Incorrect forms</strong>:</p>
+</div>
+<div class="paragraph">
+<p><strong>See also</strong>: <a href="#logical-topology">logical topology</a>, <a href="#physical-topology">physical topology</a></p>
+</div>
+<h4 id="singleton" class="discrete"><span class="image"><img src="images/yes.png" alt="yes"></span> singleton subsystem (noun)</h4>
+<div class="paragraph">
+<p><strong>Description</strong>: In Red Hat JBoss Enterprise Application Platform, the <em>singleton subsystem</em> is used to configure the behavior of singleton deployments. Write in lowercase in general text. Use "Singleton subsystem" when referring to the <code>singleton</code> subsystem in titles and headings.</p>
+</div>
+<div class="paragraph">
+<p><strong>Use it</strong>: yes</p>
+</div>
+<div class="paragraph">
+<p><strong>Incorrect forms</strong>:</p>
+</div>
+<div class="paragraph">
+<p><strong>See also</strong>:</p>
+</div>
+<h4 id="skill-set" class="discrete"><span class="image"><img src="images/no.png" alt="no"></span> skill set (noun)</h4>
+<div class="paragraph">
+<p><strong>Description</strong>: Use "skills" or "knowledge" instead of "skill set" (n) or "skill-set" (adj). For example, "Do you have the right skill set to be an RHCE?" is incorrect. Use "Do you have the right skills to be an RHCE?" instead.</p>
+</div>
+<div class="paragraph">
+<p><strong>Use it</strong>: no</p>
+</div>
+<div class="paragraph">
+<p><strong>Incorrect forms</strong>: skill set, skillset, skill-set, skill-set knowledge</p>
+</div>
+<div class="paragraph">
+<p><strong>See also</strong>:</p>
+</div>
+<h4 id="skydns" class="discrete"><span class="image"><img src="images/yes.png" alt="yes"></span> SkyDNS (noun)</h4>
+<div class="paragraph">
+<p><strong>Description</strong>: In Red Hat OpenShift 3.11, <em>SkyDNS</em> is a component that provides cluster-wide DNS resolution of internal hostnames for services and pods.</p>
+</div>
+<div class="paragraph">
+<p><strong>Use it</strong>: yes</p>
+</div>
+<div class="paragraph">
+<p><strong>Incorrect forms</strong>:</p>
+</div>
+<div class="paragraph">
+<p><strong>See also</strong>:</p>
+</div>
+<h4 id="slave" class="discrete"><span class="image"><img src="images/no.png" alt="no"></span> slave (noun)</h4>
+<div class="paragraph">
+<p><strong>Description</strong>: In an LDAP replication environment, do not use "slave" to refer to a consumer or hub.</p>
+</div>
+<div class="paragraph">
+<p><strong>Use it</strong>: no</p>
+</div>
+<div class="paragraph">
+<p><strong>Incorrect forms</strong>:</p>
+</div>
+<div class="paragraph">
+<p><strong>See also</strong>: <a href="#consumer">consumer</a>, <a href="#hub">hub</a></p>
+</div>
+<h4 id="slave-broker" class="discrete"><span class="image"><img src="images/yes.png" alt="yes"></span> slave broker (noun)</h4>
+<div class="paragraph">
+<p><strong>Description</strong>: In Red Hat AMQ, in a master-slave group, <em>slave broker</em> is the broker (or brokers) that takes over for the master broker to which it is linked.</p>
+</div>
+<div class="paragraph">
+<p><strong>Use it</strong>: yes</p>
+</div>
+<div class="paragraph">
+<p><strong>Incorrect forms</strong>: passive broker</p>
+</div>
+<div class="paragraph">
+<p><strong>See also</strong>: <a href="#master-slave-group">master-slave group</a>, <a href="#master-broker">master broker</a></p>
+</div>
+<h4 id="smart-card" class="discrete"><span class="image"><img src="images/yes.png" alt="yes"></span> smart card (noun)</h4>
+<div class="paragraph">
+<p><strong>Description</strong>: A <em>smart card</em> is a removable device or card used to control access to a resource. They can be plastic credit card-sized cards with an embedded integrated circuit (IC) chip, small USB devices such as a Yubikey, or other similar devices. Smart cards can provide authentication by allowing users to connect a smart card to a host computer, and software on that host computer interacts with key material stored on the smart card to authenticate the user.</p>
+</div>
+<div class="paragraph">
+<p><strong>Use it</strong>: yes</p>
+</div>
+<div class="paragraph">
+<p><strong>Incorrect forms</strong>:</p>
+</div>
+<div class="paragraph">
+<p><strong>See also</strong>:</p>
+</div>
+<h4 id="smartnic" class="discrete"><span class="image"><img src="images/yes.png" alt="yes"></span> SmartNIC</h4>
+<div class="paragraph">
+<p><strong>Description</strong>: <em>SmartNIC</em> is a type of network interface controller (NIC) that uses its own integrated processor to handle certain low-level networking tasks.</p>
+</div>
+<div class="paragraph">
+<p><strong>Use it</strong>: yes</p>
+</div>
+<div class="paragraph">
+<p><strong>Incorrect forms</strong>: smart NIC, Smart-NIC</p>
+</div>
+<div class="paragraph">
+<p><strong>See also</strong>: <a href="#nic">NIC</a>, <a href="#vnic">vNIC</a></p>
+</div>
+<h4 id="smartstate-analysis" class="discrete"><span class="image"><img src="images/yes.png" alt="yes"></span> SmartState analysis (noun)</h4>
+<div class="paragraph">
+<p><strong>Description</strong>: In Red Hat CloudForms, the <em>SmartState analysis</em> is a process run by the SmartProxy which collects the details of a virtual machine or instance. Such details include accounts, drivers, network information, hardware, and security patches. This process is also run by the Red Hat CloudForms server on hosts and clusters. The data is stored in the VMDB.</p>
+</div>
+<div class="paragraph">
+<p><strong>Use it</strong>: yes</p>
+</div>
+<div class="paragraph">
+<p><strong>Incorrect forms</strong>: Smart State, smart state, Smart state, Smartstate, Analysis</p>
+</div>
+<div class="paragraph">
+<p><strong>See also</strong>:</p>
+</div>
+<h4 id="snap" class="discrete"><span class="image"><img src="images/yes.png" alt="yes"></span> snap (noun)</h4>
+<div class="paragraph">
+<p><strong>Description</strong>: In Red Hat Ceph Storage, a <em>snap</em> is the snapshot identifier of an object. The only writable version of the object is called "head". If an object is a clone, this field includes its sequential identifier. Always mark it correctly (<code>snap</code>).</p>
+</div>
+<div class="paragraph">
+<p><strong>Use it</strong>: yes</p>
+</div>
+<div class="paragraph">
+<p><strong>Incorrect forms</strong>:</p>
+</div>
+<div class="paragraph">
+<p><strong>See also</strong>: <a href="#snapshot-set">snapshot set</a></p>
+</div>
+<h4 id="snapshot-set" class="discrete"><span class="image"><img src="images/yes.png" alt="yes"></span> snapshot set (noun)</h4>
+<div class="paragraph">
+<p><strong>Description</strong>: In Red Hat Ceph Storage, the <em>snapshot set</em> stores information about a snapshot as a list of key-values pairs. The pairs are called attributes of a snapshot set.</p>
+</div>
+<div class="paragraph">
+<p><strong>Use it</strong>: yes</p>
+</div>
+<div class="paragraph">
+<p><strong>Incorrect forms</strong>: snapset, snapsets</p>
+</div>
+<div class="paragraph">
+<p><strong>See also</strong>: <a href="#snap">snap</a></p>
+</div>
+<h4 id="snippet" class="discrete"><span class="image"><img src="images/no.png" alt="no"></span> snippet (noun)</h4>
+<div class="paragraph">
+<p><strong>Description</strong>: A <em>snippet</em> is a small piece or brief extract. Use "piece" instead of snippet. Use "excerpt" to refer to samples taken from a more-extensive section of text.</p>
+</div>
+<div class="paragraph">
+<p><strong>Use it</strong>: no</p>
+</div>
+<div class="paragraph">
+<p><strong>Incorrect forms</strong>:</p>
+</div>
+<div class="paragraph">
+<p><strong>See also</strong>:</p>
+</div>
+<h4 id="socks" class="discrete"><span class="image"><img src="images/yes.png" alt="yes"></span> SOCKS (noun)</h4>
+<div class="paragraph">
+<p><strong>Description</strong>: <em>SOCKS</em> is an abbreviation for "Socket Secure", which is an internet protocol that exchanges network packets between a client and server through a proxy server. When specifying a SOCKS version, use "SOCKSv4" or "SOCKSv5".</p>
+</div>
+<div class="paragraph">
+<p><strong>Use it</strong>: yes</p>
+</div>
+<div class="paragraph">
+<p><strong>Incorrect forms</strong>: socks</p>
+</div>
+<div class="paragraph">
+<p><strong>See also</strong>:</p>
+</div>
+<h4 id="softcopy" class="discrete"><span class="image"><img src="images/no.png" alt="no"></span> softcopy (noun)</h4>
+<div class="paragraph">
+<p><strong>Description</strong>: <em>Softcopy</em> is an electronic copy of some type of data, for example, a file viewed on a computer screen. Use "online" instead of softcopy, for example, "To view the online documentation&#8230;&#8203;​".</p>
+</div>
+<div class="paragraph">
+<p><strong>Use it</strong>: no</p>
+</div>
+<div class="paragraph">
+<p><strong>Incorrect forms</strong>:</p>
+</div>
+<div class="paragraph">
+<p><strong>See also</strong>:</p>
+</div>
+<h4 id="software-collection" class="discrete"><span class="image"><img src="images/yes.png" alt="yes"></span> Software Collection (noun)</h4>
+<div class="paragraph">
+<p><strong>Description</strong>: A <em>Software Collection (SCL)</em> allows for building and concurrent installation of multiple versions of the same software component on a single system. Always capitalize as shown. The abbreviation "SCL" (plural form "SCLs") is acceptable only for use in technical documents or documents shared with upstream projects.</p>
+</div>
+<div class="paragraph">
+<p><strong>Use it</strong>: yes</p>
+</div>
+<div class="paragraph">
+<p><strong>Incorrect forms</strong>: software collection, collection, Software collection, Collection</p>
+</div>
+<div class="paragraph">
+<p><strong>See also</strong>:</p>
+</div>
+<h4 id="sound-card" class="discrete"><span class="image"><img src="images/yes.png" alt="yes"></span> sound card (noun)</h4>
+<div class="paragraph">
+<p><strong>Description</strong>: A <em>sound card</em> is a device slotted into a computer to allow the use of audio components for multimedia applications.</p>
+</div>
+<div class="paragraph">
+<p><strong>Use it</strong>: yes</p>
+</div>
+<div class="paragraph">
+<p><strong>Incorrect forms</strong>: soundcard, sound-card</p>
+</div>
+<div class="paragraph">
+<p><strong>See also</strong>:</p>
+</div>
+<h4 id="source" class="discrete"><span class="image"><img src="images/yes.png" alt="yes"></span> source (noun)</h4>
+<div class="paragraph">
+<p><strong>Description</strong>: In Red Hat AMQ, <em>source</em> is a message&#8217;s named point of origin.</p>
+</div>
+<div class="paragraph">
+<p><strong>Use it</strong>: yes</p>
+</div>
+<div class="paragraph">
+<p><strong>Incorrect forms</strong>:</p>
+</div>
+<div class="paragraph">
+<p><strong>See also</strong>: <a href="#target">target</a></p>
+</div>
+<h4 id="source-navigator" class="discrete"><span class="image"><img src="images/yes.png" alt="yes"></span> Source-Navigator<sup>TM</sup> (noun)</h4>
+<div class="paragraph">
+<p><strong>Description</strong>: <em>Source-Navigator<sup>TM</sup></em> is a source code analysis tool and is a Red Hat trademark.</p>
+</div>
+<div class="paragraph">
+<p><strong>Use it</strong>: yes</p>
+</div>
+<div class="paragraph">
+<p><strong>Incorrect forms</strong>: Source Navigator (without trademark symbol)</p>
+</div>
+<div class="paragraph">
+<p><strong>See also</strong>:</p>
+</div>
+<h4 id="source-to-image" class="discrete"><span class="image"><img src="images/yes.png" alt="yes"></span> Source-to-Image (S2I) (noun)</h4>
+<div class="paragraph">
+<p><strong>Description</strong>: <em>Source-to-Image</em> is a tool for building reproducible, Docker-formatted container images. It produces ready-to-run images by injecting application source into a container image and assembling a new image.</p>
+</div>
+<div class="paragraph">
+<p><strong>Use it</strong>: yes</p>
+</div>
+<div class="paragraph">
+<p><strong>Incorrect forms</strong>: STI, source to image</p>
+</div>
+<div class="paragraph">
+<p><strong>See also</strong>:</p>
+</div>
+<h4 id="space" class="discrete"><span class="image"><img src="images/yes.png" alt="yes"></span> space (noun)</h4>
+<div class="paragraph">
+<p><strong>Description</strong>: Use "space" to refer to white space, for example, "Ensure there is a space between each command." Use "spacebar" when referring to the keyboard key.</p>
+</div>
+<div class="paragraph">
+<p><strong>Use it</strong>: yes</p>
+</div>
+<div class="paragraph">
+<p><strong>Incorrect forms</strong>:</p>
+</div>
+<div class="paragraph">
+<p><strong>See also</strong>: <a href="#spacebar">spacebar</a></p>
+</div>
+<h4 id="spacebar" class="discrete"><span class="image"><img src="images/yes.png" alt="yes"></span> spacebar (noun)</h4>
+<div class="paragraph">
+<p><strong>Description</strong>: Use "spacebar" when referring to the keyboard key, for example, "Press the spacebar and type the correct number." Use "space" to refer to white space.</p>
+</div>
+<div class="paragraph">
+<p><strong>Use it</strong>: yes</p>
+</div>
+<div class="paragraph">
+<p><strong>Incorrect forms</strong>:</p>
+</div>
+<div class="paragraph">
+<p><strong>See also</strong>: <a href="#space">space</a></p>
+</div>
+<h4 id="sparse" class="discrete"><span class="image"><img src="images/yes.png" alt="yes"></span> sparse (adjective)</h4>
+<div class="paragraph">
+<p><strong>Description</strong>: In Red Hat Virtualization, a disk is <em>sparse</em> when its unused disk space is taken from the virtual machine and returned to the host. In the past, the term sparse has been used to describe thin provisioned storage; however, with the addition of the sparsify feature in Red Hat Virtualization 4.1, these terms should not be used interchangeably as a thin provisioned disk might not be a sparse disk.</p>
+</div>
+<div class="paragraph">
+<p><strong>Use it</strong>: yes</p>
+</div>
+<div class="paragraph">
+<p><strong>Incorrect forms</strong>:</p>
+</div>
+<div class="paragraph">
+<p><strong>See also</strong>: <a href="#sparsify">sparsify</a>, <a href="#thin-provisioned">thin provisioned</a></p>
+</div>
+<h4 id="sparsify" class="discrete"><span class="image"><img src="images/yes.png" alt="yes"></span> sparsify (verb)</h4>
+<div class="paragraph">
+<p><strong>Description</strong>: In Red Hat Virtualization, <em>sparsify</em> means to take unused disk space from a virtual machine and return it to the host.</p>
+</div>
+<div class="paragraph">
+<p><strong>Use it</strong>: yes</p>
+</div>
+<div class="paragraph">
+<p><strong>Incorrect forms</strong>:</p>
+</div>
+<div class="paragraph">
+<p><strong>See also</strong>: <a href="#sparse">sparse</a></p>
+</div>
+<h4 id="spec" class="discrete"><span class="image"><img src="images/yes.png" alt="yes"></span> spec (noun)</h4>
+<div class="paragraph">
+<p><strong>Description</strong>: In Red Hat OpenShift, in addition to "spec file", which is permitted when it relates to RPM spec files, you can also use "spec" for general usage when you describe Kubernetes or OpenShift Container Platform object specs, manifests, or definitions.</p>
+</div>
+<div class="paragraph">
+<p>Example of correct usage:</p>
+</div>
+<div class="paragraph">
+<p><em>Update the <code>Pod</code> spec to reflect the changes.</em></p>
+</div>
+<div class="paragraph">
+<p><strong>Use it</strong>: yes</p>
+</div>
+<div class="paragraph">
+<p><strong>Incorrect forms</strong>: Spec</p>
+</div>
+<div class="paragraph">
+<p><strong>See also</strong>:</p>
+</div>
+<h4 id="spec-file" class="discrete"><span class="image"><img src="images/yes.png" alt="yes"></span> spec file (noun)</h4>
+<div class="paragraph">
+<p><strong>Description</strong>: <em>Spec files</em> are used as part of rebuilding RPMs. The spec file outlines how to configure and compile the RPM as well as how to install the files later.</p>
+</div>
+<div class="paragraph">
+<p><strong>Use it</strong>: yes</p>
+</div>
+<div class="paragraph">
+<p><strong>Incorrect forms</strong>: specfile</p>
+</div>
+<div class="paragraph">
+<p><strong>See also</strong>:</p>
+</div>
+<h4 id="specific" class="discrete"><span class="image"><img src="images/yes.png" alt="yes"></span> specific (noun)</h4>
+<div class="paragraph">
+<p><strong>Description</strong>: When used as a modifier, put a hyphen before "specific", for example, "Linux-specific" or "chip-specific".</p>
+</div>
+<div class="paragraph">
+<p><strong>Use it</strong>: yes</p>
+</div>
+<div class="paragraph">
+<p><strong>Incorrect forms</strong>: Linux specific, chip specific, and so on</p>
+</div>
+<div class="paragraph">
+<p><strong>See also</strong>:</p>
+</div>
+<h4 id="spelled" class="discrete"><span class="image"><img src="images/yes.png" alt="yes"></span> spelled (verb)</h4>
+<div class="paragraph">
+<p><strong>Description</strong>: <em>Spelled</em> is the past tense of "to spell" in U.S. English. Do not use the Commonwealth English variant "spelt".</p>
+</div>
+<div class="paragraph">
+<p><strong>Use it</strong>: yes</p>
+</div>
+<div class="paragraph">
+<p><strong>Incorrect forms</strong>: spelt</p>
+</div>
+<div class="paragraph">
+<p><strong>See also</strong>:</p>
+</div>
+<h4 id="spice" class="discrete"><span class="image"><img src="images/yes.png" alt="yes"></span> SPICE (noun)</h4>
+<div class="paragraph">
+<p><strong>Description</strong>: <em>SPICE</em> stands for "Simple Protocol for Independent Computing Environments". It is a remote connection protocol for viewing a virtual machine in a graphical console from a remote client.</p>
+</div>
+<div class="paragraph">
+<p>Always capitalize as shown, except in commands, packages, or UI content.</p>
+</div>
+<div class="paragraph">
+<p><strong>Use it</strong>: yes</p>
+</div>
+<div class="paragraph">
+<p><strong>Incorrect forms</strong>: Spice, spice</p>
+</div>
+<div class="paragraph">
+<p><strong>See also</strong>:</p>
+</div>
+<h4 id="sql" class="discrete"><span class="image"><img src="images/yes.png" alt="yes"></span> SQL (noun)</h4>
+<div class="paragraph">
+<p><strong>Description</strong>: <em>SQL</em> is an abbreviation for "Structured Query Language". The ISO-standard SQL (ISO 9075 and its descendants) is pronounced "ess queue ell" and takes "an" as its indefinite article. Microsoft&#8217;s proprietary product, SQL Server, is pronounced as a word ("sequel") and takes "a" as its indefinite article. Oracle also pronounces its SQL-based products (such as PL/SQL) as "sequel". When referring to a specific Relational Database Management System (RDBMS), use the appropriate product name. For example, when discussing Microsoft SQL Server, write out the full name, "Microsoft SQL Server".</p>
+</div>
+<div class="paragraph">
+<p><strong>Use it</strong>: yes</p>
+</div>
+<div class="paragraph">
+<p><strong>Incorrect forms</strong>:</p>
+</div>
+<div class="paragraph">
+<p><strong>See also</strong>: <a href="#mysql">MySQL</a></p>
+</div>
+<h4 id="ser-iov" class="discrete"><span class="image"><img src="images/yes.png" alt="yes"></span> SR-IOV (noun)</h4>
+<div class="paragraph">
+<p><strong>Description</strong>: <em>SR-IOV</em> is an abbreviation for "Single-Root I/O Virtualization". It is a virtualization specification that allows a PCIe device to appear to be multiple separate physical PCIe devices.</p>
+</div>
+<div class="paragraph">
+<p><strong>Use it</strong>: yes</p>
+</div>
+<div class="paragraph">
+<p><strong>Incorrect forms</strong>: SR/IOV</p>
+</div>
+<div class="paragraph">
+<p><strong>See also</strong>:</p>
+</div>
+<h4 id="ssh" class="discrete"><span class="image"><img src="images/yes.png" alt="yes"></span> SSH (noun)</h4>
+<div class="paragraph">
+<p><strong>Description</strong>: <em>SSH</em> is an abbreviation for "Secure Shell", which is a network protocol that allows data exchange using a secure channel. For the protocol, do not use "SSH", "ssh", "Ssh", or other variants. For the command, use "ssh". Do not use "ssh" as a verb; for example, write "Use SSH to connect to the remote server" instead of "ssh to the remote server".</p>
+</div>
+<div class="paragraph">
+<p><strong>Use it</strong>: yes</p>
+</div>
+<div class="paragraph">
+<p><strong>Incorrect forms</strong>: SSH as a verb</p>
+</div>
+<div class="paragraph">
+<p><strong>See also</strong>:</p>
+</div>
+<h4 id="ssl" class="discrete"><span class="image"><img src="images/no.png" alt="no"></span> SSL (noun)</h4>
+<div class="paragraph">
+<p><strong>Description</strong>: <em>SSL</em> is an abbreviation for "Secure Sockets Layer", which is a protocol developed by Netscape for transmitting private documents over the internet. SSL uses a public key to encrypt data that is transferred over the SSL connection. The majority of web browsers support SSL. Many websites use the protocol to obtain confidential user information, such as credit card numbers. By convention, URLs that require an SSL connection start with "https:" instead of "http:".</p>
+</div>
+<div class="paragraph">
+<p><strong>Use it</strong>: no</p>
+</div>
+<div class="paragraph">
+<p><strong>Incorrect forms</strong>:</p>
+</div>
+<div class="paragraph">
+<p><strong>See also</strong>: <a href="#ssl-tls">SSL/TLS</a>, <a href="#tls">TLS</a></p>
+</div>
+<h4 id="ssl-tls" class="discrete"><span class="image"><img src="images/yes.png" alt="yes"></span> SSL/TLS (noun)</h4>
+<div class="paragraph">
+<p><strong>Description</strong>: <em>SSL/TLS</em> refers to the Secure Socket Layer protocol (SSL) and its successor, the Transport Layer Security protocol (TLS). Both of these protocols are frequently called "SSL", so use "SSL/TLS" in high-level documentation entries, such as headings, to establish context with encryption protocols. In other documentation areas, use TLS and document the supported version of the TLS protocol for your product.</p>
+</div>
+<div class="paragraph">
+<p><strong>Use it</strong>: yes</p>
+</div>
+<div class="paragraph">
+<p><strong>Incorrect forms</strong>: TLS/SSL</p>
+</div>
+<div class="paragraph">
+<p><strong>See also</strong>:</p>
+</div>
+<h4 id="sssd" class="discrete"><span class="image"><img src="images/yes.png" alt="yes"></span> SSSD (noun)</h4>
+<div class="paragraph">
+<p><strong>Description</strong>: In Red Hat Enterprise Linux, the <em>System Security Services Daemon (SSSD)</em> is a system service that manages user authentication and user authorization on a RHEL host. SSSD optionally keeps a cache of user identities and credentials retrieved from remote providers for offline authentication.</p>
+</div>
+<div class="paragraph">
+<p><strong>Use it</strong>: yes</p>
+</div>
+<div class="paragraph">
+<p><strong>Incorrect forms</strong>:</p>
+</div>
+<div class="paragraph">
+<p><strong>See also</strong>:</p>
+</div>
+<h4 id="sssd-back-end" class="discrete"><span class="image"><img src="images/yes.png" alt="yes"></span> SSSD back end (noun)</h4>
+<div class="paragraph">
+<p><strong>Description</strong>: In Red Hat Enterprise Linux, a <em>System Security Services Daemon (SSSD) back end</em>, often also called a data provider, is an SSSD child process that manages and creates the SSSD cache. This process communicates with an LDAP server, performs different lookup queries and stores the results in the cache. It also performs online authentication against LDAP or Kerberos and applies access and password policy to the user that is logging in.</p>
+</div>
+<div class="paragraph">
+<p><strong>Use it</strong>: yes</p>
+</div>
+<div class="paragraph">
+<p><strong>Incorrect forms</strong>:</p>
+</div>
+<div class="paragraph">
+<p><strong>See also</strong>: <a href="#ldap">LDAP</a>, <a href="#sssd">SSSD</a></p>
+</div>
+<h4 id="standalone" class="discrete"><span class="image"><img src="images/yes.png" alt="yes"></span> standalone (adjective)</h4>
+<div class="paragraph">
+<p><strong>Description</strong>: Use "standalone" instead of "stand-alone" when referring to components that are complete and that operate independently of other components, such as "a standalone distribution" or "a standalone module". However, use two words for a noun phrase, such as "a module must stand alone".</p>
+</div>
+<div class="paragraph">
+<p><strong>Use it</strong>: yes</p>
+</div>
+<div class="paragraph">
+<p><strong>Incorrect forms</strong>: stand-alone</p>
+</div>
+<div class="paragraph">
+<p><strong>See also</strong>:</p>
+</div>
+<h4 id="standalone-manager" class="discrete"><span class="image"><img src="images/yes.png" alt="yes"></span> standalone Manager (noun)</h4>
+<div class="paragraph">
+<p><strong>Description</strong>: In Red Hat Virtualization, use "standalone Manager" specifically, and only, in the context of differentiating between a "regular" Red Hat Virtualization environment and a self-hosted engine environment. Use "the Red Hat Virtualization Manager" or "the Manager" in all other cases.</p>
+</div>
+<div class="paragraph">
+<p><strong>Use it</strong>: yes</p>
+</div>
+<div class="paragraph">
+<p><strong>Incorrect forms</strong>: standard Manager, standard environment</p>
+</div>
+<div class="paragraph">
+<p><strong>See also</strong>: <a href="#self-hosted-engine">self-hosted engine</a>, <a href="#red-hat-virtualization-manager">Red Hat Virtualization Manager</a></p>
+</div>
+<h4 id="standalone-mode" class="discrete"><span class="image"><img src="images/no.png" alt="no"></span> standalone mode (noun)</h4>
+<div class="paragraph">
+<p><strong>Description</strong>: In Red Hat JBoss Enterprise Application Platform, do not use "standalone mode" to refer to the standalone operating mode of JBoss EAP server. See the <a href="#standalone-server">standalone server</a> entry for the correct usage.</p>
+</div>
+<div class="paragraph">
+<p><strong>Use it</strong>: no</p>
+</div>
+<div class="paragraph">
+<p><strong>Incorrect forms</strong>:</p>
+</div>
+<div class="paragraph">
+<p><strong>See also</strong>: <a href="#standalone-server">standalone server</a></p>
+</div>
+<h4 id="standalone-server" class="discrete"><span class="image"><img src="images/yes.png" alt="yes"></span> standalone server (noun)</h4>
+<div class="paragraph">
+<p><strong>Description</strong>: In Red Hat JBoss Enterprise Application Platform, use "standalone server" to refer to the standalone operating mode of JBoss EAP server. For example, when running JBoss EAP as a standalone server.</p>
+</div>
+<div class="paragraph">
+<p><strong>Use it</strong>: yes</p>
+</div>
+<div class="paragraph">
+<p><strong>Incorrect forms</strong>: standalone mode</p>
+</div>
+<div class="paragraph">
+<p><strong>See also</strong>: <a href="#standalone-mode">standalone mode</a></p>
+</div>
+<h4 id="staroffice" class="discrete"><span class="image"><img src="images/yes.png" alt="yes"></span> StarOffice (noun)</h4>
+<div class="paragraph">
+<p><strong>Description</strong>: <em>StarOffice</em> is a Linux desktop suite.</p>
+</div>
+<div class="paragraph">
+<p><strong>Use it</strong>: yes</p>
+</div>
+<div class="paragraph">
+<p><strong>Incorrect forms</strong>: Star, Staroffice, Star Office</p>
+</div>
+<div class="paragraph">
+<p><strong>See also</strong>:</p>
+</div>
+<h4 id="starttls" class="discrete"><span class="image"><img src="images/yes.png" alt="yes"></span> STARTTLS (noun)</h4>
+<div class="paragraph">
+<p><strong>Description</strong>: When an LDAP client wants to use a TLS-encrypted connection after establishing a connection to the unencrypted LDAP port, the client sends the <code>STARTTLS</code> command.</p>
+</div>
+<div class="paragraph">
+<p><strong>Use it</strong>: yes</p>
+</div>
+<div class="paragraph">
+<p><strong>Incorrect forms</strong>: StartTLS, startTLS</p>
+</div>
+<div class="paragraph">
+<p><strong>See also</strong>: <a href="#ldap">LDAP</a>, <a href="#ldaps">LDAPS</a></p>
+</div>
+<h4 id="startx" class="discrete"><span class="image"><img src="images/yes.png" alt="yes"></span> startx (noun)</h4>
+<div class="paragraph">
+<p><strong>Description</strong>: <em>startx</em> begins the xsession, which provides a graphical interface for running the session.</p>
+</div>
+<div class="paragraph">
+<p><strong>Use it</strong>: yes</p>
+</div>
+<div class="paragraph">
+<p><strong>Incorrect forms</strong>: StartX</p>
+</div>
+<div class="paragraph">
+<p><strong>See also</strong>:</p>
+</div>
+<h4 id="static-delta" class="discrete"><span class="image"><img src="images/yes.png" alt="yes"></span> static-delta (noun)</h4>
+<div class="paragraph">
+<p><strong>Description</strong>: Updates to OSTree images are always delta updates. In case of RHEL for Edge images, the TCP overhead can be higher than expected due to the updates to number of files. To avoid TCP overhead, you can generate <em>static-delta</em> between specific commits, and send the update in a single connection. This optimization helps large deployments with constrained connectivity.</p>
+</div>
+<div class="paragraph">
+<p><strong>Use it</strong>: yes</p>
+</div>
+<div class="paragraph">
+<p><strong>Incorrect forms</strong>:</p>
+</div>
+<div class="paragraph">
+<p><strong>See also</strong>: <a href="#ostree">OSTree</a>, <a href="#commit">commit</a></p>
+</div>
+</div>
+<div class="sect3">
+<h4 id="sticky-bit"><span class="image"><img src="images/yes.png" alt="yes"></span> sticky bit (noun)</h4>
+<div class="paragraph">
+<p><strong>Description</strong>: A <em>sticky bit</em> is a user permission set for a directory that limits user access to the directory owner and the root user.</p>
+</div>
+<div class="paragraph">
+<p><strong>Use it</strong>: yes</p>
+</div>
+<div class="paragraph">
+<p><strong>Incorrect forms</strong>:</p>
+</div>
+<div class="paragraph">
+<p><strong>See also</strong>:</p>
+</div>
+</div>
+<div class="sect3">
+<h4 id="sticky-session"><span class="image"><img src="images/yes.png" alt="yes"></span> sticky session (noun)</h4>
+<div class="paragraph">
+<p><strong>Description</strong>: A <em>sticky session</em>, also known as <em>session persistence</em>, is a process in which a load balancer sends all requests in a user session to a specific network server. Sticky sessions can improve performance and network resource usage. Depending on which term your audience is most familiar with, use either "sticky session" or "session persistence" consistently.</p>
+</div>
+<div class="paragraph">
+<p><strong>Use it</strong>: yes</p>
+</div>
+<div class="paragraph">
+<p><strong>Incorrect forms</strong>:</p>
+</div>
+<div class="paragraph">
+<p><strong>See also</strong>: <a href="#session-persistence">session persistence</a></p>
+</div>
+<h4 id="stomp" class="discrete"><span class="image"><img src="images/yes.png" alt="yes"></span> STOMP (noun)</h4>
+<div class="paragraph">
+<p><strong>Description</strong>: <em>STOMP</em> is an acronym for "Simple (or Streaming) Text Oriented Message Protocol". It is a text-oriented wire protocol that enables STOMP clients to communicate with STOMP brokers. AMQ Broker can accept connections from STOMP clients.</p>
+</div>
+<div class="paragraph">
+<p><strong>Use it</strong>: yes</p>
+</div>
+<div class="paragraph">
+<p><strong>Incorrect forms</strong>:</p>
+</div>
+<div class="paragraph">
+<p><strong>See also</strong>:</p>
+</div>
+<h4 id="storage-class" class="discrete"><span class="image"><img src="images/yes.png" alt="yes"></span> storage class (noun)</h4>
+<div class="paragraph">
+<p><strong>Description</strong>: In Red Hat OpenShift Data Foundation (formerly Red Hat OpenShift Container Storage), use <em>storage classes</em> to describe the types of storage a product offers. OpenShift Data Foundation offers block, shared file system, and object classes.</p>
+</div>
+<div class="paragraph">
+<p><strong>Use it</strong>: yes</p>
+</div>
+<div class="paragraph">
+<p><strong>Incorrect forms</strong>:</p>
+</div>
+<div class="paragraph">
+<p><strong>See also</strong>:</p>
+</div>
+<h4 id="storage-pool-manager" class="discrete"><span class="image"><img src="images/yes.png" alt="yes"></span> Storage Pool Manager (noun)</h4>
+<div class="paragraph">
+<p><strong>Description</strong>: In Red Hat Virtualization, the <em>Storage Pool Manager (SPM)</em> is a role given to one of the hosts in a data center, enabling it to manage the storage domains of the data center.</p>
+</div>
+<div class="paragraph">
+<p>Use "Storage Pool Manager (SPM)" for the first instance in a section, and "SPM" for subsequent instances.</p>
+</div>
+<div class="paragraph">
+<p><strong>Use it</strong>: yes</p>
+</div>
+<div class="paragraph">
+<p><strong>Incorrect forms</strong>:</p>
+</div>
+<div class="paragraph">
+<p><strong>See also</strong>:</p>
+</div>
+<h4 id="straightforward" class="discrete"><span class="image"><img src="images/yes.png" alt="yes"></span> straightforward (adjective)</h4>
+<div class="paragraph">
+<p><strong>Description</strong>: <em>Straightforward</em> means uncomplicated and easy to understand.</p>
+</div>
+<div class="paragraph">
+<p><strong>Use it</strong>: yes</p>
+</div>
+<div class="paragraph">
+<p><strong>Incorrect forms</strong>: straight forward, straight-forward</p>
+</div>
+<div class="paragraph">
+<p><strong>See also</strong>:</p>
+</div>
+<h4 id="su" class="discrete"><span class="image"><img src="images/yes.png" alt="yes"></span> su (noun)</h4>
+<div class="paragraph">
+<p><strong>Description</strong>: <code>su</code> (superuser, switch user, or substitute user) is a Linux command to change the local user to the root user.</p>
+</div>
+<div class="paragraph">
+<p><strong>Use it</strong>: yes</p>
+</div>
+<div class="paragraph">
+<p><strong>Incorrect forms</strong>: SU</p>
+</div>
+<div class="paragraph">
+<p><strong>See also</strong>:</p>
+</div>
+<h4 id="sub-version" class="discrete"><span class="image"><img src="images/yes.png" alt="yes"></span> sub-version (noun)</h4>
+<div class="paragraph">
+<p><strong>Description</strong>: In Red Hat Virtualization, a template <em>sub-version</em> is a new template version created from an existing template.</p>
+</div>
+<div class="paragraph">
+<p><strong>Use it</strong>: yes</p>
+</div>
+<div class="paragraph">
+<p><strong>Incorrect forms</strong>: sub version, subversion</p>
+</div>
+<div class="paragraph">
+<p><strong>See also</strong>:</p>
+</div>
+<h4 id="subcommand" class="discrete"><span class="image"><img src="images/yes.png" alt="yes"></span> subcommand (noun)</h4>
+<div class="paragraph">
+<p><strong>Description</strong>: A <em>subcommand</em> is a secondary or even tertiary command used with a primary command. Do not confuse subcommands with options or arguments; subcommands operate on more focused objects or entities. In the following command, "hammer" is the primary command, "import" and "organization" are subcommands, and "--help" is an option: <code>hammer import organization --help</code>.</p>
+</div>
+<div class="paragraph">
+<p><strong>Use it</strong>: yes</p>
+</div>
+<div class="paragraph">
+<p><strong>Incorrect forms</strong>: sub-command</p>
+</div>
+<div class="paragraph">
+<p><strong>See also</strong>:</p>
+</div>
+<h4 id="subdirectory" class="discrete"><span class="image"><img src="images/yes.png" alt="yes"></span> subdirectory (noun)</h4>
+<div class="paragraph">
+<p><strong>Description</strong>: A <em>subdirectory</em> is a directory located within another directory, similar to a folder beneath another folder in a graphical user interface (GUI).</p>
+</div>
+<div class="paragraph">
+<p><strong>Use it</strong>: yes</p>
+</div>
+<div class="paragraph">
+<p><strong>Incorrect forms</strong>: sub-directory</p>
+</div>
+<div class="paragraph">
+<p><strong>See also</strong>:</p>
+</div>
+<h4 id="submenu" class="discrete"><span class="image"><img src="images/yes.png" alt="yes"></span> submenu (noun)</h4>
+<div class="paragraph">
+<p><strong>Description</strong>: A <em>submenu</em> is a secondary menu contained within another menu.</p>
+</div>
+<div class="paragraph">
+<p><strong>Use it</strong>: yes</p>
+</div>
+<div class="paragraph">
+<p><strong>Incorrect forms</strong>: sub-menu</p>
+</div>
+<div class="paragraph">
+<p><strong>See also</strong>:</p>
+</div>
+<h4 id="subpackage" class="discrete"><span class="image"><img src="images/yes.png" alt="yes"></span> subpackage (noun)</h4>
+<div class="paragraph">
+<p><strong>Description</strong>: "Subpackage" has a specific, specialized meaning in Red Hat products. An RPM spec file can define more than one package; these additional packages are called <em>subpackages</em>. CCS strongly discourages any other use of "subpackage". Subpackages are not the same as dependencies; do not treat them as if they are.</p>
+</div>
+<div class="paragraph">
+<p><strong>Use it</strong>: yes</p>
+</div>
+<div class="paragraph">
+<p><strong>Incorrect forms</strong>: sub-package</p>
+</div>
+<div class="paragraph">
+<p><strong>See also</strong>:</p>
+</div>
+<h4 id="subscription" class="discrete"><span class="image"><img src="images/yes.png" alt="yes"></span> subscription (noun)</h4>
+<div class="paragraph">
+<p><strong>Description</strong>: <em>Subscriptions</em> provide access to Red Hat products. Using Red Hat Subscription Management (RHSM), you register a system, attach a subscription, and enable repositories. Do not confuse this with Red Hat Network (RHN), where you subscribed to channels. Do not use "subscription" and "entitlement" interchangeably. See <a href="https://access.redhat.com/discussions/3119981" class="bare">https://access.redhat.com/discussions/3119981</a> for details.</p>
+</div>
+<div class="paragraph">
+<p><strong>Use it</strong>: yes</p>
+</div>
+<div class="paragraph">
+<p><strong>Incorrect forms</strong>: entitlement</p>
+</div>
+<div class="paragraph">
+<p><strong>See also</strong>: <a href="#entitlement">entitlement</a>, <a href="#repository">repository</a></p>
+</div>
+<h4 id="subscription-manifest" class="discrete"><span class="image"><img src="images/yes.png" alt="yes"></span> Subscription Manifest (noun)</h4>
+<div class="paragraph">
+<p><strong>Description</strong>: In Red Hat Satellite, a <em>Subscription Manifest</em> is a mechanism for transferring subscriptions from Red Hat Customer Portal to Red Hat Satellite 6. Use the two-word name in full on first use in a section; the word "manifest" is acceptable thereafter.</p>
+</div>
+<div class="paragraph">
+<p><strong>Use it</strong>: yes</p>
+</div>
+<div class="paragraph">
+<p><strong>Incorrect forms</strong>: Subscription manifest</p>
+</div>
+<div class="paragraph">
+<p><strong>See also</strong>:</p>
+</div>
+<h4 id="sudo" class="discrete"><span class="image"><img src="images/caution.png" alt="with caution"></span> sudo (noun)</h4>
+<div class="paragraph">
+<p><strong>Description</strong>: <code>sudo</code> is a command that allows a user to run a program as another user (the root user by default). When a user requires elevated privileges, use the phrase "as the root user" before a command instead of prefixing commands with <code>sudo</code>.</p>
+</div>
+<div class="paragraph">
+<p><strong>Use it</strong>: with caution</p>
+</div>
+<div class="paragraph">
+<p><strong>Incorrect forms</strong>: SUDO, Sudo</p>
+</div>
+<div class="paragraph">
+<p><strong>See also</strong>:</p>
+</div>
+<h4 id="suffix" class="discrete"><span class="image"><img src="images/yes.png" alt="yes"></span> suffix (noun)</h4>
+<div class="paragraph">
+<p><strong>Description</strong>: The name of the entry at the top of the directory tree is called a <em>suffix</em>. In Red Hat Directory Server, an instance can store multiple suffixes, and each suffix has its own database.</p>
+</div>
+<div class="paragraph">
+<p><strong>Use it</strong>: yes</p>
+</div>
+<div class="paragraph">
+<p><strong>Incorrect forms</strong>:</p>
+</div>
+<div class="paragraph">
+<p><strong>See also</strong>:</p>
+</div>
+<h4 id="superuser" class="discrete"><span class="image"><img src="images/yes.png" alt="yes"></span> superuser (noun)</h4>
+<div class="paragraph">
+<p><strong>Description</strong>: <em>Superuser</em> is the same as the root user. The term is more common in Solaris documentation than Linux.</p>
+</div>
+<div class="paragraph">
+<p><strong>Use it</strong>: yes</p>
+</div>
+<div class="paragraph">
+<p><strong>Incorrect forms</strong>: super-user, super user</p>
+</div>
+<div class="paragraph">
+<p><strong>See also</strong>:</p>
+</div>
+<h4 id="supplier" class="discrete"><span class="image"><img src="images/yes.png" alt="yes"></span> supplier (noun)</h4>
+<div class="paragraph">
+<p><strong>Description</strong>: In an LDAP replication environment, <em>suppliers</em> send data to other servers.</p>
+</div>
+<div class="paragraph">
+<p><strong>Use it</strong>: yes</p>
+</div>
+<div class="paragraph">
+<p><strong>Incorrect forms</strong>: master</p>
+</div>
+<div class="paragraph">
+<p><strong>See also</strong>: <a href="#consumer">consumer</a></p>
+</div>
+<h4 id="swap-space" class="discrete"><span class="image"><img src="images/yes.png" alt="yes"></span> swap space (noun)</h4>
+<div class="paragraph">
+<p><strong>Description</strong>:  A Linux system uses <em>swap space</em> when it needs more memory resources and the RAM is full. The system moves inactive pages to the swap space to free memory.</p>
+</div>
+<div class="paragraph">
+<p><strong>Use it</strong>: yes</p>
+</div>
+<div class="paragraph">
+<p><strong>Incorrect forms</strong>: swapspace</p>
+</div>
+<div class="paragraph">
+<p><strong>See also</strong>:</p>
+</div>
+<h4 id="sybase-adaptive-server-enterprise" class="discrete"><span class="image"><img src="images/yes.png" alt="yes"></span> Sybase Adaptive Server Enterprise (noun)</h4>
+<div class="paragraph">
+<p><strong>Description</strong>: Sybase Corporation developed <em>Sybase Adaptive Server Enterprise</em> as a relational database management system that became part of SAP AG. Use "SAP Sybase Adaptive Server Enterprise (ASE)" on the first use; on subsequent mentions, use "Sybase ASE". If discussing the high-availability version, use "Sybase ASE and High Availability".</p>
+</div>
+<div class="paragraph">
+<p><strong>Use it</strong>: yes</p>
+</div>
+<div class="paragraph">
+<p><strong>Incorrect forms</strong>:</p>
+</div>
+<div class="paragraph">
+<p><strong>See also</strong>:</p>
+</div>
+<h4 id="symmetric-encryption" class="discrete"><span class="image"><img src="images/yes.png" alt="yes"></span> symmetric encryption (noun)</h4>
+<div class="paragraph">
+<p><strong>Description</strong>: <em>Symmetric encryption</em> is a type of encryption where the same key encrypts and decrypts the message. In contrast, asymmetric (or public-key) encryption uses one key to encrypt a message and another to decrypt the message.</p>
+</div>
+<div class="paragraph">
+<p><strong>Use it</strong>: yes</p>
+</div>
+<div class="paragraph">
+<p><strong>Incorrect forms</strong>:</p>
+</div>
+<div class="paragraph">
+<p><strong>See also</strong>:</p>
+</div>
+<h4 id="syndesis" class="discrete"><span class="image"><img src="images/yes.png" alt="yes"></span> Syndesis (noun)</h4>
+<div class="paragraph">
+<p><strong>Description</strong>: <em>Syndesis</em> is the community name for Fuse Online.</p>
+</div>
+<div class="paragraph">
+<p><strong>Use it</strong>: yes</p>
+</div>
+<div class="paragraph">
+<p><strong>Incorrect forms</strong>: Ignite, Fuse Ignite</p>
+</div>
+<div class="paragraph">
+<p><strong>See also</strong>: <a href="#fuse-online">Fuse Online</a></p>
+</div>
+<h4 id="sysprep" class="discrete"><span class="image"><img src="images/yes.png" alt="yes"></span> sysprep (noun)</h4>
+<div class="paragraph">
+<p><strong>Description</strong>: <em>Sysprep</em> is a tool that automates the configuration of Windows virtual machines. Red Hat Virtualization enhances Sysprep by building a tailored auto-answer file for each virtual machine.</p>
+</div>
+<div class="paragraph">
+<p>With the exception of "sysprep file", which has a specific function, use "sysprep" on its own when referring to the tool.</p>
+</div>
+<div class="paragraph">
+<p><strong>Use it</strong>: yes</p>
+</div>
+<div class="paragraph">
+<p><strong>Incorrect forms</strong>: sysprep tool, sysprep process, sysprep function</p>
+</div>
+<div class="paragraph">
+<p><strong>See also</strong>:</p>
+</div>
+<h4 id="systemd" class="discrete"><span class="image"><img src="images/yes.png" alt="yes"></span> systemd (noun)</h4>
+<div class="paragraph">
+<p><strong>Description</strong>: <em>Systemd</em> is a system and service manager that is used as the default system daemon for Red Hat Enterprise Linux 7 and later.</p>
+</div>
+<div class="paragraph">
+<p><strong>Use it</strong>: yes</p>
+</div>
+<div class="paragraph">
+<p><strong>Incorrect forms</strong>: system D, system D, SystemD, system d, Systemd (unless at the start of a sentence).</p>
+</div>
+<div class="paragraph">
+<p><strong>See also</strong>:</p>
+</div>
+<h4 id="sysv" class="discrete"><span class="image"><img src="images/yes.png" alt="yes"></span> SysV (noun)</h4>
+<div class="paragraph">
+<p><strong>Description</strong>: The <em>SysV</em> init runlevel system provides a standard process for controlling which programs init launches or halts when initializing a runlevel.</p>
+</div>
+<div class="paragraph">
+<p><strong>Use it</strong>: yes</p>
+</div>
+<div class="paragraph">
+<p><strong>Incorrect forms</strong>: Sys V, System V</p>
+</div>
+<div class="paragraph">
+<p><strong>See also</strong>:</p>
+</div>
+</div>
+</div>
+</body>
+</html>
