@@ -1,0 +1,63 @@
+
+[[technical-examples]]
+= Technical examples
+
+[[commands-with-root-privileges]]
+== Commands requiring root privileges
+
+Some commands require root privileges to run. Users without root privileges must first do one of the following to run such a command:
+
+* Run `su -` to switch to the root user account.
+* Preface the command with `sudo` to temporarily change their current privileges.
+
+Use the following guidelines when you document commands that require root privileges:
+
+* If you include a shell prompt in a sample command, always show the correct prompt for a regular user (`$`) or a user with root privileges (`#`).
++
+[NOTE]
+====
+Do not rely solely on a shell prompt in a sample command to indicate the required privilege level to run a command.
+If you include a shell prompt to indicate that a user with root privileges must run the command, also include a statement about this requirement in the step text, the introductory text, or the prerequisites.
+====
++
+* If a command requires a temporary switch to root privileges, use `sudo` at the beginning of the sample command syntax. If the sample command includes a shell prompt together with `sudo`, the prompt should remain `$` and not be changed to `#`.
+* If multiple commands in a procedure require root privileges, add introductory content to tell the user what to do. For example, "The commands in this procedure require root privileges to run. Either run `su -` to switch to the root user or preface the commands with `sudo`."
+
+.Additional resources
+* link:https://www.redhat.com/sysadmin/difference-between-sudo-su[Exploring the differences between sudo and su commands in Linux]
+
+[[ip-addresses-and-mac-addresses]]
+== IP addresses and MAC addresses
+
+Use the IP and MAC address ranges that are reserved for documentation purposes to avoid the likelihood of conflicts and confusion:
+
+* Reserved IP address ranges: See the _IBM Style_ guide for the list of reserved IP address ranges to use in documentation.
+
+* Reserved MAC addresses (defined in link:https://www.rfc-editor.org/rfc/rfc7042.html#section-2.1.2[RFC 7042]):
+
+** For unicast: 00:00:5E:00:53:00 - 00:00:5E:00:53:FF
+** For multicast: 01:00:5E:90:10:00 - 01:00:5E:90:10:FF
+
+[[long-code-examples]]
+== Long code examples
+
+All code blocks (regardless of length) must be necessary, accurate, and helpful. Code blocks must be as copy-and-paste friendly as possible, with the exception of variables and callouts. The length of the block is irrelevant, within reason, if the code block follows these guidelines.
+
+[[code-example-syntax-highlighting]]
+== Syntax highlighting
+
+Provide the source language if it is supported by the Red Hat Customer Portal toolchain. Do not use the `bash` source language for terminal commands. It incorrectly interprets the number sign (#) as a comment instead of the prompt for a root command.
+
+.Example AsciiDoc
+
+
+  [source,yaml]
+  ----
+  collections:
+        - name: amazon.aws
+          source: https://galaxy.ansible.com/api/v2/collections
+          version: 1.2.1
+  ----
+
+
+// TODO: Add new style entries alphabetically in this file
