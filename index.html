@@ -2985,6 +2985,7 @@ pre.rouge .gs {
 <ul class="sectlevel3">
 <li><a href="#_how_to_use_this_guide">How to use this guide</a></li>
 <li><a href="#_related_red_hat_guides">Related Red Hat guides</a></li>
+<li><a href="#_pdf_version">PDF version</a></li>
 </ul>
 </li>
 <li><a href="#whats-new">What&#8217;s new</a>
@@ -3174,6 +3175,12 @@ pre.rouge .gs {
 <p><a href="https://redhat-documentation.github.io/accessibility-guide/"><em>Getting started with accessibility for writers</em></a>: Guidance for creating accessible content.</p>
 </li>
 </ul>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_pdf_version"><a class="anchor" href="#_pdf_version"></a><a class="link" href="#_pdf_version">PDF version</a></h4>
+<div class="paragraph">
+<p>The <em>Red Hat supplementary style guide for product documentation</em> is also available as a PDF. You can download the <a href="https://github.com/redhat-documentation/supplementary-style-guide/releases/latest/download/red-hat-supplementary-style-guide.pdf">latest version of the guide as a PDF</a> from the GitHub releases section of project&#8217;s GitHub repository.</p>
 </div>
 </div>
 </div>
@@ -3874,6 +3881,9 @@ For example, you might combine existing product name attributes to create compou
 <li>
 <p>If the user-replaced value is referencing a value in code or in a command that is normally monospace, also use monospace for the user-replaced value</p>
 </li>
+<li>
+<p>If you want to use a user-replaced value in example output, format the replaceable value with italics and in angle brackets. Alternatively, if you choose to use an example value instead, do not italicize the example value and do not place it in angle brackets.</p>
+</li>
 </ul>
 </div>
 <div class="listingblock">
@@ -3912,6 +3922,33 @@ $ oc describe node __&lt;node_name&gt;__
 <div class="listingblock">
 <div class="content">
 <pre>$ oc describe node <em>&lt;node_name&gt;</em></pre>
+</div>
+</div>
+</div>
+</div>
+<div class="literalblock">
+<div class="title">Example AsciiDoc: User-replaced value in an output example</div>
+<div class="content">
+<pre>[subs="+quotes"]
+----
+connection.id:              __&lt;profile_name&gt;__
+connection.uuid:            b6cdfa1c-e4ad-46e5-af8b-a75f06b79f76
+connection.type:            802-3-ethernet
+connection.interface-name:  enp7s0
+----</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>This renders as:</p>
+</div>
+<div class="exampleblock">
+<div class="content">
+<div class="listingblock">
+<div class="content">
+<pre>connection.id:              <em>&lt;profile_name&gt;</em>
+connection.uuid:            b6cdfa1c-e4ad-46e5-af8b-a75f06b79f76
+connection.type:            802-3-ethernet
+connection.interface-name:  enp7s0</pre>
 </div>
 </div>
 </div>
@@ -7288,7 +7325,9 @@ On first use, use "Basic HTTP authentication"; thereafter, use "Basic authentica
 <div class="paragraph">
 <p><strong>See also</strong>:</p>
 </div>
-<h5 id="codebase" class="discrete"><span class="image"><img src="images/yes.png" alt="yes"></span> codebase (noun)</h5>
+</div>
+<div class="sect4">
+<h5 id="codebase"><a class="anchor" href="#codebase"></a><a class="link" href="#codebase"><span class="image"><img src="images/yes.png" alt="yes"></span> codebase (noun)</a></h5>
 <div class="paragraph">
 <p><strong>Description</strong>: A <em>codebase</em> is a complete collection of source code for a software component, application, or system. Write as shown: one word.</p>
 </div>
@@ -9020,6 +9059,40 @@ Red Hat Directory Server conforms to LDAP standards.</p>
 </div>
 </div>
 <div class="sect4">
+<h5 id="elb"><a class="anchor" href="#elb"></a><a class="link" href="#elb"><span class="image"><img src="images/yes.png" alt="yes"></span> Elastic Load Balancing (noun)</a></h5>
+<div class="paragraph">
+<p><strong>Description</strong>: <em>Elastic Load Balancing (ELB)</em> automatically distributes incoming traffic across multiple targets, such as Amazon Elastic Container Service (ECS) instances, and IP addresses in one or more Availability Zones (AZs). ELB supports the following load balancers:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Application Load Balancer</p>
+</li>
+<li>
+<p>Classic Load Balancer</p>
+</li>
+<li>
+<p>Gateway Load Balancer</p>
+</li>
+<li>
+<p>Network Load Balancer</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>Do not abbreviate any of the previously listed load balancer terms.</p>
+</div>
+<div class="paragraph">
+<p><strong>Use it</strong>: yes</p>
+</div>
+<div class="paragraph">
+<p><strong>Incorrect forms</strong>: Elastic Load Balancer</p>
+</div>
+<div class="paragraph">
+<p><strong>See also</strong>:</p>
+</div>
+</div>
+<div class="sect4">
 <h5 id="elytron"><a class="anchor" href="#elytron"></a><a class="link" href="#elytron"><span class="image"><img src="images/yes.png" alt="yes"></span> elytron subsystem (noun)</a></h5>
 <div class="paragraph">
 <p><strong>Description</strong>: In Red Hat JBoss Enterprise Application Platform, the <em>elytron subsystem</em> is used to configure server and application security. Write in lowercase in general text. Use "Elytron subsystem" when referring to the <code>elytron</code> subsystem in titles and headings. For the correct usage when referring to the <code>elytron</code> subsystem in the management console, see the <a href="#security-elytron">Security - Elytron</a> entry.</p>
@@ -10536,48 +10609,48 @@ Use "host" to refer to hosts in general, not "hypervisor", "hypervisor host", or
 </div>
 </div>
 <div class="sect4">
-<h5 id="ibm-eserver-system-p"><a class="anchor" href="#ibm-eserver-system-p"></a><a class="link" href="#ibm-eserver-system-p"><span class="image"><img src="images/yes.png" alt="yes"></span> IBM eServer System p (noun)</a></h5>
+<h5 id="ibm-power"><a class="anchor" href="#ibm-power"></a><a class="link" href="#ibm-power"><span class="image"><img src="images/yes.png" alt="yes"></span> IBM Power® (noun)</a></h5>
 <div class="paragraph">
-<p><strong>Description</strong>: Use "IBM eServer System p" for the first reference, and "IBM System p" or "System p" for subsequent references.</p>
+<p><strong>Description</strong>: <em>IBM Power</em> represents the family of servers based on Power processors that can include combinations of IBM Power servers and its products. On first use, mark "IBM" Power with a registered trademark icon (®).</p>
 </div>
 <div class="paragraph">
 <p><strong>Use it</strong>: yes</p>
 </div>
 <div class="paragraph">
-<p><strong>Incorrect forms</strong>: pSeries</p>
+<p><strong>Incorrect forms</strong>: pSeries, System P, Power Systems</p>
 </div>
 <div class="paragraph">
 <p><strong>See also</strong>:</p>
 </div>
 </div>
 <div class="sect4">
-<h5 id="ibm-s-390"><a class="anchor" href="#ibm-s-390"></a><a class="link" href="#ibm-s-390"><span class="image"><img src="images/yes.png" alt="yes"></span> IBM S/390 (noun)</a></h5>
+<h5 id="ibm-linuxone"><a class="anchor" href="#ibm-linuxone"></a><a class="link" href="#ibm-linuxone"><span class="image"><img src="images/yes.png" alt="yes"></span> IBM® LinuxONE (noun)</a></h5>
 <div class="paragraph">
-<p><strong>Description</strong>: The <em>IBM S/390</em> is the IBM large server (or mainframe) line of computer systems. Use the full description "IBM S/390".</p>
+<p><strong>Description</strong>: <em>IBM® LinuxONE</em> represents the IBM® LinuxONE platform (<code>s390x</code> architecture) and its products. "IBM®" must always precede "LinuxONE" in any context.</p>
 </div>
 <div class="paragraph">
 <p><strong>Use it</strong>: yes</p>
 </div>
 <div class="paragraph">
-<p><strong>Incorrect forms</strong>: S/390, S90</p>
+<p><strong>Incorrect forms</strong>: IBM LinuxONE, LinuxONE, linuxone</p>
 </div>
 <div class="paragraph">
-<p><strong>See also</strong>:</p>
+<p><strong>See also</strong>: <a href="#ibm-z">IBM Z</a>, <a href="#s390x">s390x</a></p>
 </div>
 </div>
 <div class="sect4">
-<h5 id="ibm-z"><a class="anchor" href="#ibm-z"></a><a class="link" href="#ibm-z"><span class="image"><img src="images/yes.png" alt="yes"></span> IBM Z (noun)</a></h5>
+<h5 id="ibm-z"><a class="anchor" href="#ibm-z"></a><a class="link" href="#ibm-z"><span class="image"><img src="images/yes.png" alt="yes"></span> IBM Z® (noun)</a></h5>
 <div class="paragraph">
-<p><strong>Description</strong>: <em>IBM Z</em> is the new name for the "IBM z Systems" family of IBM mainframe computers.</p>
+<p><strong>Description</strong>: <em>IBM Z</em> represents the IBM mainframe platform (<code>s390x</code> architecture) and its products. On first use, mark "IBM Z" with a registered trademark icon (®).</p>
 </div>
 <div class="paragraph">
 <p><strong>Use it</strong>: yes</p>
 </div>
 <div class="paragraph">
-<p><strong>Incorrect forms</strong>: IBM z Systems</p>
+<p><strong>Incorrect forms</strong>: IBM zSystems, Z, S/390</p>
 </div>
 <div class="paragraph">
-<p><strong>See also</strong>:</p>
+<p><strong>See also</strong>: <a href="#ibm-linuxone">IBM® LinuxONE</a>, <a href="#s390x">s390x</a></p>
 </div>
 </div>
 <div class="sect4">
@@ -11209,7 +11282,7 @@ Capitalize it only when it starts a sentence.</p>
 <div class="sect4">
 <h5 id="intel-64"><a class="anchor" href="#intel-64"></a><a class="link" href="#intel-64"><span class="image"><img src="images/yes.png" alt="yes"></span> Intel 64 (noun)</a></h5>
 <div class="paragraph">
-<p><strong>Description</strong>: The Intel 64-bit version of the x86 architecture. Use this format when referring to information that is exclusive to Intel processors. Only use in RHEL documentation.</p>
+<p><strong>Description</strong>: The Intel 64-bit version of the x86 architecture. Use this format when referring to information that is exclusive to Intel processors. Use only in RHEL documentation.</p>
 </div>
 <div class="paragraph">
 <p>Cloud providers can use different formats of this term when using architectures. If you are documenting hard code, commands, or outputs, confer with your SME on the correct format for the specific use case.</p>
@@ -11218,7 +11291,7 @@ Capitalize it only when it starts a sentence.</p>
 <p>Example:</p>
 </div>
 <div class="paragraph">
-<p><em>This feature can run on only Intel 64 processors</em></p>
+<p><em>This feature can run only on Intel 64 processors</em></p>
 </div>
 <div class="paragraph">
 <p><strong>Use it</strong>: yes</p>
@@ -11405,21 +11478,6 @@ Capitalize it only when it starts a sentence.</p>
 </div>
 <div class="paragraph">
 <p><strong>Incorrect forms</strong>: IPSec</p>
-</div>
-<div class="paragraph">
-<p><strong>See also</strong>:</p>
-</div>
-</div>
-<div class="sect4">
-<h5 id="iseries"><a class="anchor" href="#iseries"></a><a class="link" href="#iseries"><span class="image"><img src="images/yes.png" alt="yes"></span> ISeries (noun)</a></h5>
-<div class="paragraph">
-<p><strong>Description</strong>: Use "IBM eServer System i" for the first reference, and "IBM System i" or "System i" for subsequent references.</p>
-</div>
-<div class="paragraph">
-<p><strong>Use it</strong>: yes</p>
-</div>
-<div class="paragraph">
-<p><strong>Incorrect forms</strong>: iSeries</p>
 </div>
 <div class="paragraph">
 <p><strong>See also</strong>:</p>
@@ -15321,21 +15379,6 @@ Use "privilege" in the context of system actions and the abilities of an agent, 
 </div>
 </div>
 <div class="sect4">
-<h5 id="pseries"><a class="anchor" href="#pseries"></a><a class="link" href="#pseries"><span class="image"><img src="images/no.png" alt="no"></span> pSeries (noun)</a></h5>
-<div class="paragraph">
-<p><strong>Description</strong>: Use "IBM eServer System p" for the first reference; use "IBM System p" or "System p" for subsequent references.</p>
-</div>
-<div class="paragraph">
-<p><strong>Use it</strong>: no</p>
-</div>
-<div class="paragraph">
-<p><strong>Incorrect forms</strong>:</p>
-</div>
-<div class="paragraph">
-<p><strong>See also</strong>:</p>
-</div>
-</div>
-<div class="sect4">
 <h5 id="pseudoops"><a class="anchor" href="#pseudoops"></a><a class="link" href="#pseudoops"><span class="image"><img src="images/yes.png" alt="yes"></span> pseudo-ops (noun)</a></h5>
 <div class="paragraph">
 <p><strong>Description</strong>: "Pseudo-ops" is an abbreviation for "pseudo operations" and is sometimes called an assembler directive. These keywords do not directly translate to a machine instruction.</p>
@@ -15806,7 +15849,9 @@ Use "privilege" in the context of system actions and the abilities of an agent, 
 <div class="paragraph">
 <p><strong>See also</strong>: <a href="#jboss-amq">AMQ</a>, <a href="#jboss-amq-eap">JBoss AMQ</a></p>
 </div>
-<h5 id="red-hat-build-openjdk" class="discrete"><span class="image"><img src="images/yes.png" alt="yes"></span> Red Hat build of OpenJDK (noun)</h5>
+</div>
+<div class="sect4">
+<h5 id="red-hat-build-openjdk"><a class="anchor" href="#red-hat-build-openjdk"></a><a class="link" href="#red-hat-build-openjdk"><span class="image"><img src="images/yes.png" alt="yes"></span> Red Hat build of OpenJDK (noun)</a></h5>
 <div class="paragraph">
 <p><strong>Description</strong>: <em>Red Hat build of OpenJDK</em> is the Red Hat distribution of the Open Java Development Kit (OpenJDK).</p>
 </div>
@@ -16036,7 +16081,9 @@ Use "privilege" in the context of system actions and the abilities of an agent, 
 <div class="paragraph">
 <p><strong>See also</strong>: <a href="#syndesis">Syndesis</a>, <a href="#fuse-online">Fuse Online</a></p>
 </div>
-<h5 id="red-hat-java" class="discrete"><span class="image"><img src="images/no.png" alt="no"></span> Red Hat Java (noun)</h5>
+</div>
+<div class="sect4">
+<h5 id="red-hat-java"><a class="anchor" href="#red-hat-java"></a><a class="link" href="#red-hat-java"><span class="image"><img src="images/no.png" alt="no"></span> Red Hat Java (noun)</a></h5>
 <div class="paragraph">
 <p><strong>Description</strong>: Do not use <em>Red Hat Java</em> to refer to the Red Hat distribution of the Open Java Development Kit (OpenJDK).</p>
 </div>
@@ -16145,7 +16192,9 @@ Use "privilege" in the context of system actions and the abilities of an agent, 
 <div class="paragraph">
 <p><strong>See also</strong>: <a href="#red-hat-network-satellite-server">Red Hat Network Satellite Server</a></p>
 </div>
-<h5 id="red-hat-openjdk" class="discrete"><span class="image"><img src="images/no.png" alt="no"></span> Red Hat OpenJDK (noun)</h5>
+</div>
+<div class="sect4">
+<h5 id="red-hat-openjdk"><a class="anchor" href="#red-hat-openjdk"></a><a class="link" href="#red-hat-openjdk"><span class="image"><img src="images/no.png" alt="no"></span> Red Hat OpenJDK (noun)</a></h5>
 <div class="paragraph">
 <p><strong>Description</strong>: Do not use <em>Red Hat OpenJDK</em> to refer to the Red Hat distribution of the Open Java Development Kit (OpenJDK).</p>
 </div>
@@ -17051,6 +17100,30 @@ IdM uses two types of replication agreements: <em>domain replication</em> agreem
 </div>
 <div class="sect3">
 <h4 id="_s"><a class="anchor" href="#_s"></a><a class="link" href="#_s">S</a></h4>
+<div class="sect4">
+<h5 id="s390x"><a class="anchor" href="#s390x"></a><a class="link" href="#s390x"><span class="image"><img src="images/yes.png" alt="yes"></span> s390x (noun)</a></h5>
+<div class="paragraph">
+<p><strong>Description</strong>: A 64-bit version of the IBM z/Architecture. Use this term for OpenShift Container Platform attributes, Kubernetes, Operators, APIs, and CLI objects. Use lowercase format and backticks when referring to objects or parameters.</p>
+</div>
+<div class="paragraph">
+<p>If you are documenting hard code, commands, or outputs, confer with your SME on the correct format for the specific use case.</p>
+</div>
+<div class="paragraph">
+<p>Example:</p>
+</div>
+<div class="paragraph">
+<p>Specify the system architecture of your cluster, such as <code>s390x</code> or <code>x86_64</code>.</p>
+</div>
+<div class="paragraph">
+<p><strong>Use it</strong>: yes</p>
+</div>
+<div class="paragraph">
+<p><strong>Incorrect forms</strong>:</p>
+</div>
+<div class="paragraph">
+<p><strong>See also</strong>:  <a href="#ibm-z">IBM Z</a></p>
+</div>
+</div>
 <div class="sect4">
 <h5 id="s-record"><a class="anchor" href="#s-record"></a><a class="link" href="#s-record"><span class="image"><img src="images/yes.png" alt="yes"></span> S-record (noun)</a></h5>
 <div class="paragraph">
@@ -20395,7 +20468,7 @@ You can use a TGT to request further access, and provide the user with a Single 
 <p><strong>Incorrect forms</strong>: S/390x, s390x, IBM zSeries, zSeries</p>
 </div>
 <div class="paragraph">
-<p><strong>See also</strong>: <a href="#ibm-z">IBM Z</a>, <a href="#ibm-s-390">IBM S/390</a></p>
+<p><strong>See also</strong>: <a href="#ibm-z">IBM Z</a></p>
 </div>
 </div>
 </div>
@@ -20518,7 +20591,7 @@ You can use a TGT to request further access, and provide the user with a Single 
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2023-07-21 15:04:43 UTC
+Last updated 2023-07-28 12:34:29 UTC
 </div>
 </div>
 <!-- Nav bar -->
