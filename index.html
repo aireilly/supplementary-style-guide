@@ -2983,24 +2983,15 @@ pre.rouge .gs {
 <ul class="sectlevel2">
 <li><a href="#_about_this_guide">About this guide</a>
 <ul class="sectlevel3">
-<li><a href="#_how_to_use_this_guide">How to use this guide</a></li>
-<li><a href="#_related_red_hat_guides">Related Red Hat guides</a></li>
+<li><a href="#_using_style_guides_for_redhat_product_documentation">Using style guides for Red&#160;Hat product documentation</a></li>
+<li><a href="#_related_redhat_guides">Related Red&#160;Hat guides</a></li>
 <li><a href="#_pdf_version">PDF version</a></li>
 </ul>
 </li>
 <li><a href="#whats-new">What&#8217;s new</a>
 <ul class="sectlevel3">
-<li><a href="#november-2023">November 2023</a></li>
-<li><a href="#october-2023">October 2023</a></li>
-<li><a href="#september-2023">September 2023</a></li>
-<li><a href="#august-2023">August 2023</a></li>
-<li><a href="#july-2023">July 2023</a></li>
-<li><a href="#june-2023">June 2023</a></li>
-<li><a href="#may-2023">May 2023</a></li>
-<li><a href="#april-2023">April 2023</a></li>
-<li><a href="#march-2023">March 2023</a></li>
-<li><a href="#february-2023">February 2023</a></li>
-<li><a href="#january-2023">January 2023</a></li>
+<li><a href="#year-2024">2024</a></li>
+<li><a href="#year-2023">2023</a></li>
 </ul>
 </li>
 <li><a href="#_contributing">Contributing</a>
@@ -3024,7 +3015,9 @@ pre.rouge .gs {
 </li>
 <li><a href="#formatting">Formatting</a>
 <ul class="sectlevel3">
+<li><a href="#commands-in-code-blocks">Commands in code blocks</a></li>
 <li><a href="#date-formats">Date formats</a></li>
+<li><a href="#man-pages">Man page references</a></li>
 <li><a href="#non-breaking-spaces">Non-breaking spaces</a></li>
 <li><a href="#_product_names_and_version_references">Product names and version references</a></li>
 <li><a href="#single-step-procedures">Single-step procedures</a></li>
@@ -3139,10 +3132,10 @@ pre.rouge .gs {
 <div class="sect2">
 <h3 id="_about_this_guide"><a class="anchor" href="#_about_this_guide"></a><a class="link" href="#_about_this_guide">About this guide</a></h3>
 <div class="paragraph">
-<p>This guide provides style guidelines and preferred term usage for <a href="https://www.redhat.com/">Red Hat</a> product and cross-product solution documentation. It is intended to be used as a supplement to the <em>IBM Style</em> guide, which is the primary source of guidance for Red Hat product documentation.</p>
+<p>The style and language guidance in this guide overrides or supplements some guidance provided by the <em>IBM Style</em> guide, which is the primary source of style guidance for <a href="https://www.redhat.com/">Red Hat</a> product and cross-product solution documentation.</p>
 </div>
 <div class="paragraph">
-<p>The Red Hat Customer Content Services team created this guide as part of its responsibility for producing product documentation for Red Hat customers. Upstream communities who want to align more closely with the standards used by Red Hat product documentation can also use this guide.</p>
+<p>The Red&#160;Hat Customer Content Services team has created this guide to help ensure that Red&#160;Hat product documentation is clear, consistent, and cohesive. Upstream communities who want to align more closely with the standards used by Red&#160;Hat product documentation can also use this guide.</p>
 </div>
 <div class="admonitionblock note">
 <table>
@@ -3152,22 +3145,32 @@ pre.rouge .gs {
 </td>
 <td class="content">
 <div class="paragraph">
-<p>Other Red Hat technical documentation, including Red Hat training and exam content by Global Learning Services (GLS), follows the <a href="https://stylepedia.net/"><em>Red Hat Technical Writing Style Guide</em></a> instead of the <em>Red Hat supplementary style guide for product documentation</em>.</p>
+<p>Other Red Hat technical documentation, including Red Hat training and exam content by Global Learning Services (GLS), follows the <a href="https://stylepedia.net/"><em>Red Hat Technical Writing Style Guide</em></a> instead of the <em>Red&#160;Hat supplementary style guide for product documentation</em>.</p>
 </div>
 </td>
 </tr>
 </table>
 </div>
 <div class="sect3">
-<h4 id="_how_to_use_this_guide"><a class="anchor" href="#_how_to_use_this_guide"></a><a class="link" href="#_how_to_use_this_guide">How to use this guide</a></h4>
+<h4 id="_using_style_guides_for_redhat_product_documentation"><a class="anchor" href="#_using_style_guides_for_redhat_product_documentation"></a><a class="link" href="#_using_style_guides_for_redhat_product_documentation">Using style guides for Red&#160;Hat product documentation</a></h4>
 <div class="paragraph">
-<p>When looking for style guidance, reference this guide first, because it overrides certain guidance from the <em>IBM Style</em> guide. If you must deviate from the guidance in either guide, notify the style council by opening an <a href="https://github.com/redhat-documentation/doc-style/issues">issue</a>. This way, the deviation can be discussed by the style council and included in this guide.</p>
+<p>Red&#160;Hat product documentation adheres to the style guidance provided in the <em>IBM Style</em> guide, the <em>Red&#160;Hat supplementary style guide for product documentation</em>, and documentation style guidelines specific to Red&#160;Hat products, such as Red&#160;Hat Enterprise Linux or Red&#160;Hat OpenShift Container Platform.</p>
+</div>
+<div class="paragraph">
+<p>When seeking style guidance, consult the style guide specific to your product documentation project first, if applicable, then the <em>Red&#160;Hat supplementary style guide for product documentation</em>, and finally the <em>IBM Style</em> guide.
+The following image illustrates the hierarchical relationship between the different style guides in Red&#160;Hat product documentation:</p>
+</div>
+<div class="paragraph">
+<p><span class="image"><img src="images/ccs-style-guide-hierarchy.png" alt="CCS style guide hierarchy"></span></p>
+</div>
+<div class="paragraph">
+<p>If you think that a documentation use case needs to deviate from the guidance in this guide, notify the style council by opening an <a href="https://github.com/redhat-documentation/doc-style/issues">issue</a>. This way, the deviation can be discussed by the style council and, if appropriate, included in this guide.</p>
 </div>
 </div>
 <div class="sect3">
-<h4 id="_related_red_hat_guides"><a class="anchor" href="#_related_red_hat_guides"></a><a class="link" href="#_related_red_hat_guides">Related Red Hat guides</a></h4>
+<h4 id="_related_redhat_guides"><a class="anchor" href="#_related_redhat_guides"></a><a class="link" href="#_related_redhat_guides">Related Red&#160;Hat guides</a></h4>
 <div class="paragraph">
-<p>In addition to the <em>IBM Style</em> guide and the <em>Red Hat supplementary style guide for product documentation</em>, Red Hat product documentation uses the following reference guides for technical writers:</p>
+<p>In addition to the <em>IBM Style</em> guide and the <em>Red&#160;Hat supplementary style guide for product documentation</em>, Red&#160;Hat product documentation uses the following reference guides for technical writers:</p>
 </div>
 <div class="ulist">
 <ul>
@@ -3210,175 +3213,354 @@ pre.rouge .gs {
 </table>
 </div>
 <div class="sect3">
-<h4 id="november-2023"><a class="anchor" href="#november-2023"></a><a class="link" href="#november-2023">November 2023</a></h4>
+<h4 id="year-2024"><a class="anchor" href="#year-2024"></a><a class="link" href="#year-2024">2024</a></h4>
+<div class="sect4">
+<h5 id="february-2024"><a class="anchor" href="#february-2024"></a><a class="link" href="#february-2024">February 2024</a></h5>
+<div class="ulist">
+<div class="title">Glossary entries</div>
+<ul>
+<li>
+<p><strong>Administration Portal</strong>: Removed glossary entry because Red Hat Virtualization support is ending</p>
+</li>
+<li>
+<p><strong>Appliance console</strong>: Removed glossary entry because Red Hat CloudForms support is ending</p>
+</li>
+<li>
+<p><strong>collect</strong>: Removed glossary entry because Red Hat Virtualization support is ending</p>
+</li>
+<li>
+<p><strong>Data Warehouse</strong>: Removed glossary entry because Red Hat Virtualization support is ending</p>
+</li>
+<li>
+<p><strong>details view</strong>: Removed glossary entry because Red Hat Virtualization support is ending</p>
+</li>
+<li>
+<p><strong>gather</strong>: Removed glossary entry because Red Hat Virtualization support is ending</p>
+</li>
+<li>
+<p><strong>header bar</strong>: Removed glossary entry because Red Hat Virtualization support is ending</p>
+</li>
+<li>
+<p><strong>host</strong>: Removed glossary entry because Red Hat Virtualization support is ending</p>
+</li>
+<li>
+<p><strong>Manager virtual machine</strong>: Removed glossary entry because Red Hat Virtualization support is ending</p>
+</li>
+<li>
+<p><strong>MOM</strong>: Removed glossary entry because Red Hat Virtualization support is ending</p>
+</li>
+<li>
+<p><strong>Monitoring Portal</strong>: Removed glossary entry because Red Hat Virtualization support is ending</p>
+</li>
+<li>
+<p><strong>Red Hat CloudForms</strong>: Removed glossary entry because Red Hat CloudForms support is ending</p>
+</li>
+<li>
+<p><strong>Red Hat CloudForms Appliance</strong>: Removed glossary entry because Red Hat CloudForms support is ending</p>
+</li>
+<li>
+<p><strong>Red Hat CloudForms server</strong>: Removed glossary entry because Red Hat CloudForms support is ending</p>
+</li>
+<li>
+<p><strong>Red Hat Enterprise Linux host</strong>: Removed glossary entry because Red Hat Virtualization support is ending</p>
+</li>
+<li>
+<p><strong>Red Hat Virtualization</strong>: Removed glossary entry because Red Hat Virtualization support is ending</p>
+</li>
+<li>
+<p><strong>Red Hat Virtualization Host</strong>: Removed glossary entry because Red Hat Virtualization support is ending</p>
+</li>
+<li>
+<p><strong>Red Hat Virtualization Manager</strong>: Removed glossary entry because Red Hat Virtualization support is ending</p>
+</li>
+<li>
+<p><strong>resource tab</strong>: Removed glossary entry because Red Hat Virtualization support is ending</p>
+</li>
+<li>
+<p><strong>results list</strong>: Removed glossary entry because Red Hat Virtualization support is ending</p>
+</li>
+<li>
+<p><strong>self-hosted engine</strong>: Removed glossary entry because Red Hat Virtualization support is ending</p>
+</li>
+<li>
+<p><strong>self-hosted engine node</strong>: Removed glossary entry because Red Hat Virtualization support is ending</p>
+</li>
+<li>
+<p><strong>SmartState analysis</strong>: Removed glossary entry because Red Hat CloudForms support is ending</p>
+</li>
+<li>
+<p><strong>sparse</strong>: Removed glossary entry because Red Hat Virtualization support is ending</p>
+</li>
+<li>
+<p><strong>sparsify</strong>: Removed glossary entry because Red Hat Virtualization support is ending</p>
+</li>
+<li>
+<p><strong>standalone Manager</strong>: Removed glossary entry because Red Hat Virtualization support is ending</p>
+</li>
+<li>
+<p><strong>Storage Pool Manager</strong>: Removed glossary entry because Red Hat Virtualization support is ending</p>
+</li>
+<li>
+<p><strong>sub-version</strong>: Removed glossary entry because Red Hat Virtualization support is ending</p>
+</li>
+<li>
+<p><strong>Virtual Management Database</strong>: Removed glossary entry because Red Hat CloudForms support is ending</p>
+</li>
+<li>
+<p><strong>VM Portal</strong>: Removed glossary entry because Red Hat Virtualization support is ending</p>
+</li>
+<li>
+<p><strong>Worker Appliance</strong>: Removed glossary entry because Red Hat CloudForms support is ending</p>
+</li>
+</ul>
+</div>
+<div class="ulist">
+<div class="title">Style guidance</div>
+<ul>
+<li>
+<p><strong><a href="#commands-in-code-blocks">Commands in code blocks</a></strong>: Added guidance to use bold formatting for commands in code blocks and to show only one command per code block</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect4">
+<h5 id="january-2024"><a class="anchor" href="#january-2024"></a><a class="link" href="#january-2024">January 2024</a></h5>
+<div class="ulist">
+<div class="title">Glossary entries</div>
+<ul>
+<li>
+<p><strong><a href="#customer-portal">Customer Portal</a></strong>: Added glossary entry</p>
+</li>
+<li>
+<p><strong><a href="#hashbang">hashbang</a></strong>: Added glossary entry</p>
+</li>
+<li>
+<p><strong><a href="#ingress">ingress</a></strong>: Updated guidance from uppercase "Ingress" to lowercase "ingress"</p>
+</li>
+<li>
+<p><strong><a href="#interpreter-directive">interpreter directive</a></strong>: Added glossary entry</p>
+</li>
+<li>
+<p><strong><a href="#shebang">shebang</a></strong>: Added glossary entry</p>
+</li>
+</ul>
+</div>
+<div class="ulist">
+<div class="title">Style guidance</div>
+<ul>
+<li>
+<p><strong><a href="#man-pages">Man page references</a></strong>: Added guidance on referencing man pages</p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect3">
+<h4 id="year-2023"><a class="anchor" href="#year-2023"></a><a class="link" href="#year-2023">2023</a></h4>
+<div class="sect4">
+<h5 id="december-2023"><a class="anchor" href="#december-2023"></a><a class="link" href="#december-2023">December 2023</a></h5>
+<div class="ulist">
+<div class="title">Glossary entries</div>
+<ul>
+<li>
+<p><strong><a href="#ibm-cloud">IBM Cloud®</a></strong>: Added glossary entry</p>
+</li>
+<li>
+<p><strong>look up</strong>: Removed glossary entry because guidance already exists in the <em>Merriam-Webster Dictionary</em></p>
+</li>
+<li>
+<p><strong>look-up</strong>: Removed glossary entry because guidance already exists in the <em>Merriam-Webster Dictionary</em></p>
+</li>
+<li>
+<p><strong>lookup</strong>: Removed glossary entry because guidance already exists in the <em>Merriam-Webster Dictionary</em></p>
+</li>
+<li>
+<p><strong><a href="#now">now</a></strong>: Updated glossary entry to "use with caution"</p>
+</li>
+<li>
+<p><strong><a href="#previously">previously</a></strong>: Added glossary entry</p>
+</li>
+</ul>
+</div>
+<div class="ulist">
+<div class="title">Style guidance</div>
+<ul>
+<li>
+<p><strong><a href="#ip-addresses-and-mac-addresses">IP addresses and MAC addresses</a></strong>: Added examples of reserved IP addresses and MAC addresses</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect4">
+<h5 id="november-2023"><a class="anchor" href="#november-2023"></a><a class="link" href="#november-2023">November 2023</a></h5>
 <div class="paragraph">
 <p><em>No glossary or style updates.</em></p>
 </div>
 </div>
-<div class="sect3">
-<h4 id="october-2023"><a class="anchor" href="#october-2023"></a><a class="link" href="#october-2023">October 2023</a></h4>
+<div class="sect4">
+<h5 id="october-2023"><a class="anchor" href="#october-2023"></a><a class="link" href="#october-2023">October 2023</a></h5>
 <div class="ulist">
 <div class="title">Glossary entries</div>
 <ul>
 <li>
-<p><a href="#ansible-rulebook">Ansible Rulebook</a>: Added glossary entry</p>
+<p><strong><a href="#ansible-rulebook">Ansible Rulebook</a></strong>: Added glossary entry</p>
 </li>
 <li>
-<p>because: Removed glossary entry because guidance already exists in the <em>IBM Style</em> guidance</p>
+<p><strong>because</strong>: Removed glossary entry because guidance already exists in the <em>IBM Style</em> guidance</p>
 </li>
 <li>
-<p><a href="#executable-adj">executable (adjective)</a>: Added glossary entry</p>
+<p><strong><a href="#executable-adj">executable (adjective)</a></strong>: Added glossary entry</p>
 </li>
 <li>
-<p><a href="#executable">executable (noun)</a>: Added glossary entry</p>
+<p><strong><a href="#executable">executable (noun)</a></strong>: Added glossary entry</p>
 </li>
 <li>
-<p><a href="#playbook">playbook</a>: Added glossary entry</p>
+<p><strong><a href="#playbook">playbook</a></strong>: Added glossary entry</p>
 </li>
 <li>
-<p><a href="#rulebook">rulebook</a>: Added glossary entry</p>
+<p><strong><a href="#rulebook">rulebook</a></strong>: Added glossary entry</p>
 </li>
 <li>
-<p><a href="#spec-file">spec file</a>: Updated glossary entry for clarity</p>
+<p><strong><a href="#spec-file">spec file</a></strong>: Updated glossary entry for clarity</p>
 </li>
 </ul>
 </div>
 </div>
-<div class="sect3">
-<h4 id="september-2023"><a class="anchor" href="#september-2023"></a><a class="link" href="#september-2023">September 2023</a></h4>
+<div class="sect4">
+<h5 id="september-2023"><a class="anchor" href="#september-2023"></a><a class="link" href="#september-2023">September 2023</a></h5>
 <div class="ulist">
 <div class="title">Glossary entries</div>
 <ul>
 <li>
-<p><a href="#aws-local-zone">AWS Local Zone</a>: Added glossary entry</p>
+<p><strong><a href="#aws-local-zone">AWS Local Zone</a></strong>: Added glossary entry</p>
 </li>
 <li>
-<p><a href="#aws-opt-in-region">AWS opt-in Region</a>: Added glossary entry</p>
+<p><strong><a href="#aws-opt-in-region">AWS opt-in Region</a></strong>: Added glossary entry</p>
 </li>
 <li>
-<p><a href="#ibm-cloud-bare-metal">IBM Cloud® Bare Metal (Classic)</a>: Added glossary entry</p>
+<p><strong><a href="#ibm-cloud-bare-metal">IBM Cloud® Bare Metal (Classic)</a></strong>: Added glossary entry</p>
 </li>
 <li>
-<p><a href="#ibm-eserver-system-i">IBM eServer System i</a>: Added glossary entry with "do not use" guidance</p>
+<p><strong><a href="#ibm-eserver-system-i">IBM eServer System i</a></strong>: Added glossary entry with "do not use" guidance</p>
 </li>
 <li>
-<p><a href="#inject">inject</a>: Added glossary entry</p>
+<p><strong><a href="#inject">inject</a></strong>: Added glossary entry</p>
 </li>
 <li>
-<p><a href="#opt-in">opt in</a>: Added glossary entry</p>
+<p><strong><a href="#opt-in">opt in</a></strong>: Added glossary entry</p>
 </li>
 <li>
-<p>pulldown: Removed glossary entry in favor of following the <em>IBM Style</em> guidance on using "dropdown" and "drop-down"</p>
+<p><strong>pulldown</strong>: Removed glossary entry in favor of following the <em>IBM Style</em> guidance on using "dropdown" and "drop-down"</p>
 </li>
 <li>
-<p><a href="#segmentation-fault">segmentation fault</a>: Updated glossary entry for clarity</p>
+<p><strong><a href="#segmentation-fault">segmentation fault</a></strong>: Updated glossary entry for clarity</p>
 </li>
 </ul>
 </div>
 </div>
-<div class="sect3">
-<h4 id="august-2023"><a class="anchor" href="#august-2023"></a><a class="link" href="#august-2023">August 2023</a></h4>
+<div class="sect4">
+<h5 id="august-2023"><a class="anchor" href="#august-2023"></a><a class="link" href="#august-2023">August 2023</a></h5>
 <div class="ulist">
 <div class="title">Glossary entries</div>
 <ul>
 <li>
-<p>agnostic: Removed glossary entry because it already exists in the <em>IBM Style</em> guide</p>
+<p><strong>agnostic</strong>: Removed glossary entry because it already exists in the <em>IBM Style</em> guide</p>
 </li>
 <li>
-<p><a href="#application-stream">Application Stream</a>: Added glossary entry</p>
+<p><strong><a href="#application-stream">Application Stream</a></strong>: Added glossary entry</p>
 </li>
 <li>
-<p><a href="#appstream-repository">Appstream repository</a>: Added glossary entry</p>
+<p><strong><a href="#appstream-repository">Appstream repository</a></strong>: Added glossary entry</p>
 </li>
 <li>
-<p><a href="#baseos-repository">BaseOS repository</a>: Added glossary entry</p>
+<p><strong><a href="#baseos-repository">BaseOS repository</a></strong>: Added glossary entry</p>
 </li>
 <li>
-<p><a href="#binary-rpm">binary RPM</a>: Added glossary entry</p>
+<p><strong><a href="#binary-rpm">binary RPM</a></strong>: Added glossary entry</p>
 </li>
 <li>
-<p><a href="#boolean-dependencies">Boolean dependencies</a>: Added glossary entry</p>
+<p><strong><a href="#boolean-dependencies">Boolean dependencies</a></strong>: Added glossary entry</p>
 </li>
 <li>
-<p><a href="#byte-compiled-program">byte-compiled program</a>: Added glossary entry</p>
+<p><strong><a href="#byte-compiled-program">byte-compiled program</a></strong>: Added glossary entry</p>
 </li>
 <li>
-<p>client side: Removed glossary entry because it already exists in the <em>IBM Style</em> guide</p>
+<p><strong>client side</strong>: Removed glossary entry because it already exists in the <em>IBM Style</em> guide</p>
 </li>
 <li>
-<p>client-side: Removed glossary entry because it already exists in the <em>IBM Style</em> guide</p>
+<p><strong>client-side</strong>: Removed glossary entry because it already exists in the <em>IBM Style</em> guide</p>
 </li>
 <li>
-<p>cloud: Removed glossary entry because it already exists in the <em>IBM Style</em> guide</p>
+<p><strong>cloud</strong>: Removed glossary entry because it already exists in the <em>IBM Style</em> guide</p>
 </li>
 <li>
-<p><a href="#codeready-linux-builder-repository">CodeReady Linux Builder repository</a>: Added glossary entry</p>
+<p><strong><a href="#codeready-linux-builder-repository">CodeReady Linux Builder repository</a></strong>: Added glossary entry</p>
 </li>
 <li>
-<p>colocate: Removed glossary entry because it already exists in the <em>IBM Style</em> guide</p>
+<p><strong>colocate</strong>: Removed glossary entry because it already exists in the <em>IBM Style</em> guide</p>
 </li>
 <li>
-<p>data center: Removed glossary entry because it already exists in the <em>IBM Style</em> guide</p>
+<p><strong>data center</strong>: Removed glossary entry because it already exists in the <em>IBM Style</em> guide</p>
 </li>
 <li>
-<p>DevOps: Removed glossary entry because it already exists in the <em>IBM Style</em> guide</p>
+<p><strong>DevOps</strong>: Removed glossary entry because it already exists in the <em>IBM Style</em> guide</p>
 </li>
 <li>
-<p><a href="#dnf-automatic">DNF Automatic</a>: Added glossary entry</p>
+<p><strong><a href="#dnf-automatic">DNF Automatic</a></strong>: Added glossary entry</p>
 </li>
 <li>
-<p><a href="#domain-controller">domain controller</a>: Updated glossary entry to include IdM-specific information</p>
+<p><strong><a href="#domain-controller">domain controller</a></strong>: Updated glossary entry to include IdM-specific information</p>
 </li>
 <li>
-<p><a href="#file-trigger-directive">file trigger directive</a>: Added glossary entry</p>
+<p><strong><a href="#file-trigger-directive">file trigger directive</a></strong>: Added glossary entry</p>
 </li>
 <li>
-<p><a href="#ibm-eserver-system-p">IBM eServer System p</a>: Updated to "do not use"; use "IBM Power" instead</p>
+<p><strong><a href="#ibm-eserver-system-p">IBM eServer System p</a></strong>: Updated to "do not use"; use "IBM Power" instead</p>
 </li>
 <li>
-<p><a href="#ibm-s-390">IBM S/390</a>: Updated to "do not use"; use "IBM Z" instead</p>
+<p><strong><a href="#ibm-s-390">IBM S/390</a></strong>: Updated to "do not use"; use "IBM Z" instead</p>
 </li>
 <li>
-<p><a href="#interpreted-code">interpreted code</a>: Added glossary entry</p>
+<p><strong><a href="#interpreted-code">interpreted code</a></strong>: Added glossary entry</p>
 </li>
 <li>
-<p><a href="#iseries">ISeries</a>: Updated to "do not use"; use "IBM Power" instead</p>
+<p><strong><a href="#iseries">ISeries</a></strong>: Updated to "do not use"; use "IBM Power" instead</p>
 </li>
 <li>
-<p><a href="#module">module</a>: Added glossary entry</p>
+<p><strong><a href="#module">module</a></strong>: Added glossary entry</p>
 </li>
 <li>
-<p><a href="#module-profile">module profile</a>: Added glossary entry</p>
+<p><strong><a href="#module-profile">module profile</a></strong>: Added glossary entry</p>
 </li>
 <li>
-<p><a href="#module-stream">module stream</a>: Added glossary entry</p>
+<p><strong><a href="#module-stream">module stream</a></strong>: Added glossary entry</p>
 </li>
 <li>
-<p><a href="#natively-compiled-code">natively compiled code</a>: Added glossary entry</p>
+<p><strong><a href="#natively-compiled-code">natively compiled code</a></strong>: Added glossary entry</p>
 </li>
 <li>
-<p><a href="#pseries">pSeries</a>: Updated to "do not use"; use "IBM Power" instead</p>
+<p><strong><a href="#pseries">pSeries</a></strong>: Updated to "do not use"; use "IBM Power" instead</p>
 </li>
 <li>
-<p><a href="#raw-interpreted-program">raw-interpreted program</a>: Added glossary entry</p>
+<p><strong><a href="#raw-interpreted-program">raw-interpreted program</a></strong>: Added glossary entry</p>
 </li>
 <li>
-<p><a href="#rolling-stream">Rolling Stream</a>: Added glossary entry</p>
+<p><strong><a href="#rolling-stream">Rolling Stream</a></strong>: Added glossary entry</p>
 </li>
 <li>
-<p><a href="#rpm-macro">RPM macro</a>: Added glossary entry</p>
+<p><strong><a href="#rpm-macro">RPM macro</a></strong>: Added glossary entry</p>
 </li>
 <li>
-<p><a href="#scriptlet-directive">scriptlet directive</a>: Added glossary entry</p>
+<p><strong><a href="#scriptlet-directive">scriptlet directive</a></strong>: Added glossary entry</p>
 </li>
 <li>
-<p><a href="#source-rpm">Source RPM</a>: Added glossary entry</p>
+<p><strong><a href="#source-rpm">Source RPM</a></strong>: Added glossary entry</p>
 </li>
 <li>
-<p><a href="#trigger-directive">trigger directive</a>: Added glossary entry</p>
+<p><strong><a href="#trigger-directive">trigger directive</a></strong>: Added glossary entry</p>
 </li>
 <li>
-<p><a href="#weak-dependencies">Weak dependencies</a>: Added glossary entry</p>
+<p><strong><a href="#weak-dependencies">Weak dependencies</a></strong>: Added glossary entry</p>
 </li>
 </ul>
 </div>
@@ -3386,39 +3568,39 @@ pre.rouge .gs {
 <div class="title">Style guidance</div>
 <ul>
 <li>
-<p><a href="#minimalism">Minimalism</a>: Added section with guidance on writing with minimalism</p>
+<p><strong><a href="#minimalism">Minimalism</a></strong>: Added section with guidance on writing with minimalism</p>
 </li>
 </ul>
 </div>
 </div>
-<div class="sect3">
-<h4 id="july-2023"><a class="anchor" href="#july-2023"></a><a class="link" href="#july-2023">July 2023</a></h4>
+<div class="sect4">
+<h5 id="july-2023"><a class="anchor" href="#july-2023"></a><a class="link" href="#july-2023">July 2023</a></h5>
 <div class="ulist">
 <div class="title">Glossary entries</div>
 <ul>
 <li>
-<p><a href="#elb">Elastic Load Balancing</a>: Added glossary entry</p>
+<p><strong><a href="#elb">Elastic Load Balancing</a></strong>: Added glossary entry</p>
 </li>
 <li>
-<p><a href="#ibm-linuxone">IBM® LinuxONE</a>: Added glossary entry</p>
+<p><strong><a href="#ibm-linuxone">IBM® LinuxONE</a></strong>: Added glossary entry</p>
 </li>
 <li>
-<p><a href="#ibm-power">IBM Power®</a>: Added glossary entry</p>
+<p><strong><a href="#ibm-power">IBM Power®</a></strong>: Added glossary entry</p>
 </li>
 <li>
-<p><a href="#ibm-z">IBM Z®</a>: Updated glossary entry</p>
+<p><strong><a href="#ibm-z">IBM Z®</a></strong>: Updated glossary entry</p>
 </li>
 <li>
-<p><a href="#red-hat-build-openjdk">Red Hat build of OpenJDK</a>: Added glossary entry</p>
+<p><strong><a href="#red-hat-build-openjdk">Red Hat build of OpenJDK</a></strong>: Added glossary entry</p>
 </li>
 <li>
-<p><a href="#red-hat-java">Red Hat Java</a>: Added glossary entry</p>
+<p><strong><a href="#red-hat-java">Red Hat Java</a></strong>: Added glossary entry</p>
 </li>
 <li>
-<p><a href="#red-hat-openjdk">Red Hat OpenJDK</a>: Added glossary entry</p>
+<p><strong><a href="#red-hat-openjdk">Red Hat OpenJDK</a></strong>: Added glossary entry</p>
 </li>
 <li>
-<p><a href="#s390x">s390x</a>: Added glossary entry</p>
+<p><strong><a href="#s390x">s390x</a></strong>: Added glossary entry</p>
 </li>
 </ul>
 </div>
@@ -3426,16 +3608,16 @@ pre.rouge .gs {
 <div class="title">Style guidance</div>
 <ul>
 <li>
-<p><a href="#non-breaking-spaces">Non-breaking spaces</a>: Updated to clarify why non-breaking spaces should be used</p>
+<p><strong><a href="#non-breaking-spaces">Non-breaking spaces</a></strong>: Updated to clarify why non-breaking spaces should be used</p>
 </li>
 <li>
-<p><a href="#titles-and-headings">Titles and headings</a>: Added guidance to use sentence-style capitalization for titles and headings</p>
+<p><strong><a href="#titles-and-headings">Titles and headings</a></strong>: Added guidance to use sentence-style capitalization for titles and headings</p>
 </li>
 <li>
-<p><a href="#user-interface-elements">User interface elements</a>: Updated to clarify not to use bold text if an element is not labeled in the user interface</p>
+<p><strong><a href="#user-interface-elements">User interface elements</a></strong>: Updated to clarify not to use bold text if an element is not labeled in the user interface</p>
 </li>
 <li>
-<p><a href="#user-replaced-values">User-replaced values</a>: Updated to provide guidance on using user-replaced values in example output</p>
+<p><strong><a href="#user-replaced-values">User-replaced values</a></strong>: Updated to provide guidance on using user-replaced values in example output</p>
 </li>
 </ul>
 </div>
@@ -3446,36 +3628,36 @@ pre.rouge .gs {
 <p>Updated the guide to enable clickable section headings.</p>
 </li>
 <li>
-<p>Added a <a href="#_pdf_version">downloadable PDF version</a> of the guide.</p>
+<p>Added a <strong><a href="#_pdf_version">downloadable PDF version</a></strong> of the guide.</p>
 </li>
 </ul>
 </div>
 </div>
-<div class="sect3">
-<h4 id="june-2023"><a class="anchor" href="#june-2023"></a><a class="link" href="#june-2023">June 2023</a></h4>
+<div class="sect4">
+<h5 id="june-2023"><a class="anchor" href="#june-2023"></a><a class="link" href="#june-2023">June 2023</a></h5>
 <div class="ulist">
 <div class="title">Glossary entries</div>
 <ul>
 <li>
-<p><a href="#ansible-playbook">Ansible Playbook</a>: Updated glossary entry for preferred spelling</p>
+<p><strong><a href="#ansible-playbook">Ansible Playbook</a></strong>: Updated glossary entry for preferred spelling</p>
 </li>
 <li>
-<p><a href="#bimodal-it">bimodal IT</a>: Updated glossary entry to include link to the Gartner website</p>
+<p><strong><a href="#bimodal-it">bimodal IT</a></strong>: Updated glossary entry to include link to the Gartner website</p>
 </li>
 <li>
-<p><a href="#bimonthly">bimonthly</a>: Updated to "do not use" because the term can be ambiguous</p>
+<p><strong><a href="#bimonthly">bimonthly</a></strong>: Updated to "do not use" because the term can be ambiguous</p>
 </li>
 <li>
-<p><a href="#biweekly">biweekly</a>: Updated to "do not use" because the term can be ambiguous</p>
+<p><strong><a href="#biweekly">biweekly</a></strong>: Updated to "do not use" because the term can be ambiguous</p>
 </li>
 <li>
-<p><a href="#codebase">codebase</a>: Added glossary entry</p>
+<p><strong><a href="#codebase">codebase</a></strong>: Added glossary entry</p>
 </li>
 <li>
-<p><a href="#sos-report">sos report</a>: Added glossary entry</p>
+<p><strong><a href="#sos-report">sos report</a></strong>: Added glossary entry</p>
 </li>
 <li>
-<p><a href="#sosreport">sosreport</a>: Added glossary entry</p>
+<p><strong><a href="#sosreport">sosreport</a></strong>: Added glossary entry</p>
 </li>
 </ul>
 </div>
@@ -3483,7 +3665,7 @@ pre.rouge .gs {
 <div class="title">Other updates</div>
 <ul>
 <li>
-<p>Added a <a href="#_0_9">0-9</a> section and moved entries starting with a number to it.</p>
+<p>Added a <strong><a href="#_0_9">0-9</a></strong> section and moved entries starting with a number to it.</p>
 </li>
 <li>
 <p>Added links to the new Red&#160;Hat <a href="https://redhat-documentation.github.io/accessibility-guide/"><em>Getting started with accessibility for writers</em></a> guide.</p>
@@ -3493,22 +3675,22 @@ pre.rouge .gs {
 <div class="ulist">
 <ul>
 <li>
-<p>Moved <a href="#accessibility">Accessibility</a> to its own top-level section.</p>
+<p>Moved <strong><a href="#accessibility">Accessibility</a></strong> to its own top-level section.</p>
 </li>
 <li>
-<p>Moved the <em>Localization</em> guideline to a note in <a href="#conversational-style">Conversational style</a>.</p>
+<p>Moved the <em>Localization</em> guideline to a note in <strong><a href="#conversational-style">Conversational style</a></strong>.</p>
 </li>
 <li>
-<p>Moved <a href="#microcopy">Microcopy</a> to <a href="#graphical-interfaces">Graphical interfaces</a>.</p>
+<p>Moved <strong><a href="#microcopy">Microcopy</a></strong> to <strong><a href="#graphical-interfaces">Graphical interfaces</a></strong>.</p>
 </li>
 <li>
-<p>Moved <a href="#screenshots">Screenshots</a> to <a href="#graphical-interfaces">Graphical interfaces</a>.</p>
+<p>Moved <strong><a href="#screenshots">Screenshots</a></strong> to <strong><a href="#graphical-interfaces">Graphical interfaces</a></strong>.</p>
 </li>
 </ul>
 </div>
 </li>
 <li>
-<p>Renamed <em>Symbols</em> to <a href="#_special_characters">Special characters</a>.</p>
+<p>Renamed <em>Symbols</em> to <strong><a href="#_special_characters">Special characters</a></strong>.</p>
 </li>
 <li>
 <p>Updated the guide to use a new look and feel.</p>
@@ -3516,43 +3698,43 @@ pre.rouge .gs {
 </ul>
 </div>
 </div>
-<div class="sect3">
-<h4 id="may-2023"><a class="anchor" href="#may-2023"></a><a class="link" href="#may-2023">May 2023</a></h4>
+<div class="sect4">
+<h5 id="may-2023"><a class="anchor" href="#may-2023"></a><a class="link" href="#may-2023">May 2023</a></h5>
 <div class="ulist">
 <div class="title">Glossary entries</div>
 <ul>
 <li>
-<p><a href="#bit-64-arm">64-bit ARM</a>: Added glossary entry</p>
+<p><strong><a href="#bit-64-arm">64-bit ARM</a></strong>: Added glossary entry</p>
 </li>
 <li>
-<p><a href="#bit-64-x86">64-bit x86</a>: Added glossary entry</p>
+<p><strong><a href="#bit-64-x86">64-bit x86</a></strong>: Added glossary entry</p>
 </li>
 <li>
-<p><a href="#aarch64">AArch64</a>: Added glossary entry</p>
+<p><strong><a href="#aarch64">AArch64</a></strong>: Added glossary entry</p>
 </li>
 <li>
-<p><a href="#_aarch64">aarch64</a>: Added glossary entry</p>
+<p><strong><a href="#_aarch64">aarch64</a></strong>: Added glossary entry</p>
 </li>
 <li>
-<p><a href="#AMD64">AMD64</a>: Updated description</p>
+<p><strong><a href="#AMD64">AMD64</a></strong>: Updated description</p>
 </li>
 <li>
-<p><a href="#amd64">amd64</a>: Added glossary entry</p>
+<p><strong><a href="#amd64">amd64</a></strong>: Added glossary entry</p>
 </li>
 <li>
-<p><a href="#arm64">ARM64</a>: Added glossary entry</p>
+<p><strong><a href="#arm64">ARM64</a></strong>: Added glossary entry</p>
 </li>
 <li>
-<p><a href="#_arm64">arm64</a>: Added glossary entry</p>
+<p><strong><a href="#_arm64">arm64</a></strong>: Added glossary entry</p>
 </li>
 <li>
-<p><a href="#intel-64">Intel 64</a>: Added glossary entry</p>
+<p><strong><a href="#intel-64">Intel 64</a></strong>: Added glossary entry</p>
 </li>
 <li>
-<p><a href="#softirq">softirq</a>: Added glossary entry</p>
+<p><strong><a href="#softirq">softirq</a></strong>: Added glossary entry</p>
 </li>
 <li>
-<p><a href="#x86_64">x86_64</a>: Added glossary entry</p>
+<p><strong><a href="#x86_64">x86_64</a></strong>: Added glossary entry</p>
 </li>
 </ul>
 </div>
@@ -3560,36 +3742,36 @@ pre.rouge .gs {
 <div class="title">Style guidance</div>
 <ul>
 <li>
-<p><a href="#external-links">External links</a>: Updated to clarify what an external link is</p>
+<p><strong><a href="#external-links">External links</a></strong>: Updated to clarify what an external link is</p>
 </li>
 </ul>
 </div>
 </div>
-<div class="sect3">
-<h4 id="april-2023"><a class="anchor" href="#april-2023"></a><a class="link" href="#april-2023">April 2023</a></h4>
+<div class="sect4">
+<h5 id="april-2023"><a class="anchor" href="#april-2023"></a><a class="link" href="#april-2023">April 2023</a></h5>
 <div class="ulist">
 <div class="title">Glossary entries</div>
 <ul>
 <li>
-<p><a href="#apache-web-server">Apache web server</a>: Updated to remove extraneous IdM definitions</p>
+<p><strong><a href="#apache-web-server">Apache web server</a></strong>: Updated to remove extraneous IdM definitions</p>
 </li>
 <li>
-<p><a href="#certificate-authority">certificate authority</a>: Renamed from "certificate authorities", and updated to remove extraneous IdM definitions</p>
+<p><strong><a href="#certificate-authority">certificate authority</a></strong>: Renamed from "certificate authorities", and updated to remove extraneous IdM definitions</p>
 </li>
 <li>
-<p><a href="#domain-controller">domain controller</a>: Updated to remove extraneous IdM definitions</p>
+<p><strong><a href="#domain-controller">domain controller</a></strong>: Updated to remove extraneous IdM definitions</p>
 </li>
 <li>
-<p><a href="#kerberos-protocol">Kerberos protocol</a>: Updated to remove extraneous IdM definitions</p>
+<p><strong><a href="#kerberos-protocol">Kerberos protocol</a></strong>: Updated to remove extraneous IdM definitions</p>
 </li>
 <li>
-<p><a href="#kerberos-realm">Kerberos realm</a>: Updated to remove extraneous IdM definitions</p>
+<p><strong><a href="#kerberos-realm">Kerberos realm</a></strong>: Updated to remove extraneous IdM definitions</p>
 </li>
 <li>
-<p><a href="#posix-attributes">POSIX attributes</a>: Updated to remove extraneous IdM definitions</p>
+<p><strong><a href="#posix-attributes">POSIX attributes</a></strong>: Updated to remove extraneous IdM definitions</p>
 </li>
 <li>
-<p><a href="#web-server">web server</a>: Updated to remove extraneous IdM definitions</p>
+<p><strong><a href="#web-server">web server</a></strong>: Updated to remove extraneous IdM definitions</p>
 </li>
 </ul>
 </div>
@@ -3597,21 +3779,21 @@ pre.rouge .gs {
 <div class="title">Other updates</div>
 <ul>
 <li>
-<p>Added a <a href="#non-breaking-spaces">non-breaking space</a> between "Red" and "Hat" in each occurrence within the guide.</p>
+<p>Added a <strong><a href="#non-breaking-spaces">non-breaking space</a></strong> between "Red" and "Hat" in each occurrence within the guide.</p>
 </li>
 <li>
-<p><a href="#shortdesc">Short descriptions</a>: Added guidance on writing <em>short descriptions</em> (also known as <em>abstracts</em>).</p>
+<p><strong><a href="#shortdesc">Short descriptions</a></strong>: Added guidance on writing <em>short descriptions</em> (also known as <em>abstracts</em>).</p>
 </li>
 </ul>
 </div>
 </div>
-<div class="sect3">
-<h4 id="march-2023"><a class="anchor" href="#march-2023"></a><a class="link" href="#march-2023">March 2023</a></h4>
+<div class="sect4">
+<h5 id="march-2023"><a class="anchor" href="#march-2023"></a><a class="link" href="#march-2023">March 2023</a></h5>
 <div class="ulist">
 <div class="title">Glossary entries</div>
 <ul>
 <li>
-<p><a href="#devfile">devfile</a>: Added glossary entry</p>
+<p><strong><a href="#devfile">devfile</a></strong>: Added glossary entry</p>
 </li>
 </ul>
 </div>
@@ -3624,28 +3806,28 @@ pre.rouge .gs {
 </ul>
 </div>
 </div>
-<div class="sect3">
-<h4 id="february-2023"><a class="anchor" href="#february-2023"></a><a class="link" href="#february-2023">February 2023</a></h4>
+<div class="sect4">
+<h5 id="february-2023"><a class="anchor" href="#february-2023"></a><a class="link" href="#february-2023">February 2023</a></h5>
 <div class="ulist">
 <div class="title">Glossary entries</div>
 <ul>
 <li>
-<p><a href="#foreman">Foreman</a>: Updated to remove outdated guidance</p>
+<p><strong><a href="#foreman">Foreman</a></strong>: Updated to remove outdated guidance</p>
 </li>
 <li>
-<p><a href="#session-persistence">session persistence</a>: Added glossary entry</p>
+<p><strong><a href="#session-persistence">session persistence</a></strong>: Added glossary entry</p>
 </li>
 <li>
-<p><a href="#sticky-bit">sticky bit</a>: Added glossary entry</p>
+<p><strong><a href="#sticky-bit">sticky bit</a></strong>: Added glossary entry</p>
 </li>
 <li>
-<p><a href="#sticky-session">sticky session</a>: Added glossary entry</p>
+<p><strong><a href="#sticky-session">sticky session</a></strong>: Added glossary entry</p>
 </li>
 <li>
-<p><a href="#want">want</a>: Updated to "use with caution"</p>
+<p><strong><a href="#want">want</a></strong>: Updated to "use with caution"</p>
 </li>
 <li>
-<p><a href="#we-suggest">we suggest</a>: Updated to remove outdated guidance</p>
+<p><strong><a href="#we-suggest">we suggest</a></strong>: Updated to remove outdated guidance</p>
 </li>
 </ul>
 </div>
@@ -3653,33 +3835,33 @@ pre.rouge .gs {
 <div class="title">Other updates</div>
 <ul>
 <li>
-<p>Added a <a href="#whats-new">What&#8217;s new</a> section to list what has changed with this guide each month.</p>
+<p>Added a <strong><a href="#whats-new">What&#8217;s new</a></strong> section to list what has changed with this guide each month.</p>
 </li>
 </ul>
 </div>
 </div>
-<div class="sect3">
-<h4 id="january-2023"><a class="anchor" href="#january-2023"></a><a class="link" href="#january-2023">January 2023</a></h4>
+<div class="sect4">
+<h5 id="january-2023"><a class="anchor" href="#january-2023"></a><a class="link" href="#january-2023">January 2023</a></h5>
 <div class="ulist">
 <div class="title">Glossary entries</div>
 <ul>
 <li>
-<p><a href="#assisted-installer">Assisted Installer</a>: Added glossary entry</p>
+<p><strong><a href="#assisted-installer">Assisted Installer</a></strong>: Added glossary entry</p>
 </li>
 <li>
-<p><a href="#basic-http-authentication">Basic HTTP authentication</a>: Added glossary entry</p>
+<p><strong><a href="#basic-http-authentication">Basic HTTP authentication</a></strong>: Added glossary entry</p>
 </li>
 <li>
-<p><a href="#bytecode">bytecode</a>: Added glossary entry</p>
+<p><strong><a href="#bytecode">bytecode</a></strong>: Added glossary entry</p>
 </li>
 <li>
-<p><a href="#developer-preview">Developer Preview</a>: Added glossary entry</p>
+<p><strong><a href="#developer-preview">Developer Preview</a></strong>: Added glossary entry</p>
 </li>
 <li>
-<p><a href="#kubernetes">Kubernetes</a>: Added glossary entry</p>
+<p><strong><a href="#kubernetes">Kubernetes</a></strong>: Added glossary entry</p>
 </li>
 <li>
-<p>through: Removed glossary entry in favor of following the <em>IBM Style</em> guidance on number ranges</p>
+<p><strong>through</strong>: Removed glossary entry in favor of following the <em>IBM Style</em> guidance on number ranges</p>
 </li>
 </ul>
 </div>
@@ -3687,12 +3869,13 @@ pre.rouge .gs {
 <div class="title">Style guidance</div>
 <ul>
 <li>
-<p><a href="#developer-preview-guidance">Developer Preview</a>: Added guidance on documenting Developer Preview features</p>
+<p><strong><a href="#developer-preview-guidance">Developer Preview</a></strong>: Added guidance on documenting Developer Preview features</p>
 </li>
 <li>
-<p><a href="#non-breaking-spaces">Non-breaking spaces</a>: Added guidance on using a non-breaking space between "Red" and "Hat"</p>
+<p><strong><a href="#non-breaking-spaces">Non-breaking spaces</a></strong>: Added guidance on using a non-breaking space between "Red" and "Hat"</p>
 </li>
 </ul>
+</div>
 </div>
 </div>
 </div>
@@ -3984,12 +4167,105 @@ Therefore, be aware of this potential issue, and, when possible, avoid writing s
 <div class="sect2">
 <h3 id="formatting"><a class="anchor" href="#formatting"></a><a class="link" href="#formatting">Formatting</a></h3>
 <div class="sect3">
+<h4 id="commands-in-code-blocks"><a class="anchor" href="#commands-in-code-blocks"></a><a class="link" href="#commands-in-code-blocks">Commands in code blocks</a></h4>
+<div class="paragraph">
+<p>Use a single command per code block for each procedure step. This approach helps with readability and makes it possible for the copy button in code blocks to work correctly.</p>
+</div>
+<div class="paragraph">
+<p>By default, use bold formatting for commands in code blocks to visually distinguish the commands from their lead-in sentences and from the command prompts and example outputs. For consistency, use bold formatting for commands even when no command output is shown in the code block.</p>
+</div>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-note" title="Note"></i>
+</td>
+<td class="content">
+<div class="paragraph">
+<p>To apply formatting in a code block, you must use the <code>quotes</code> <a href="https://docs.asciidoctor.org/asciidoc/latest/subs/apply-subs-to-blocks/">AsciiDoc substitution</a>.</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div class="literalblock">
+<div class="title">Example AsciiDoc: A command and its output in a code block</div>
+<div class="content">
+<pre>Verify that the `libvirt` default network is active and configured to start automatically:</pre>
+</div>
+</div>
+<div class="literalblock">
+<div class="content">
+<pre>[subs="+quotes"]
+----
+# *virsh net-list --all*
+Name      State    Autostart   Persistent
+--------------------------------------------
+default   active   yes         yes
+----</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>This example renders as follows in HTML:</p>
+</div>
+<div class="exampleblock">
+<div class="content">
+<div class="paragraph">
+<p>Verify that the <code>libvirt</code> default network is active and configured to start automatically:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre># <strong>virsh net-list --all</strong>
+Name      State    Autostart   Persistent
+--------------------------------------------
+default   active   yes         yes</pre>
+</div>
+</div>
+</div>
+</div>
+<div class="paragraph">
+<p>For commands and command outputs in code blocks, observe the correct markup for user-replaced values, as described in <a href="#user-replaced-values">User-replaced values</a> and <a href="#user-replaced-values-xml">User-replaced values for XML</a>.</p>
+</div>
+</div>
+<div class="sect3">
 <h4 id="date-formats"><a class="anchor" href="#date-formats"></a><a class="link" href="#date-formats">Date formats</a></h4>
 <div class="paragraph">
 <p>Follow the <em>IBM Style</em> guide advice of <em>day Month year</em> for date formats, for example, 3 October 2019.</p>
 </div>
 <div class="paragraph">
 <p>When the format <em>day Month year</em> causes a presentation or clarity issue, use <em>Month day, year</em> (for example, October 3, 2019) instead.</p>
+</div>
+</div>
+<div class="sect3">
+<h4 id="man-pages"><a class="anchor" href="#man-pages"></a><a class="link" href="#man-pages">Man page references</a></h4>
+<div class="paragraph">
+<p>When referencing a man page in an "Additional resources" section, use the following format:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p><code><em>&lt;man_page_name&gt;</em>(<em>&lt;section_number&gt;</em>)</code> man page on your system</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>Do not link to a website that contains the man page information. The contents of a man page might vary between systems or package versions, so users must run the <code>man</code> command on the target system to view the system-specific information for the named command or utility.</p>
+</div>
+<div class="ulist">
+<div class="title">Example: Single man page</div>
+<ul>
+<li>
+<p><code>sudoers(5)</code> man page on your system</p>
+</li>
+</ul>
+</div>
+<div class="ulist">
+<div class="title">Example: Multiple man pages</div>
+<ul>
+<li>
+<p><code>nmcli(1)</code>, <code>nm-settings(5)</code>, and <code>sudoers(5)</code> man pages on your system</p>
+</li>
+</ul>
 </div>
 </div>
 <div class="sect3">
@@ -4008,7 +4284,7 @@ A <em>non-breaking space</em> prevents the company name from splitting across a 
 <div class="sect3">
 <h4 id="_product_names_and_version_references"><a class="anchor" href="#_product_names_and_version_references"></a><a class="link" href="#_product_names_and_version_references">Product names and version references</a></h4>
 <div class="paragraph">
-<p>Whenever you refer to the name of your product in full, or in its abbreviated form, or when you refer to the major and minor version of your product, avoid using hard-coded references and use attributes instead.
+<p>Use attributes instead of hard-coded references when you refer to the name of your product in full, to its abbreviated form, or to its major or minor version.
 Only use hard-coded version references if the version that you are referring to in a particular case never changes.</p>
 </div>
 <div class="sect4">
@@ -4193,7 +4469,7 @@ For example, you might combine existing product name attributes to create compou
 </div>
 </div>
 <div class="paragraph">
-<p>This renders as:</p>
+<p>This example renders as follows in HTML:</p>
 </div>
 <div class="exampleblock">
 <div class="content">
@@ -4210,18 +4486,18 @@ For example, you might combine existing product name attributes to create compou
 <div class="content">
 <pre>[subs="+quotes"]
 ----
-$ oc describe node __&lt;node_name&gt;__
+$ *oc describe node __&lt;node_name&gt;__*
 ----</pre>
 </div>
 </div>
 <div class="paragraph">
-<p>This renders as:</p>
+<p>This example renders as follows in HTML:</p>
 </div>
 <div class="exampleblock">
 <div class="content">
 <div class="listingblock">
 <div class="content">
-<pre>$ oc describe node <em>&lt;node_name&gt;</em></pre>
+<pre>$ <strong>oc describe node <em>&lt;node_name&gt;</em></strong></pre>
 </div>
 </div>
 </div>
@@ -4239,7 +4515,7 @@ connection.interface-name:  enp7s0
 </div>
 </div>
 <div class="paragraph">
-<p>This renders as:</p>
+<p>This example renders as follows in HTML:</p>
 </div>
 <div class="exampleblock">
 <div class="content">
@@ -4291,7 +4567,7 @@ connection.interface-name:  enp7s0</pre>
 </div>
 </div>
 <div class="paragraph">
-<p>This renders as:</p>
+<p>This example renders as follows in HTML:</p>
 </div>
 <div class="exampleblock">
 <div class="content">
@@ -4312,7 +4588,7 @@ connection.interface-name:  enp7s0</pre>
 </div>
 </div>
 <div class="paragraph">
-<p>This renders as:</p>
+<p>This example renders as follows in HTML:</p>
 </div>
 <div class="exampleblock">
 <div class="content">
@@ -4570,10 +4846,10 @@ Text for note.
 <div class="ulist">
 <ul>
 <li>
-<p>Run <code>su -</code> to switch to the root user account.</p>
+<p>Preface the command with <code>sudo</code> to temporarily change their current privileges.</p>
 </li>
 <li>
-<p>Preface the command with <code>sudo</code> to temporarily change their current privileges.</p>
+<p>Run <code>su -</code> to switch to the root user account.</p>
 </li>
 </ul>
 </div>
@@ -4582,6 +4858,9 @@ Text for note.
 </div>
 <div class="ulist">
 <ul>
+<li>
+<p>If a command requires a temporary switch to root privileges, use the <code>sudo</code> command at the beginning of the sample command syntax rather than the <code>su -</code> command.</p>
+</li>
 <li>
 <p>If you include a shell prompt in a sample command, always show the correct prompt for a regular user (<code>$</code>) or a user with root privileges (<code>#</code>).</p>
 <div class="admonitionblock note">
@@ -4601,10 +4880,22 @@ If you include a shell prompt to indicate that a user with root privileges must 
 </div>
 </li>
 <li>
-<p>If a command requires a temporary switch to root privileges, use <code>sudo</code> at the beginning of the sample command syntax. If the sample command includes a shell prompt together with <code>sudo</code>, the prompt should remain <code>$</code> and not be changed to <code>#</code>.</p>
+<p>When a sample command includes <code>sudo</code>, use the <code>$</code> prompt, not <code>#</code>, as shown in the following example:</p>
+<div class="listingblock">
+<div class="content">
+<pre class="rouge highlight"><code data-lang="terminal"><span class="gp">$</span><span class="w"> </span><span class="nb">sudo </span>systemctl start firewalld</code></pre>
+</div>
+</div>
 </li>
 <li>
-<p>If multiple commands in a procedure require root privileges, add introductory content to tell the user what to do. For example, "The commands in this procedure require root privileges to run. Either run <code>su -</code> to switch to the root user or preface the commands with <code>sudo</code>."</p>
+<p>If multiple commands in a procedure require root privileges, add introductory content to tell the user about the requirement.
+The following example shows one way that you could integrate a requirement for root access into the introduction for a procedure:</p>
+<div class="listingblock">
+<div class="title">Example AsciiDoc</div>
+<div class="content">
+<pre>Some tasks in this procedure require root privileges, which you can get temporarily by prefixing commands with `sudo`.</pre>
+</div>
+</div>
 </li>
 </ul>
 </div>
@@ -4732,7 +5023,7 @@ collections:
 <div class="sect2">
 <h3 id="graphical-interfaces"><a class="anchor" href="#graphical-interfaces"></a><a class="link" href="#graphical-interfaces">Graphical interfaces</a></h3>
 <div class="paragraph">
-<p>For more detailed guidance on how to document user interface (UI) elements, see <a href="https://www.patternfly.org/v4/ux-writing/about">PatternFly</a>.</p>
+<p>For more detailed guidance on how to document user interface (UI) elements, see <a href="https://www.patternfly.org/ux-writing/about">PatternFly</a>.</p>
 </div>
 <div class="sect3">
 <h4 id="microcopy"><a class="anchor" href="#microcopy"></a><a class="link" href="#microcopy">Microcopy</a></h4>
@@ -4740,7 +5031,7 @@ collections:
 <p>The words in a user interface, commonly referred to as "UX copy" or "microcopy", are just as important as the components or layouts. Microcopy is another element of design, and it can drive better UX decisions and guide users to succeed. Red&#160;Hat cloud services are based on PatternFly, an open source design system created to enable consistency and usability across a wide range of applications and use cases.</p>
 </div>
 <div class="paragraph">
-<p>See <a href="https://www.patternfly.org/v4/ux-writing/about">UX writing</a> in the PatternFly content style guide for comprehensive guidelines about documenting user interfaces.</p>
+<p>See <a href="https://www.patternfly.org/ux-writing/about">UX writing</a> in the PatternFly content style guide for comprehensive guidelines about documenting user interfaces.</p>
 </div>
 </div>
 <div class="sect3">
@@ -4820,10 +5111,10 @@ In these situations, follow these guidelines:</p>
 </td>
 <td class="content">
 <div class="paragraph">
-<p>One exception to this rule applies to deprecation notices, which might have to specify a future release in which a feature or functions will be removed.</p>
+<p>One exception to this rule applies to deprecation and removal notices, which might have to specify a future release in which a feature or functions will be deprecated and removed.</p>
 </div>
 <div class="paragraph">
-<p>See <a href="#release-notes">Release notes</a> for guidelines about deprecation notices.</p>
+<p>See <a href="#deprecated-and-removed-features">Deprecated and removed features</a> for guidelines about deprecation and removal notices.</p>
 </div>
 </td>
 </tr>
@@ -5227,9 +5518,10 @@ Workaround: Rerun the deployment command, or use a local container image registr
 </div>
 </div>
 <div class="sect4">
-<h5 id="_deprecated_functionality"><a class="anchor" href="#_deprecated_functionality"></a><a class="link" href="#_deprecated_functionality">Deprecated functionality</a></h5>
+<h5 id="deprecated-and-removed-features"><a class="anchor" href="#deprecated-and-removed-features"></a><a class="link" href="#deprecated-and-removed-features">Deprecated and removed features</a></h5>
 <div class="paragraph">
-<p>Warn users about the following deprecation stages:</p>
+<p>Documenting the deprecation and removal stages of software features requires careful and precise communication.
+Highlight the following stages to users:</p>
 </div>
 <div class="ulist">
 <ul>
@@ -5248,28 +5540,26 @@ Workaround: Rerun the deployment command, or use a local container image registr
 </ul>
 </div>
 <div class="paragraph">
-<p>If available, inform users of alternative capabilities and workarounds.</p>
+<p>When alternatives to or workarounds for deprecated features are available, clearly inform users about them.</p>
 </div>
 <div class="sect5">
-<h6 id="_deprecation_notice"><a class="anchor" href="#_deprecation_notice"></a><a class="link" href="#_deprecation_notice">Deprecation notice</a></h6>
+<h6 id="_referring_to_releases_in_deprecation_and_removal_notices"><a class="anchor" href="#_referring_to_releases_in_deprecation_and_removal_notices"></a><a class="link" href="#_referring_to_releases_in_deprecation_and_removal_notices">Referring to releases in deprecation and removal notices</a></h6>
+<div class="paragraph">
+<p>In general, avoid definitive statements about specific releases, release versions, or dates for deprecation or removal.
+When possible, use the phrase "is planned for a future release" because it accounts for the possibility of changes to the planned deprecation or removal timeline.</p>
+</div>
+<div class="paragraph">
+<p>If you must be specific about a release, use provisional language to reflect the fluid nature of development plans and to acknowledge the potential for plans to change.
+For example, if you must cite a specific version, rather than stating "&lt;x&gt; will be deprecated in version 4.16", use "It is currently planned for &lt;x&gt; to be deprecated in version 4.16".
+Alternatively, if you must cite a deprecation or removal timeline and you want to avoid citing a specific release number, use a phrase such as "&lt;x&gt; is planned to be deprecated in the next release".</p>
+</div>
+</div>
+<div class="sect5">
+<h6 id="_deprecation_notice_template"><a class="anchor" href="#_deprecation_notice_template"></a><a class="link" href="#_deprecation_notice_template">Deprecation notice template</a></h6>
 <div class="listingblock">
 <div class="content">
 <pre>In <em>&lt;product_name&gt; &lt;release&gt;</em>, <em>&lt;name_of_capability_or_feature&gt;</em> is deprecated and is planned to be removed in the <em>&lt;deprecation_timeline&gt;</em>. Red{nbsp}Hat will provide bug fixes and support for this feature during the current release lifecycle, but this feature will no longer receive enhancements and will be removed. As an alternative to <em>&lt;name_of_capability_or_feature&gt;</em>, you can use <em>&lt;alternative_capability_or_feature_if_available&gt;</em> instead.</pre>
 </div>
-</div>
-<div class="admonitionblock note">
-<table>
-<tr>
-<td class="icon">
-<i class="fa icon-note" title="Note"></i>
-</td>
-<td class="content">
-<div class="paragraph">
-<p>When citing deprecation timelines, refer to specific releases, such as <em>the next release</em>, only if that timeline is known to be accurate. Otherwise, use the phrase <em>a future release</em> because it accounts for the possibility of changes to the planned deprecation timeline.</p>
-</div>
-</td>
-</tr>
-</table>
 </div>
 <div class="listingblock">
 <div class="title">Example deprecation notice doc text</div>
@@ -5279,7 +5569,7 @@ Workaround: Rerun the deployment command, or use a local container image registr
 </div>
 </div>
 <div class="sect5">
-<h6 id="_removal_notice"><a class="anchor" href="#_removal_notice"></a><a class="link" href="#_removal_notice">Removal notice</a></h6>
+<h6 id="_removal_notice_template"><a class="anchor" href="#_removal_notice_template"></a><a class="link" href="#_removal_notice_template">Removal notice template</a></h6>
 <div class="listingblock">
 <div class="content">
 <pre>In <em>&lt;product_name&gt; &lt;current_release&gt;</em>, <em>&lt;name of capability or feature&gt;</em> has been removed. Bug fixes and support are provided only through the end of the <em>&lt;previous_release&gt;</em> lifecycle. As an alternative to <em>&lt;name_of_capability_or_feature&gt;</em>, you can use <em>&lt;alternative_capability_or_feature_if_available&gt;</em> instead.</pre>
@@ -5550,7 +5840,7 @@ Avoid indicating direction, such as left, right, above and below, since these ha
 <div class="sect4">
 <h5 id="access-control-instruction"><a class="anchor" href="#access-control-instruction"></a><a class="link" href="#access-control-instruction"><span class="image"><img src="images/yes.png" alt="yes"></span> access control instruction (noun)</a></h5>
 <div class="paragraph">
-<p><strong>Description</strong>: In an LDAP directory, an <em>access control instruction (ACI)</em> grants or denies access to entries or attributes. Use "access control instruction" on the first usage and then the abbreviation "ACI" subsequently.</p>
+<p><strong>Description</strong>: In an LDAP directory, an <em>access control instruction (ACI)</em> grants or denies access to entries or attributes. Write "access control instruction (ACI)" on first use and "ACI" after that.</p>
 </div>
 <div class="paragraph">
 <p><strong>Use it</strong>: yes</p>
@@ -5580,7 +5870,7 @@ Avoid indicating direction, such as left, right, above and below, since these ha
 <div class="sect4">
 <h5 id="ack"><a class="anchor" href="#ack"></a><a class="link" href="#ack"><span class="image"><img src="images/no.png" alt="no"></span> ACK (noun)</a></h5>
 <div class="paragraph">
-<p><strong>Description</strong>: Do not use <em>ACK</em> as acronym for "acknowledgement" in general. When writing about the acknowledgement flag ("ACK flag") in a TCP packet, use "ACK flag".</p>
+<p><strong>Description</strong>: Do not use <em>ACK</em> as an abbreviation for "acknowledgment". When writing about the acknowledgment flag ("ACK flag") in a TCP packet, use "ACK flag".</p>
 </div>
 <div class="paragraph">
 <p><strong>Use it</strong>: no</p>
@@ -5595,7 +5885,7 @@ Avoid indicating direction, such as left, right, above and below, since these ha
 <div class="sect4">
 <h5 id="ack-flag"><a class="anchor" href="#ack-flag"></a><a class="link" href="#ack-flag"><span class="image"><img src="images/yes.png" alt="yes"></span> ACK flag (noun)</a></h5>
 <div class="paragraph">
-<p><strong>Description</strong>: The acknowledgement flag (<em>ACK flag</em>) in a TCP packet indicates that the acknowledgement field in the packet is relevant. Do not expand on first usage and write as shown: "ACK flag".</p>
+<p><strong>Description</strong>: The acknowledgment flag (<em>ACK flag</em>) in a TCP packet indicates that the acknowledgment field in the packet is relevant. Do not expand the abbreviation on first use. Write "ACK flag".</p>
 </div>
 <div class="paragraph">
 <p><strong>Use it</strong>: yes</p>
@@ -5695,24 +5985,6 @@ Avoid indicating direction, such as left, right, above and below, since these ha
 </div>
 <div class="paragraph">
 <p><strong>See also</strong>: <a href="#jboss-eap-messaging">JBoss EAP messaging</a></p>
-</div>
-</div>
-<div class="sect4">
-<h5 id="administration-portal"><a class="anchor" href="#administration-portal"></a><a class="link" href="#administration-portal"><span class="image"><img src="images/yes.png" alt="yes"></span> Administration Portal (noun)</a></h5>
-<div class="paragraph">
-<p><strong>Description</strong>: In Red Hat Virtualization, the <em>Administration Portal</em> is a graphical user interface provided by the Red Hat Virtualization Manager. It can be used to manage all the administrative resources in the environment and can be accessed by any supported web browser.</p>
-</div>
-<div class="paragraph">
-<p>Always use "Administration Portal", including the capital P. When other departments (or upstream) use "webadmin" or "Administrator portal", this is what they are referring to.</p>
-</div>
-<div class="paragraph">
-<p><strong>Use it</strong>: yes</p>
-</div>
-<div class="paragraph vale-ignore">
-<p><strong>Incorrect forms</strong>: Admin Portal, webadmin, webadmin portal, Administrator Portal, Administration portal</p>
-</div>
-<div class="paragraph">
-<p><strong>See also</strong>:</p>
 </div>
 </div>
 <div class="sect4">
@@ -6043,21 +6315,6 @@ An Ansible task is a set of instructions to achieve a state defined, in its broa
 </div>
 <div class="paragraph vale-ignore">
 <p><strong>Incorrect forms</strong>: app.</p>
-</div>
-<div class="paragraph">
-<p><strong>See also</strong>:</p>
-</div>
-</div>
-<div class="sect4">
-<h5 id="appliance-console"><a class="anchor" href="#appliance-console"></a><a class="link" href="#appliance-console"><span class="image"><img src="images/yes.png" alt="yes"></span> Appliance console (noun)</a></h5>
-<div class="paragraph">
-<p><strong>Description</strong>: In Red Hat CloudForms, the <em>appliance console</em> is a command-line based interface built into the Red Hat CloudForms appliance used for setup and configuration.</p>
-</div>
-<div class="paragraph">
-<p><strong>Use it</strong>: yes</p>
-</div>
-<div class="paragraph vale-ignore">
-<p><strong>Incorrect forms</strong>: Appliance Console</p>
 </div>
 <div class="paragraph">
 <p><strong>See also</strong>:</p>
@@ -6572,7 +6829,7 @@ An Ansible task is a set of instructions to achieve a state defined, in its broa
 <div class="paragraph">
 <p><strong>Description</strong>: <em>Basic HTTP authentication</em>, or <em>Basic authentication</em>, is an authorization scheme that uses HTTP to send login credentials encoded in Base64.
 This scheme is often used by applications to authenticate with servers, services, and API endpoints.
-On first use, use "Basic HTTP authentication"; thereafter, use "Basic authentication".</p>
+Write "Basic HTTP authentication" on first use and "Basic authentication" after that.</p>
 </div>
 <div class="paragraph">
 <p><strong>Use it</strong>: yes</p>
@@ -6602,7 +6859,7 @@ On first use, use "Basic HTTP authentication"; thereafter, use "Basic authentica
 <div class="sect4">
 <h5 id="batch-jberet"><a class="anchor" href="#batch-jberet"></a><a class="link" href="#batch-jberet"><span class="image"><img src="images/yes.png" alt="yes"></span> batch-jberet subsystem (noun)</a></h5>
 <div class="paragraph">
-<p><strong>Description</strong>: In Red Hat JBoss Enterprise Application Platform, the <em>batch-jberet subsystem</em> is used to configure and manage batch jobs. In general text, write in lowercase as two words separated by a hyphen. Use "Batch subsystem" when referring to the <code>batch-jberet</code> subsystem in titles and headings.</p>
+<p><strong>Description</strong>: In Red Hat JBoss Enterprise Application Platform, the <em>batch-jberet subsystem</em> is used to configure and manage batch jobs. In general text, write in lowercase as two words separated by a hyphen. Write "Batch subsystem" when referring to the <code>batch-jberet</code> subsystem in titles and headings.</p>
 </div>
 <div class="paragraph">
 <p><strong>Use it</strong>: yes</p>
@@ -6617,7 +6874,7 @@ On first use, use "Basic HTTP authentication"; thereafter, use "Basic authentica
 <div class="sect4">
 <h5 id="bean-validation"><a class="anchor" href="#bean-validation"></a><a class="link" href="#bean-validation"><span class="image"><img src="images/yes.png" alt="yes"></span> bean-validation subsystem (noun)</a></h5>
 <div class="paragraph">
-<p><strong>Description</strong>: In Red Hat JBoss Enterprise Application Platform, the <em>bean-validation subsystem</em> is used to configure validation of Java bean object data. In general text, write in lowercase as two words separated by a hyphen. Use "Bean Validation subsystem" when referring to the <code>bean-validation</code> subsystem in titles and headings.</p>
+<p><strong>Description</strong>: In Red Hat JBoss Enterprise Application Platform, the <em>bean-validation subsystem</em> is used to configure validation of Java bean object data. In general text, write in lowercase as two words separated by a hyphen. Write "Bean Validation subsystem" when referring to the <code>bean-validation</code> subsystem in titles and headings.</p>
 </div>
 <div class="paragraph">
 <p><strong>Use it</strong>: yes</p>
@@ -6680,7 +6937,7 @@ On first use, use "Basic HTTP authentication"; thereafter, use "Basic authentica
 <div class="sect4">
 <h5 id="bind"><a class="anchor" href="#bind"></a><a class="link" href="#bind"><span class="image"><img src="images/yes.png" alt="yes"></span> BIND (noun)</a></h5>
 <div class="paragraph">
-<p><strong>Description</strong>: Use "BIND" when referring to the DNS software.</p>
+<p><strong>Description</strong>: Write "BIND" when referring to the DNS software.</p>
 </div>
 <div class="paragraph">
 <p><strong>Use it</strong>: yes</p>
@@ -6710,10 +6967,10 @@ On first use, use "Basic HTTP authentication"; thereafter, use "Basic authentica
 <div class="sect4">
 <h5 id="bios"><a class="anchor" href="#bios"></a><a class="link" href="#bios"><span class="image"><img src="images/caution.png" alt="with caution"></span> BIOS (noun)</a></h5>
 <div class="paragraph">
-<p><strong>Description</strong>: <em>BIOS</em> is an abbreviation for "Basic Input/Output System". The plural form is "BIOSes". BIOS is the specific name for the motherboard firmware that provides runtime services for operating systems in older PCs. Modern computers use a different kind of firmware, called either EFI or UEFI.</p>
+<p><strong>Description</strong>: <em>BIOS</em> is an abbreviation for "Basic Input/Output System". The plural form is "BIOSes". BIOS is the specific name for the system board firmware that provides runtime services for operating systems in older PCs. Modern computers use a different kind of firmware, called either EFI or UEFI.</p>
 </div>
 <div class="paragraph">
-<p>Do not use "BIOS" as a generic term to refer to computer firmware. Use "firmware" or a specific phrase such as "UEFI firmware" or "legacy BIOS" instead.</p>
+<p>Do not use "BIOS" as a generic term for computer firmware. Instead, write "firmware" or a specific phrase such as "UEFI firmware" or "legacy BIOS".</p>
 </div>
 <div class="paragraph">
 <p><strong>Use it</strong>: with caution</p>
@@ -7073,7 +7330,7 @@ On first use, use "Basic HTTP authentication"; thereafter, use "Basic authentica
 <div class="sect4">
 <h5 id="built-in"><a class="anchor" href="#built-in"></a><a class="link" href="#built-in"><span class="image"><img src="images/yes.png" alt="yes"></span> built-in (adjective)</a></h5>
 <div class="paragraph">
-<p><strong>Description</strong>: Use "built-in" when referring to something that is included or incorporated into a larger unit.</p>
+<p><strong>Description</strong>: Write "built-in" when referring to something that is included or incorporated into a larger unit.</p>
 </div>
 <div class="paragraph">
 <p><strong>Use it</strong>: yes</p>
@@ -7241,7 +7498,7 @@ On first use, use "Basic HTTP authentication"; thereafter, use "Basic authentica
 <div class="sect4">
 <h5 id="capsule-server"><a class="anchor" href="#capsule-server"></a><a class="link" href="#capsule-server"><span class="image"><img src="images/yes.png" alt="yes"></span> Capsule Server (noun)</a></h5>
 <div class="paragraph">
-<p><strong>Description</strong>: In Red Hat Satellite, <em>Capsule Server</em> is an additional server that acts as a proxy to the Satellite and can provide services such as DHCP, DNS, and TFTP. Use the two-word name on first use in a section; the single term 'Capsule' is acceptable thereafter.</p>
+<p><strong>Description</strong>: In Red Hat Satellite, <em>Capsule Server</em> is an additional server that acts as a proxy to the Satellite and can provide services such as DHCP, DNS, and TFTP. Write "Capsule Server" on first use. "Capsule" is acceptable after that.</p>
 </div>
 <div class="paragraph">
 <p><strong>Use it</strong>: yes</p>
@@ -7556,7 +7813,7 @@ On first use, use "Basic HTTP authentication"; thereafter, use "Basic authentica
 <div class="sect4">
 <h5 id="cidr"><a class="anchor" href="#cidr"></a><a class="link" href="#cidr"><span class="image"><img src="images/yes.png" alt="yes"></span> CIDR (noun)</a></h5>
 <div class="paragraph">
-<p><strong>Description</strong>: Classless Inter-Domain Routing (<em>CIDR</em>) is a method to efficiently allocate IP addresses and for IP routing. CIDR replaces the classful network addressing architecture. In CIDR notation, IP addresses contain a suffix that represents the number of bits of the prefix. Expand on first usage, and write it as shown: "Classless Inter-Domain Routing".</p>
+<p><strong>Description</strong>: Classless Inter-Domain Routing (<em>CIDR</em>) is a method to efficiently allocate IP addresses and for IP routing. CIDR replaces the classful network addressing architecture. In CIDR notation, IP addresses contain a suffix that represents the number of bits of the prefix. Write "Classless Inter-Domain Routing (CIDR)" on first use and "CIDR" after that.</p>
 </div>
 <div class="paragraph">
 <p><strong>Use it</strong>: yes</p>
@@ -7730,7 +7987,7 @@ On first use, use "Basic HTTP authentication"; thereafter, use "Basic authentica
 <p><strong>Incorrect forms</strong>:</p>
 </div>
 <div class="paragraph">
-<p><strong>See also</strong>: <a href="#red-hat-enterprise-linux-host">Red Hat Enterprise Linux host</a>, <a href="#red-hat-virtualization-host">Red Hat Virtualization Host</a></p>
+<p><strong>See also</strong>:</p>
 </div>
 </div>
 <div class="sect4">
@@ -7779,21 +8036,6 @@ On first use, use "Basic HTTP authentication"; thereafter, use "Basic authentica
 </div>
 </div>
 <div class="sect4">
-<h5 id="collect"><a class="anchor" href="#collect"></a><a class="link" href="#collect"><span class="image"><img src="images/yes.png" alt="yes"></span> collect (verb)</a></h5>
-<div class="paragraph">
-<p><strong>Description</strong>: In Red Hat Virtualization, use "collect" when discussing the log collector (<code>ovirt-log-collector</code>). Do not use "gather", which is reserved for discussing Red Hat Virtualization metrics. For the discussion regarding this decision, see the comments in <a href="https://bugzilla.redhat.com/show_bug.cgi?id=1418659">BZ#1418659 Add fluentd configuration for parsing engine.log</a>.</p>
-</div>
-<div class="paragraph">
-<p><strong>Use it</strong>: yes</p>
-</div>
-<div class="paragraph vale-ignore">
-<p><strong>Incorrect forms</strong>: gather</p>
-</div>
-<div class="paragraph">
-<p><strong>See also</strong>: <a href="#gather">gather</a></p>
-</div>
-</div>
-<div class="sect4">
 <h5 id="comma-delimited"><a class="anchor" href="#comma-delimited"></a><a class="link" href="#comma-delimited"><span class="image"><img src="images/yes.png" alt="yes"></span> comma-delimited (adjective)</a></h5>
 <div class="paragraph">
 <p><strong>Description</strong>: <em>Comma-delimited</em> is an adjective that refers to a data format in which each piece of data is separated by a comma.</p>
@@ -7811,7 +8053,7 @@ On first use, use "Basic HTTP authentication"; thereafter, use "Basic authentica
 <div class="sect4">
 <h5 id="comma-separated-values"><a class="anchor" href="#comma-separated-values"></a><a class="link" href="#comma-separated-values"><span class="image"><img src="images/yes.png" alt="yes"></span> comma-separated values (noun)</a></h5>
 <div class="paragraph">
-<p><strong>Description</strong>: <em>Comma-separated values</em> are a set of values in which each value is separated by a comma. Spell out "comma-separated values" on first use; use "CSV" thereafter.</p>
+<p><strong>Description</strong>: <em>Comma-separated values</em> are a set of values in which each value is separated by a comma. Write "comma-separated values (CSV)" on first use and "CSV" after that.</p>
 </div>
 <div class="paragraph">
 <p><strong>Use it</strong>: yes</p>
@@ -7901,7 +8143,7 @@ On first use, use "Basic HTTP authentication"; thereafter, use "Basic authentica
 <div class="sect4">
 <h5 id="composite-content-view"><a class="anchor" href="#composite-content-view"></a><a class="link" href="#composite-content-view"><span class="image"><img src="images/yes.png" alt="yes"></span> Composite Content View (noun)</a></h5>
 <div class="paragraph">
-<p><strong>Description</strong>: In Red Hat Satellite, a <em>Composite Content View</em> is a collection of Content Views. Use the three-word name in full on first use in a section; the abbreviation "CCV" is acceptable thereafter.</p>
+<p><strong>Description</strong>: In Red Hat Satellite, a <em>Composite Content View</em> is a collection of Content Views. Write "Composite Content View (CCV)" on first use and "CCV" after that.</p>
 </div>
 <div class="paragraph">
 <p><strong>Use it</strong>: yes</p>
@@ -8128,7 +8370,7 @@ image repository contains one or more tagged images.</p>
 <div class="sect4">
 <h5 id="content-view"><a class="anchor" href="#content-view"></a><a class="link" href="#content-view"><span class="image"><img src="images/yes.png" alt="yes"></span> Content View (noun)</a></h5>
 <div class="paragraph">
-<p><strong>Description</strong>: In Red Hat Satellite, a <em>Content View</em> is a subset of Library content created by intelligent filtering. Use the two-word name in full on first use in a section; the abbreviation "CV" is acceptable thereafter.</p>
+<p><strong>Description</strong>: In Red Hat Satellite, a <em>Content View</em> is a subset of Library content created by intelligent filtering. Write "Content View (CV)" on first use and "CV" after that.</p>
 </div>
 <div class="paragraph">
 <p><strong>Use it</strong>: yes</p>
@@ -8429,7 +8671,7 @@ With a <em>cross-forest trust</em> between an Active Directory (AD) forest root 
 <div class="sect4">
 <h5 id="csv"><a class="anchor" href="#csv"></a><a class="link" href="#csv"><span class="image"><img src="images/yes.png" alt="yes"></span> CSV (noun)</a></h5>
 <div class="paragraph">
-<p><strong>Description</strong>: <em>CSV</em> is an abbreviation for "comma-separated values", which is a set of values in which each value is separated by a comma. Spell out "comma-separated values" on first occurrence; use "CSV" thereafter.</p>
+<p><strong>Description</strong>: <em>CSV</em> is an abbreviation for "comma-separated values", which is a set of values in which each value is separated by a comma. Write "comma-separated values (CSV)" on first use and "CSV" after that.</p>
 </div>
 <div class="paragraph">
 <p><strong>Use it</strong>: yes</p>
@@ -8451,6 +8693,21 @@ With a <em>cross-forest trust</em> between an Active Directory (AD) forest root 
 </div>
 <div class="paragraph vale-ignore">
 <p><strong>Incorrect forms</strong>: control key, ctrl</p>
+</div>
+<div class="paragraph">
+<p><strong>See also</strong>:</p>
+</div>
+</div>
+<div class="sect4">
+<h5 id="currently"><a class="anchor" href="#currently"></a><a class="link" href="#currently"><span class="image"><img src="images/yes.png" alt="yes"></span> currently (adverb)</a></h5>
+<div class="paragraph">
+<p><strong>Description</strong>: Use "currently" to refer to a situation that might change in the future. For example, you can use "currently" in release notes when a known issue will likely be fixed in an upcoming release.</p>
+</div>
+<div class="paragraph">
+<p><strong>Use it</strong>: yes</p>
+</div>
+<div class="paragraph vale-ignore">
+<p><strong>Incorrect forms</strong>:</p>
 </div>
 <div class="paragraph">
 <p><strong>See also</strong>:</p>
@@ -8499,6 +8756,21 @@ With a <em>cross-forest trust</em> between an Active Directory (AD) forest root 
 </div>
 <div class="paragraph">
 <p><strong>See also</strong>:</p>
+</div>
+</div>
+<div class="sect4">
+<h5 id="customer-portal"><a class="anchor" href="#customer-portal"></a><a class="link" href="#customer-portal"><span class="image"><img src="images/caution.png" alt="with caution"></span> Customer Portal (noun)</a></h5>
+<div class="paragraph">
+<p><strong>Description</strong>: <em>Customer Portal</em> is the shortened form of "Red Hat Customer Portal", the official name for <a href="https://access.redhat.com" class="bare">https://access.redhat.com</a>. Write "Red Hat Customer Portal" on first use. You can shorten it to "Customer Portal" after that.</p>
+</div>
+<div class="paragraph">
+<p><strong>Use it</strong>: with caution</p>
+</div>
+<div class="paragraph vale-ignore">
+<p><strong>Incorrect forms</strong>: CP, RHCP, customer portal, portal</p>
+</div>
+<div class="paragraph">
+<p><strong>See also</strong>: <a href="#red-hat-customer-portal">Red Hat Customer Portal</a></p>
 </div>
 </div>
 <div class="sect4">
@@ -8682,27 +8954,6 @@ With a <em>cross-forest trust</em> between an Active Directory (AD) forest root 
 </div>
 <div class="paragraph">
 <p><strong>See also</strong>:</p>
-</div>
-</div>
-<div class="sect4">
-<h5 id="data-warehouse"><a class="anchor" href="#data-warehouse"></a><a class="link" href="#data-warehouse"><span class="image"><img src="images/yes.png" alt="yes"></span> Data Warehouse (noun)</a></h5>
-<div class="paragraph">
-<p><strong>Description</strong>: In Red Hat Virtualization, the Manager includes a comprehensive management history database, which any application can use to extract a range of information at the data center, cluster, and host levels. Installing Data Warehouse creates the <code>ovirt_engine_history</code> database, to which the Manager is configured to log information for reporting purposes.</p>
-</div>
-<div class="paragraph">
-<p><em>Data Warehouse</em> is mandatory in Red Hat Virtualization.</p>
-</div>
-<div class="paragraph">
-<p>Always spell out in full and capitalize as shown here, unless part of a command. Use "Data Warehouse", not "the Data Warehouse", unless "Data Warehouse" functions as an adjective, for example, "the Data Warehouse package" or "the Data Warehouse service".</p>
-</div>
-<div class="paragraph">
-<p><strong>Use it</strong>: yes</p>
-</div>
-<div class="paragraph vale-ignore">
-<p><strong>Incorrect forms</strong>: DWH, data warehouse, Dataware House</p>
-</div>
-<div class="paragraph">
-<p><strong>See also</strong>: <a href="#monitoring_portal">Monitoring Portal</a></p>
 </div>
 </div>
 <div class="sect4">
@@ -8901,21 +9152,6 @@ With a <em>cross-forest trust</em> between an Active Directory (AD) forest root 
 </div>
 <div class="paragraph">
 <p><strong>See also</strong>: <a href="#message-address">message address</a></p>
-</div>
-</div>
-<div class="sect4">
-<h5 id="details-view"><a class="anchor" href="#details-view"></a><a class="link" href="#details-view"><span class="image"><img src="images/yes.png" alt="yes"></span> details view (noun)</a></h5>
-<div class="paragraph">
-<p><strong>Description</strong>: In Red Hat Virtualization, the <em>details view</em> displays detailed information about a selected item.</p>
-</div>
-<div class="paragraph">
-<p><strong>Use it</strong>: yes</p>
-</div>
-<div class="paragraph vale-ignore">
-<p><strong>Incorrect forms</strong>: details pane</p>
-</div>
-<div class="paragraph">
-<p><strong>See also</strong>:</p>
 </div>
 </div>
 <div class="sect4">
@@ -9685,7 +9921,7 @@ Red Hat Directory Server conforms to LDAP standards.</p>
 <div class="sect4">
 <h5 id="executable"><a class="anchor" href="#executable"></a><a class="link" href="#executable"><span class="image"><img src="images/caution.png" alt="with caution"></span> executable (noun)</a></h5>
 <div class="paragraph">
-<p><strong>Description</strong>: When it runs, an <em>executable</em> performs specific operations based on its coded instructions. Write "executable file (executable)" on the first use.</p>
+<p><strong>Description</strong>: When it runs, an <em>executable</em> performs specific operations based on its coded instructions. Write "executable file (executable)" on first use.</p>
 </div>
 <div class="paragraph">
 <p><strong>Use it</strong>: with caution</p>
@@ -10153,21 +10389,6 @@ When referring to the command, use <code>g++</code>, marked up appropriately.</p
 </div>
 </div>
 <div class="sect4">
-<h5 id="gather"><a class="anchor" href="#gather"></a><a class="link" href="#gather"><span class="image"><img src="images/yes.png" alt="yes"></span> gather (verb)</a></h5>
-<div class="paragraph">
-<p><strong>Description</strong>: In Red Hat Virtualization, use "gather" when discussing metrics. Do not use "collect", which is reserved for discussing the Red Hat Virtualization log collector (<code>ovirt-log-collector</code>). For the discussion regarding this decision, see the comments in <a href="https://bugzilla.redhat.com/show_bug.cgi?id=1418659">BZ#1418659 Add fluentd configuration for parsing engine.log</a>.</p>
-</div>
-<div class="paragraph">
-<p><strong>Use it</strong>: yes</p>
-</div>
-<div class="paragraph vale-ignore">
-<p><strong>Incorrect forms</strong>: collect</p>
-</div>
-<div class="paragraph">
-<p><strong>See also</strong>: <a href="#collect">collect</a></p>
-</div>
-</div>
-<div class="sect4">
 <h5 id="gb"><a class="anchor" href="#gb"></a><a class="link" href="#gb"><span class="image"><img src="images/yes.png" alt="yes"></span> GB (noun)</a></h5>
 <div class="paragraph">
 <p><strong>Description</strong>: <em>GB</em> is an abbreviation for "gigabyte". Use a space between the value and the abbreviation, for example, "a 2 GB file".</p>
@@ -10594,6 +10815,21 @@ When referring to the command, use <code>g++</code>, marked up appropriately.</p
 </div>
 </div>
 <div class="sect4">
+<h5 id="hashbang"><a class="anchor" href="#hashbang"></a><a class="link" href="#hashbang"><span class="image"><img src="images/no.png" alt="no"></span> hashbang (noun)</a></h5>
+<div class="paragraph">
+<p><strong>Description</strong>: Do not use <em>hashbang</em> when referring to a computer language construct that controls which interpreter parses and interprets instructions in a computer program. Write "interpreter directives, also known as shebangs &#8230;&#8203;" on first use.</p>
+</div>
+<div class="paragraph">
+<p><strong>Use it</strong>: no</p>
+</div>
+<div class="paragraph">
+<p><strong>Incorrect forms</strong>:</p>
+</div>
+<div class="paragraph">
+<p><strong>See also</strong>: <a href="#interpreter-directive">interpreter directive</a>, <a href="#shebang">shebang</a></p>
+</div>
+</div>
+<div class="sect4">
 <h5 id="_he_pronoun"><a class="anchor" href="#_he_pronoun"></a><a class="link" href="#_he_pronoun"><span class="image"><img src="images/no.png" alt="no"></span> he (pronoun)</a></h5>
 <div id="he" class="paragraph">
 <p><strong>Description</strong>: Reword the sentence to avoid using "he" or "she".</p>
@@ -10606,46 +10842,6 @@ When referring to the command, use <code>g++</code>, marked up appropriately.</p
 </div>
 <div class="paragraph">
 <p><strong>See also</strong>: <a href="#she">she</a></p>
-</div>
-</div>
-<div class="sect4">
-<h5 id="header-bar"><a class="anchor" href="#header-bar"></a><a class="link" href="#header-bar"><span class="image"><img src="images/yes.png" alt="yes"></span> header bar (noun)</a></h5>
-<div class="paragraph">
-<p><strong>Description</strong>: In Red Hat Virtualization, the <em>header bar</em> contains the following buttons:</p>
-</div>
-<div class="ulist">
-<ul>
-<li>
-<p>collapse/expand text labels in the side bar</p>
-</li>
-<li>
-<p><strong>Bookmarks</strong></p>
-</li>
-<li>
-<p><strong>Tags</strong></p>
-</li>
-<li>
-<p><strong>Tasks</strong></p>
-</li>
-<li>
-<p><strong>Events and alerts</strong></p>
-</li>
-<li>
-<p><strong>Help</strong>/<strong>About</strong></p>
-</li>
-<li>
-<p>currently logged in user, SSH key <strong>Options</strong></p>
-</li>
-</ul>
-</div>
-<div class="paragraph">
-<p><strong>Use it</strong>: yes</p>
-</div>
-<div class="paragraph vale-ignore">
-<p><strong>Incorrect forms</strong>: title bar</p>
-</div>
-<div class="paragraph">
-<p><strong>See also</strong>:</p>
 </div>
 </div>
 <div class="sect4">
@@ -10769,22 +10965,6 @@ When referring to the command, use <code>g++</code>, marked up appropriately.</p
 </div>
 <div class="paragraph">
 <p><strong>See also</strong>:</p>
-</div>
-</div>
-<div class="sect4">
-<h5 id="host-rhv"><a class="anchor" href="#host-rhv"></a><a class="link" href="#host-rhv"><span class="image"><img src="images/yes.png" alt="yes"></span> host (noun)</a></h5>
-<div class="paragraph">
-<p><strong>Description</strong>: In Red Hat Virtualization, <em>hosts</em> are servers that provide the processing capabilities and memory resources used to run virtual machines. There are two types of hosts: Red Hat Enterprise Linux host and Red Hat Virtualization Host.
-Use "host" to refer to hosts in general, not "hypervisor", "hypervisor host", or "virtualization host". When referring to a specific type of host, use "Red Hat Enterprise Linux host" or "Red Hat Virtualization Host".</p>
-</div>
-<div class="paragraph">
-<p><strong>Use it</strong>: yes</p>
-</div>
-<div class="paragraph vale-ignore">
-<p><strong>Incorrect forms</strong>: hypervisor, hypervisor host, virtualization host</p>
-</div>
-<div class="paragraph">
-<p><strong>See also</strong>: <a href="#red-hat-enterprise-linux-host">Red Hat Enterprise Linux host</a>, <a href="#red-hat-virtualization-host">Red Hat Virtualization Host</a></p>
 </div>
 </div>
 <div class="sect4">
@@ -11602,11 +11782,13 @@ Capitalize it only when it starts a sentence.</p>
 <p><strong>Description</strong>: In Red Hat OpenShift, <em>Ingress</em>  is a Kubernetes API object that developers can use to expose services within the cluster through an HTTP(S) load balancer and a proxy layer by using a public DNS entry. The <code>Ingress</code> resource defines the cluster-wide configuration for ingress traffic, and provides the ability to specify TLS options, a certificate, or a public CNAME that the OpenShift <code>IngressController</code> object can accept for HTTP(S) traffic. Additionally, <em>ingress</em> can also be used to describe the incoming direction of network traffic. In Red Hat OpenShift, for example, this traffic is described as entering (ingress) or leaving (egress) an OpenShift cluster.</p>
 </div>
 <div class="paragraph">
+<p>Always use <code>Ingress</code> with markup when referencing the <code>Ingress</code> resource or <code>IngressController</code> object in Red Hat OpenShift. Write in lowercase and omit markup when discussing <em>ingress</em> as a traffic direction.</p>
+</div>
+<div class="paragraph">
 <p><strong>Use it</strong>: yes</p>
 </div>
 <div class="paragraph vale-ignore">
-<p><strong>Incorrect forms</strong>:
-<em>Ingress</em> without markup, when referencing the <code>Ingress</code> resource or the <code>IngressController</code> object. <em>Ingress</em> with markup when used to describe the direction of traffic.</p>
+<p><strong>Incorrect forms</strong>:</p>
 </div>
 <div class="paragraph">
 <p><strong>See also</strong>:</p>
@@ -11798,7 +11980,7 @@ Capitalize it only when it starts a sentence.</p>
 <div class="sect4">
 <h5 id="intel-virtualization-technology"><a class="anchor" href="#intel-virtualization-technology"></a><a class="link" href="#intel-virtualization-technology"><span class="image"><img src="images/yes.png" alt="yes"></span> Intel Virtualization Technology (noun)</a></h5>
 <div class="paragraph">
-<p><strong>Description</strong>: The first and all prominent uses of <em>Intel Virtualization Technology</em> should be spelled out, immediately followed by the abbreviation, for example, "Intel Virtualization Technology (Intel VT) for Intel 64" or "Itanium architecture (Intel VT-i)". Subsequent uses can be abbreviated to "Intel VT-i". Always write the abbreviation in uppercase letters, accompanied by the Intel mark. Do not use the abbreviation in any prominent places, such as in titles or paragraph headings. Do not include any trademark symbols, such as "&#8482;" or "(TM)".</p>
+<p><strong>Description</strong>: Write "Intel Virtualization Technology (Intel VT)" or "Itanium architecture (Intel VT-i)" on first use and then "Intel VT" or "Intel VT-i" after that. Do not use the abbreviation in prominent places such as in titles or paragraph headings. Do not include trademark symbols such as "&#8482;" or "(TM)".</p>
 </div>
 <div class="paragraph">
 <p><strong>Use it</strong>: yes</p>
@@ -11895,6 +12077,21 @@ Capitalize it only when it starts a sentence.</p>
 </div>
 </div>
 <div class="sect4">
+<h5 id="interpreter-directive"><a class="anchor" href="#interpreter-directive"></a><a class="link" href="#interpreter-directive"><span class="image"><img src="images/yes.png" alt="yes"></span> interpreter directive (noun)</a></h5>
+<div class="paragraph">
+<p><strong>Description</strong>: An <em>interpreter directive</em>, such as <code>#!/bin/bash</code>, is a computer language construct that controls which interpreter parses and interprets instructions in a computer program. This term is also commonly known as <em>shebang</em>. Write "interpreter directives, also known as shebangs &#8230;&#8203;" on first use. Do not use "hashbang".</p>
+</div>
+<div class="paragraph">
+<p><strong>Use it</strong>: yes</p>
+</div>
+<div class="paragraph">
+<p><strong>Incorrect forms</strong>: hashbang</p>
+</div>
+<div class="paragraph">
+<p><strong>See also</strong>: <a href="#shebang">shebang</a>, <a href="#hashbang">hashbang</a></p>
+</div>
+</div>
+<div class="sect4">
 <h5 id="inventory"><a class="anchor" href="#inventory"></a><a class="link" href="#inventory"><span class="image"><img src="images/yes.png" alt="yes"></span> inventory (noun)</a></h5>
 <div class="paragraph">
 <p><strong>Description</strong>: In Red Hat Enterprise Linux, an <em>inventory</em> is a list of managed nodes. An inventory file is also sometimes called a <em>hostfile</em>. An inventory can specify information like IP address for each managed node. An inventory can also organize managed nodes, creating and nesting groups for easier scaling.</p>
@@ -11942,7 +12139,7 @@ Capitalize it only when it starts a sentence.</p>
 <div class="sect4">
 <h5 id="ip"><a class="anchor" href="#ip"></a><a class="link" href="#ip"><span class="image"><img src="images/yes.png" alt="yes"></span> IP (noun)</a></h5>
 <div class="paragraph">
-<p><strong>Description</strong>: <em>IP</em> is an abbreviation for "Internet Protocol". Use "IP" to refer to the Internet Protocol in general if the specific versions, IPv4 and IPv6, do not matter. Use "IP address" instead of "IP" when writing about IP addresses. Do not expand the abbreviation on the first usage.</p>
+<p><strong>Description</strong>: <em>IP</em> is an abbreviation for "Internet Protocol". Use "IP" to refer to the Internet Protocol in general if the specific versions, IPv4 and IPv6, do not matter. Use "IP address" instead of "IP" when writing about IP addresses. Do not expand the abbreviation on first use.</p>
 </div>
 <div class="paragraph">
 <p><strong>Use it</strong>: yes</p>
@@ -11972,7 +12169,7 @@ Capitalize it only when it starts a sentence.</p>
 <div class="sect4">
 <h5 id="ipv4"><a class="anchor" href="#ipv4"></a><a class="link" href="#ipv4"><span class="image"><img src="images/yes.png" alt="yes"></span> IPv4 (noun)</a></h5>
 <div class="paragraph">
-<p><strong>Description</strong>: Use <em>IPv4</em> to explicitly refer to version 4 of the Internet Protocol. Do not expand the abbreviation on the first usage.</p>
+<p><strong>Description</strong>: Use <em>IPv4</em> to explicitly refer to version 4 of the Internet Protocol. Do not expand the abbreviation on first use.</p>
 </div>
 <div class="paragraph">
 <p><strong>Use it</strong>: yes</p>
@@ -11987,7 +12184,7 @@ Capitalize it only when it starts a sentence.</p>
 <div class="sect4">
 <h5 id="ipv6"><a class="anchor" href="#ipv6"></a><a class="link" href="#ipv6"><span class="image"><img src="images/yes.png" alt="yes"></span> IPv6 (noun)</a></h5>
 <div class="paragraph">
-<p><strong>Description</strong>: Use <em>IPv6</em> to explicitly refer to version 6 of the Internet Protocol. Do not expand the abbreviation on the first usage.</p>
+<p><strong>Description</strong>: Use <em>IPv6</em> to explicitly refer to version 6 of the Internet Protocol. Do not expand the abbreviation on first use.</p>
 </div>
 <div class="paragraph">
 <p><strong>Use it</strong>: yes</p>
@@ -12700,7 +12897,7 @@ Capitalize it only when it starts a sentence.</p>
 <div class="sect4">
 <h5 id="kernel-based-virtual-machine"><a class="anchor" href="#kernel-based-virtual-machine"></a><a class="link" href="#kernel-based-virtual-machine"><span class="image"><img src="images/yes.png" alt="yes"></span> Kernel-based Virtual Machine (noun)</a></h5>
 <div class="paragraph">
-<p><strong>Description</strong>: <em>Kernel-based Virtual Machine</em> is a loadable kernel module that converts the Linux kernel into a bare-metal hypervisor. Spell out "Kernel-based Virtual Machine" on first occurrence, and use "KVM" thereafter. It is an industry standard and a proper noun.</p>
+<p><strong>Description</strong>: <em>Kernel-based Virtual Machine</em> is a loadable kernel module that converts the Linux kernel into a bare-metal hypervisor. Write "Kernel-based Virtual Machine (KVM)" on first use and "KVM" after that. It is an industry standard and a proper noun.</p>
 </div>
 <div class="paragraph">
 <p><strong>Use it</strong>: yes</p>
@@ -13003,7 +13200,7 @@ Capitalize it only when it starts a sentence.</p>
 <div class="sect4">
 <h5 id="ldap"><a class="anchor" href="#ldap"></a><a class="link" href="#ldap"><span class="image"><img src="images/yes.png" alt="yes"></span> LDAP (noun)</a></h5>
 <div class="paragraph">
-<p><strong>Description</strong>: The Lightweight Directory Access Protocol (<em>LDAP</em>) defines an industry standard for accessing and maintaining directory servers, such as Red Hat Directory Server. By default, the LDAP protocol is unencrypted. Do not expand the abbreviation on the first usage.</p>
+<p><strong>Description</strong>: The Lightweight Directory Access Protocol (<em>LDAP</em>) defines an industry standard for accessing and maintaining directory servers, such as Red Hat Directory Server. By default, the LDAP protocol is unencrypted. Do not expand the abbreviation on first use.</p>
 </div>
 <div class="paragraph">
 <p><strong>Use it</strong>: yes</p>
@@ -13018,7 +13215,7 @@ Capitalize it only when it starts a sentence.</p>
 <div class="sect4">
 <h5 id="ldaps"><a class="anchor" href="#ldaps"></a><a class="link" href="#ldaps"><span class="image"><img src="images/yes.png" alt="yes"></span> LDAPS (noun)</a></h5>
 <div class="paragraph">
-<p><strong>Description</strong>: The Lightweight Directory Access Protocol over Secure Socket Layer (<em>LDAPS</em>) uses the TLS protocol to encrypt LDAP traffic. Do not expand the abbreviation on the first usage.</p>
+<p><strong>Description</strong>: The Lightweight Directory Access Protocol over Secure Socket Layer (<em>LDAPS</em>) uses the TLS protocol to encrypt LDAP traffic. Do not expand the abbreviation on first use.</p>
 </div>
 <div class="paragraph">
 <p><strong>Use it</strong>: yes</p>
@@ -13394,21 +13591,6 @@ Capitalize it only when it starts a sentence.</p>
 </div>
 <div class="paragraph">
 <p><strong>See also</strong>: <a href="#http-interface">HTTP interface</a></p>
-</div>
-</div>
-<div class="sect4">
-<h5 id="manager-virtual-machine"><a class="anchor" href="#manager-virtual-machine"></a><a class="link" href="#manager-virtual-machine"><span class="image"><img src="images/yes.png" alt="yes"></span> Manager virtual machine (noun)</a></h5>
-<div class="paragraph">
-<p><strong>Description</strong>: In Red Hat Virtualization, "Manager virtual machine" refers specifically to the virtual machine created during self-hosted engine deployment. Use this term when referring to the machine (for example, "Log in to the Manager virtual machine"); the Manager itself can still be referred to as such (for example, "Add a host to the Manager").</p>
-</div>
-<div class="paragraph">
-<p><strong>Use it</strong>: yes</p>
-</div>
-<div class="paragraph vale-ignore">
-<p><strong>Incorrect forms</strong>: self-hosted engine virtual machine, engine VM</p>
-</div>
-<div class="paragraph">
-<p><strong>See also</strong>: <a href="#self-hosted-engine">self-hosted engine</a></p>
 </div>
 </div>
 <div class="sect4">
@@ -14003,39 +14185,6 @@ Capitalize it only when it starts a sentence.</p>
 </div>
 </div>
 <div class="sect4">
-<h5 id="mom"><a class="anchor" href="#mom"></a><a class="link" href="#mom"><span class="image"><img src="images/yes.png" alt="yes"></span> MOM (noun)</a></h5>
-<div class="paragraph">
-<p><strong>Description</strong>: In Red Hat Virtualization, the <em>Memory Overcommitment Manager</em> is a policy-driven tool that can be used to manage overcommitment on hosts.</p>
-</div>
-<div class="paragraph">
-<p>Use "Memory Overcommitment Manager (MOM)" for the first instance in a section, and "MOM" for subsequent instances.</p>
-</div>
-<div class="paragraph">
-<p><strong>Use it</strong>: yes</p>
-</div>
-<div class="paragraph vale-ignore">
-<p><strong>Incorrect forms</strong>: MoM, Mom, mom</p>
-</div>
-<div class="paragraph">
-<p><strong>See also</strong>:</p>
-</div>
-</div>
-<div class="sect4">
-<h5 id="monitoring_portal"><a class="anchor" href="#monitoring_portal"></a><a class="link" href="#monitoring_portal"><span class="image"><img src="images/yes.png" alt="yes"></span> Monitoring Portal (noun)</a></h5>
-<div class="paragraph">
-<p><strong>Description</strong>: In Red Hat Virtualization, the <em>Monitoring Portal</em> is a graphical user interface used to display reports based on data collected from the Data Warehouse PostgreSQL database. The Monitoring Portal is implemented by using the Grafana web-based UI tool to display the reports as dashboards.</p>
-</div>
-<div class="paragraph">
-<p><strong>Use it</strong>: yes</p>
-</div>
-<div class="paragraph vale-ignore">
-<p><strong>Incorrect forms</strong>:</p>
-</div>
-<div class="paragraph">
-<p><strong>See also</strong>: <a href="#data-warehouse">Data Warehouse</a></p>
-</div>
-</div>
-<div class="sect4">
 <h5 id="mount"><a class="anchor" href="#mount"></a><a class="link" href="#mount"><span class="image"><img src="images/yes.png" alt="yes"></span> mount (verb)</a></h5>
 <div class="paragraph">
 <p><strong>Description</strong>: (1) "Mount" means to make a mass storage device available. In Linux environments, for example, inserting a floppy disk into the drive is called "mounting" the floppy. (2) "Mount" also means to install a device, such as a disk drive or expansion board.</p>
@@ -14524,7 +14673,7 @@ Capitalize it only when it starts a sentence.</p>
 <p><strong>Description</strong>: In most content, you can use "now" when you mean the present time, immediately, or at once.</p>
 </div>
 <div class="paragraph">
-<p>If your release notes are based on the templates in this guide&#8217;s <a href="#release-notes">Release notes</a> section, use "with this update" rather than "now" to refer to the current release. This is because the temporal context of "now"  can cause confusion in release notes that span multiple releases.</p>
+<p>If your release notes are based on the templates in this guide&#8217;s <a href="#release-notes">Release notes</a> section, use "with this update" rather than "now" to refer to the current release. This is because the temporal context of "now" can cause confusion in release notes that span multiple releases.</p>
 </div>
 <div class="paragraph">
 <p><strong>Use it</strong>: with caution</p>
@@ -15862,7 +16011,7 @@ Use "plugin" rather than "plug-in", unless you are updating existing content tha
 </div>
 </div>
 <div class="sect4">
-<h5 id="previously"><a class="anchor" href="#previously"></a><a class="link" href="#previously"><span class="image"><img src="images/caution.png" alt="caution"></span> Previously (adverb)</a></h5>
+<h5 id="previously"><a class="anchor" href="#previously"></a><a class="link" href="#previously"><span class="image"><img src="images/caution.png" alt="caution"></span> previously (adverb)</a></h5>
 <div class="paragraph">
 <p><strong>Description</strong>: In most content, you can use "previously" to refer to something that was true or in effect at an earlier time but is no longer true or in effect now.</p>
 </div>
@@ -16568,51 +16717,6 @@ Use "privilege" in the context of system actions and the abilities of an agent, 
 </div>
 </div>
 <div class="sect4">
-<h5 id="red-hat-cloudforms"><a class="anchor" href="#red-hat-cloudforms"></a><a class="link" href="#red-hat-cloudforms"><span class="image"><img src="images/yes.png" alt="yes"></span> Red Hat CloudForms (noun)</a></h5>
-<div class="paragraph">
-<p><strong>Description</strong>: <em>Red Hat CloudForms</em> enables enterprises to meet insight, control and automation needs in building and managing virtual infrastructure. Use "Red Hat CloudForms" in the first instance and "CloudForms" in all subsequent instances.</p>
-</div>
-<div class="paragraph">
-<p><strong>Use it</strong>: yes</p>
-</div>
-<div class="paragraph vale-ignore">
-<p><strong>Incorrect forms</strong>: CloudForms Management Engine, CFME</p>
-</div>
-<div class="paragraph">
-<p><strong>See also</strong>:</p>
-</div>
-</div>
-<div class="sect4">
-<h5 id="red-hat-cloudforms-appliance"><a class="anchor" href="#red-hat-cloudforms-appliance"></a><a class="link" href="#red-hat-cloudforms-appliance"><span class="image"><img src="images/yes.png" alt="yes"></span> Red Hat CloudForms Appliance (noun)</a></h5>
-<div class="paragraph">
-<p><strong>Description</strong>: In Red Hat CloudForms, the <em>Red Hat CloudForms Appliance</em> is a virtual machine where the virtual management database (VMDB) and Red Hat CloudForms reside. Use "Red Hat CloudForms" in the first instance and "the appliance" in subsequent instances.</p>
-</div>
-<div class="paragraph">
-<p><strong>Use it</strong>: yes</p>
-</div>
-<div class="paragraph vale-ignore">
-<p><strong>Incorrect forms</strong>: CloudForms Management Engine, CFME</p>
-</div>
-<div class="paragraph">
-<p><strong>See also</strong>:</p>
-</div>
-</div>
-<div class="sect4">
-<h5 id="red-hat-cloudforms-server"><a class="anchor" href="#red-hat-cloudforms-server"></a><a class="link" href="#red-hat-cloudforms-server"><span class="image"><img src="images/yes.png" alt="yes"></span> Red Hat CloudForms server (noun)</a></h5>
-<div class="paragraph">
-<p><strong>Description</strong>: In Red Hat CloudForms, the <em>Red Hat CloudForms server</em> is the application that runs on the Red Hat CloudForms appliance and communicates with the SmartProxy and the VMDB.</p>
-</div>
-<div class="paragraph">
-<p><strong>Use it</strong>: yes</p>
-</div>
-<div class="paragraph vale-ignore">
-<p><strong>Incorrect forms</strong>:</p>
-</div>
-<div class="paragraph">
-<p><strong>See also</strong>:</p>
-</div>
-</div>
-<div class="sect4">
 <h5 id="red-hat-container-catalog"><a class="anchor" href="#red-hat-container-catalog"></a><a class="link" href="#red-hat-container-catalog"><span class="image"><img src="images/no.png" alt="no"></span> Red Hat Container Catalog (noun)</a></h5>
 <div class="paragraph">
 <p><strong>Description</strong>: <em>Red Hat Container Catalog</em> was the Red Hat-hosted registry for enterprise-ready containers located at <a href="https://catalog.redhat.com/">https://catalog.redhat.com/</a>.</p>
@@ -16633,16 +16737,16 @@ Use "privilege" in the context of system actions and the abilities of an agent, 
 <div class="sect4">
 <h5 id="red-hat-customer-portal"><a class="anchor" href="#red-hat-customer-portal"></a><a class="link" href="#red-hat-customer-portal"><span class="image"><img src="images/yes.png" alt="yes"></span> Red Hat Customer Portal (noun)</a></h5>
 <div class="paragraph">
-<p><strong>Description</strong>: <em>Red Hat Customer Portal</em> is the official name of the customer portal at <a href="https://access.redhat.com" class="bare">https://access.redhat.com</a>.</p>
+<p><strong>Description</strong>: <em>Red Hat Customer Portal</em> is the official name for <a href="https://access.redhat.com" class="bare">https://access.redhat.com</a>. Use "Red Hat Customer Portal" on the first use. You can shorten it to "Customer Portal" after that.</p>
 </div>
 <div class="paragraph">
 <p><strong>Use it</strong>: yes</p>
 </div>
 <div class="paragraph vale-ignore">
-<p><strong>Incorrect forms</strong>: Customer Portal</p>
+<p><strong>Incorrect forms</strong>: CP, RHCP, customer portal, portal</p>
 </div>
 <div class="paragraph">
-<p><strong>See also</strong>:</p>
+<p><strong>See also</strong>: <a href="#customer-portal">Customer Portal</a></p>
 </div>
 </div>
 <div class="sect4">
@@ -16706,22 +16810,6 @@ Use "privilege" in the context of system actions and the abilities of an agent, 
 </div>
 <div class="paragraph">
 <p><strong>See also</strong>: <a href="#rhel">RHEL</a></p>
-</div>
-</div>
-<div class="sect4">
-<h5 id="red-hat-enterprise-linux-host"><a class="anchor" href="#red-hat-enterprise-linux-host"></a><a class="link" href="#red-hat-enterprise-linux-host"><span class="image"><img src="images/yes.png" alt="yes"></span> Red Hat Enterprise Linux host (noun)</a></h5>
-<div class="paragraph">
-<p><strong>Description</strong>: In Red Hat Virtualization, you can use Red Hat Enterprise Linux servers that are subscribed to the appropriate entitlements as hosts.</p>
-</div>
-<div class="paragraph">
-<p>Always spell out the full product name of the host, and do not capitalize the term "host".
-<strong>Use it</strong>: yes</p>
-</div>
-<div class="paragraph vale-ignore">
-<p><strong>Incorrect forms</strong>: RHEL host, RHEL-H</p>
-</div>
-<div class="paragraph">
-<p><strong>See also</strong>: <a href="#host-rhv">host</a></p>
 </div>
 </div>
 <div class="sect4">
@@ -16989,60 +17077,6 @@ Use "privilege" in the context of system actions and the abilities of an agent, 
 </div>
 <div class="paragraph">
 <p><strong>See also</strong>: <a href="#red-hat-enterprise-linux-openstack-platform">Red Hat Enterprise Linux OpenStack Platform</a></p>
-</div>
-</div>
-<div class="sect4">
-<h5 id="red-hat-virtualization"><a class="anchor" href="#red-hat-virtualization"></a><a class="link" href="#red-hat-virtualization"><span class="image"><img src="images/yes.png" alt="yes"></span> Red Hat Virtualization (noun)</a></h5>
-<div class="paragraph">
-<p><strong>Description</strong>: <em>Red Hat Virtualization</em> is an enterprise-grade server and desktop virtualization platform built on Red Hat Enterprise Linux.</p>
-</div>
-<div class="paragraph">
-<p>Use "Red Hat Virtualization". Always spell out in full, except as part of "RHVH" or when repetition in a single paragraph hampers readability.</p>
-</div>
-<div class="paragraph">
-<p><strong>Use it</strong>: yes</p>
-</div>
-<div class="paragraph vale-ignore">
-<p><strong>Incorrect forms</strong>: RHV</p>
-</div>
-<div class="paragraph">
-<p><strong>See also</strong>: <a href="#red-hat-virtualization-host">Red Hat Virtualization Host</a></p>
-</div>
-</div>
-<div class="sect4">
-<h5 id="red-hat-virtualization-host"><a class="anchor" href="#red-hat-virtualization-host"></a><a class="link" href="#red-hat-virtualization-host"><span class="image"><img src="images/yes.png" alt="yes"></span> Red Hat Virtualization Host (noun)</a></h5>
-<div class="paragraph">
-<p><strong>Description</strong>: In Red Hat Virtualization, <em>Red Hat Virtualization Host</em> is the host. It is a minimal operating system based on Red Hat Enterprise Linux, is distributed as an ISO file from the Customer Portal, and contains only the packages required for the machine to act as a host.</p>
-</div>
-<div class="paragraph">
-<p>Use "Red Hat Virtualization Host (RHVH)" for the first instance in a section. You can use "RHVH" in subsequent instances. Do not use "the Host" or capitalize the term "host" when it is not used with the full product name..</p>
-</div>
-<div class="paragraph">
-<p><strong>Use it</strong>: yes</p>
-</div>
-<div class="paragraph vale-ignore">
-<p><strong>Incorrect forms</strong>: RHV-H, Red Hat Virtualization Hypervisor, RHV Host, the Host</p>
-</div>
-<div class="paragraph">
-<p><strong>See also</strong>: <a href="#host-rhv">host</a></p>
-</div>
-</div>
-<div class="sect4">
-<h5 id="red-hat-virtualization-manager"><a class="anchor" href="#red-hat-virtualization-manager"></a><a class="link" href="#red-hat-virtualization-manager"><span class="image"><img src="images/yes.png" alt="yes"></span> Red Hat Virtualization Manager (noun)</a></h5>
-<div class="paragraph">
-<p><strong>Description</strong>: In Red Hat Virtualization, the <em>Red Hat Virtualization Manager</em> is a server that manages and provides access to the resources in the environment.</p>
-</div>
-<div class="paragraph">
-<p>Use "Red Hat Virtualization Manager". Spell out in full for the first instance in a section. Use "the Manager" for subsequent instances. Do not use "the engine", which is the oVirt (upstream) term.</p>
-</div>
-<div class="paragraph">
-<p><strong>Use it</strong>: yes</p>
-</div>
-<div class="paragraph vale-ignore">
-<p><strong>Incorrect forms</strong>: RHVM, RHV-M, RHV Manager, engine</p>
-</div>
-<div class="paragraph">
-<p><strong>See also</strong>:</p>
 </div>
 </div>
 <div class="sect4">
@@ -17332,24 +17366,6 @@ IdM uses two types of replication agreements: <em>domain replication</em> agreem
 </div>
 </div>
 <div class="sect4">
-<h5 id="resource-tab"><a class="anchor" href="#resource-tab"></a><a class="link" href="#resource-tab"><span class="image"><img src="images/yes.png" alt="yes"></span> resource tab (noun)</a></h5>
-<div class="paragraph">
-<p><strong>Description</strong>: In Red Hat Virtualization, hosts, virtual machines, storage, and other resources can be managed by using their associated tab.</p>
-</div>
-<div class="paragraph">
-<p>Use the name of the tab when you refer to it, for example, "the <strong>Storage</strong> tab".</p>
-</div>
-<div class="paragraph">
-<p><strong>Use it</strong>: yes</p>
-</div>
-<div class="paragraph vale-ignore">
-<p><strong>Incorrect forms</strong>:</p>
-</div>
-<div class="paragraph">
-<p><strong>See also</strong>:</p>
-</div>
-</div>
-<div class="sect4">
 <h5 id="resource-adapters"><a class="anchor" href="#resource-adapters"></a><a class="link" href="#resource-adapters"><span class="image"><img src="images/yes.png" alt="yes"></span> resource-adapters subsystem (noun)</a></h5>
 <div class="paragraph">
 <p><strong>Description</strong>: In Red Hat JBoss Enterprise Application Platform, the <em>resource-adapters</em> subsystem is used to configure and maintain resource adapters for communication between Java EE applications and an Enterprise Information System (EIS). In general text, write in lowercase as two words separated by a hyphen. Use "Resource Adapters subsystem" when referring to the resource-adapters subsystem in titles and headings.</p>
@@ -17362,21 +17378,6 @@ IdM uses two types of replication agreements: <em>domain replication</em> agreem
 </div>
 <div class="paragraph">
 <p><strong>See also</strong>:</p>
-</div>
-</div>
-<div class="sect4">
-<h5 id="results-list"><a class="anchor" href="#results-list"></a><a class="link" href="#results-list"><span class="image"><img src="images/yes.png" alt="yes"></span> results list (noun)</a></h5>
-<div class="paragraph">
-<p><strong>Description</strong>: In Red Hat Virtualization, the <em>results list</em> shows the resources managed under each resource tab. For example, the results list for the <strong>Hosts</strong> tab shows all hosts attached to the Red Hat Virtualization Manager.</p>
-</div>
-<div class="paragraph">
-<p><strong>Use it</strong>: yes</p>
-</div>
-<div class="paragraph vale-ignore">
-<p><strong>Incorrect forms</strong>:</p>
-</div>
-<div class="paragraph">
-<p><strong>See also</strong>: <a href="#resource-tab">resource tab</a></p>
 </div>
 </div>
 <div class="sect4">
@@ -17712,7 +17713,7 @@ IdM uses two types of replication agreements: <em>domain replication</em> agreem
 <div class="sect4">
 <h5 id="rpm-ostree"><a class="anchor" href="#rpm-ostree"></a><a class="link" href="#rpm-ostree"><span class="image"><img src="images/yes.png" alt="yes"></span> rpm-ostree (noun)</a></h5>
 <div class="paragraph">
-<p><strong>Description</strong>: A hybrid image or system package that hosts operating system updates.</p>
+<p><strong>Description</strong>: A hybrid image or system package that hosts operating system updates. Use lowercase format and backticks.</p>
 </div>
 <div class="paragraph">
 <p><strong>Use it</strong>: yes</p>
@@ -18096,42 +18097,6 @@ Rulebooks are used in Event-Driven Ansible. When using the term "rulebook" witho
 </div>
 </div>
 <div class="sect4">
-<h5 id="self-hosted-engine"><a class="anchor" href="#self-hosted-engine"></a><a class="link" href="#self-hosted-engine"><span class="image"><img src="images/yes.png" alt="yes"></span> self-hosted engine (noun)</a></h5>
-<div class="paragraph">
-<p><strong>Description</strong>: In Red Hat Virtualization, a <em>self-hosted engine</em> is a virtualized environment in which the Manager, or engine, runs on a virtual machine on the hosts managed by that Manager. The virtual machine is created as part of the host configuration, and the Manager is installed and configured in parallel to the host configuration process.</p>
-</div>
-<div class="paragraph">
-<p>Use all lower case, unless used in a title or at the beginning of a sentence.</p>
-</div>
-<div class="paragraph">
-<p><strong>Use it</strong>: yes</p>
-</div>
-<div class="paragraph vale-ignore">
-<p><strong>Incorrect forms</strong>: hosted engine, hosted-engine</p>
-</div>
-<div class="paragraph">
-<p><strong>See also</strong>: <a href="#self-hosted-engine-node">self-hosted engine node</a></p>
-</div>
-</div>
-<div class="sect4">
-<h5 id="self-hosted-engine-node"><a class="anchor" href="#self-hosted-engine-node"></a><a class="link" href="#self-hosted-engine-node"><span class="image"><img src="images/yes.png" alt="yes"></span> self-hosted engine node (noun)</a></h5>
-<div class="paragraph">
-<p><strong>Description</strong>: In Red Hat Virtualization, a self-hosted engine is a virtualized environment in which the Manager, or engine, runs on a virtual machine on the hosts managed by that Manager. A <em>self-hosted engine node</em> is a host that has self-hosted engine packages installed so that it can host the Manager virtual machine. Regular hosts can also be attached to a self-hosted engine environment, but cannot host the Manager virtual machine.</p>
-</div>
-<div class="paragraph">
-<p>Use all lower case, unless used in a title or at the beginning of a sentence.</p>
-</div>
-<div class="paragraph">
-<p><strong>Use it</strong>: yes</p>
-</div>
-<div class="paragraph vale-ignore">
-<p><strong>Incorrect forms</strong>: hosted engine host, hosted-engine host, self-hosted engine host, hosted engine node, hosted-engine node</p>
-</div>
-<div class="paragraph">
-<p><strong>See also</strong>: <a href="#self-hosted-engine">self-hosted engine</a></p>
-</div>
-</div>
-<div class="sect4">
 <h5 id="selinux"><a class="anchor" href="#selinux"></a><a class="link" href="#selinux"><span class="image"><img src="images/yes.png" alt="yes"></span> SELinux (noun)</a></h5>
 <div class="paragraph">
 <p><strong>Description</strong>: <em>SELinux</em> is an abbreviation for "Security-Enhanced Linux". SELinux uses Linux Security Modules (LSM) in the Linux kernel to provide a range of minimum-privilege-required security policies. Do not use alternatives such as "SE-Linux", "S-E Linux", or "SE Linux".</p>
@@ -18402,6 +18367,21 @@ Rulebooks are used in Event-Driven Ansible. When using the term "rulebook" witho
 </div>
 </div>
 <div class="sect4">
+<h5 id="shebang"><a class="anchor" href="#shebang"></a><a class="link" href="#shebang"><span class="image"><img src="images/yes.png" alt="yes"></span> shebang (noun)</a></h5>
+<div class="paragraph">
+<p><strong>Description</strong>: A <em>shebang</em> is a common term for an <em>interpreter directive</em>, such as <code>#!/bin/bash</code>, which is a computer language construct that controls which interpreter parses and interprets instructions in a computer program. On the first mention, include both "interpreter directive" and "shebang", for example, "Interpreter directives, also known as shebangs &#8230;&#8203;". Do not use "hashbang".</p>
+</div>
+<div class="paragraph">
+<p><strong>Use it</strong>: yes</p>
+</div>
+<div class="paragraph">
+<p><strong>Incorrect forms</strong>: hashbang</p>
+</div>
+<div class="paragraph">
+<p><strong>See also</strong>: <a href="#interpreter-directive">interpreter directive</a>, <a href="#hashbang">hashbang</a></p>
+</div>
+</div>
+<div class="sect4">
 <h5 id="shell"><a class="anchor" href="#shell"></a><a class="link" href="#shell"><span class="image"><img src="images/yes.png" alt="yes"></span> shell (noun)</a></h5>
 <div class="paragraph">
 <p><strong>Description</strong>: A <em>shell</em> is a software application (for example, <code>/bin/bash</code> or <code>/bin/sh</code>) that provides an interface to a computer. Do not use this term to describe the prompt where you type commands.</p>
@@ -18549,21 +18529,6 @@ Rulebooks are used in Event-Driven Ansible. When using the term "rulebook" witho
 </div>
 <div class="paragraph">
 <p><strong>See also</strong>: <a href="#nic">NIC</a>, <a href="#vnic">vNIC</a></p>
-</div>
-</div>
-<div class="sect4">
-<h5 id="smartstate-analysis"><a class="anchor" href="#smartstate-analysis"></a><a class="link" href="#smartstate-analysis"><span class="image"><img src="images/yes.png" alt="yes"></span> SmartState analysis (noun)</a></h5>
-<div class="paragraph">
-<p><strong>Description</strong>: In Red Hat CloudForms, the <em>SmartState analysis</em> is a process run by the SmartProxy which collects the details of a virtual machine or instance. Such details include accounts, drivers, network information, hardware, and security patches. This process is also run by the Red Hat CloudForms server on hosts and clusters. The data is stored in the VMDB.</p>
-</div>
-<div class="paragraph">
-<p><strong>Use it</strong>: yes</p>
-</div>
-<div class="paragraph vale-ignore">
-<p><strong>Incorrect forms</strong>: Smart State, smart state, Smart state, Smartstate, Analysis</p>
-</div>
-<div class="paragraph">
-<p><strong>See also</strong>:</p>
 </div>
 </div>
 <div class="sect4">
@@ -18827,36 +18792,6 @@ Therefore, if you need to use the indefinite article before "sosreport", use <em
 </div>
 </div>
 <div class="sect4">
-<h5 id="sparse"><a class="anchor" href="#sparse"></a><a class="link" href="#sparse"><span class="image"><img src="images/yes.png" alt="yes"></span> sparse (adjective)</a></h5>
-<div class="paragraph">
-<p><strong>Description</strong>: In Red Hat Virtualization, a disk is <em>sparse</em> when its unused disk space is taken from the virtual machine and returned to the host. In the past, the term sparse has been used to describe thin provisioned storage; however, with the addition of the sparsify feature in Red Hat Virtualization 4.1, these terms should not be used interchangeably as a thin provisioned disk might not be a sparse disk.</p>
-</div>
-<div class="paragraph">
-<p><strong>Use it</strong>: yes</p>
-</div>
-<div class="paragraph vale-ignore">
-<p><strong>Incorrect forms</strong>:</p>
-</div>
-<div class="paragraph">
-<p><strong>See also</strong>: <a href="#sparsify">sparsify</a>, <a href="#thin-provisioned">thin provisioned</a></p>
-</div>
-</div>
-<div class="sect4">
-<h5 id="sparsify"><a class="anchor" href="#sparsify"></a><a class="link" href="#sparsify"><span class="image"><img src="images/yes.png" alt="yes"></span> sparsify (verb)</a></h5>
-<div class="paragraph">
-<p><strong>Description</strong>: In Red Hat Virtualization, <em>sparsify</em> means to take unused disk space from a virtual machine and return it to the host.</p>
-</div>
-<div class="paragraph">
-<p><strong>Use it</strong>: yes</p>
-</div>
-<div class="paragraph vale-ignore">
-<p><strong>Incorrect forms</strong>:</p>
-</div>
-<div class="paragraph">
-<p><strong>See also</strong>: <a href="#sparse">sparse</a></p>
-</div>
-</div>
-<div class="sect4">
 <h5 id="spec"><a class="anchor" href="#spec"></a><a class="link" href="#spec"><span class="image"><img src="images/yes.png" alt="yes"></span> spec (noun)</a></h5>
 <div class="paragraph">
 <p><strong>Description</strong>: In Red Hat OpenShift, use "spec" and "spec file" when you want to describe an RPM spec file. You can also use "spec" for general usage when you describe Kubernetes or OpenShift Container Platform object specs, manifests, or definitions.</p>
@@ -19061,21 +18996,6 @@ Therefore, if you need to use the indefinite article before "sosreport", use <em
 </div>
 </div>
 <div class="sect4">
-<h5 id="standalone-manager"><a class="anchor" href="#standalone-manager"></a><a class="link" href="#standalone-manager"><span class="image"><img src="images/yes.png" alt="yes"></span> standalone Manager (noun)</a></h5>
-<div class="paragraph">
-<p><strong>Description</strong>: In Red Hat Virtualization, use "standalone Manager" specifically, and only, in the context of differentiating between a "regular" Red Hat Virtualization environment and a self-hosted engine environment. Use "the Red Hat Virtualization Manager" or "the Manager" in all other cases.</p>
-</div>
-<div class="paragraph">
-<p><strong>Use it</strong>: yes</p>
-</div>
-<div class="paragraph vale-ignore">
-<p><strong>Incorrect forms</strong>: standard Manager, standard environment</p>
-</div>
-<div class="paragraph">
-<p><strong>See also</strong>: <a href="#self-hosted-engine">self-hosted engine</a>, <a href="#red-hat-virtualization-manager">Red Hat Virtualization Manager</a></p>
-</div>
-</div>
-<div class="sect4">
 <h5 id="standalone-mode"><a class="anchor" href="#standalone-mode"></a><a class="link" href="#standalone-mode"><span class="image"><img src="images/no.png" alt="no"></span> standalone mode (noun)</a></h5>
 <div class="paragraph">
 <p><strong>Description</strong>: In Red Hat JBoss Enterprise Application Platform, do not use "standalone mode" to refer to the standalone operating mode of JBoss EAP server. For the correct usage, see the <a href="#standalone-server">standalone server</a> entry.</p>
@@ -19226,24 +19146,6 @@ Therefore, if you need to use the indefinite article before "sosreport", use <em
 </div>
 </div>
 <div class="sect4">
-<h5 id="storage-pool-manager"><a class="anchor" href="#storage-pool-manager"></a><a class="link" href="#storage-pool-manager"><span class="image"><img src="images/yes.png" alt="yes"></span> Storage Pool Manager (noun)</a></h5>
-<div class="paragraph">
-<p><strong>Description</strong>: In Red Hat Virtualization, the <em>Storage Pool Manager (SPM)</em> is a role given to one of the hosts in a data center, enabling it to manage the storage domains of the data center.</p>
-</div>
-<div class="paragraph">
-<p>Use "Storage Pool Manager (SPM)" for the first instance in a section, and "SPM" for subsequent instances.</p>
-</div>
-<div class="paragraph">
-<p><strong>Use it</strong>: yes</p>
-</div>
-<div class="paragraph vale-ignore">
-<p><strong>Incorrect forms</strong>:</p>
-</div>
-<div class="paragraph">
-<p><strong>See also</strong>:</p>
-</div>
-</div>
-<div class="sect4">
 <h5 id="straightforward"><a class="anchor" href="#straightforward"></a><a class="link" href="#straightforward"><span class="image"><img src="images/yes.png" alt="yes"></span> straightforward (adjective)</a></h5>
 <div class="paragraph">
 <p><strong>Description</strong>: <em>Straightforward</em> means uncomplicated and easy to understand.</p>
@@ -19268,21 +19170,6 @@ Therefore, if you need to use the indefinite article before "sosreport", use <em
 </div>
 <div class="paragraph vale-ignore">
 <p><strong>Incorrect forms</strong>: SU</p>
-</div>
-<div class="paragraph">
-<p><strong>See also</strong>:</p>
-</div>
-</div>
-<div class="sect4">
-<h5 id="sub-version"><a class="anchor" href="#sub-version"></a><a class="link" href="#sub-version"><span class="image"><img src="images/yes.png" alt="yes"></span> sub-version (noun)</a></h5>
-<div class="paragraph">
-<p><strong>Description</strong>: In Red Hat Virtualization, a template <em>sub-version</em> is a new template version created from an existing template.</p>
-</div>
-<div class="paragraph">
-<p><strong>Use it</strong>: yes</p>
-</div>
-<div class="paragraph vale-ignore">
-<p><strong>Incorrect forms</strong>: sub version, subversion</p>
 </div>
 <div class="paragraph">
 <p><strong>See also</strong>:</p>
@@ -19501,7 +19388,7 @@ Therefore, if you need to use the indefinite article before "sosreport", use <em
 <div class="sect4">
 <h5 id="sysprep"><a class="anchor" href="#sysprep"></a><a class="link" href="#sysprep"><span class="image"><img src="images/yes.png" alt="yes"></span> sysprep (noun)</a></h5>
 <div class="paragraph">
-<p><strong>Description</strong>: <em>Sysprep</em> is a tool that automates the configuration of Windows virtual machines. Red Hat Virtualization enhances Sysprep by building a tailored auto-answer file for each virtual machine.</p>
+<p><strong>Description</strong>: <em>Sysprep</em> is a tool that automates the configuration of Windows virtual machines.</p>
 </div>
 <div class="paragraph">
 <p>With the exception of "sysprep file", which has a specific function, use "sysprep" on its own when referring to the tool.</p>
@@ -19597,7 +19484,7 @@ Therefore, if you need to use the indefinite article before "sosreport", use <em
 <div class="sect4">
 <h5 id="tcp"><a class="anchor" href="#tcp"></a><a class="link" href="#tcp"><span class="image"><img src="images/yes.png" alt="yes"></span> TCP (noun)</a></h5>
 <div class="paragraph">
-<p><strong>Description</strong>: The <em>Transmission Control Protocol (TCP)</em> is a connection-oriented protocol. Clients that are communicating over TCP must establish a connection to a server before data can be sent. TCP prefers reliability over time. Do not expand the abbreviation on the first usage.</p>
+<p><strong>Description</strong>: The <em>Transmission Control Protocol (TCP)</em> is a connection-oriented protocol. Clients that are communicating over TCP must establish a connection to a server before data can be sent. TCP prefers reliability over time. Do not expand the abbreviation on first use.</p>
 </div>
 <div class="paragraph">
 <p><strong>Use it</strong>: yes</p>
@@ -19808,7 +19695,7 @@ You can use a TGT to request further access, and provide the user with a Single 
 <div class="sect4">
 <h5 id="tls"><a class="anchor" href="#tls"></a><a class="link" href="#tls"><span class="image"><img src="images/yes.png" alt="yes"></span> TLS (noun)</a></h5>
 <div class="paragraph">
-<p><strong>Description</strong>: <em>TLS</em> is an initialism for "Transport Layer Security (TLS)", and it is the successor to the Secure Sockets Layer (SSL) protocol. Do not expand the abbreviation on the first usage.</p>
+<p><strong>Description</strong>: <em>TLS</em> is an initialism for "Transport Layer Security (TLS)", and it is the successor to the Secure Sockets Layer (SSL) protocol. Do not expand the abbreviation on first use.</p>
 </div>
 <div class="paragraph">
 <p>TLS is a cryptographic protocol that uses the Public Key Infrastructure (PKI) method to encrypt network traffic between two systems. PKI uses asymmetric encryption during a TLS handshake process to authenticate the connection between two systems.</p>
@@ -20604,21 +20491,6 @@ You can use a TGT to request further access, and provide the user with a Single 
 </div>
 </div>
 <div class="sect4">
-<h5 id="virtual-management-database"><a class="anchor" href="#virtual-management-database"></a><a class="link" href="#virtual-management-database"><span class="image"><img src="images/yes.png" alt="yes"></span> Virtual Management Database (VMDB) (noun)</a></h5>
-<div class="paragraph">
-<p><strong>Description</strong>: In Red Hat CloudForms, the <em>Virtual Management Database (VMDB)</em> is the database used by the Red Hat CloudForms appliance to store information about your resources, users, and anything else required to manage your virtual enterprise. Use "Virtual Management Database (VMDB)" in the first instance and "VMDB" in subsequent instances.</p>
-</div>
-<div class="paragraph">
-<p><strong>Use it</strong>: yes</p>
-</div>
-<div class="paragraph vale-ignore">
-<p><strong>Incorrect forms</strong>:</p>
-</div>
-<div class="paragraph">
-<p><strong>See also</strong>:</p>
-</div>
-</div>
-<div class="sect4">
 <h5 id="virtual-router"><a class="anchor" href="#virtual-router"></a><a class="link" href="#virtual-router"><span class="image"><img src="images/yes.png" alt="yes"></span> virtual router (noun)</a></h5>
 <div class="paragraph">
 <p><strong>Description</strong>: A <em>virtual router</em> is an abstract object managed by the virtual router redundancy protocol (VRRP) that acts as a default router for hosts on a shared LAN. It consists of a Virtual Router Identifier and a set of associated IP addresses across a common LAN.</p>
@@ -20676,24 +20548,6 @@ You can use a TGT to request further access, and provide the user with a Single 
 </div>
 <div class="paragraph">
 <p><strong>See also</strong>:</p>
-</div>
-</div>
-<div class="sect4">
-<h5 id="vm-portal"><a class="anchor" href="#vm-portal"></a><a class="link" href="#vm-portal"><span class="image"><img src="images/yes.png" alt="yes"></span> VM Portal (noun)</a></h5>
-<div class="paragraph">
-<p><strong>Description</strong>: In Red Hat Virtualization, the <em>VM Portal</em> is a graphical user interface provided by the Red Hat Virtualization Manager. It has limited permissions for managing virtual machine resources and is targeted at end users.</p>
-</div>
-<div class="paragraph">
-<p>Always use "VM Portal" and capitalize the product name.</p>
-</div>
-<div class="paragraph">
-<p><strong>Use it</strong>: yes</p>
-</div>
-<div class="paragraph vale-ignore">
-<p><strong>Incorrect forms</strong>: VM portal, vm portal, Virtual Machine Portal, User Portal</p>
-</div>
-<div class="paragraph">
-<p><strong>See also</strong>: <a href="#administration-portal">Administration Portal</a></p>
 </div>
 </div>
 <div class="sect4">
@@ -20995,21 +20849,6 @@ You can use a TGT to request further access, and provide the user with a Single 
 </div>
 <div class="paragraph">
 <p><strong>See also</strong>: <a href="#microsoft-windows">Microsoft Windows</a></p>
-</div>
-</div>
-<div class="sect4">
-<h5 id="worker-appliance"><a class="anchor" href="#worker-appliance"></a><a class="link" href="#worker-appliance"><span class="image"><img src="images/yes.png" alt="yes"></span> Worker Appliance (noun)</a></h5>
-<div class="paragraph">
-<p><strong>Description</strong>: In Red Hat CloudForms, the <em>Worker Appliance</em> is a Red Hat CloudForms appliance dedicated to a role other than User Interface or database.</p>
-</div>
-<div class="paragraph">
-<p><strong>Use it</strong>: yes</p>
-</div>
-<div class="paragraph vale-ignore">
-<p><strong>Incorrect forms</strong>:</p>
-</div>
-<div class="paragraph">
-<p><strong>See also</strong>:</p>
 </div>
 </div>
 <div class="sect4">
@@ -21382,7 +21221,7 @@ You can use a TGT to request further access, and provide the user with a Single 
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2024-01-10 15:35:30 UTC
+Last updated 2024-03-21 08:56:42 UTC
 </div>
 </div>
 <!-- Nav bar -->
