@@ -1,6 +1,8 @@
 [[release-notes]]
 = Release notes
 
+This is a bad word: Bidi.
+
 [[release-notes-doc-texts]]
 == Release notes doc texts
 
