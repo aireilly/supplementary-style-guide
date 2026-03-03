@@ -1,38 +1,38 @@
-# Red{nbsp}Hat supplementary style guide for product documentation
+# Red Hat supplementary style guide for product documentation
 
 ## Introduction
 
 # About this guide
 
-The style and language guidance in this guide overrides or supplements some guidance provided by the [_IBM Style_](https://www.ibm.com/docs/en/ibm-style) guide, which is the primary source of style guidance for [Red&#160;Hat](https://www.redhat.com/) product and cross-product solution documentation.
+The style and language guidance in this guide overrides or supplements some guidance provided by the [_IBM Style_](https://www.ibm.com/docs/en/ibm-style) guide, which is the primary source of style guidance for [Red Hat](https://www.redhat.com/) product and cross-product solution documentation.
 
-The Red&#160;Hat Customer Content Services team has created this guide to help ensure that Red&#160;Hat product documentation is clear, consistent, and cohesive. Upstream communities who want to align more closely with the standards used by Red&#160;Hat product documentation can also use this guide. However, some links in this guide might not be accessible for non-Red Hat associates.
+The Red Hat Customer Content Services team has created this guide to help ensure that Red Hat product documentation is clear, consistent, and cohesive. Upstream communities who want to align more closely with the standards used by Red Hat product documentation can also use this guide. However, some links in this guide might not be accessible for non-Red Hat associates.
 
-<dl><dt><strong>📌 NOTE</strong></dt><dd>
+> **NOTE:**
 
-Other Red&#160;Hat technical documentation, including Red&#160;Hat training and exam content by Global Learning Services (GLS), follows the [_Red&#160;Hat Technical Writing Style Guide_](https://stylepedia.net/) instead of the _Red&#160;Hat supplementary style guide for product documentation_.
-</dd></dl>
+Other Red Hat technical documentation, including Red Hat training and exam content by Global Learning Services (GLS), follows the [_Red Hat Technical Writing Style Guide_](https://stylepedia.net/) instead of the _Red Hat supplementary style guide for product documentation_.
 
-## Using style guides for Red&#160;Hat product documentation
 
-Red&#160;Hat product documentation adheres to the style guidance provided in the _IBM Style_ guide, the _Red&#160;Hat supplementary style guide for product documentation_, and documentation style guidelines specific to Red&#160;Hat products, such as Red&#160;Hat Enterprise Linux or Red&#160;Hat OpenShift Container Platform.
+## Using style guides for Red Hat product documentation
 
-When seeking style guidance, consult the style guide specific to your product documentation project first, if applicable, then the [_Red&#160;Hat supplementary style guide for product documentation_](https://redhat-documentation.github.io/supplementary-style-guide), and finally the [_IBM Style_](https://www.ibm.com/docs/en/ibm-style) guide.
+Red Hat product documentation adheres to the style guidance provided in the _IBM Style_ guide, the _Red Hat supplementary style guide for product documentation_, and documentation style guidelines specific to Red Hat products, such as Red Hat Enterprise Linux or Red Hat OpenShift Container Platform.
 
-<dl><dt><strong>📌 NOTE</strong></dt><dd>
+When seeking style guidance, consult the style guide specific to your product documentation project first, if applicable, then the [_Red Hat supplementary style guide for product documentation_](https://redhat-documentation.github.io/supplementary-style-guide), and finally the [_IBM Style_](https://www.ibm.com/docs/en/ibm-style) guide.
 
-To log in to the _IBM Style_ guide, enter your Red&#160;Hat email address in the **IBMid** field.
-</dd></dl>
+> **NOTE:**
 
-The following image illustrates the hierarchical relationship between the different style guides in Red&#160;Hat product documentation:
+To log in to the _IBM Style_ guide, enter your Red Hat email address in the **IBMid** field.
+
+
+The following image illustrates the hierarchical relationship between the different style guides in Red Hat product documentation:
 
 ![CCS style guide hierarchy](images/ccs-style-guide-hierarchy.png)
 
 If you think that a documentation use case needs to deviate from the guidance in this guide, notify the style council by opening an [issue](https://github.com/redhat-documentation/doc-style/issues). This way, the deviation can be discussed by the style council and, if appropriate, included in this guide.
 
-## Related Red&#160;Hat guides
+## Related Red Hat guides
 
-In addition to the _IBM Style_ guide and the _Red&#160;Hat supplementary style guide for product documentation_, Red&#160;Hat product documentation uses the following reference guides for technical writers:
+In addition to the _IBM Style_ guide and the _Red Hat supplementary style guide for product documentation_, Red Hat product documentation uses the following reference guides for technical writers:
 
 * [_Modular Documentation Reference Guide_](https://redhat-documentation.github.io/modular-docs/): Guidance for all things connected to modular documentation, including implementing those guidelines in AsciiDoc.
 * [_AsciiDoc Mark-up Quick Reference_](https://redhat-documentation.github.io/asciidoc-markup-conventions/): Guidance specific to writing in AsciiDoc. Includes links to complete documentation for AsciiDoc and Asciidoctor.
@@ -40,20 +40,20 @@ In addition to the _IBM Style_ guide and the _Red&#160;Hat supplementary style g
 
 ## PDF version
 
-The _Red&#160;Hat supplementary style guide for product documentation_ is also available as a PDF. You can download the [latest version of the guide as a PDF](https://github.com/redhat-documentation/supplementary-style-guide/releases/latest/download/red-hat-supplementary-style-guide.pdf) from the GitHub releases section of project’s GitHub repository.
+The _Red Hat supplementary style guide for product documentation_ is also available as a PDF. You can download the [latest version of the guide as a PDF](https://github.com/redhat-documentation/supplementary-style-guide/releases/latest/download/red-hat-supplementary-style-guide.pdf) from the GitHub releases section of project’s GitHub repository.
 
 ## Markdown version
 
-The _Red&#160;Hat supplementary style guide for product documentation_ is also available as a Markdown file. You can download or reference the [Markdown version of the guide](https://redhat-documentation.github.io/supplementary-style-guide/ssg.md) for use with tools and workflows that consume Markdown.
+The _Red Hat supplementary style guide for product documentation_ is also available as a Markdown file. You can download or reference the [Markdown version of the guide](https://redhat-documentation.github.io/supplementary-style-guide/ssg.md) for use with tools and workflows that consume Markdown.
 
 # What's new
 
-Review the history of significant updates to the _Red&#160;Hat supplementary style guide for product documentation_.
+Review the history of significant updates to the _Red Hat supplementary style guide for product documentation_.
 
-<dl><dt><strong>📌 NOTE</strong></dt><dd>
+> **NOTE:**
 
 To view the history of changes from 2020 through 2022, see the [What’s new](https://github.com/redhat-documentation/supplementary-style-guide/blob/main/HISTORY.md) page in the GitHub repository.
-</dd></dl>
+
 
 ## 2025
 ### June-December 2025
@@ -91,10 +91,10 @@ See the [Contributing guide](https://github.com/redhat-documentation/supplementa
 * **[composite content view](#image:images/yes.png[yes]-composite-content-view-(noun))**: Updated glossary entry to use lowercase spelling
 * **[content view](#image:images/yes.png[yes]-content-view-(noun))**: Updated glossary entry to use lowercase spelling
 * **[Nmstate](#image:images/yes.png[yes]-nmstate-(noun))**: Added glossary entry
-* **[on-premise](#image:images/caution.png[with-caution]-on-premise-(adjective))**: Updated glossary entry to include Red&#160;Hat OpenShift Container Platform definition
-* **Product**: Removed glossary entry because Red&#160;Hat Satellite no longer capitalizes it
-* **Red&#160;Hat Network Proxy Server**: Removed glossary entry because this term has been replaced by "Capsule Server"
-* **Red&#160;Hat Network Satellite Server**: Removed glossary entry because this term has been replaced by "Satellite Server"
+* **[on-premise](#image:images/caution.png[with-caution]-on-premise-(adjective))**: Updated glossary entry to include Red Hat OpenShift Container Platform definition
+* **Product**: Removed glossary entry because Red Hat Satellite no longer capitalizes it
+* **Red Hat Network Proxy Server**: Removed glossary entry because this term has been replaced by "Capsule Server"
+* **Red Hat Network Satellite Server**: Removed glossary entry because this term has been replaced by "Satellite Server"
 * **[subscription manifest](#image:images/yes.png[yes]-subscription-manifest-(noun))**: Updated glossary entry to use lowercase spelling
 
 **Style guidance**
@@ -124,15 +124,15 @@ See the [Contributing guide](https://github.com/redhat-documentation/supplementa
 **Glossary entries**
 
 * **[peer pod](#image:images/yes.png[yes]-peer-pod-(noun,-adjective))**: Added glossary entry
-* **[Red&#160;Hat Decision Manager](#image:images/yes.png[yes]-red&#160;hat-decision-manager-(noun))**: Added glossary entry
-* **Red&#160;Hat JBoss BPM Suite**: Removed glossary entry
-* **Red&#160;Hat JBoss BRMS**: Removed glossary entry
-* **[Red&#160;Hat Process Automation Manager](#image:images/yes.png[yes]-red&#160;hat-process-automation-manager-(noun))**: Added glossary entry
+* **[Red Hat Decision Manager](#image:images/yes.png[yes]-red hat-decision-manager-(noun))**: Added glossary entry
+* **Red Hat JBoss BPM Suite**: Removed glossary entry
+* **Red Hat JBoss BRMS**: Removed glossary entry
+* **[Red Hat Process Automation Manager](#image:images/yes.png[yes]-red hat-process-automation-manager-(noun))**: Added glossary entry
 
 **Other updates**
 
-* Updated references to _Red&#160;Hat JBoss BRMS_ to use the new name of _Red&#160;Hat Decision Manager_
-* Updated references to _Red&#160;Hat JBoss BPM Suite_ to use the new name of _Red&#160;Hat Process Automation Manager_
+* Updated references to _Red Hat JBoss BRMS_ to use the new name of _Red Hat Decision Manager_
+* Updated references to _Red Hat JBoss BPM Suite_ to use the new name of _Red Hat Process Automation Manager_
 
 ### March 2024
 
@@ -231,43 +231,43 @@ See the [Contributing guide](https://github.com/redhat-documentation/supplementa
 
 * **[Commands requiring root privileges](#commands-requiring-root-privileges)**: Updated guidance to include an example
 * **[Release notes](#release-notes)**: Updated guidance about referring to release versions for documentation on deprecated and removed features
-* **[Using style guides for Red Hat product documentation](#_using_style_guides_for_redhat_product_documentation)**: Updated to clarify the hierarchy of the _IBM Style_ guide, the _Red&#160;Hat supplementary style guide for product documentation_, and product-specific style guidelines
+* **[Using style guides for Red Hat product documentation](#_using_style_guides_for_redhat_product_documentation)**: Updated to clarify the hierarchy of the _IBM Style_ guide, the _Red Hat supplementary style guide for product documentation_, and product-specific style guidelines
 
 ### February 2024
 
 **Glossary entries**
 
-* **Administration Portal**: Removed glossary entry because Red&#160;Hat Virtualization support is ending
-* **Appliance console**: Removed glossary entry because Red&#160;Hat CloudForms support is ending
-* **collect**: Removed glossary entry because Red&#160;Hat Virtualization support is ending
-* **Data Warehouse**: Removed glossary entry because Red&#160;Hat Virtualization support is ending
-* **details view**: Removed glossary entry because Red&#160;Hat Virtualization support is ending
-* **gather**: Removed glossary entry because Red&#160;Hat Virtualization support is ending
-* **header bar**: Removed glossary entry because Red&#160;Hat Virtualization support is ending
-* **host**: Removed glossary entry because Red&#160;Hat Virtualization support is ending
-* **Manager virtual machine**: Removed glossary entry because Red&#160;Hat Virtualization support is ending
-* **MOM**: Removed glossary entry because Red&#160;Hat Virtualization support is ending
-* **Monitoring Portal**: Removed glossary entry because Red&#160;Hat Virtualization support is ending
-* **Red&#160;Hat CloudForms**: Removed glossary entry because Red&#160;Hat CloudForms support is ending
-* **Red&#160;Hat CloudForms Appliance**: Removed glossary entry because Red&#160;Hat CloudForms support is ending
-* **Red&#160;Hat CloudForms server**: Removed glossary entry because Red&#160;Hat CloudForms support is ending
-* **Red&#160;Hat Enterprise Linux host**: Removed glossary entry because Red&#160;Hat Virtualization support is ending
-* **Red&#160;Hat Virtualization**: Removed glossary entry because Red&#160;Hat Virtualization support is ending
-* **Red&#160;Hat Virtualization Host**: Removed glossary entry because Red&#160;Hat Virtualization support is ending
-* **Red&#160;Hat Virtualization Manager**: Removed glossary entry because Red&#160;Hat Virtualization support is ending
-* **resource tab**: Removed glossary entry because Red&#160;Hat Virtualization support is ending
-* **results list**: Removed glossary entry because Red&#160;Hat Virtualization support is ending
-* **self-hosted engine**: Removed glossary entry because Red&#160;Hat Virtualization support is ending
-* **self-hosted engine node**: Removed glossary entry because Red&#160;Hat Virtualization support is ending
-* **SmartState analysis**: Removed glossary entry because Red&#160;Hat CloudForms support is ending
-* **sparse**: Removed glossary entry because Red&#160;Hat Virtualization support is ending
-* **sparsify**: Removed glossary entry because Red&#160;Hat Virtualization support is ending
-* **standalone Manager**: Removed glossary entry because Red&#160;Hat Virtualization support is ending
-* **Storage Pool Manager**: Removed glossary entry because Red&#160;Hat Virtualization support is ending
-* **sub-version**: Removed glossary entry because Red&#160;Hat Virtualization support is ending
-* **Virtual Management Database**: Removed glossary entry because Red&#160;Hat CloudForms support is ending
-* **VM Portal**: Removed glossary entry because Red&#160;Hat Virtualization support is ending
-* **Worker Appliance**: Removed glossary entry because Red&#160;Hat CloudForms support is ending
+* **Administration Portal**: Removed glossary entry because Red Hat Virtualization support is ending
+* **Appliance console**: Removed glossary entry because Red Hat CloudForms support is ending
+* **collect**: Removed glossary entry because Red Hat Virtualization support is ending
+* **Data Warehouse**: Removed glossary entry because Red Hat Virtualization support is ending
+* **details view**: Removed glossary entry because Red Hat Virtualization support is ending
+* **gather**: Removed glossary entry because Red Hat Virtualization support is ending
+* **header bar**: Removed glossary entry because Red Hat Virtualization support is ending
+* **host**: Removed glossary entry because Red Hat Virtualization support is ending
+* **Manager virtual machine**: Removed glossary entry because Red Hat Virtualization support is ending
+* **MOM**: Removed glossary entry because Red Hat Virtualization support is ending
+* **Monitoring Portal**: Removed glossary entry because Red Hat Virtualization support is ending
+* **Red Hat CloudForms**: Removed glossary entry because Red Hat CloudForms support is ending
+* **Red Hat CloudForms Appliance**: Removed glossary entry because Red Hat CloudForms support is ending
+* **Red Hat CloudForms server**: Removed glossary entry because Red Hat CloudForms support is ending
+* **Red Hat Enterprise Linux host**: Removed glossary entry because Red Hat Virtualization support is ending
+* **Red Hat Virtualization**: Removed glossary entry because Red Hat Virtualization support is ending
+* **Red Hat Virtualization Host**: Removed glossary entry because Red Hat Virtualization support is ending
+* **Red Hat Virtualization Manager**: Removed glossary entry because Red Hat Virtualization support is ending
+* **resource tab**: Removed glossary entry because Red Hat Virtualization support is ending
+* **results list**: Removed glossary entry because Red Hat Virtualization support is ending
+* **self-hosted engine**: Removed glossary entry because Red Hat Virtualization support is ending
+* **self-hosted engine node**: Removed glossary entry because Red Hat Virtualization support is ending
+* **SmartState analysis**: Removed glossary entry because Red Hat CloudForms support is ending
+* **sparse**: Removed glossary entry because Red Hat Virtualization support is ending
+* **sparsify**: Removed glossary entry because Red Hat Virtualization support is ending
+* **standalone Manager**: Removed glossary entry because Red Hat Virtualization support is ending
+* **Storage Pool Manager**: Removed glossary entry because Red Hat Virtualization support is ending
+* **sub-version**: Removed glossary entry because Red Hat Virtualization support is ending
+* **Virtual Management Database**: Removed glossary entry because Red Hat CloudForms support is ending
+* **VM Portal**: Removed glossary entry because Red Hat Virtualization support is ending
+* **Worker Appliance**: Removed glossary entry because Red Hat CloudForms support is ending
 
 **Style guidance**
 
@@ -382,9 +382,9 @@ _No glossary or style updates._
 * **[IBM® LinuxONE](#image:images/yes.png[yes]-ibm®-linuxone-(noun))**: Added glossary entry
 * **[IBM Power®](#image:images/yes.png[yes]-ibm-power®-(noun))**: Added glossary entry
 * **[IBM Z®](#image:images/yes.png[yes]-ibm-z®-(noun))**: Updated glossary entry
-* **[Red&#160;Hat build of OpenJDK](#image:images/yes.png[yes]-red&#160;hat-build-of-openjdk-(noun))**: Added glossary entry
-* **[Red&#160;Hat Java](#image:images/no.png[no]-red&#160;hat-java-(noun))**: Added glossary entry
-* **[Red&#160;Hat OpenJDK](#image:images/no.png[no]-red&#160;hat-openjdk-(noun))**: Added glossary entry
+* **[Red Hat build of OpenJDK](#image:images/yes.png[yes]-red hat-build-of-openjdk-(noun))**: Added glossary entry
+* **[Red Hat Java](#image:images/no.png[no]-red hat-java-(noun))**: Added glossary entry
+* **[Red Hat OpenJDK](#image:images/no.png[no]-red hat-openjdk-(noun))**: Added glossary entry
 * **[s390x](#image:images/yes.png[yes]-s390x-(noun))**: Added glossary entry
 
 **Style guidance**
@@ -414,7 +414,7 @@ _No glossary or style updates._
 **Other updates**
 
 * Added a **[0-9](#_0_9)** section and moved entries starting with a number to it.
-* Added links to the new Red&#160;Hat [_Getting started with accessibility for writers_](https://redhat-documentation.github.io/accessibility-guide/) guide.
+* Added links to the new Red Hat [_Getting started with accessibility for writers_](https://redhat-documentation.github.io/accessibility-guide/) guide.
 * Removed the _Cloud services guidelines_ heading, since all guidelines under it were applicable to all product documentation. Redistributed its guidelines to other sections:
   * Moved **[Accessibility](#accessibility)** to its own top-level section.
   * Moved the _Localization_ guideline to a note in **[Conversational style](#conversational-style)**.
@@ -515,22 +515,22 @@ If you want to contribute an update to this guide, see the [Contributing guide](
 
 These recommendations might override existing guidance in the [_IBM Style_](https://www.ibm.com/docs/en/ibm-style) guide, or might provide guidance for items not covered in the _IBM Style_ guide.
 
-<dl><dt><strong>📌 NOTE</strong></dt><dd>
+> **NOTE:**
 
-If applicable, these guidelines provide example formatting in AsciiDoc, which is the markup language that Red&#160;Hat Customer Content Services currently uses. However, the guidelines can be applied to any language.
-</dd></dl>
+If applicable, these guidelines provide example formatting in AsciiDoc, which is the markup language that Red Hat Customer Content Services currently uses. However, the guidelines can be applied to any language.
+
 
 # Grammar and language
 
 ## Conscious language
 
-The Conscious Language Group supports the Red&#160;Hat commitment to remove problematic language from our code, documentation, websites, and open source projects with which Red&#160;Hat is involved.
+The Conscious Language Group supports the Red Hat commitment to remove problematic language from our code, documentation, websites, and open source projects with which Red Hat is involved.
 For more information about the Conscious Language Group, see https://github.com/conscious-lang/conscious-lang-docs.
 
-<dl><dt><strong>❗ IMPORTANT</strong></dt><dd>
+> **IMPORTANT:**
 
 To ensure consistency and success, it is imperative for product team stakeholders to align internally. For example, documentation teams should engage in discussions with their engineering leadership to reach an agreement on replacement terms. This ensures that the product documentation matches the code.
-</dd></dl>
+
 
 ### Blacklist and whitelist
 
@@ -571,11 +571,11 @@ When possible, rewrite documentation to avoid these terms. When it is not possib
 
 * Removing _master_
 
-  ![no](images/no.png) A Ceph Monitor maintains the _master_ copy of the Red&#160;Hat Ceph Storage cluster map with the current state of the Red&#160;Hat Ceph Storage cluster.
+  ![no](images/no.png) A Ceph Monitor maintains the _master_ copy of the Red Hat Ceph Storage cluster map with the current state of the Red Hat Ceph Storage cluster.
 
-  ![yes](images/yes.png) A Ceph Monitor maintains the _primary_ copy of the Red&#160;Hat Ceph Storage cluster map with the current state of the Red&#160;Hat Ceph Storage cluster.
+  ![yes](images/yes.png) A Ceph Monitor maintains the _primary_ copy of the Red Hat Ceph Storage cluster map with the current state of the Red Hat Ceph Storage cluster.
 
-  ![yes](images/yes.png) A Ceph Monitor maintains the _main_ copy of the Red&#160;Hat Ceph Storage cluster map with the current state of the Red&#160;Hat Ceph Storage cluster.
+  ![yes](images/yes.png) A Ceph Monitor maintains the _main_ copy of the Red Hat Ceph Storage cluster map with the current state of the Red Hat Ceph Storage cluster.
 * Removing _slave_
 
   ![no](images/no.png) Use the following command to copy the public key to the _slave_ node.
@@ -592,14 +592,14 @@ If you are writing quick start or other content that uses a more informal [conve
 
 Follow the _IBM Style_ guide advice of _less conversational_ style in most cases.
 
-Red&#160;Hat Enterprise Linux 8 delivers a stable, secure, and consistent foundation across hybrid cloud deployments with the tools needed to deliver workloads faster with less effort.
+Red Hat Enterprise Linux 8 delivers a stable, secure, and consistent foundation across hybrid cloud deployments with the tools needed to deliver workloads faster with less effort.
 
 As needed, adjust the conversational to _fairly conversational_ for an audience of new users or _least conversational_ for API documentation and other very experienced audiences.
 
-<dl><dt><strong>📌 NOTE</strong></dt><dd>
+> **NOTE:**
 
 Documentation for cloud services follows the _IBM Style_ guide for _fairly conversational_ tone. When using _fairly conversational_ tone, use contractions where appropriate.
-</dd></dl>
+
 
 ## Homographs
 A homograph is a word that is spelled the same as another word but has a different meaning.
@@ -671,10 +671,10 @@ Use a single command per code block for each procedure step. Separate a command 
 
 By default, use bold formatting for commands in code blocks to visually distinguish the commands from their lead-in sentences and from the command prompts and example outputs. For consistency, use bold formatting for commands even when no command output is shown in the code block.
 
-<dl><dt><strong>📌 NOTE</strong></dt><dd>
+> **NOTE:**
 
 To apply formatting in a code block, you must use the `quotes` [AsciiDoc substitution](https://docs.asciidoctor.org/asciidoc/latest/subs/apply-subs-to-blocks/).
-</dd></dl>
+
 
 **Example AsciiDoc: A command and its output in separate code blocks**
 
@@ -825,13 +825,13 @@ Do not link to a website that contains the man page information. The contents of
 
 ## Non-breaking spaces
 
-Use a _non-breaking space_ (`{nbsp}`) between the words "Red" and "Hat". The non-breaking space prevents an automatic line break from separating the two words onto two lines.
+Use a _non-breaking space_ (` `) between the words "Red" and "Hat". The non-breaking space prevents an automatic line break from separating the two words onto two lines.
 A _non-breaking space_ prevents the company name from splitting across a line break.
 
 **Example AsciiDoc: Non-breaking space**
 
 ```
-Before you begin to customize the installer, download the Red{nbsp}Hat-provided boot images.
+Before you begin to customize the installer, download the Red Hat-provided boot images.
 ```
 
 ## Product names and version references
@@ -865,7 +865,7 @@ For example:
   **Example AsciiDoc: Product name attribute**
 
   ```
-  :name-product: Red{nbsp}Hat JBoss Enterprise Application Platform
+  :name-product: Red Hat JBoss Enterprise Application Platform
   ```
 * **The abbreviated form of the product name**\
 If it is necessary for your product, you can use an attribute to store a shortened version of the name of your product, for example:
@@ -886,11 +886,11 @@ For example:
   :version-product-patch: 1.11.6
   ```
 
-  <dl><dt><strong>📌 NOTE</strong></dt><dd>
+  > **NOTE:**
 
   Do not use the product version attribute if the version should not change.
   For example, if a feature was introduced in a certain version, the version should be hard-coded.
-  </dd></dl>
+  
 
 You might create additional attributes according to what your documentation requires.
 For example, you might combine existing product name attributes to create compound names of products or components:
@@ -926,10 +926,10 @@ A _user-replaced value_, also known as a replaceable or variable value, is a pla
 
 Use descriptive names for user-replaced values and follow this general format: _&lt;value_name>_.
 
-<dl><dt><strong>📌 NOTE</strong></dt><dd>
+> **NOTE:**
 
 For XML code blocks, see the guidance on [user-replaced values for XML](#user-replaced-values-for-xml).
-</dd></dl>
+
 
 Ensure that user-replaced values have the following characteristics:
 
@@ -1033,10 +1033,10 @@ Information about potential system damage, data loss, or a support-related issue
 * **TIP**\
 Alternative methods that might not be obvious. Makes applying the techniques and procedures described in the text easier or targets specific needs. Helps users understand the benefits and capabilities of the product. Not essential to using the product.
 
-<dl><dt><strong>❗ IMPORTANT</strong></dt><dd>
+> **IMPORTANT:**
 
-CAUTION, which is another type of AsciiDoc admonition, is not fully supported by the Red&#160;Hat Customer Portal. Do not use this admonition type.
-</dd></dl>
+CAUTION, which is another type of AsciiDoc admonition, is not fully supported by the Red Hat Customer Portal. Do not use this admonition type.
+
 
 Admonitions should be short and concise. Do not include procedures in an admonition.
 
@@ -1089,10 +1089,10 @@ Write prerequisites as checks that are true or that the user must have completed
 
 To help readers find the information that they need or to confirm that they are in the right place, every module and assembly must include a _short description_, also called an _abstract_.
 
-<dl><dt><strong>❗ IMPORTANT</strong></dt><dd>
+> **IMPORTANT:**
 
 Do not start a module or assembly with an admonition, even when adding the Technology Preview admonition. Always include a short description before including an admonition.
-</dd></dl>
+
 
 This description is usually at least 2-3 sentences long, and you can scan it in a few seconds. It exists between the title and the main content, connecting them and providing context and disambiguation.
 
@@ -1140,11 +1140,11 @@ Use the following guidelines when you document commands that require root privil
 * If a command requires a temporary switch to root privileges, use the `sudo` command at the beginning of the sample command syntax rather than the `su -` command.
 * If you include a shell prompt in a sample command, always show the correct prompt for a regular user (`$`) or a user with root privileges (`#`).
 
-  <dl><dt><strong>📌 NOTE</strong></dt><dd>
+  > **NOTE:**
 
   Do not rely solely on a shell prompt in a sample command to indicate the required privilege level to run a command.
   If you include a shell prompt to indicate that a user with root privileges must run the command, also include a statement about this requirement in the step text, the introductory text, or the prerequisites.
-  </dd></dl>
+  
 
 * When a sample command includes `sudo`, use the `$` prompt, not `#`, as shown in the following example:
 
@@ -1219,7 +1219,7 @@ All code blocks (regardless of length) must be necessary, accurate, and helpful.
 
 ## Syntax highlighting
 
-Provide the source language if it is supported by the Red&#160;Hat Customer Portal toolchain. Do not use the `bash` source language for terminal commands. It incorrectly interprets the number sign (#) as a comment instead of the prompt for a root command.
+Provide the source language if it is supported by the Red Hat Customer Portal toolchain. Do not use the `bash` source language for terminal commands. It incorrectly interprets the number sign (#) as a comment instead of the prompt for a root command.
 
     [source,yaml]
     ----
@@ -1235,7 +1235,7 @@ For more detailed guidance on how to document user interface (UI) elements, see 
 
 ## Microcopy
 
-The words in a user interface, commonly referred to as "UX copy" or "microcopy", are just as important as the components or layouts. Microcopy is another element of design, and it can drive better UX decisions and guide users to succeed. Red&#160;Hat cloud services are based on PatternFly, an open source design system created to enable consistency and usability across a wide range of applications and use cases.
+The words in a user interface, commonly referred to as "UX copy" or "microcopy", are just as important as the components or layouts. Microcopy is another element of design, and it can drive better UX decisions and guide users to succeed. Red Hat cloud services are based on PatternFly, an open source design system created to enable consistency and usability across a wide range of applications and use cases.
 
 See [UX writing](https://www.patternfly.org/ux-writing/about) in the PatternFly content style guide for comprehensive guidelines about documenting user interfaces.
 
@@ -1269,7 +1269,7 @@ If an element is not labeled in the GUI, refer to the element by a generic descr
 
 ## Cost references
 
-Avoid all references to the costs and charges of Red&#160;Hat products. Although the _IBM Style_ guide recommends against using the term "free", also avoid any references to cost in product documentation because they can confuse users and cause legal concerns. Any cost information is best referenced in marketing materials.
+Avoid all references to the costs and charges of Red Hat products. Although the _IBM Style_ guide recommends against using the term "free", also avoid any references to cost in product documentation because they can confuse users and cause legal concerns. Any cost information is best referenced in marketing materials.
 
 * "at no initial cost" - Avoid this phrase in documentation because, although it implies there are further costs, it can also be construed to mean that the product is free when it is not.
 
@@ -1284,12 +1284,12 @@ In these situations, follow these guidelines:
 * Do not promise that a feature or a fix for a known issue will be included in an upcoming release or according to a specific timeline.
 * Do not refer to a specific future release. For example, do not mention a particular release number or a specific release date.
 
-  <dl><dt><strong>📌 NOTE</strong></dt><dd>
+  > **NOTE:**
 
   One exception to this rule applies to deprecation and removal notices, which might have to specify a future release in which a feature or functions will be deprecated and removed.
 
   See [Deprecated and removed features](#deprecated-and-removed-features) for guidelines about deprecation and removal notices.
-  </dd></dl>
+  
 
 **Example: Bug fix statement**
 
@@ -1316,14 +1316,14 @@ For more information about <topic>, see xref:<link>[<link_text>].
 
 Follow these guidelines when linking externally:
 
-* Avoid unnecessary links to external sites not owned and operated by Red&#160;Hat or IBM.
+* Avoid unnecessary links to external sites not owned and operated by Red Hat or IBM.
 Links to external sites can change or be unreliable.
-In addition, customers might infer that Red&#160;Hat endorses or supports the linked content, even if that is not the intent.
+In addition, customers might infer that Red Hat endorses or supports the linked content, even if that is not the intent.
 
-  <dl><dt><strong>📌 NOTE</strong></dt><dd>
+  > **NOTE:**
 
   Links to upstream sites, such as GitHub, are considered to be external links.
-  </dd></dl>
+  
 
 * When possible, link to a top-level page and avoid deep links to a specific page or image.
 Deep links can break more frequently and can inadvertently bypass a site’s legal notices.
@@ -1351,28 +1351,28 @@ Follow these guidelines when specifying link text:
 * Use a concise sentence or sentence fragment as the link text.
 * Avoid irrelevant link text.
 
-## Links to Red&#160;Hat Knowledgebase articles
+## Links to Red Hat Knowledgebase articles
 
 * Use the title of the Knowledgebase article for the link text, or use descriptive running text.
 * When not using running text, call out that this is a Knowledgebase article.
-* When the link appears in **Additional resources**, put the article title first, followed by `(Red&#160;Hat Knowledgebase)` within the link.
+* When the link appears in **Additional resources**, put the article title first, followed by `(Red Hat Knowledgebase)` within the link.
 
-For a non-cloud environment, you can resize the disk and file system. For more information, see the Red&#160;Hat Knowledgebase solution [Does RHEL 7 support online resize of disk partitions?](https://access.redhat.com/solutions/199573).
+For a non-cloud environment, you can resize the disk and file system. For more information, see the Red Hat Knowledgebase solution [Does RHEL 7 support online resize of disk partitions?](https://access.redhat.com/solutions/199573).
 
 If your Apache web server configuration enables SSL security, verify that you enable only the TLSv1 protocol and disable SSLv2 and SSLv3. This is because of the [POODLE SSL vulnerability (CVE-2014-3566)](https://access.redhat.com/solutions/1232413).
 
-* [Does RHEL 7 support online resize of disk partitions? (Red&#160;Hat Knowledgebase)](https://access.redhat.com/solutions/199573)
+* [Does RHEL 7 support online resize of disk partitions? (Red Hat Knowledgebase)](https://access.redhat.com/solutions/199573)
 
 # Support
 
 ## Developer Preview
 
-Developer Preview software provides early access to a technology, component, or feature in advance of its possible inclusion in a Red&#160;Hat product offering. Customers can use Developer Preview software to test functionality and provide feedback during the development process. Documentation is not required for Developer Preview software, but if documentation is provided, it is subject to change or removal at any time. Also, testing is limited for Developer Preview software. Red&#160;Hat might provide ways to submit feedback on Developer Preview software without an associated SLA.
+Developer Preview software provides early access to a technology, component, or feature in advance of its possible inclusion in a Red Hat product offering. Customers can use Developer Preview software to test functionality and provide feedback during the development process. Documentation is not required for Developer Preview software, but if documentation is provided, it is subject to change or removal at any time. Also, testing is limited for Developer Preview software. Red Hat might provide ways to submit feedback on Developer Preview software without an associated SLA.
 
-<dl><dt><strong>⚠️ WARNING</strong></dt><dd>
+> **WARNING:**
 
-Some products, such as Red&#160;Hat Openshift Container Platform, do not include Developer Preview content in the documentation. Check with your Content Strategist or Support contact to confirm whether you can publish Developer Preview documentation for your product.
-</dd></dl>
+Some products, such as Red Hat Openshift Container Platform, do not include Developer Preview content in the documentation. Check with your Content Strategist or Support contact to confirm whether you can publish Developer Preview documentation for your product.
+
 
 When documenting a Developer Preview software, follow these guidelines:
 
@@ -1381,10 +1381,10 @@ When documenting a Developer Preview software, follow these guidelines:
 * Never use the phrase "supported as a Developer Preview", and avoid using "support" in Developer Preview descriptions. Instead, use neutral words like "available", "provide", "capability", and so on.
 * When the Developer Preview software becomes generally available, remove the IMPORTANT admonition from any document that includes content about the feature.
 
-  <dl><dt><strong>📌 NOTE</strong></dt><dd>
+  > **NOTE:**
 
   You might need to replace the Developer Preview admonition with a Technology Preview admonition. For more information, see [Technology Preview](#technology-preview).
-  </dd></dl>
+  
 
 Use the following template. Replace _&lt;software_name>_ with the software name:
 
@@ -1393,9 +1393,9 @@ Use the following template. Replace _&lt;software_name>_ with the software name:
 ```text
 [IMPORTANT]
 ====
-_<software_name>_ is Developer Preview software only. Developer Preview software is not supported by Red{nbsp}Hat in any way and is not functionally complete or production-ready. Do not use Developer Preview software for production or business-critical workloads. Developer Preview software provides early access to upcoming product software in advance of its possible inclusion in a Red{nbsp}Hat product offering. Customers can use this software to test functionality and provide feedback during the development process. This software might not have any documentation, is subject to change or removal at any time, and has received limited testing. Red{nbsp}Hat might provide ways to submit feedback on Developer Preview software without an associated SLA.
+_<software_name>_ is Developer Preview software only. Developer Preview software is not supported by Red Hat in any way and is not functionally complete or production-ready. Do not use Developer Preview software for production or business-critical workloads. Developer Preview software provides early access to upcoming product software in advance of its possible inclusion in a Red Hat product offering. Customers can use this software to test functionality and provide feedback during the development process. This software might not have any documentation, is subject to change or removal at any time, and has received limited testing. Red Hat might provide ways to submit feedback on Developer Preview software without an associated SLA.
 
-For more information about the support scope of Red{nbsp}Hat Developer Preview software, see link:https://access.redhat.com/support/offerings/devpreview/[Developer Preview Support Scope].
+For more information about the support scope of Red Hat Developer Preview software, see link:https://access.redhat.com/support/offerings/devpreview/[Developer Preview Support Scope].
 ====
 ```
 
@@ -1403,7 +1403,7 @@ For more information about the support scope of Red{nbsp}Hat Developer Preview s
 * Node Health Check Operator
 * CSI inline ephemeral volumes
 
-For more information about the support scope of Red&#160;Hat Developer Preview features, see [Developer Preview Support Scope](https://access.redhat.com/support/offerings/devpreview/). For a comparison of Developer Preview and Technology Preview features, see [Developer and Technology Previews: How they compare](https://access.redhat.com/articles/6966848).
+For more information about the support scope of Red Hat Developer Preview features, see [Developer Preview Support Scope](https://access.redhat.com/support/offerings/devpreview/). For a comparison of Developer Preview and Technology Preview features, see [Developer and Technology Previews: How they compare](https://access.redhat.com/articles/6966848).
 
 ## Technology Preview
 
@@ -1425,9 +1425,9 @@ Use the following template text verbatim, where _&lt;feature_name>_ is your feat
 ```text
 [IMPORTANT]
 ====
-_<feature_name>_ is a Technology Preview feature only. Technology Preview features are not supported with Red{nbsp}Hat production service level agreements (SLAs) and might not be functionally complete. Red{nbsp}Hat does not recommend using them in production. These features provide early access to upcoming product features, enabling customers to test functionality and provide feedback during the development process.
+_<feature_name>_ is a Technology Preview feature only. Technology Preview features are not supported with Red Hat production service level agreements (SLAs) and might not be functionally complete. Red Hat does not recommend using them in production. These features provide early access to upcoming product features, enabling customers to test functionality and provide feedback during the development process.
 
-For more information about the support scope of Red{nbsp}Hat Technology Preview features, see link:https://access.redhat.com/support/offerings/techpreview/[Technology Preview Features Support Scope].
+For more information about the support scope of Red Hat Technology Preview features, see link:https://access.redhat.com/support/offerings/techpreview/[Technology Preview Features Support Scope].
 ====
 ```
 
@@ -1435,7 +1435,7 @@ For more information about the support scope of Red{nbsp}Hat Technology Preview 
 * SSPI connection support on Microsoft Windows
 * Hot-plugging virtual disks
 
-For more information about the support scope of Red&#160;Hat Technology Preview features, see [Technology Preview Features Support Scope](https://access.redhat.com/support/offerings/techpreview/). For a comparison of Developer Preview and Technology Preview features, see [Developer and Technology Previews: How they compare](https://access.redhat.com/articles/6966848).
+For more information about the support scope of Red Hat Technology Preview features, see [Technology Preview Features Support Scope](https://access.redhat.com/support/offerings/techpreview/). For a comparison of Developer Preview and Technology Preview features, see [Developer and Technology Previews: How they compare](https://access.redhat.com/articles/6966848).
 
 # Release notes
 
@@ -1940,7 +1940,7 @@ Before this update, when you used the Infoblox plugin as the DHCP provider, it s
 
 # Accessibility
 
-For full information about writing accessible content at Red&#160;Hat, see [_Getting started with accessibility for writers_](https://redhat-documentation.github.io/accessibility-guide/).
+For full information about writing accessible content at Red Hat, see [_Getting started with accessibility for writers_](https://redhat-documentation.github.io/accessibility-guide/).
 
 ## Colors and other visual information
 
@@ -2002,7 +2002,7 @@ The meaning of content relies on the order in which you present it. For example,
 
 ## Glossary of terms and conventions
 
-This glossary is the central location for terms and conventions for technical language in Red&#160;Hat product documentation and other technical content.
+This glossary is the central location for terms and conventions for technical language in Red Hat product documentation and other technical content.
 
 ### Word usage
 
@@ -2048,7 +2048,7 @@ _Specify the system architecture of your cluster, such as `x86_64` or `aarch64`.
 **See also**:
 
 #### image:images/yes.png[yes] acceptor (noun)
-**Description**: In Red&#160;Hat AMQ, an _acceptor_ defines the way a client can connect to a broker instance.
+**Description**: In Red Hat AMQ, an _acceptor_ defines the way a client can connect to a broker instance.
 
 **Use it**: yes
 
@@ -2102,7 +2102,7 @@ _Specify the system architecture of your cluster, such as `x86_64` or `aarch64`.
 **See also**:
 
 #### image:images/yes.png[yes] action (noun)
-**Description**: In Red&#160;Hat OpenShift, an authorization _action_ consists of _project_, _verb_, and _resource_.
+**Description**: In Red Hat OpenShift, an authorization _action_ consists of _project_, _verb_, and _resource_.
 
 **Use it**: yes
 
@@ -2138,7 +2138,7 @@ _Specify the system architecture of your cluster, such as `x86_64` or `aarch64`.
 **See also**:
 
 #### image:images/no.png[no] ActiveMQ (noun)
-**Description**: In Red&#160;Hat JBoss Enterprise Application Platform, do not use "ActiveMQ" by itself to refer to the built-in messaging technology for JBoss EAP.
+**Description**: In Red Hat JBoss Enterprise Application Platform, do not use "ActiveMQ" by itself to refer to the built-in messaging technology for JBoss EAP.
 
 **Use it**: no
 
@@ -2147,7 +2147,7 @@ _Specify the system architecture of your cluster, such as `x86_64` or `aarch64`.
 **See also**: [ActiveMQ Artemis](#image:images/caution.png[with-caution]-activemq-artemis-(noun)), [JBoss EAP messaging](#image:images/yes.png[yes]-jboss-eap-messaging-(noun))
 
 #### image:images/caution.png[with caution] ActiveMQ Artemis (noun)
-**Description**: In Red&#160;Hat JBoss Enterprise Application Platform, use "ActiveMQ Artemis" only when describing the technology used to implement the built-in messaging for JBoss EAP.
+**Description**: In Red Hat JBoss Enterprise Application Platform, use "ActiveMQ Artemis" only when describing the technology used to implement the built-in messaging for JBoss EAP.
 
 **Use it**: with caution
 
@@ -2204,43 +2204,43 @@ _Valid values are `amd64`._
 **See also**: [AMD64](#image:images/yes.png[yes]-amd64-(noun))
 
 #### image:images/yes.png[yes] AMQ (noun)
-**Description**: The short product name for Red&#160;Hat AMQ.
+**Description**: The short product name for Red Hat AMQ.
 
 **Use it**: yes
 
-**Incorrect forms**: A-MQ, JBoss AMQ, Red&#160;Hat A-MQ, Red&#160;Hat AMQ
+**Incorrect forms**: A-MQ, JBoss AMQ, Red Hat A-MQ, Red Hat AMQ
 
-**See also**: [Red&#160;Hat AMQ](#image:images/yes.png[yes]-red&#160;hat-amq-(noun))
+**See also**: [Red Hat AMQ](#image:images/yes.png[yes]-red hat-amq-(noun))
 
 #### image:images/yes.png[yes] AMQ Broker (noun)
-**Description**: In Red&#160;Hat AMQ, _AMQ Broker_ is a full-featured, message-oriented middleware broker. It offers specialized queueing behaviors, message persistence, and manageability.
+**Description**: In Red Hat AMQ, _AMQ Broker_ is a full-featured, message-oriented middleware broker. It offers specialized queueing behaviors, message persistence, and manageability.
 
 **Use it**: yes
 
-**Incorrect forms**: A-MQ Broker, The AMQ Broker, Red&#160;Hat Broker, JBoss Broker
+**Incorrect forms**: A-MQ Broker, The AMQ Broker, Red Hat Broker, JBoss Broker
 
 **See also**: [broker distribution](#image:images/yes.png[yes]-broker-distribution-(noun)), [broker instance](#image:images/yes.png[yes]-broker-instance-(noun))
 
 #### image:images/yes.png[yes] AMQ Clients (noun)
-**Description**: In Red&#160;Hat AMQ, _AMQ Clients_ is a suite of messaging libraries supporting multiple languages and platforms. It enables users to write messaging applications that send and receive messages. AMQ Clients is a component of Red&#160;Hat AMQ.
+**Description**: In Red Hat AMQ, _AMQ Clients_ is a suite of messaging libraries supporting multiple languages and platforms. It enables users to write messaging applications that send and receive messages. AMQ Clients is a component of Red Hat AMQ.
 
 **Use it**: yes
 
-**Incorrect forms**: A-MQ Clients, Red&#160;Hat Clients, JBoss Clients
+**Incorrect forms**: A-MQ Clients, Red Hat Clients, JBoss Clients
 
 **See also**: [client application](#image:images/yes.png[yes]-client-application-(noun)), [messaging API](#image:images/yes.png[yes]-messaging-api-(noun))
 
 #### image:images/yes.png[yes] AMQ Console (noun)
-**Description**: In Red&#160;Hat AMQ, the _AMQ Console_ is a management tool for administering AMQ brokers and routers in a single graphical interface.
+**Description**: In Red Hat AMQ, the _AMQ Console_ is a management tool for administering AMQ brokers and routers in a single graphical interface.
 
 **Use it**: yes
 
-**Incorrect forms**: A-MQ Console, Red&#160;Hat Console, JBoss Console
+**Incorrect forms**: A-MQ Console, Red Hat Console, JBoss Console
 
 **See also**:
 
 #### image:images/yes.png[yes] AMQ Core Protocol JMS (noun)
-**Description**: In Red&#160;Hat AMQ, the _AMQ Core Protocol JMS_ is an implementation of the Java Message Service (JMS) using the ActiveMQ Artemis Core protocol. This is sometimes called _Core JMS_.
+**Description**: In Red Hat AMQ, the _AMQ Core Protocol JMS_ is an implementation of the Java Message Service (JMS) using the ActiveMQ Artemis Core protocol. This is sometimes called _Core JMS_.
 
 **Use it**: yes
 
@@ -2249,11 +2249,11 @@ _Valid values are `amd64`._
 **See also**: [JMS](#image:images/yes.png[yes]-jms-(noun)), [Core protocol](#image:images/yes.png[yes]-core-protocol-(noun))
 
 #### image:images/yes.png[yes] AMQ Interconnect (noun)
-**Description**: In Red&#160;Hat AMQ, it is a messaging router that provides flexible routing of messages between any AMQP-enabled endpoints, whether they are clients, servers, brokers, or any other entity that can send or receive standard AMQP messages.
+**Description**: In Red Hat AMQ, it is a messaging router that provides flexible routing of messages between any AMQP-enabled endpoints, whether they are clients, servers, brokers, or any other entity that can send or receive standard AMQP messages.
 
 **Use it**: yes
 
-**Incorrect forms**: Interconnect, Router, A-MQ Interconnect, Red&#160;Hat Interconnect, JBoss Interconnect
+**Incorrect forms**: Interconnect, Router, A-MQ Interconnect, Red Hat Interconnect, JBoss Interconnect
 
 **See also**: [router](#image:images/yes.png[yes]-router-(noun))
 
@@ -2267,7 +2267,7 @@ _Valid values are `amd64`._
 **See also**:
 
 #### image:images/yes.png[yes] Anaconda (noun)
-**Description**: The operating system installer used in Fedora, Red&#160;Hat Enterprise Linux, and their derivatives. _Anaconda_ is a set of Python modules and scripts with additional files like Gtk widgets (written in C), `systemd` units, and `dracut` libraries. Together, they form a tool that you can use to set parameters for your target operating system.
+**Description**: The operating system installer used in Fedora, Red Hat Enterprise Linux, and their derivatives. _Anaconda_ is a set of Python modules and scripts with additional files like Gtk widgets (written in C), `systemd` units, and `dracut` libraries. Together, they form a tool that you can use to set parameters for your target operating system.
 
 **Use it**: yes
 
@@ -2335,7 +2335,7 @@ An Ansible task is a set of instructions to achieve a state defined, in its broa
 **See also**: [certificate](#image:images/yes.png[yes]-certificate-(noun)), [certificate authority](#image:images/yes.png[yes]-certificate-authority-(noun)), [Directory Server](#image:images/yes.png[yes]-directory-server-(noun))
 
 #### image:images/yes.png[yes] API server (noun)
-**Description**: In Red&#160;Hat OpenShift, the _API server_ is a REST API endpoint for interacting with the system. New deployments and configurations can be created with this endpoint, and the state of the system can be interrogated through this endpoint as well.
+**Description**: In Red Hat OpenShift, the _API server_ is a REST API endpoint for interacting with the system. New deployments and configurations can be created with this endpoint, and the state of the system can be interrogated through this endpoint as well.
 
 **Use it**: yes
 
@@ -2353,7 +2353,7 @@ An Ansible task is a set of instructions to achieve a state defined, in its broa
 **See also**:
 
 #### image:images/yes.png[yes] application (noun)
-**Description**: In Red&#160;Hat OpenShift, although the term _application_ is not a specific API object type, customers still create and host applications, and using the term within certain contexts is acceptable. For example, the term _application_ might refer to some combination of an image, a Git repository, or a replication controller, and this application might be running PHP, MySQL, Ruby, JBoss, or something else.
+**Description**: In Red Hat OpenShift, although the term _application_ is not a specific API object type, customers still create and host applications, and using the term within certain contexts is acceptable. For example, the term _application_ might refer to some combination of an image, a Git repository, or a replication controller, and this application might be running PHP, MySQL, Ruby, JBoss, or something else.
 
 **Use it**: yes
 
@@ -2362,7 +2362,7 @@ An Ansible task is a set of instructions to achieve a state defined, in its broa
 **See also**: [app](#image:images/yes.png[yes]-app-(noun))
 
 #### image:images/yes.png[yes] Application Stream (noun)
-**Description**: _Application Streams_ are multiple versions of Red&#160;Hat Enterprise Linux user-space components that are delivered and updated more frequently than the core operating system packages. Application Streams can be packaged as RPM packages, modules, or Software Collections. Do not confuse Application Streams with "AppStream", the repository through which Application Streams and other components are distributed.
+**Description**: _Application Streams_ are multiple versions of Red Hat Enterprise Linux user-space components that are delivered and updated more frequently than the core operating system packages. Application Streams can be packaged as RPM packages, modules, or Software Collections. Do not confuse Application Streams with "AppStream", the repository through which Application Streams and other components are distributed.
 
 **Use it**: yes
 
@@ -2398,7 +2398,7 @@ An Ansible task is a set of instructions to achieve a state defined, in its broa
 **See also**:
 
 #### image:images/caution.png[with caution] Artemis (noun)
-**Description**: The upstream project for AMQ Broker ([Apache ActiveMQ Artemis](https://activemq.apache.org/artemis/)). When referring to AMQ Broker, always use the "Red&#160;Hat" product name.
+**Description**: The upstream project for AMQ Broker ([Apache ActiveMQ Artemis](https://activemq.apache.org/artemis/)). When referring to AMQ Broker, always use the "Red Hat" product name.
 
 **Use it**: with caution
 
@@ -2425,7 +2425,7 @@ An Ansible task is a set of instructions to achieve a state defined, in its broa
 **See also**:
 
 #### image:images/yes.png[yes] asset (noun)
-**Description**: In Red&#160;Hat Process Automation Manager and Red&#160;Hat Decision Manager, an _asset_ is anything that can be stored as a version in the artifact repository. Assets can be business rules, packages, business processes, decision tables, fact models, or domain-specific language (DSL) files.
+**Description**: In Red Hat Process Automation Manager and Red Hat Decision Manager, an _asset_ is anything that can be stored as a version in the artifact repository. Assets can be business rules, packages, business processes, decision tables, fact models, or domain-specific language (DSL) files.
 
 **Use it**: yes
 
@@ -2434,7 +2434,7 @@ An Ansible task is a set of instructions to achieve a state defined, in its broa
 **See also**: [business rule](#image:images/yes.png[yes]-business-rule-(noun)), [business process](#image:images/yes.png[yes]-business-process-(noun)), [decision table](#image:images/yes.png[yes]-decision-table-(noun)), [data model](#image:images/yes.png[yes]-data-model-(noun)), [DSL](#image:images/yes.png[yes]-dsl-(noun))
 
 #### image:images/yes.png[yes] Assisted Installer (noun)
-**Description**: In Red&#160;Hat OpenShift, the Assisted Installer is an installation solution that is offered on the Red&#160;Hat Hybrid Cloud Console to provide Software-as-a-Service functionality for cluster installations.
+**Description**: In Red Hat OpenShift, the Assisted Installer is an installation solution that is offered on the Red Hat Hybrid Cloud Console to provide Software-as-a-Service functionality for cluster installations.
 
 **Use it**: yes
 
@@ -2499,7 +2499,7 @@ The term "autodetect" is in the Vale rules and should trigger a GitHub error rep
 **See also**:
 
 #### image:images/yes.png[yes] autolink (noun)
-**Description**: In Red&#160;Hat AMQ, _autolink_ is an AMQ Interconnect configurable entity that defines a link between the router and a queue, topic, or service in an external broker.
+**Description**: In Red Hat AMQ, _autolink_ is an AMQ Interconnect configurable entity that defines a link between the router and a queue, topic, or service in an external broker.
 
 **Use it**: yes
 
@@ -2585,7 +2585,7 @@ _Valid values are `arm64`._
 **See also**: [opt in](#image:images/yes.png[yes]-opt-in-(verb))
 
 #### image:images/yes.png[yes] Azure Resource Manager (noun)
-**Description**: In Microsoft Azure, the _Azure Resource Manager (ARM)_ is a management mode that deploys, manages, and monitors resources in the Microsoft Azure portal. ARM mode is the default for Azure CLI 2.0. Microsoft Azure resources can be managed remotely from a Red&#160;Hat Enterprise Linux server. ARM replaces Azure Service Management (ASM) as the preferred mode for managing resources in Microsoft Azure.
+**Description**: In Microsoft Azure, the _Azure Resource Manager (ARM)_ is a management mode that deploys, manages, and monitors resources in the Microsoft Azure portal. ARM mode is the default for Azure CLI 2.0. Microsoft Azure resources can be managed remotely from a Red Hat Enterprise Linux server. ARM replaces Azure Service Management (ASM) as the preferred mode for managing resources in Microsoft Azure.
 
 **Use it**: yes
 
@@ -2605,7 +2605,7 @@ _Valid values are `arm64`._
 #### B
 
 #### image:images/yes.png[yes] backing store (noun)
-**Description**: In Red&#160;Hat OpenShift Container Storage, a _backing store_ is a type of storage resource for Multicloud Object Gateway to store data, for example, from RADOS gateway (RGW), Amazon Web Services S3, Azure Blob Storage, IBM Cloud Object Storage.
+**Description**: In Red Hat OpenShift Container Storage, a _backing store_ is a type of storage resource for Multicloud Object Gateway to store data, for example, from RADOS gateway (RGW), Amazon Web Services S3, Azure Blob Storage, IBM Cloud Object Storage.
 
 **Use it**: yes
 
@@ -2632,7 +2632,7 @@ _Valid values are `arm64`._
 **See also**:
 
 #### image:images/yes.png[yes] backward chaining (verb)
-**Description**: In Red&#160;Hat Process Automation Manager and Red&#160;Hat Decision Manager, _backward chaining_ is a feature of the rule engine. The backward chaining process is often referred to as derivation queries. It is not as common compared to reactive systems because Red&#160;Hat Decision Manager is primarily reactive forward chaining, that is, it responds to changes in your data. The backward chaining added to the rule engine is for product-like derivations.
+**Description**: In Red Hat Process Automation Manager and Red Hat Decision Manager, _backward chaining_ is a feature of the rule engine. The backward chaining process is often referred to as derivation queries. It is not as common compared to reactive systems because Red Hat Decision Manager is primarily reactive forward chaining, that is, it responds to changes in your data. The backward chaining added to the rule engine is for product-like derivations.
 
 **Use it**: yes
 
@@ -2668,7 +2668,7 @@ _Valid values are `arm64`._
 **See also**: [bare metal (noun)](#image:images/yes.png[yes]-bare-metal-(noun))
 
 #### image:images/yes.png[yes] Bare Metal service (noun)
-**Description**: The _Bare Metal service_ is a Red&#160;Hat OpenStack Platform product that provisions bare metal machines.
+**Description**: The _Bare Metal service_ is a Red Hat OpenStack Platform product that provisions bare metal machines.
 
 **Use it**: yes
 
@@ -2695,7 +2695,7 @@ _Valid values are `arm64`._
 **See also**: [basic-http-authentication](#Basic HTTP authentication (noun))
 
 #### image:images/yes.png[yes] BaseOS repository (noun)
-**Description**: In Red&#160;Hat Enterprise Linux, the  _BaseOS repository_ contains the core set of the underlying operating system functionality that provides the foundation for all installations.
+**Description**: In Red Hat Enterprise Linux, the  _BaseOS repository_ contains the core set of the underlying operating system functionality that provides the foundation for all installations.
 
 **Use it**: yes
 
@@ -2724,7 +2724,7 @@ Write "Basic HTTP authentication" on first use and "Basic authentication" after 
 **See also**:
 
 #### image:images/yes.png[yes] batch-jberet subsystem (noun)
-**Description**: In Red&#160;Hat JBoss Enterprise Application Platform, the _batch-jberet subsystem_ is used to configure and manage batch jobs. In general text, write in lowercase as two words separated by a hyphen. Write "Batch subsystem" when referring to the `batch-jberet` subsystem in titles and headings.
+**Description**: In Red Hat JBoss Enterprise Application Platform, the _batch-jberet subsystem_ is used to configure and manage batch jobs. In general text, write in lowercase as two words separated by a hyphen. Write "Batch subsystem" when referring to the `batch-jberet` subsystem in titles and headings.
 
 **Use it**: yes
 
@@ -2733,7 +2733,7 @@ Write "Basic HTTP authentication" on first use and "Basic authentication" after 
 **See also**:
 
 #### image:images/yes.png[yes] bean-validation subsystem (noun)
-**Description**: In Red&#160;Hat JBoss Enterprise Application Platform, the _bean-validation subsystem_ is used to configure validation of Java bean object data. In general text, write in lowercase as two words separated by a hyphen. Write "Bean Validation subsystem" when referring to the `bean-validation` subsystem in titles and headings.
+**Description**: In Red Hat JBoss Enterprise Application Platform, the _bean-validation subsystem_ is used to configure validation of Java bean object data. In general text, write in lowercase as two words separated by a hyphen. Write "Bean Validation subsystem" when referring to the `bean-validation` subsystem in titles and headings.
 
 **Use it**: yes
 
@@ -2845,7 +2845,7 @@ Do not use "BIOS" as a generic term for computer firmware. Instead, write "firmw
 **See also**: [block device](#image:images/caution.png[with-caution]-block-device-(noun)), [block storage](#image:images/caution.png[with-caution]-block-storage-(noun))
 
 #### image:images/yes.png[yes] blueprint (noun)
-**Description**: In Red&#160;Hat Enterprise Linux, _blueprints_ are simple text files in Tom’s Obvious Minimal Language (TOML) format that describe which packages, and what versions, to install into the image. They can also define a limited set of customizations that can be used to build the final image.
+**Description**: In Red Hat Enterprise Linux, _blueprints_ are simple text files in Tom’s Obvious Minimal Language (TOML) format that describe which packages, and what versions, to install into the image. They can also define a limited set of customizations that can be used to build the final image.
 
 **Use it**: yes
 
@@ -2854,7 +2854,7 @@ Do not use "BIOS" as a generic term for computer firmware. Instead, write "firmw
 **See also**:
 
 #### image:images/yes.png[yes] BlueStore (noun)
-**Description**: In Red&#160;Hat Ceph Storage, _BlueStore_ is an OSD back end that uses block devices directly.
+**Description**: In Red Hat Ceph Storage, _BlueStore_ is an OSD back end that uses block devices directly.
 
 **Use it**: yes
 
@@ -2863,7 +2863,7 @@ Do not use "BIOS" as a generic term for computer firmware. Instead, write "firmw
 **See also**: [FileStore](#image:images/yes.png[yes]-filestore-(noun)), [Object Store](#image:images/yes.png[yes]-object-store-(noun))
 
 #### image:images/yes.png[yes] Boolean dependencies (noun)
-**Description**: In Red&#160;Hat Enterprise Linux, _Boolean dependencies_ are Boolean expressions such as `if`, `and`, `or`, and other expressions that are used in the `Requires`, `Conflicts`, and `Weak` dependency directives. Boolean dependencies are also known as _Rich dependencies_.
+**Description**: In Red Hat Enterprise Linux, _Boolean dependencies_ are Boolean expressions such as `if`, `and`, `or`, and other expressions that are used in the `Requires`, `Conflicts`, and `Weak` dependency directives. Boolean dependencies are also known as _Rich dependencies_.
 
 **Use it**: yes
 
@@ -2935,7 +2935,7 @@ Do not use "BIOS" as a generic term for computer firmware. Instead, write "firmw
 **See also**: [Bps](#image:images/yes.png[yes]-bps-(noun))
 
 #### image:images/yes.png[yes] brick (noun)
-**Description**: A _brick_ is an exported directory on a server that is in a trusted storage pool. It is the basic unit of storage in Red&#160;Hat Gluster Storage.
+**Description**: A _brick_ is an exported directory on a server that is in a trusted storage pool. It is the basic unit of storage in Red Hat Gluster Storage.
 
 **Use it**: yes
 
@@ -2971,7 +2971,7 @@ Do not use "BIOS" as a generic term for computer firmware. Instead, write "firmw
 **See also**:
 
 #### image:images/yes.png[yes] broker distribution (noun)
-**Description**: In Red&#160;Hat AMQ, _broker distribution_ is the platform-independent AMQ Broker archive containing the product binaries and libraries.
+**Description**: In Red Hat AMQ, _broker distribution_ is the platform-independent AMQ Broker archive containing the product binaries and libraries.
 
 **Use it**: yes
 
@@ -2980,7 +2980,7 @@ Do not use "BIOS" as a generic term for computer firmware. Instead, write "firmw
 **See also**: [AMQ Broker](#image:images/yes.png[yes]-amq-broker-(noun)), [broker instance](#image:images/yes.png[yes]-broker-instance-(noun))
 
 #### image:images/yes.png[yes] broker instance (noun)
-**Description**: In Red&#160;Hat AMQ, a _broker instance_ is a configurable instance of AMQ Broker. Each broker instance is a separate directory containing its own runtime and configuration data. Use this term to refer to the instance, not the product.
+**Description**: In Red Hat AMQ, a _broker instance_ is a configurable instance of AMQ Broker. Each broker instance is a separate directory containing its own runtime and configuration data. Use this term to refer to the instance, not the product.
 
 **Use it**: yes
 
@@ -3052,7 +3052,7 @@ Do not use "BIOS" as a generic term for computer firmware. Instead, write "firmw
 **See also**:
 
 #### image:images/yes.png[yes] build config (noun)
-**Description**: In Red&#160;Hat OpenShift, a _build config_ describes a single build definition and a set of triggers for when a new build should be created. The API object for a build config is `BuildConfig`.
+**Description**: In Red Hat OpenShift, a _build config_ describes a single build definition and a set of triggers for when a new build should be created. The API object for a build config is `BuildConfig`.
 
 **Use it**: yes
 
@@ -3070,7 +3070,7 @@ Do not use "BIOS" as a generic term for computer firmware. Instead, write "firmw
 **See also**:
 
 #### image:images/yes.png[yes] built-in messaging (noun)
-**Description**: In Red&#160;Hat JBoss Enterprise Application Platform, _built-in messaging_ is an acceptable term for referring to the built-in messaging system. Capitalize "built-in" only at the beginning of a sentence. Other acceptable terms are "JBoss EAP messaging" and "JBoss EAP built-in messaging".
+**Description**: In Red Hat JBoss Enterprise Application Platform, _built-in messaging_ is an acceptable term for referring to the built-in messaging system. Capitalize "built-in" only at the beginning of a sentence. Other acceptable terms are "JBoss EAP messaging" and "JBoss EAP built-in messaging".
 
 **Use it**: yes
 
@@ -3079,7 +3079,7 @@ Do not use "BIOS" as a generic term for computer firmware. Instead, write "firmw
 **See also**: [JBoss EAP built-in messaging](#image:images/yes.png[yes]-jboss-eap-built-in-messaging-(noun)), [JBoss EAP messaging](#image:images/yes.png[yes]-jboss-eap-messaging-(noun))
 
 #### image:images/yes.png[yes] Business Central (noun)
-**Description**: In Red&#160;Hat Process Automation Manager and Red&#160;Hat Decision Manager, the _Business Central_ is a web-based user interface. It is the user interface for the business rules manager and has been combined with the core Drools engine and other tools. It enables a business user to manage rules in a multi-user environment and implement changes in a controlled fashion.
+**Description**: In Red Hat Process Automation Manager and Red Hat Decision Manager, the _Business Central_ is a web-based user interface. It is the user interface for the business rules manager and has been combined with the core Drools engine and other tools. It enables a business user to manage rules in a multi-user environment and implement changes in a controlled fashion.
 
 **Use it**: yes
 
@@ -3097,7 +3097,7 @@ Do not use "BIOS" as a generic term for computer firmware. Instead, write "firmw
 **See also**:
 
 #### image:images/yes.png[yes] Business Resource Planner (noun)
-**Description**: In Red&#160;Hat Process Automation Manager and Red&#160;Hat Decision Manager, the _Business Resource Planner_ is a lightweight, embeddable, planning engine that optimizes planning problems. It helps Java TM programmers solve planning problems efficiently, and it combines optimization heuristics and metaheuristics with very efficient score calculations.
+**Description**: In Red Hat Process Automation Manager and Red Hat Decision Manager, the _Business Resource Planner_ is a lightweight, embeddable, planning engine that optimizes planning problems. It helps Java TM programmers solve planning problems efficiently, and it combines optimization heuristics and metaheuristics with very efficient score calculations.
 
 **Use it**: yes
 
@@ -3135,7 +3135,7 @@ Do not use "BIOS" as a generic term for computer firmware. Instead, write "firmw
 #### C
 
 #### image:images/yes.png[yes] Cache Manager (noun)
-**Description**: In Red&#160;Hat Data Grid, _Cache Manager_ is an interface that you can use to create caches and manage cache lifecycles. Always spell as two words with capital letters when you refer to the abstract notion of a "Cache Manager". When you refer to specific interfaces, such as `CacheManager`, `EmbeddedCacheManager`, or `RemoteCacheManager`, use the appropriate markup language.
+**Description**: In Red Hat Data Grid, _Cache Manager_ is an interface that you can use to create caches and manage cache lifecycles. Always spell as two words with capital letters when you refer to the abstract notion of a "Cache Manager". When you refer to specific interfaces, such as `CacheManager`, `EmbeddedCacheManager`, or `RemoteCacheManager`, use the appropriate markup language.
 
 **Use it**: yes
 
@@ -3144,7 +3144,7 @@ Do not use "BIOS" as a generic term for computer firmware. Instead, write "firmw
 **See also**:
 
 #### image:images/caution.png[with caution] Camel context (noun)
-**Description**: In Red&#160;Hat Fuse, every _Camel application_ is based on a `CamelContext` object, which is the Camel runtime. The `CamelContext` object keeps track of and provides access to all services loaded in it, such as components, endpoints, routes, data formats, languages, and registry. In the routing context `.xml` file, the object is represented by the `<camelContext>` element, which encloses all `<route>` elements and their routing rules. In Camel DSL, `CamelContext` instantiates a new `DefaultCamelContext` in which to add and configure routes and their routing rules. Use only when referencing code (element or method), otherwise use the generic term "routing context" when talking about the application’s `.xml/DSL` file or the file’s routing rules.
+**Description**: In Red Hat Fuse, every _Camel application_ is based on a `CamelContext` object, which is the Camel runtime. The `CamelContext` object keeps track of and provides access to all services loaded in it, such as components, endpoints, routes, data formats, languages, and registry. In the routing context `.xml` file, the object is represented by the `<camelContext>` element, which encloses all `<route>` elements and their routing rules. In Camel DSL, `CamelContext` instantiates a new `DefaultCamelContext` in which to add and configure routes and their routing rules. Use only when referencing code (element or method), otherwise use the generic term "routing context" when talking about the application’s `.xml/DSL` file or the file’s routing rules.
 
 **Use it**: with caution
 
@@ -3162,7 +3162,7 @@ Do not use "BIOS" as a generic term for computer firmware. Instead, write "firmw
 **See also**:
 
 #### image:images/yes.png[yes] Capsule Server (noun)
-**Description**: In Red&#160;Hat Satellite, _Capsule Server_ is an additional server that acts as a proxy to the Satellite and can provide services such as DHCP, DNS, and TFTP. Write "Capsule Server" on first use. "Capsule" is acceptable after that.
+**Description**: In Red Hat Satellite, _Capsule Server_ is an additional server that acts as a proxy to the Satellite and can provide services such as DHCP, DNS, and TFTP. Write "Capsule Server" on first use. "Capsule" is acceptable after that.
 
 **Use it**: yes
 
@@ -3189,7 +3189,7 @@ Do not use "BIOS" as a generic term for computer firmware. Instead, write "firmw
 **See also**: [cd](#image:images/yes.png[yes]-cd-(noun)), [CDs](#image:images/yes.png[yes]-cds-(noun))
 
 #### image:images/yes.png[yes] CD #1 (noun)
-**Description**: When referring to a specific CD in the Red&#160;Hat Enterprise Linux CD set, it is correct to refer to it as "Red&#160;Hat Enterprise Linux CD #1". Avoid using "Red&#160;Hat Enterprise Linux CD 1".
+**Description**: When referring to a specific CD in the Red Hat Enterprise Linux CD set, it is correct to refer to it as "Red Hat Enterprise Linux CD #1". Avoid using "Red Hat Enterprise Linux CD 1".
 
 **Use it**: yes
 
@@ -3222,19 +3222,19 @@ Do not use "BIOS" as a generic term for computer firmware. Instead, write "firmw
 
 **Incorrect forms**: CEPH, ceph
 
-**See also**: [Red&#160;Hat Ceph Storage](#image:images/yes.png[yes]-red&#160;hat-ceph-storage-(noun)), [ceph](#image:images/yes.png[yes]-ceph-(noun))
+**See also**: [Red Hat Ceph Storage](#image:images/yes.png[yes]-red hat-ceph-storage-(noun)), [ceph](#image:images/yes.png[yes]-ceph-(noun))
 
 #### image:images/yes.png[yes] ceph (noun)
-**Description**: In Red&#160;Hat Ceph Storage, `ceph` is the Ceph command-line utility. Always mark it correctly (`ceph`).
+**Description**: In Red Hat Ceph Storage, `ceph` is the Ceph command-line utility. Always mark it correctly (`ceph`).
 
 **Use it**: yes
 
 **Incorrect forms**: CEPH
 
-**See also**: [Ceph](#image:images/yes.png[yes]-ceph-(noun)), [Red&#160;Hat Ceph Storage](#image:images/yes.png[yes]-red&#160;hat-ceph-storage-(noun))
+**See also**: [Ceph](#image:images/yes.png[yes]-ceph-(noun)), [Red Hat Ceph Storage](#image:images/yes.png[yes]-red hat-ceph-storage-(noun))
 
 #### image:images/yes.png[yes] Ceph Block Device (noun)
-**Description**: In Red&#160;Hat Ceph Storage, the _Ceph Block Device_ is the block storage component of Ceph. Also known as the _RADOS Block Device_, however the term "Ceph Block Device" is preferred.
+**Description**: In Red Hat Ceph Storage, the _Ceph Block Device_ is the block storage component of Ceph. Also known as the _RADOS Block Device_, however the term "Ceph Block Device" is preferred.
 
 **Use it**: yes
 
@@ -3243,7 +3243,7 @@ Do not use "BIOS" as a generic term for computer firmware. Instead, write "firmw
 **See also**: [RADOS Block Device](#image:images/caution.png[with-caution]-rados-block-device-(noun)), [RBD](#image:images/yes.png[yes]-rbd-(noun)), [rbd](#image:images/yes.png[yes]-rbd-(noun)), [librbd](#image:images/yes.png[yes]-librbd-(noun))
 
 #### image:images/yes.png[yes] Ceph File System (noun)
-**Description**: In Red&#160;Hat Ceph Storage, the _Ceph File System_ is the POSIX file system component of Ceph.
+**Description**: In Red Hat Ceph Storage, the _Ceph File System_ is the POSIX file system component of Ceph.
 
 **Use it**: yes
 
@@ -3252,7 +3252,7 @@ Do not use "BIOS" as a generic term for computer firmware. Instead, write "firmw
 **See also**: [Ceph File System](#image:images/yes.png[yes]-cephfs-(noun))
 
 #### image:images/yes.png[yes] Ceph Monitor (noun)
-**Description**: In Red&#160;Hat Ceph Storage, the _Ceph Monitor_ is a node where the `ceph-mon` daemon is running.
+**Description**: In Red Hat Ceph Storage, the _Ceph Monitor_ is a node where the `ceph-mon` daemon is running.
 
 **Use it**: yes
 
@@ -3261,7 +3261,7 @@ Do not use "BIOS" as a generic term for computer firmware. Instead, write "firmw
 **See also**: [ceph-mon](#image:images/yes.png[yes]-ceph-mon-(noun))
 
 #### image:images/yes.png[yes] Ceph Object Gateway (noun)
-**Description**: In Red&#160;Hat Ceph Storage, the _Ceph Object Gateway_ is the S3/Swift component. Also known as _RADOS gateway_. However, prefer using the "Ceph Object Gateway".
+**Description**: In Red Hat Ceph Storage, the _Ceph Object Gateway_ is the S3/Swift component. Also known as _RADOS gateway_. However, prefer using the "Ceph Object Gateway".
 
 **Use it**: yes
 
@@ -3270,7 +3270,7 @@ Do not use "BIOS" as a generic term for computer firmware. Instead, write "firmw
 **See also**: [RADOS Gateway](#image:images/caution.png[with-caution]-rados-gateway-(noun)), [RGW](#image:images/yes.png[yes]-rgw-(noun)), [ceph-radosgw](#image:images/yes.png[yes]-ceph-radosgw-(noun))
 
 #### image:images/yes.png[yes] ceph-ansible (noun)
-**Description**: In Red&#160;Hat Ceph Storage, `ceph-ansible` is a utility that provides Ansible Playbooks for installing, managing, and upgrading the Ceph Storage Cluster. Always mark it correctly: `ceph-ansible`.
+**Description**: In Red Hat Ceph Storage, `ceph-ansible` is a utility that provides Ansible Playbooks for installing, managing, and upgrading the Ceph Storage Cluster. Always mark it correctly: `ceph-ansible`.
 
 **Use it**: yes
 
@@ -3280,7 +3280,7 @@ Do not use "BIOS" as a generic term for computer firmware. Instead, write "firmw
 
 #### image:images/yes.png[yes] ceph-mds (noun)
 
-**Description**: In Red&#160;Hat Ceph Storage, `ceph-mds` is the Metadata Server daemon. One or more instances of `ceph-mds` collectively manage the file system namespace, coordinating access to the shared OSD cluster. Always mark it correctly (`ceph-mds`)
+**Description**: In Red Hat Ceph Storage, `ceph-mds` is the Metadata Server daemon. One or more instances of `ceph-mds` collectively manage the file system namespace, coordinating access to the shared OSD cluster. Always mark it correctly (`ceph-mds`)
 
 **Use it**: yes
 
@@ -3290,7 +3290,7 @@ Do not use "BIOS" as a generic term for computer firmware. Instead, write "firmw
 
 #### image:images/yes.png[yes] ceph-mon (noun)
 
-**Description**: In Red&#160;Hat Ceph Storage, `ceph-mon` is the Ceph Monitor daemon. Always mark it correctly (`ceph-mon`).
+**Description**: In Red Hat Ceph Storage, `ceph-mon` is the Ceph Monitor daemon. Always mark it correctly (`ceph-mon`).
 
 **Use it**: yes
 
@@ -3300,7 +3300,7 @@ Do not use "BIOS" as a generic term for computer firmware. Instead, write "firmw
 
 #### image:images/yes.png[yes] ceph-osd (noun)
 
-**Description**: In Red&#160;Hat Ceph Storage, `ceph-osd` is the Ceph object storage daemon that is responsible for storing objects on local file system and providing access to them over network. Always mark it correctly (`ceph-osd`).
+**Description**: In Red Hat Ceph Storage, `ceph-osd` is the Ceph object storage daemon that is responsible for storing objects on local file system and providing access to them over network. Always mark it correctly (`ceph-osd`).
 
 **Use it**: yes
 
@@ -3309,7 +3309,7 @@ Do not use "BIOS" as a generic term for computer firmware. Instead, write "firmw
 **See also**: [OSD](#image:images/yes.png[yes]-osd-(noun)), [Object Storage Device](#image:images/yes.png[yes]-object-storage-device-(noun)),
 
 #### image:images/yes.png[yes] ceph-radosgw (noun)
-**Description**: In Red&#160;Hat Ceph Storage, the `ceph-radosgw` daemon runs on Ceph Object Gateway nodes. Each instance provides a Civetweb web server and the object gateway functionality.
+**Description**: In Red Hat Ceph Storage, the `ceph-radosgw` daemon runs on Ceph Object Gateway nodes. Each instance provides a Civetweb web server and the object gateway functionality.
 
 **Use it**: yes
 
@@ -3318,7 +3318,7 @@ Do not use "BIOS" as a generic term for computer firmware. Instead, write "firmw
 **See also**: [Ceph Object Gateway](#image:images/yes.png[yes]-ceph-object-gateway-(noun)), [RADOS Gateway](#image:images/caution.png[with-caution]-rados-gateway-(noun)), [RGW](#image:images/yes.png[yes]-rgw-(noun))
 
 #### image:images/yes.png[yes] CephFS (noun)
-**Description**: In Red&#160;Hat Ceph Storage, _CephFS_ is an initialization for the Ceph File System.
+**Description**: In Red Hat Ceph Storage, _CephFS_ is an initialization for the Ceph File System.
 
 **Use it**: yes
 
@@ -3336,7 +3336,7 @@ Do not use "BIOS" as a generic term for computer firmware. Instead, write "firmw
 **See also**: [certificate authority](#image:images/yes.png[yes]-certificate-authority-(noun))
 
 #### image:images/yes.png[yes] certificate authority (noun)
-**Description**: An entity that issues digital certificates. In Red&#160;Hat Identity Management, the primary CA is `ipa`.
+**Description**: An entity that issues digital certificates. In Red Hat Identity Management, the primary CA is `ipa`.
 
 **Use it**: yes
 
@@ -3372,7 +3372,7 @@ Do not use "BIOS" as a generic term for computer firmware. Instead, write "firmw
 **See also**:
 
 #### image:images/yes.png[yes] clean install (noun)
-**Description**: In Red&#160;Hat Enterprise Linux, a _clean install_ removes all traces of the previously installed operating system, system data, configurations, and applications and installs the latest version of the operating system.
+**Description**: In Red Hat Enterprise Linux, a _clean install_ removes all traces of the previously installed operating system, system data, configurations, and applications and installs the latest version of the operating system.
 
 **Use it**: yes
 
@@ -3384,7 +3384,7 @@ Do not use "BIOS" as a generic term for computer firmware. Instead, write "firmw
 **Description**: _Client_ has multiple meanings, depending on the context:
 
 * Generically, a _client_ is an entity, such as a machine, process, service, or application, that uses a service provided by a server. Avoid using "client" to refer to an application that manages configuration of such clients or to refer to applications, tools, and so on.
-* In Red&#160;Hat Single Sign-On, a _client_ is an entity that can request Red&#160;Hat Single Sign-On to authenticate a user. Most often, clients are applications and services that want to use Red&#160;Hat Single Sign-On to secure themselves and provide a single sign-on solution. Clients are also entities that request identity information or an access token so that they can securely call other services on the network that are secured by Red&#160;Hat Single Sign-On.
+* In Red Hat Single Sign-On, a _client_ is an entity that can request Red Hat Single Sign-On to authenticate a user. Most often, clients are applications and services that want to use Red Hat Single Sign-On to secure themselves and provide a single sign-on solution. Clients are also entities that request identity information or an access token so that they can securely call other services on the network that are secured by Red Hat Single Sign-On.
 
 **Use it**: yes
 
@@ -3393,7 +3393,7 @@ Do not use "BIOS" as a generic term for computer firmware. Instead, write "firmw
 **See also**:
 
 #### image:images/yes.png[yes] client adapter
-**Description**: In Red&#160;Hat Single Sign-On, _client adapters_ are libraries that make it easy to secure applications and services. Red&#160;Hat Single Sign-On has a number of adapters for different platforms that you can download. There are also third-party adapters you can use for environments that Red&#160;Hat does not cover.
+**Description**: In Red Hat Single Sign-On, _client adapters_ are libraries that make it easy to secure applications and services. Red Hat Single Sign-On has a number of adapters for different platforms that you can download. There are also third-party adapters you can use for environments that Red Hat does not cover.
 
 **Use it**: yes
 
@@ -3402,7 +3402,7 @@ Do not use "BIOS" as a generic term for computer firmware. Instead, write "firmw
 **See also**:
 
 #### image:images/yes.png[yes] client application (noun)
-**Description**: In Red&#160;Hat AMQ, a _client application_ is an application or server that connects to broker instances, routers, or both to send or receive messages. This should not be confused with AMQ Clients, which is the messaging library used to create the client application.
+**Description**: In Red Hat AMQ, a _client application_ is an application or server that connects to broker instances, routers, or both to send or receive messages. This should not be confused with AMQ Clients, which is the messaging library used to create the client application.
 
 **Use it**: yes
 
@@ -3411,7 +3411,7 @@ Do not use "BIOS" as a generic term for computer firmware. Instead, write "firmw
 **See also**: [producer](#image:images/yes.png[yes]-producer-(noun)), [consumer](#image:images/yes.png[yes]-consumer-(noun)), [AMQ Clients](#image:images/yes.png[yes]-amq-clients-(noun)), [messaging API](#image:images/yes.png[yes]-messaging-api-(noun))
 
 #### image:images/yes.png[yes] client role
-**Description**: In Red&#160;Hat Single Sign-On, a _client role_ is a role namespace that is dedicated to a client. Each client can define roles that are specific to it.
+**Description**: In Red Hat Single Sign-On, a _client role_ is a role namespace that is dedicated to a client. Each client can define roles that are specific to it.
 
 **Use it**: yes
 
@@ -3420,7 +3420,7 @@ Do not use "BIOS" as a generic term for computer firmware. Instead, write "firmw
 **See also**:
 
 #### image:images/yes.png[yes] client scope
-**Description**: In Red&#160;Hat Single Sign-On, when a client is registered, you must define protocol mappers and role scope mappings for that client. To simplify the task of creating clients, you might decide to store a _client scope_ so that you can share some common settings. This is also useful for requesting some claims or roles to be conditionally based on the value of `scope` parameter. Red&#160;Hat Single Sign-On provides the concept of a client scope for this.
+**Description**: In Red Hat Single Sign-On, when a client is registered, you must define protocol mappers and role scope mappings for that client. To simplify the task of creating clients, you might decide to store a _client scope_ so that you can share some common settings. This is also useful for requesting some claims or roles to be conditionally based on the value of `scope` parameter. Red Hat Single Sign-On provides the concept of a client scope for this.
 
 **Use it**: yes
 
@@ -3474,7 +3474,7 @@ Do not use "BIOS" as a generic term for computer firmware. Instead, write "firmw
 **See also**:
 
 #### image:images/yes.png[yes] cluster (noun)
-**Description**: (1) A _cluster_ is a collection of interconnected computers working together as an integrated computing resource. Clusters are referred to as the _High Availability Add-On_ in Red&#160;Hat Enterprise Linux 6 and later. (2) In OpenShift context, a _cluster_ is the collection of controllers, pods, and services and related DNS and networking routing configuration that are defined on the system. Typically, a cluster is made up of multiple OpenShift hosts (masters, nodes, etc.) working together, across which the aforementioned components are distributed or running.
+**Description**: (1) A _cluster_ is a collection of interconnected computers working together as an integrated computing resource. Clusters are referred to as the _High Availability Add-On_ in Red Hat Enterprise Linux 6 and later. (2) In OpenShift context, a _cluster_ is the collection of controllers, pods, and services and related DNS and networking routing configuration that are defined on the system. Typically, a cluster is made up of multiple OpenShift hosts (masters, nodes, etc.) working together, across which the aforementioned components are distributed or running.
 
 **Use it**: yes
 
@@ -3501,7 +3501,7 @@ Do not use "BIOS" as a generic term for computer firmware. Instead, write "firmw
 **See also**:
 
 #### image:images/caution.png[with caution] CodeReady Linux Builder repository (noun)
-**Description**: In Red&#160;Hat Enterpise Linux, the _CodeReady Linux Builder repository_ provides additional packages for use by developers. Red&#160;Hat does not support packages included in the CodeReady Linux Builder repository. Do not use a shortened form of this term. Always mention that packages in this repository are unsupported.
+**Description**: In Red Hat Enterpise Linux, the _CodeReady Linux Builder repository_ provides additional packages for use by developers. Red Hat does not support packages included in the CodeReady Linux Builder repository. Do not use a shortened form of this term. Always mention that packages in this repository are unsupported.
 
 **Use it**: with caution
 
@@ -3555,7 +3555,7 @@ Do not use "BIOS" as a generic term for computer firmware. Instead, write "firmw
 **See also**: [menu-driven](#image:images/yes.png[yes]-menu-driven-(adjective))
 
 #### image:images/yes.png[yes] commit (noun)
-**Description**: In Red&#160;Hat Enterprise Linux, a _commit_ is a release or image version of the operating system. Image Builder generates an OSTree commit for RHEL for Edge images. You can use these images to install or update RHEL on Edge servers.
+**Description**: In Red Hat Enterprise Linux, a _commit_ is a release or image version of the operating system. Image Builder generates an OSTree commit for RHEL for Edge images. You can use these images to install or update RHEL on Edge servers.
 
 **Use it**: yes
 
@@ -3564,7 +3564,7 @@ Do not use "BIOS" as a generic term for computer firmware. Instead, write "firmw
 **See also**: [OSTree](#image:images/yes.png[yes]-ostree-(noun))
 
 #### image:images/yes.png[yes] component (noun)
-**Description**: In Red&#160;Hat Fuse, a _component_ is a factory for creating endpoints in a Camel route. For example, you would use the Twitter component to create Twitter endpoints. Each component represents a connection to a specific service or application, such as Atom, CXF, Bean, File, and so on.
+**Description**: In Red Hat Fuse, a _component_ is a factory for creating endpoints in a Camel route. For example, you would use the Twitter component to create Twitter endpoints. Each component represents a connection to a specific service or application, such as Atom, CXF, Bean, File, and so on.
 
 **Use it**: yes
 
@@ -3573,7 +3573,7 @@ Do not use "BIOS" as a generic term for computer firmware. Instead, write "firmw
 **See also**: [connection](#image:images/yes.png[yes]-connection-(noun)), [endpoint](#image:images/caution.png[with-caution]-endpoint-(noun))
 
 #### image:images/yes.png[yes] compose (noun)
-**Description**: In Red&#160;Hat Enterprise Linux, _composes_ are individual builds of a system image, based on a particular version of a particular blueprint. Compose as a term refers to the system image, the logs from its creation, inputs, metadata, and the process itself.
+**Description**: In Red Hat Enterprise Linux, _composes_ are individual builds of a system image, based on a particular version of a particular blueprint. Compose as a term refers to the system image, the logs from its creation, inputs, metadata, and the process itself.
 
 **Use it**: yes
 
@@ -3582,7 +3582,7 @@ Do not use "BIOS" as a generic term for computer firmware. Instead, write "firmw
 **See also**: [blueprint](#image:images/yes.png[yes]-blueprint-(noun))
 
 #### image:images/yes.png[yes] composite content view (noun)
-**Description**: In Red&#160;Hat Satellite, a _composite content view_ is a collection of content views.
+**Description**: In Red Hat Satellite, a _composite content view_ is a collection of content views.
 
 **Use it**: yes
 
@@ -3618,7 +3618,7 @@ Do not use "BIOS" as a generic term for computer firmware. Instead, write "firmw
 **See also**:
 
 #### image:images/yes.png[yes] config map (noun)
-**Description**: In Red&#160;Hat OpenShift, a _config map_ holds configuration data for pods to consume. The API object for a config map is `ConfigMap`.
+**Description**: In Red Hat OpenShift, a _config map_ holds configuration data for pods to consume. The API object for a config map is `ConfigMap`.
 
 **Use it**: yes
 
@@ -3627,7 +3627,7 @@ Do not use "BIOS" as a generic term for computer firmware. Instead, write "firmw
 **See also**:
 
 #### image:images/yes.png[yes] connection (noun)
-**Description**: (1) In Red&#160;Hat AMQ, a _connection_ is a channel for communication between two peers on a network. For AMQ, connections can be made between containers (clients, brokers, and routers). These are sometimes also called _network connections_. (2) In Red&#160;Hat Fuse Online, you create a connection using a Fuse Online connector. You can then use the connection in a Fuse Online integration. For example, using the Twitter connector, you can create multiple connections to Twitter, each of which could require unique login credentials.
+**Description**: (1) In Red Hat AMQ, a _connection_ is a channel for communication between two peers on a network. For AMQ, connections can be made between containers (clients, brokers, and routers). These are sometimes also called _network connections_. (2) In Red Hat Fuse Online, you create a connection using a Fuse Online connector. You can then use the connection in a Fuse Online integration. For example, using the Twitter connector, you can create multiple connections to Twitter, each of which could require unique login credentials.
 
 **Use it**: yes
 
@@ -3636,7 +3636,7 @@ Do not use "BIOS" as a generic term for computer firmware. Instead, write "firmw
 **See also**: [acceptor](#image:images/yes.png[yes]-acceptor-(noun)), [listener](#image:images/yes.png[yes]-listener-(noun)), [connector](#image:images/yes.png[yes]-connector-(noun)), [container](#image:images/yes.png[yes]-container-(noun)), [session](#image:images/caution.png[with-caution]-session-(noun))
 
 #### image:images/yes.png[yes] connection factory (noun)
-**Description**: In Red&#160;Hat AMQ, a _connection factory_ is an object used by a JMS client to create a connection to a broker.
+**Description**: In Red Hat AMQ, a _connection factory_ is an object used by a JMS client to create a connection to a broker.
 
 **Use it**: yes
 
@@ -3654,7 +3654,7 @@ Do not use "BIOS" as a generic term for computer firmware. Instead, write "firmw
 **See also**:
 
 #### image:images/yes.png[yes] connector (noun)
-**Description**: (1) In Red&#160;Hat AMQ, a _connector_ is a configurable entity for AMQ brokers and routers. They define an outgoing connection from either a router to another endpoint, or from a broker to another endpoint. (2) In Red&#160;Hat Fuse Online, a connector provides a template for creating any number of connections to a particular application or service, each of which can perform a different operation. A Camel component provides the foundation for a connector. For example, the Twitter connector, built on the Camel Twitter component, enables you to create multiple connections to Twitter.
+**Description**: (1) In Red Hat AMQ, a _connector_ is a configurable entity for AMQ brokers and routers. They define an outgoing connection from either a router to another endpoint, or from a broker to another endpoint. (2) In Red Hat Fuse Online, a connector provides a template for creating any number of connections to a particular application or service, each of which can perform a different operation. A Camel component provides the foundation for a connector. For example, the Twitter connector, built on the Camel Twitter component, enables you to create multiple connections to Twitter.
 
 **Use it**: yes
 
@@ -3663,7 +3663,7 @@ Do not use "BIOS" as a generic term for computer firmware. Instead, write "firmw
 **See also**: [connection](#image:images/yes.png[yes]-connection-(noun))
 
 #### image:images/yes.png[yes] consent
-**Description**: In Red&#160;Hat Single Sign-On, _consent_ is when you as an `admin` want a user to give permission to a client before that client can participate in the authentication process. After a user provides their credentials, Red&#160;Hat Single Sign-On opens a screen identifying the client requesting a login and what identity information is requested of the user. Users can decide whether or not to grant the request.
+**Description**: In Red Hat Single Sign-On, _consent_ is when you as an `admin` want a user to give permission to a client before that client can participate in the authentication process. After a user provides their credentials, Red Hat Single Sign-On opens a screen identifying the client requesting a login and what identity information is requested of the user. Users can decide whether or not to grant the request.
 
 **Use it**: yes
 
@@ -3672,7 +3672,7 @@ Do not use "BIOS" as a generic term for computer firmware. Instead, write "firmw
 **See also**:
 
 #### image:images/yes.png[yes] consumer (noun)
-**Description**: (1) In an LDAP replication environment, _consumers_ receive data from suppliers or hubs. (2) In Red&#160;Hat AMQ, a _consumer_ is a client that receives messages. (3) In Red&#160;Hat Fuse, a _consumer_ is an endpoint that acts as the source of message exchanges entering a route. It wraps received messages in an exchange and then sends the exchange to the next node in the route. A route can have only one consumer.
+**Description**: (1) In an LDAP replication environment, _consumers_ receive data from suppliers or hubs. (2) In Red Hat AMQ, a _consumer_ is a client that receives messages. (3) In Red Hat Fuse, a _consumer_ is an endpoint that acts as the source of message exchanges entering a route. It wraps received messages in an exchange and then sends the exchange to the next node in the route. A route can have only one consumer.
 
 **Use it**: yes
 
@@ -3681,7 +3681,7 @@ Do not use "BIOS" as a generic term for computer firmware. Instead, write "firmw
 **See also**: [hub](#image:images/yes.png[yes]-hub-(noun)), [supplier](#image:images/yes.png[yes]-supplier-(noun)), [client application](#image:images/yes.png[yes]-client-application-(noun)), [message exchange](#image:images/yes.png[yes]-message-exchange-(noun)), [producer](#image:images/yes.png[yes]-producer-(noun))
 
 #### image:images/yes.png[yes] container (noun)
-**Description**: (1) A _container_ is the fundamental piece of an OpenShift application. A container is a way to isolate and limit process interactions with minimal overhead and footprint. In most cases, a container is limited to a single process providing a specific service (for example web server, database). (2) A container in the Swift API contains objects. A container also defines access control lists (ACLs). Unlike folders or directories, a container cannot contain other containers. A container in the Swift API is synonymous with a "bucket" in the S3 API. (3) In Red&#160;Hat AMQ, a container is a top-level application, such as a broker or client. Connections are established between containers.
+**Description**: (1) A _container_ is the fundamental piece of an OpenShift application. A container is a way to isolate and limit process interactions with minimal overhead and footprint. In most cases, a container is limited to a single process providing a specific service (for example web server, database). (2) A container in the Swift API contains objects. A container also defines access control lists (ACLs). Unlike folders or directories, a container cannot contain other containers. A container in the Swift API is synonymous with a "bucket" in the S3 API. (3) In Red Hat AMQ, a container is a top-level application, such as a broker or client. Connections are established between containers.
 
 **Use it**: yes
 
@@ -3698,10 +3698,10 @@ image repository contains one or more tagged images.
 
 **Incorrect forms**:
 
-**See also**: [Red&#160;Hat Container Catalog](#image:images/no.png[no]-red&#160;hat-container-catalog-(noun)), [OpenShift Container Registry](#image:images/yes.png[yes]-openshift-container-registry-(noun))
+**See also**: [Red Hat Container Catalog](#image:images/no.png[no]-red hat-container-catalog-(noun)), [OpenShift Container Registry](#image:images/yes.png[yes]-openshift-container-registry-(noun))
 
 #### image:images/yes.png[yes] Container Storage Interface (noun)
-**Description**: The _Container Storage Interface (CSI)_ is a standard for exposing arbitrary block and file storage systems to containerized workloads on Container Orchestration Systems like Kubernetes, and in particular Red&#160;Hat OpenShift Container Platform. This allows OpenShift Container Platform to consume storage from third-party storage providers that implement the CSI interface as persistent storage.
+**Description**: The _Container Storage Interface (CSI)_ is a standard for exposing arbitrary block and file storage systems to containerized workloads on Container Orchestration Systems like Kubernetes, and in particular Red Hat OpenShift Container Platform. This allows OpenShift Container Platform to consume storage from third-party storage providers that implement the CSI interface as persistent storage.
 
 **Use it**: yes
 
@@ -3728,7 +3728,7 @@ image repository contains one or more tagged images.
 **See also**: [container-based](#image:images/yes.png[yes]-container-based-(adjective))
 
 #### image:images/yes.png[yes] content view (noun)
-**Description**: In Red&#160;Hat Satellite, a _content view_ is a subset of Library content created by intelligent filtering.
+**Description**: In Red Hat Satellite, a _content view_ is a subset of Library content created by intelligent filtering.
 
 **Use it**: yes
 
@@ -3773,7 +3773,7 @@ image repository contains one or more tagged images.
 **See also**: [operating environment](#image:images/yes.png[yes]-operating-environment-(noun))
 
 #### image:images/yes.png[yes] controller (noun)
-**Description**: In Red&#160;Hat OpenShift, a _controller_ is an object that reads APIs, applies changes to other objects, and reports status or write back to the object.
+**Description**: In Red Hat OpenShift, a _controller_ is an object that reads APIs, applies changes to other objects, and reports status or write back to the object.
 
 **Use it**: yes
 
@@ -3791,7 +3791,7 @@ image repository contains one or more tagged images.
 **See also**: [primary node](#image:images/yes.png[yes]-primary-node-(noun))
 
 #### image:images/yes.png[yes] conversion (noun)
-**Description**: In Red&#160;Hat Enterprise Linux, an operating system _conversion_ is when you convert your operating system from a different Linux distribution to Red&#160;Hat Enterprise Linux.
+**Description**: In Red Hat Enterprise Linux, an operating system _conversion_ is when you convert your operating system from a different Linux distribution to Red Hat Enterprise Linux.
 
 **Use it**: yes
 
@@ -3854,7 +3854,7 @@ image repository contains one or more tagged images.
 **See also**: [AMQ Core Protocol JMS](#image:images/yes.png[yes]-amq-core-protocol-jms-(noun))
 
 #### image:images/yes.png[yes] core-management subsystem (noun)
-**Description**: In Red&#160;Hat JBoss Enterprise Application Platform, the _core-management subsystem_ is used to register server lifecycle event listeners and track configuration changes. In general text, write in lowercase as two words separated by a hyphen. Use "Core Management subsystem" when referring to the `core-management` subsystem in titles and headings.
+**Description**: In Red Hat JBoss Enterprise Application Platform, the _core-management subsystem_ is used to register server lifecycle event listeners and track configuration changes. In general text, write in lowercase as two words separated by a hyphen. Use "Core Management subsystem" when referring to the `core-management` subsystem in titles and headings.
 
 **Use it**: yes
 
@@ -3863,7 +3863,7 @@ image repository contains one or more tagged images.
 **See also**:
 
 #### image:images/caution.png[with caution] crash (verb)
-**Description**: When a program _crashes_, it terminates unexpectedly. The _IBM Style_ guide suggests to use a more specific term, such as "fail". However, in Red&#160;Hat documentation, it is acceptable to use crash in certain cases: When writing errata descriptions, it is possible to use "crash" instead of "terminate unexpectedly" if "terminate unexpectedly" was used in a previous sentence. For example: A utility terminated unexpectedly because of a bug in the underlying source code. With this update, the utility no longer crashes.
+**Description**: When a program _crashes_, it terminates unexpectedly. The _IBM Style_ guide suggests to use a more specific term, such as "fail". However, in Red Hat documentation, it is acceptable to use crash in certain cases: When writing errata descriptions, it is possible to use "crash" instead of "terminate unexpectedly" if "terminate unexpectedly" was used in a previous sentence. For example: A utility terminated unexpectedly because of a bug in the underlying source code. With this update, the utility no longer crashes.
 
 **Use it**: with caution
 
@@ -3872,7 +3872,7 @@ image repository contains one or more tagged images.
 **See also**: [fail](#image:images/yes.png[yes]-fail-(verb))
 
 #### image:images/yes.png[yes] credentials
-**Description**: In Red&#160;Hat Single Sign-On, _credentials_ are pieces of data used to verify the identity of a user. Some examples are passwords, one-time passwords, digital certificates, or even fingerprints.
+**Description**: In Red Hat Single Sign-On, _credentials_ are pieces of data used to verify the identity of a user. Some examples are passwords, one-time passwords, digital certificates, or even fingerprints.
 
 **Use it**: yes
 
@@ -3900,7 +3900,7 @@ With a _cross-forest trust_ between an Active Directory (AD) forest root domain 
 **See also**:
 
 #### image:images/yes.png[yes] cross-site replication (noun)
-**Description**: In Red&#160;Hat Data Grid, _cross-site replication_ is a configuration that allows Data Grid clusters to form a global view and back up data across geographically disperse locations. Multiple clusters running in different data centers replicate data between each other to ensure business continuity in the event of an outage and to present a single, unified caching service to applications.
+**Description**: In Red Hat Data Grid, _cross-site replication_ is a configuration that allows Data Grid clusters to form a global view and back up data across geographically disperse locations. Multiple clusters running in different data centers replicate data between each other to ensure business continuity in the event of an outage and to present a single, unified caching service to applications.
 
 **Use it**: yes
 
@@ -3918,7 +3918,7 @@ With a _cross-forest trust_ between an Active Directory (AD) forest root domain 
 **See also**:
 
 #### image:images/yes.png[yes] CRUSH (noun)
-**Description**: In Red&#160;Hat Ceph Storage, _CRUSH_ is an abbreviation for "Controlled Replication Under Scalable Hashing". This is the mechanism of data distribution in a Ceph cluster. Use all capital letters when referring to "CRUSH". Do not expand, only when explaining what the abbreviation means.
+**Description**: In Red Hat Ceph Storage, _CRUSH_ is an abbreviation for "Controlled Replication Under Scalable Hashing". This is the mechanism of data distribution in a Ceph cluster. Use all capital letters when referring to "CRUSH". Do not expand, only when explaining what the abbreviation means.
 
 **Use it**: yes
 
@@ -3927,7 +3927,7 @@ With a _cross-forest trust_ between an Active Directory (AD) forest root domain 
 **See also**: [CRUSH map](#image:images/yes.png[yes]-crush-map-(noun))
 
 #### image:images/yes.png[yes] CRUSH map (noun)
-**Description**: In Red&#160;Hat Ceph Storage, a CRUSH map contain a list of OSDs, a list of buckets for aggregating the devices into physical locations, and a list of rules that tell CRUSH how it should replicate data in a Ceph cluster’s pools. For more information, see the [CRUSH](https://access.redhat.com/documentation/en/red-hat-ceph-storage/2/single/architecture-guide#crush) section in the Red&#160;Hat Ceph Storage Architecture Guide.
+**Description**: In Red Hat Ceph Storage, a CRUSH map contain a list of OSDs, a list of buckets for aggregating the devices into physical locations, and a list of rules that tell CRUSH how it should replicate data in a Ceph cluster’s pools. For more information, see the [CRUSH](https://access.redhat.com/documentation/en/red-hat-ceph-storage/2/single/architecture-guide#crush) section in the Red Hat Ceph Storage Architecture Guide.
 
 **Use it**: yes
 
@@ -3963,7 +3963,7 @@ With a _cross-forest trust_ between an Active Directory (AD) forest root domain 
 **See also**:
 
 #### image:images/yes.png[yes] custom resource (noun)
-**Description**: In Red&#160;Hat OpenShift, a _custom resource (CR)_ is a resource implemented through the Kubernetes `CustomResourceDefinition` API. Although CRs have the same behaviors as the built-in set of Kubernetes and OpenShift Container Platform resources, CRs are added either manually or by installing Operators. Therefore, CRs might not be available on all clusters by default. Every CR is part of an API group.
+**Description**: In Red Hat OpenShift, a _custom resource (CR)_ is a resource implemented through the Kubernetes `CustomResourceDefinition` API. Although CRs have the same behaviors as the built-in set of Kubernetes and OpenShift Container Platform resources, CRs are added either manually or by installing Operators. Therefore, CRs might not be available on all clusters by default. Every CR is part of an API group.
 
 **Use it**: yes
 
@@ -3972,7 +3972,7 @@ With a _cross-forest trust_ between an Active Directory (AD) forest root domain 
 **See also**:
 
 #### image:images/yes.png[yes] custom resource definition (noun)
-**Description**: In Red&#160;Hat OpenShift, a _custom resource definition (CRD)_ defines a new, unique object `Kind` in the cluster and lets the Kubernetes API server handle its entire lifecycle.
+**Description**: In Red Hat OpenShift, a _custom resource definition (CRD)_ defines a new, unique object `Kind` in the cluster and lets the Kubernetes API server handle its entire lifecycle.
 
 **Use it**: yes
 
@@ -3981,7 +3981,7 @@ With a _cross-forest trust_ between an Active Directory (AD) forest root domain 
 **See also**:
 
 #### image:images/yes.png[yes] customer (noun)
-**Description**: Use _customer_ to refer to the people who buy, subscribe to, or use Red&#160;Hat products and services.
+**Description**: Use _customer_ to refer to the people who buy, subscribe to, or use Red Hat products and services.
 
 **Use it**: yes
 
@@ -3990,16 +3990,16 @@ With a _cross-forest trust_ between an Active Directory (AD) forest root domain 
 **See also**:
 
 #### image:images/caution.png[with caution] Customer Portal (noun)
-**Description**: _Customer Portal_ is the shortened form of "Red&#160;Hat Customer Portal", the official name for https://access.redhat.com. Write "Red&#160;Hat Customer Portal" on first use. You can shorten it to "Customer Portal" after that.
+**Description**: _Customer Portal_ is the shortened form of "Red Hat Customer Portal", the official name for https://access.redhat.com. Write "Red Hat Customer Portal" on first use. You can shorten it to "Customer Portal" after that.
 
 **Use it**: with caution
 
 **Incorrect forms**: CP, RHCP, customer portal, portal
 
-**See also**: [Red&#160;Hat Customer Portal](#image:images/yes.png[yes]-red&#160;hat-customer-portal-(noun))
+**See also**: [Red Hat Customer Portal](#image:images/yes.png[yes]-red hat-customer-portal-(noun))
 
 #### image:images/yes.png[yes] customization (noun)
-**Description**: In Red&#160;Hat Enterprise Linux, _customizations_ are specifications for the system that are not packages. This includes users, groups, and SSH keys.
+**Description**: In Red Hat Enterprise Linux, _customizations_ are specifications for the system that are not packages. This includes users, groups, and SSH keys.
 
 **Use it**: yes
 
@@ -4039,9 +4039,9 @@ With a _cross-forest trust_ between an Active Directory (AD) forest root domain 
 #### image:images/caution.png[with caution] data compression (noun)
 **Description**: _Data compression_ is a method of encoding data using fewer bits than the original data. How compression is achieved differs across products and should always be clarified.
 
-In Red&#160;Hat Enterprise Linux and solutions built on top of it, Virtual Disk Optimization (VDO) uses HIOPS compression, which operates on blocks that have not been identified as duplicates. When unique data is seen for the first time, it is compressed. Subsequent copies of data that have already been stored are then deduplicated without requiring an additional compression step.
+In Red Hat Enterprise Linux and solutions built on top of it, Virtual Disk Optimization (VDO) uses HIOPS compression, which operates on blocks that have not been identified as duplicates. When unique data is seen for the first time, it is compressed. Subsequent copies of data that have already been stored are then deduplicated without requiring an additional compression step.
 
-Migration compression is specific to Red&#160;Hat Virtualization, and is the compression of virtual machine image information while a running virtual machine is moved from one server to another. It uses Xor Based Zero Run Length Encoding (XBZRLE) as the compression mechanism.
+Migration compression is specific to Red Hat Virtualization, and is the compression of virtual machine image information while a running virtual machine is moved from one server to another. It uses Xor Based Zero Run Length Encoding (XBZRLE) as the compression mechanism.
 
 LZO compression and LZ4 compression are specific compression algorithms, so they are specific enough.
 
@@ -4052,7 +4052,7 @@ LZO compression and LZ4 compression are specific compression algorithms, so they
 **See also**:
 
 #### image:images/yes.png[yes] data enumeration (noun)
-**Description**: In Red&#160;Hat Process Automation Manager and Red&#160;Hat Decision Manager, _data enumeration_ is an optional type of asset that can be configured to provide drop-down lists for the guided decision table editor.
+**Description**: In Red Hat Process Automation Manager and Red Hat Decision Manager, _data enumeration_ is an optional type of asset that can be configured to provide drop-down lists for the guided decision table editor.
 
 **Use it**: yes
 
@@ -4061,16 +4061,16 @@ LZO compression and LZ4 compression are specific compression algorithms, so they
 **See also**:
 
 #### image:images/yes.png[yes] Data Grid (noun)
-**Description**: The short product name for _Red&#160;Hat Data Grid_. Use "Red&#160;Hat Data Grid" in the first instance and "Data Grid" in all subsequent instances.
+**Description**: The short product name for _Red Hat Data Grid_. Use "Red Hat Data Grid" in the first instance and "Data Grid" in all subsequent instances.
 
 **Use it**: yes
 
 **Incorrect forms**: JBoss Data Grid
 
-**See also**: [Red&#160;Hat Data Grid](#image:images/yes.png[yes]-red&#160;hat-data-grid-(noun))
+**See also**: [Red Hat Data Grid](#image:images/yes.png[yes]-red hat-data-grid-(noun))
 
 #### image:images/yes.png[yes] Data Grid Console (noun)
-**Description**: In Red&#160;Hat Data Grid, the _Data Grid Console_ provides a web interface for creating and managing caches.
+**Description**: In Red Hat Data Grid, the _Data Grid Console_ provides a web interface for creating and managing caches.
 
 **Use it**: yes
 
@@ -4079,7 +4079,7 @@ LZO compression and LZ4 compression are specific compression algorithms, so they
 **See also**:
 
 #### image:images/yes.png[yes] Data Grid Server (noun)
-**Description**: In Red&#160;Hat Data Grid, the _Data Grid Server_ is a standalone server that exposes any number of caches to clients over a variety of protocols, including Hot Rod, Memcached and REST. Always capitalize when referring to a "Data Grid Server" instance.
+**Description**: In Red Hat Data Grid, the _Data Grid Server_ is a standalone server that exposes any number of caches to clients over a variety of protocols, including Hot Rod, Memcached and REST. Always capitalize when referring to a "Data Grid Server" instance.
 
 **Use it**: yes
 
@@ -4097,7 +4097,7 @@ LZO compression and LZ4 compression are specific compression algorithms, so they
 **See also**:
 
 #### image:images/yes.png[yes] data model (noun)
-**Description**: In Red&#160;Hat Process Automation Manager and Red&#160;Hat Decision Manager, _data model_ is a model of a data object. A _data object_ is a custom complex data type, such as a `Person` object with data fields `Name`, `Address`, and `Date of Birth`.
+**Description**: In Red Hat Process Automation Manager and Red Hat Decision Manager, _data model_ is a model of a data object. A _data object_ is a custom complex data type, such as a `Person` object with data fields `Name`, `Address`, and `Date of Birth`.
 
 **Use it**: yes
 
@@ -4106,7 +4106,7 @@ LZO compression and LZ4 compression are specific compression algorithms, so they
 **See also**:
 
 #### image:images/yes.png[yes] Data Modeler (noun)
-**Description**: In Red&#160;Hat Process Automation Manager and Red&#160;Hat Decision Manager, the _Data Modeler_ is a built-in editor for creating facts or data objects as part of a project data model from Business Central. Data objects are custom data types implemented as Java objects. These custom data types can be used in any resource (such as a guided decision table) after they have been imported.
+**Description**: In Red Hat Process Automation Manager and Red Hat Decision Manager, the _Data Modeler_ is a built-in editor for creating facts or data objects as part of a project data model from Business Central. Data objects are custom data types implemented as Java objects. These custom data types can be used in any resource (such as a guided decision table) after they have been imported.
 
 **Use it**: yes
 
@@ -4124,7 +4124,7 @@ LZO compression and LZ4 compression are specific compression algorithms, so they
 **See also**:
 
 #### image:images/yes.png[yes] datasource subsystem (noun)
-**Description**: In Red&#160;Hat JBoss Enterprise Application Platform, the _datasource subsystem_ is used to create and configure data sources and to manage JDBC database drivers. In general text, write in lowercase as one word. Use "Datasource subsystem" when referring to the `datasource` subsystem in titles and headings.
+**Description**: In Red Hat JBoss Enterprise Application Platform, the _datasource subsystem_ is used to create and configure data sources and to manage JDBC database drivers. In general text, write in lowercase as one word. Use "Datasource subsystem" when referring to the `datasource` subsystem in titles and headings.
 
 **Use it**: yes
 
@@ -4160,7 +4160,7 @@ LZO compression and LZ4 compression are specific compression algorithms, so they
 **See also**:
 
 #### image:images/yes.png[yes] decision table (noun)
-**Description**: A _decision table_ is a collection of rules stored in either a spreadsheet or in the Red&#160;Hat Decision Manager user interface.
+**Description**: A _decision table_ is a collection of rules stored in either a spreadsheet or in the Red Hat Decision Manager user interface.
 
 **Use it**: yes
 
@@ -4178,7 +4178,7 @@ LZO compression and LZ4 compression are specific compression algorithms, so they
 **See also**:
 
 #### image:images/yes.png[yes] delivery (noun)
-**Description**: In Red&#160;Hat AMQ, _delivery_ is the process by which a message is sent to a receiver. Delivery includes the message content and metadata, and the protocol exchange required to transfer that content. When the delivery is completed, it is settled.
+**Description**: In Red Hat AMQ, _delivery_ is the process by which a message is sent to a receiver. Delivery includes the message content and metadata, and the protocol exchange required to transfer that content. When the delivery is completed, it is settled.
 
 **Use it**: yes
 
@@ -4205,7 +4205,7 @@ LZO compression and LZ4 compression are specific compression algorithms, so they
 **See also**: [denial of service (noun)](#image:images/yes.png[yes]-denial-of-service-(noun))
 
 #### image:images/yes.png[yes] deployment (noun)
-**Description**: In Red&#160;Hat OpenShift, a _deployment_ is a statement of intent by a user to deploy a new version of a configuration. To avoid confusion, do not refer to an overall OpenShift Container Platform installation, instance, or cluster as an "OpenShift deployment".
+**Description**: In Red Hat OpenShift, a _deployment_ is a statement of intent by a user to deploy a new version of a configuration. To avoid confusion, do not refer to an overall OpenShift Container Platform installation, instance, or cluster as an "OpenShift deployment".
 
 The API object for a deployment can be either a Kubernetes-native `Deployment` object (which uses replication controllers) or an OpenShift-specific `DeploymentConfig` object (which uses replica sets).
 
@@ -4216,7 +4216,7 @@ The API object for a deployment can be either a Kubernetes-native `Deployment` o
 **See also**:
 
 #### image:images/yes.png[yes] deployment-scanner subsystem (noun)
-**Description**: In Red&#160;Hat JBoss Enterprise Application Platform, the _deployment-scanner subsystem_ is used to configure scanners to check for applications to deploy. In general text, write in lowercase as two words separated by a hyphen. Use "Deployment Scanners subsystem" when referring to the `deployment-scanner` subsystem in titles and headings. When writing the term in its heading form, ensure that you include a plural 's'.
+**Description**: In Red Hat JBoss Enterprise Application Platform, the _deployment-scanner subsystem_ is used to configure scanners to check for applications to deploy. In general text, write in lowercase as two words separated by a hyphen. Use "Deployment Scanners subsystem" when referring to the `deployment-scanner` subsystem in titles and headings. When writing the term in its heading form, ensure that you include a plural 's'.
 
 **Use it**: yes
 
@@ -4252,7 +4252,7 @@ The API object for a deployment can be either a Kubernetes-native `Deployment` o
 **See also**: [message address](#image:images/caution.png[with-caution]-message-address-(noun))
 
 #### image:images/yes.png[yes] Developer Preview (noun)
-**Description**: _Developer Preview_ software provides early access to upcoming product software in advance of its possible inclusion in a Red&#160;Hat product offering. Customers can use Developer Preview software to test functionality and provide feedback during the development process. The software might not have any documentation, is subject to change or removal at any time, and has received limited testing. Developer Preview software is not supported by Red&#160;Hat in any way and is not functionally complete or production-ready.
+**Description**: _Developer Preview_ software provides early access to upcoming product software in advance of its possible inclusion in a Red Hat product offering. Customers can use Developer Preview software to test functionality and provide feedback during the development process. The software might not have any documentation, is subject to change or removal at any time, and has received limited testing. Developer Preview software is not supported by Red Hat in any way and is not functionally complete or production-ready.
 
 **Use it**: yes
 
@@ -4315,7 +4315,7 @@ The API object for a deployment can be either a Kubernetes-native `Deployment` o
 **See also**:
 
 #### image:images/yes.png[yes] director (noun)
-**Description**: In Red&#160;Hat OpenStack Platform (RHOSP), _director_ is a toolset for installing and managing a complete OpenStack environment. Write in lowercase. For example: "Use director to create a RHOSP environment."
+**Description**: In Red Hat OpenStack Platform (RHOSP), _director_ is a toolset for installing and managing a complete OpenStack environment. Write in lowercase. For example: "Use director to create a RHOSP environment."
 
 **Use it**: yes
 
@@ -4333,7 +4333,7 @@ The API object for a deployment can be either a Kubernetes-native `Deployment` o
 **See also**:
 
 #### image:images/yes.png[yes] Directory Manager (noun)
-**Description**: In Red&#160;Hat Directory Server, the privileged administrative user is called the _Directory Manager_. The distinguished name (DN) of this user is cn=Directory Manager.
+**Description**: In Red Hat Directory Server, the privileged administrative user is called the _Directory Manager_. The distinguished name (DN) of this user is cn=Directory Manager.
 
 **Use it**: yes
 
@@ -4342,8 +4342,8 @@ The API object for a deployment can be either a Kubernetes-native `Deployment` o
 **See also**:
 
 #### image:images/yes.png[yes] directory server (noun)
-**Description**: In Red&#160;Hat Enterprise Linux, a _directory server_ centralizes user identity and application information. It provides an operating system-independent, network-based registry for storing application settings, user profiles, group data, policies, and access control information. Each resource on the network is considered an object by the directory server. Information about a particular resource is stored as a collection of attributes associated with that resource or object.
-Red&#160;Hat Directory Server conforms to LDAP standards.
+**Description**: In Red Hat Enterprise Linux, a _directory server_ centralizes user identity and application information. It provides an operating system-independent, network-based registry for storing application settings, user profiles, group data, policies, and access control information. Each resource on the network is considered an object by the directory server. Information about a particular resource is stored as a collection of attributes associated with that resource or object.
+Red Hat Directory Server conforms to LDAP standards.
 
 **Use it**: yes
 
@@ -4352,13 +4352,13 @@ Red&#160;Hat Directory Server conforms to LDAP standards.
 **See also**: [LDAP](#image:images/yes.png[yes]-ldap-(noun))
 
 #### image:images/yes.png[yes] Directory Server (noun)
-**Description**: The short product name of _Red&#160;Hat Directory Server_. In the title of guides, use the full product name "Red&#160;Hat Directory Server" and, elsewhere, the short name "Directory Server". Because it is the product name, both words start with a capital letter. Additionally, this practice distinguishes the Red&#160;Hat Directory Server product from other directory servers.
+**Description**: The short product name of _Red Hat Directory Server_. In the title of guides, use the full product name "Red Hat Directory Server" and, elsewhere, the short name "Directory Server". Because it is the product name, both words start with a capital letter. Additionally, this practice distinguishes the Red Hat Directory Server product from other directory servers.
 
 **Use it**: yes
 
 **Incorrect forms**: directory server
 
-**See also**: [Red&#160;Hat Directory Server](#image:images/yes.png[yes]-red&#160;hat-directory-server-(noun))
+**See also**: [Red Hat Directory Server](#image:images/yes.png[yes]-red hat-directory-server-(noun))
 
 #### image:images/yes.png[yes] disaster recovery (adjective)
 **Description**: _Disaster recovery_ refers to processes or methods used to ensure data integrity and the operational continuity of an environment or infrastructure during any malicious or accidental interruption.
@@ -4370,9 +4370,9 @@ Red&#160;Hat Directory Server conforms to LDAP standards.
 **See also**:
 
 #### image:images/yes.png[yes] disconnected (adjective)
-**Description**: In Red&#160;Hat OpenShift, use "disconnected" when discussing installing a cluster in an environment that does not have an active connection to the internet. Use "disconnected" regardless of whether the restriction is physical or logical.
+**Description**: In Red Hat OpenShift, use "disconnected" when discussing installing a cluster in an environment that does not have an active connection to the internet. Use "disconnected" regardless of whether the restriction is physical or logical.
 
-"Disconnected" is the preferred term over "restricted", "air-gapped", or "offline" for Red&#160;Hat OpenShift, but not for Red&#160;Hat build of MicroShift.
+"Disconnected" is the preferred term over "restricted", "air-gapped", or "offline" for Red Hat OpenShift, but not for Red Hat build of MicroShift.
 
 **Use it**: yes
 
@@ -4381,7 +4381,7 @@ Red&#160;Hat Directory Server conforms to LDAP standards.
 **See also**: [offline](#image:images/yes.png[yes]-offline-(adjective))
 
 #### image:images/yes.png[yes] Disk Druid (noun)
-**Description**: A _Disk Druid_ is a partitioning tool incorporated into Red&#160;Hat Enterprise Linux.
+**Description**: A _Disk Druid_ is a partitioning tool incorporated into Red Hat Enterprise Linux.
 
 **Use it**: yes
 
@@ -4408,7 +4408,7 @@ Red&#160;Hat Directory Server conforms to LDAP standards.
 **See also**:
 
 #### image:images/caution.png[with caution] Dispatch Router (noun)
-**Description**: The upstream component for AMQ Interconnect ([Apache Qpid Dispatch Router](https://qpid.apache.org/components/dispatch-router/)). When referring to "AMQ Interconnect", always use the "Red&#160;Hat" product name.
+**Description**: The upstream component for AMQ Interconnect ([Apache Qpid Dispatch Router](https://qpid.apache.org/components/dispatch-router/)). When referring to "AMQ Interconnect", always use the "Red Hat" product name.
 
 **Use it**: with caution
 
@@ -4435,7 +4435,7 @@ Red&#160;Hat Directory Server conforms to LDAP standards.
 **See also**:
 
 #### image:images/yes.png[yes] DNF Automatic (noun)
-**Description**: Use _DNF Automatic_ to refer to a Red&#160;Hat Enterprise Linux command-line interface suited for automatic and regular package updates.
+**Description**: Use _DNF Automatic_ to refer to a Red Hat Enterprise Linux command-line interface suited for automatic and regular package updates.
 
 **Use it**: yes
 
@@ -4514,7 +4514,7 @@ Red&#160;Hat Directory Server conforms to LDAP standards.
 **See also**:
 
 #### image:images/yes.png[yes] domain controller (noun)
-**Description**: In Red&#160;Hat Enterprise Linux, a _domain controller (DC)_ is a host that responds to security authentication requests within a domain and controls access to resources in that domain. IdM servers work as DCs for the IdM domain. A DC authenticates users, stores user account information and enforces security policy for a domain. When a user logs into a domain, the DC authenticates and validates their credentials and either allows or denies access.
+**Description**: In Red Hat Enterprise Linux, a _domain controller (DC)_ is a host that responds to security authentication requests within a domain and controls access to resources in that domain. IdM servers work as DCs for the IdM domain. A DC authenticates users, stores user account information and enforces security policy for a domain. When a user logs into a domain, the DC authenticates and validates their credentials and either allows or denies access.
 
 **Use it**: yes
 
@@ -4523,7 +4523,7 @@ Red&#160;Hat Directory Server conforms to LDAP standards.
 **See also**:
 
 #### image:images/no.png[no] domain mode (noun)
-**Description**: In Red&#160;Hat JBoss Enterprise Application Platform, do not use "domain mode" to refer to the running instance of JBoss EAP server. For the correct usage, see the [managed domain](#image:images/yes.png[yes]-managed-domain-(noun)) entry.
+**Description**: In Red Hat JBoss Enterprise Application Platform, do not use "domain mode" to refer to the running instance of JBoss EAP server. For the correct usage, see the [managed domain](#image:images/yes.png[yes]-managed-domain-(noun)) entry.
 
 **Use it**: no
 
@@ -4559,7 +4559,7 @@ Red&#160;Hat Directory Server conforms to LDAP standards.
 **See also**: [download (noun)](#image:images/yes.png[yes]-download-(noun))
 
 #### image:images/yes.png[yes] downstream (adjective)
-**Description**: _Downstream_ as an adjective refers to the Red&#160;Hat offerings that are based on upstream community projects.
+**Description**: _Downstream_ as an adjective refers to the Red Hat offerings that are based on upstream community projects.
 
 **Use it**: yes
 
@@ -4568,7 +4568,7 @@ Red&#160;Hat Directory Server conforms to LDAP standards.
 **See also**: [downstream (noun)](#image:images/yes.png[yes]-downstream-(noun)), [upstream (adjective)](#image:images/yes.png[yes]-upstream-(adjective)), [upstream (noun)](#image:images/yes.png[yes]-upstream-(noun))
 
 #### image:images/yes.png[yes] downstream (noun)
-**Description**: _Downstream_ as a noun refers to the Red&#160;Hat offerings that are based on upstream community projects.
+**Description**: _Downstream_ as a noun refers to the Red Hat offerings that are based on upstream community projects.
 
 **Use it**: yes
 
@@ -4577,7 +4577,7 @@ Red&#160;Hat Directory Server conforms to LDAP standards.
 **See also**: [downstream (adjective)](#image:images/yes.png[yes]-downstream-(adjective)), [upstream (adjective)](#image:images/yes.png[yes]-upstream-(adjective)), [upstream (noun)](#image:images/yes.png[yes]-upstream-(noun))
 
 #### image:images/yes.png[yes] DRL (noun)
-**Description**: In Red&#160;Hat Process Automation Manager and Red&#160;Hat Decision Manager, _DRL_ is an abbreviation for the "Drools Rule Language", which is a file with the .drl extension. A DRL file stores technical rules as text and can be managed in the Red&#160;Hat Decision Manager user interface. A DRL file contains one or more rules.
+**Description**: In Red Hat Process Automation Manager and Red Hat Decision Manager, _DRL_ is an abbreviation for the "Drools Rule Language", which is a file with the .drl extension. A DRL file stores technical rules as text and can be managed in the Red Hat Decision Manager user interface. A DRL file contains one or more rules.
 
 **Use it**: yes
 
@@ -4586,7 +4586,7 @@ Red&#160;Hat Directory Server conforms to LDAP standards.
 **See also**:
 
 #### image:images/yes.png[yes] Drools Expert (noun)
-**Description**: The _Drools Expert_ is a pattern matching-based rule engine that runs on Java EE application servers, Red&#160;Hat Decision Manager platform, or bundled with Java applications. It comprises an inference engine, a production memory, and a working memory. Rules are stored in the production memory, and the facts that the inference engine matches the rules against are stored in the working memory.
+**Description**: The _Drools Expert_ is a pattern matching-based rule engine that runs on Java EE application servers, Red Hat Decision Manager platform, or bundled with Java applications. It comprises an inference engine, a production memory, and a working memory. Rules are stored in the production memory, and the facts that the inference engine matches the rules against are stored in the working memory.
 
 **Use it**: yes
 
@@ -4595,7 +4595,7 @@ Red&#160;Hat Directory Server conforms to LDAP standards.
 **See also**:
 
 #### image:images/yes.png[yes] DSL (noun)
-**Description**: In Red&#160;Hat Process Automation Manager and Red&#160;Hat Decision Manager, _DSL_ is an abbreviation for "domain-specific language". DSL is used to create a rule language that is dedicated to your problem domain. A set of DSL definitions consists of transformations from DSL sentences to DRL constructs. These constructs let you use all of the underlying rule language and engine features. You can write rules in DSL rule (DSLR) files, which are translated into Drools Rule Language (DRL) files.
+**Description**: In Red Hat Process Automation Manager and Red Hat Decision Manager, _DSL_ is an abbreviation for "domain-specific language". DSL is used to create a rule language that is dedicated to your problem domain. A set of DSL definitions consists of transformations from DSL sentences to DRL constructs. These constructs let you use all of the underlying rule language and engine features. You can write rules in DSL rule (DSLR) files, which are translated into Drools Rule Language (DRL) files.
 
 **Use it**: yes
 
@@ -4633,7 +4633,7 @@ Red&#160;Hat Directory Server conforms to LDAP standards.
 #### E
 
 #### image:images/yes.png[yes] ee subsystem (noun)
-**Description**: In Red&#160;Hat JBoss Enterprise Application Platform, the _ee subsystem_ is used to configure functionality in the Jakarta Enterprise Edition platform. In general text, write in lowercase as one word. Use "EE subsystem" when referring to the `ee` subsystem in titles and headings.
+**Description**: In Red Hat JBoss Enterprise Application Platform, the _ee subsystem_ is used to configure functionality in the Jakarta Enterprise Edition platform. In general text, write in lowercase as one word. Use "EE subsystem" when referring to the `ee` subsystem in titles and headings.
 
 **Use it**: yes
 
@@ -4642,7 +4642,7 @@ Red&#160;Hat Directory Server conforms to LDAP standards.
 **See also**:
 
 #### image:images/yes.png[yes] egress (adjective)
-**Description**: In Red&#160;Hat OpenShift, _egress_ describes the process of network traffic leaving a Red&#160;Hat OpenShift cluster. Alternatively, data _ingress_ refers to outside network traffic entering an OpenShift cluster.
+**Description**: In Red Hat OpenShift, _egress_ describes the process of network traffic leaving a Red Hat OpenShift cluster. Alternatively, data _ingress_ refers to outside network traffic entering an OpenShift cluster.
 
 **Use it**: yes
 
@@ -4651,7 +4651,7 @@ Red&#160;Hat Directory Server conforms to LDAP standards.
 **See also**: [ingress](#image:images/yes.png[yes]-ingress-(noun,-adjective))
 
 #### image:images/yes.png[yes] EIP (noun)
-**Description**: _EIP_ is an initialism for "Enterprise Integration Pattern". In Red&#160;Hat Fuse, an EIP is a pattern language providing a technology-independent vocabulary and visual notation for designing and documenting enterprise integration solutions. Each pattern provides a proven solution for a recurring problem in integrating disparate applications and services across different enterprises. Red&#160;Hat Fuse implements numerous patterns for asynchronous messaging.
+**Description**: _EIP_ is an initialism for "Enterprise Integration Pattern". In Red Hat Fuse, an EIP is a pattern language providing a technology-independent vocabulary and visual notation for designing and documenting enterprise integration solutions. Each pattern provides a proven solution for a recurring problem in integrating disparate applications and services across different enterprises. Red Hat Fuse implements numerous patterns for asynchronous messaging.
 
 **Use it**: yes
 
@@ -4660,7 +4660,7 @@ Red&#160;Hat Directory Server conforms to LDAP standards.
 **See also**: [component](#image:images/yes.png[yes]-component-(noun))
 
 #### image:images/yes.png[yes] ejb3 subsystem (noun)
-**Description**: In Red&#160;Hat JBoss Enterprise Application Platform, the _ejb3 subsystem_ is used to configure Enterprise JavaBeans. In general text, write in lowercase as one word. Use "EJB 3 subsystem" when referring to the `ejb3` subsystem in titles and headings. When writing the term in its heading form, ensure that you include a space between 'EJB' and '3'.
+**Description**: In Red Hat JBoss Enterprise Application Platform, the _ejb3 subsystem_ is used to configure Enterprise JavaBeans. In general text, write in lowercase as one word. Use "EJB 3 subsystem" when referring to the `ejb3` subsystem in titles and headings. When writing the term in its heading form, ensure that you include a space between 'EJB' and '3'.
 
 **Use it**: yes
 
@@ -4685,7 +4685,7 @@ Do not abbreviate any of the previously listed load balancer terms.
 **See also**:
 
 #### image:images/yes.png[yes] elytron subsystem (noun)
-**Description**: In Red&#160;Hat JBoss Enterprise Application Platform, the _elytron subsystem_ is used to configure server and application security. Write in lowercase in general text. Use "Elytron subsystem" when referring to the `elytron` subsystem in titles and headings. For the correct usage when referring to the `elytron` subsystem in the management console, see the [Security - Elytron](#image:images/yes.png[yes]-security---elytron-(noun)) entry.
+**Description**: In Red Hat JBoss Enterprise Application Platform, the _elytron subsystem_ is used to configure server and application security. Write in lowercase in general text. Use "Elytron subsystem" when referring to the `elytron` subsystem in titles and headings. For the correct usage when referring to the `elytron` subsystem in the management console, see the [Security - Elytron](#image:images/yes.png[yes]-security---elytron-(noun)) entry.
 
 **Use it**: yes
 
@@ -4732,7 +4732,7 @@ If referring to the program, use "Emacs", for example, "Source-Navigator support
 **See also**:
 
 #### image:images/caution.png[with caution] endpoint (noun)
-**Description**: (1) The servers that back a service. (2) In Red&#160;Hat Fuse, an _endpoint_ provides the starting and terminal ends of a Camel route through which an external system or service can send or receive messages. You use Camel components to create and configure endpoints.
+**Description**: (1) The servers that back a service. (2) In Red Hat Fuse, an _endpoint_ provides the starting and terminal ends of a Camel route through which an external system or service can send or receive messages. You use Camel components to create and configure endpoints.
 
 **Use it**: with caution
 
@@ -4750,7 +4750,7 @@ If referring to the program, use "Emacs", for example, "Source-Navigator support
 **See also**: [return](#image:images/yes.png[yes]-return-(verb))
 
 #### image:images/caution.png[with caution] entitlement (noun)
-**Description**: _Entitlement_ refers to the number of systems that can be attached to an individual subscription. When you use Red&#160;Hat Subscription Management (RHSM), you register a system, attach a subscription, and enable repositories. Attaching a subscription to the system consumes one or more of the subscription’s available entitlements. Do not use "entitlement" and "subscription" interchangeably. See [https://access.redhat.com/discussions/3119981](https://access.redhat.com/discussions/3119981) for details.
+**Description**: _Entitlement_ refers to the number of systems that can be attached to an individual subscription. When you use Red Hat Subscription Management (RHSM), you register a system, attach a subscription, and enable repositories. Attaching a subscription to the system consumes one or more of the subscription’s available entitlements. Do not use "entitlement" and "subscription" interchangeably. See [https://access.redhat.com/discussions/3119981](https://access.redhat.com/discussions/3119981) for details.
 
 **Use it**: with caution
 
@@ -4840,7 +4840,7 @@ If referring to the program, use "Emacs", for example, "Source-Navigator support
 **See also**:
 
 #### image:images/yes.png[yes] Expansion Pack (noun)
-**Description**: In Red&#160;Hat JBoss Enterprise Application Platform, _Expansion Pack_ is an add-on that enhances JBoss EAP with additional features, such as MicroProfile capabilities.
+**Description**: In Red Hat JBoss Enterprise Application Platform, _Expansion Pack_ is an add-on that enhances JBoss EAP with additional features, such as MicroProfile capabilities.
 
 **Use it**: yes
 
@@ -4860,7 +4860,7 @@ Capitalize "extranet" only at the beginning of a sentence.
 **See also**:
 
 #### image:images/caution.png[with caution] external mode (noun)
-**Description**: In the context of externally hosted storage services, _external mode_ refers to a deployment of Red&#160;Hat OpenShift Container Storage that uses externally hosted Red&#160;Hat Ceph Storage (RHCS) clusters to provide storage. This OpenShift Container Storage deployment type is supported for bare metal and user-provisioned VMware environments.
+**Description**: In the context of externally hosted storage services, _external mode_ refers to a deployment of Red Hat OpenShift Container Storage that uses externally hosted Red Hat Ceph Storage (RHCS) clusters to provide storage. This OpenShift Container Storage deployment type is supported for bare metal and user-provisioned VMware environments.
 
 Use this term only in OpenShift Container Storage.
 
@@ -4922,7 +4922,7 @@ Use the hyphenated "fault-tolerant" when using it as an adjective.
 **See also**: [fault tolerance](#image:images/yes.png[yes]-fault-tolerance-(noun))
 
 #### image:images/yes.png[yes] federated (adjective)
-**Description**: In Red&#160;Hat Ceph Storage 1.3, you can configure the Ceph Object Gateway to participate in a _federated_ architecture with multiple regions and with multiple zones for a region.
+**Description**: In Red Hat Ceph Storage 1.3, you can configure the Ceph Object Gateway to participate in a _federated_ architecture with multiple regions and with multiple zones for a region.
 
 **Use it**: yes
 
@@ -4931,7 +4931,7 @@ Use the hyphenated "fault-tolerant" when using it as an adjective.
 **See also**: [multisite](#image:images/yes.png[yes]-multisite-(adjective))
 
 #### image:images/yes.png[yes] Fedora™ Project (noun)
-**Description**: The _Fedora Project_ is a global partnership of free software community members, sponsored by Red&#160;Hat. Red&#160;Hat Enterprise Linux is based on the Fedora operating system.
+**Description**: The _Fedora Project_ is a global partnership of free software community members, sponsored by Red Hat. Red Hat Enterprise Linux is based on the Fedora operating system.
 
 **Use it**: yes
 
@@ -4958,7 +4958,7 @@ Use the hyphenated "fault-tolerant" when using it as an adjective.
 **See also**: [block storage](#image:images/caution.png[with-caution]-block-storage-(noun)), [object storage](#image:images/yes.png[yes]-object-storage-(noun))
 
 #### image:images/yes.png[yes] FileStore (noun)
-**Description**: In Red&#160;Hat Ceph Storage, _FileStore_ is an OSD back end responsible for the OSD data that writes objects as files on a file system.
+**Description**: In Red Hat Ceph Storage, _FileStore_ is an OSD back end responsible for the OSD data that writes objects as files on a file system.
 
 **Use it**: yes
 
@@ -4967,7 +4967,7 @@ Use the hyphenated "fault-tolerant" when using it as an adjective.
 **See also**: [BlueStore](#image:images/yes.png[yes]-bluestore-(noun))
 
 #### image:images/yes.png[yes] file trigger directive (noun)
-**Description**: In Red&#160;Hat Enterprise Linux, a _file trigger directive_ is a special form of a transaction scriptlet that runs conditionally when matching files from other packages are installed or uninstalled.
+**Description**: In Red Hat Enterprise Linux, a _file trigger directive_ is a special form of a transaction scriptlet that runs conditionally when matching files from other packages are installed or uninstalled.
 
 **Use it**: yes
 
@@ -5070,16 +5070,16 @@ Use with caution. It is more typical to refer to _FUSE-compatible_ or _FUSE-comp
 **See also**:
 
 #### image:images/yes.png[yes] Fuse Online (noun)
-**Description**: _Fuse Online_ is the short product name for "Red&#160;Hat Fuse Online".
+**Description**: _Fuse Online_ is the short product name for "Red Hat Fuse Online".
 
 **Use it**: yes
 
 **Incorrect forms**: Ignite, Fuse Ignite
 
-**See also**: [Syndesis](#image:images/yes.png[yes]-syndesis-(noun)), [Red&#160;Hat Fuse Online](#image:images/yes.png[yes]-red&#160;hat-fuse-online-(noun))
+**See also**: [Syndesis](#image:images/yes.png[yes]-syndesis-(noun)), [Red Hat Fuse Online](#image:images/yes.png[yes]-red hat-fuse-online-(noun))
 
 #### image:images/yes.png[yes] FUSE_HOME (noun)
-**Description**: In Red&#160;Hat Fuse, _FUSE_HOME_ specifies the Fuse installation directory. Use this when describing which directory to use.
+**Description**: In Red Hat Fuse, _FUSE_HOME_ specifies the Fuse installation directory. Use this when describing which directory to use.
 
 **Use it**: yes
 
@@ -5219,7 +5219,7 @@ When referring to the command, use pass:q[`g++`], marked up appropriately.
 **See also**: [GDB](#image:images/yes.png[yes]-gdb-(noun)), [Insight](#image:images/yes.png[yes]-insight-(noun))
 
 #### image:images/caution.png[with caution] geo-replication (noun)
-**Description**: (1) In Red&#160;Hat Gluster Storage and related solutions, _geo-replication_ refers to asynchronous replication of data in a Gluster file system from one location to another across a network. (2) In Red&#160;Hat Quay, _geo-replication_ refers to replication of data from one central storage engine to other storage engines.
+**Description**: (1) In Red Hat Gluster Storage and related solutions, _geo-replication_ refers to asynchronous replication of data in a Gluster file system from one location to another across a network. (2) In Red Hat Quay, _geo-replication_ refers to replication of data from one central storage engine to other storage engines.
 
 **Use it**: with caution
 
@@ -5300,7 +5300,7 @@ When referring to the command, use pass:q[`g++`], marked up appropriately.
 **See also**:
 
 #### image:images/yes.png[yes] GNUPro (noun)
-**Description**: _GNUPro_ Toolkit for Linux is designed for developing commercial and noncommercial Linux applications on native Linux platforms. It is a set of tested and certified, open-source, GNU standard C, C++, and assembly language development tools. When referring to the Red&#160;Hat product, use "GNUPro".
+**Description**: _GNUPro_ Toolkit for Linux is designed for developing commercial and noncommercial Linux applications on native Linux platforms. It is a set of tested and certified, open-source, GNU standard C, C++, and assembly language development tools. When referring to the Red Hat product, use "GNUPro".
 
 **Use it**: yes
 
@@ -5336,7 +5336,7 @@ When referring to the command, use pass:q[`g++`], marked up appropriately.
 **See also**:
 
 #### image:images/yes.png[yes] group (noun)
-**Description**: In Red&#160;Hat Single Sign-On, a _group_ manages a collection of users. You can define attributes for a group. You can also map roles to a group. Users that become members of a group inherit the attributes and role mappings in the group’s definition.
+**Description**: In Red Hat Single Sign-On, a _group_ manages a collection of users. You can define attributes for a group. You can also map roles to a group. Users that become members of a group inherit the attributes and role mappings in the group’s definition.
 
 **Use it**: yes
 
@@ -5356,7 +5356,7 @@ When referring to the command, use pass:q[`g++`], marked up appropriately.
 #### image:images/yes.png[yes] GSSAPI (noun)
 **Description**: _GSSAPI_ (or _GSS-API_) is an abbreviation for "Generic Security Service Application Program Interface". Developers use GSSAPI to abstract how their applications protect data sent to peer applications. Security-service vendors can provide GSSAPI implementations of common procedure calls as libraries with their security software. These libraries present a GSSAPI-compatible interface to application writers who can write their application to use only the vendor-independent GSSAPI. With this flexibility, developers do not have to tailor their security implementations to any particular platform, security mechanism, type of protection, or transport protocol.
 
-Kerberos is the dominant GSSAPI mechanism implementation, which allows Red&#160;Hat Enterprise Linux and Microsoft Windows Active Directory Kerberos implementations to be API compatible.
+Kerberos is the dominant GSSAPI mechanism implementation, which allows Red Hat Enterprise Linux and Microsoft Windows Active Directory Kerberos implementations to be API compatible.
 
 **Use it**: yes
 
@@ -5392,7 +5392,7 @@ Kerberos is the dominant GSSAPI mechanism implementation, which allows Red&#160;
 **See also**: [libvirt](#image:images/yes.png[yes]-libvirt-(noun))
 
 #### image:images/yes.png[yes] guided editor (noun)
-**Description**: In Red&#160;Hat Process Automation Manager and Red&#160;Hat Decision Manager, the _guided editor_ is an editor for creating and editing business rules. Rules edited in the guided editor use the Business Rules Language (BRL) format. The guided editor prompts users for input based on the object model of the rule being edited.
+**Description**: In Red Hat Process Automation Manager and Red Hat Decision Manager, the _guided editor_ is an editor for creating and editing business rules. Rules edited in the guided editor use the Business Rules Language (BRL) format. The guided editor prompts users for input based on the object model of the rule being edited.
 
 **Use it**: yes
 
@@ -5440,7 +5440,7 @@ Kerberos is the dominant GSSAPI mechanism implementation, which allows Red&#160;
 **See also**: [she](#image:images/no.png[no]-she-(pronoun))
 
 #### image:images/yes.png[yes] health check (noun)
-**Description**: A _health check_ identifies inefficiencies in your IT systems, applications, and maintenance. "Health check" is only capitalized when it is part of a product name, for example, "Red&#160;Hat Enterprise Linux Server Health Check". Do not capitalize "health check" when referring to those services in a general way. For example, "A health check ensures your systems perform at their best."
+**Description**: A _health check_ identifies inefficiencies in your IT systems, applications, and maintenance. "Health check" is only capitalized when it is part of a product name, for example, "Red Hat Enterprise Linux Server Health Check". Do not capitalize "health check" when referring to those services in a general way. For example, "A health check ensures your systems perform at their best."
 
 **Use it**: yes
 
@@ -5467,7 +5467,7 @@ Kerberos is the dominant GSSAPI mechanism implementation, which allows Red&#160;
 **See also**:
 
 #### image:images/yes.png[yes] hidden replica (noun)
-**Description**: In Red&#160;Hat Enterprise Linux, a _hidden replica_ is an IdM replica that has all services running and available, but its server roles are disabled, and clients cannot discover the replica because it has no SRV records in DNS.
+**Description**: In Red Hat Enterprise Linux, a _hidden replica_ is an IdM replica that has all services running and available, but its server roles are disabled, and clients cannot discover the replica because it has no SRV records in DNS.
 
 Hidden replicas are primarily designed for services such as backups, bulk importing and exporting, or actions that require shutting down IdM services. Since no clients use a hidden replica, administrators can temporarily shut down the services on this host without affecting any clients.
 
@@ -5514,7 +5514,7 @@ Hidden replicas are primarily designed for services such as backups, bulk import
 **See also**:
 
 #### image:images/yes.png[yes] horizontal pod autoscaler (noun)
-**Description**: In Red&#160;Hat OpenShift, a _horizontal pod autoscaler_, also known as _HPA_, is implemented as a Kubernetes API resource and a controller. You can use the HPA to specify the minimum and maximum number of pods that you want to run. You can also specify the CPU or memory usage that your pods should target. The HPA scales pods in and out when a given CPU or memory threshold is crossed.
+**Description**: In Red Hat OpenShift, a _horizontal pod autoscaler_, also known as _HPA_, is implemented as a Kubernetes API resource and a controller. You can use the HPA to specify the minimum and maximum number of pods that you want to run. You can also specify the CPU or memory usage that your pods should target. The HPA scales pods in and out when a given CPU or memory threshold is crossed.
 
 **Use it**: yes
 
@@ -5532,7 +5532,7 @@ Hidden replicas are primarily designed for services such as backups, bulk import
 **See also**:
 
 #### image:images/yes.png[yes] host system (noun)
-**Description**: In Red&#160;Hat Enterprise Linux, the _host system_ is the system on which the instrumentation modules, from SystemTap scripts, are compiled to be loaded on target systems.
+**Description**: In Red Hat Enterprise Linux, the _host system_ is the system on which the instrumentation modules, from SystemTap scripts, are compiled to be loaded on target systems.
 
 **Use it**: yes
 
@@ -5559,7 +5559,7 @@ Hidden replicas are primarily designed for services such as backups, bulk import
 **See also**: [hot add](#image:images/yes.png[yes]-hot-add-(verb)), [hot swap](#image:images/yes.png[yes]-hot-swap-(verb))
 
 #### image:images/yes.png[yes] Hot Rod (adjective)
-**Description**: In Red&#160;Hat Data Grid, _Hot Rod_ is a binary TCP client-server protocol. Java, C#, C++, and Node.js clients, as well as clients written in other programming languages, can access data that resides in remote caches on Data Grid Server clusters via the Hot Rod endpoint. Write as two words and capitalize the first letter of each word.
+**Description**: In Red Hat Data Grid, _Hot Rod_ is a binary TCP client-server protocol. Java, C#, C++, and Node.js clients, as well as clients written in other programming languages, can access data that resides in remote caches on Data Grid Server clusters via the Hot Rod endpoint. Write as two words and capitalize the first letter of each word.
 
 **Use it**: yes
 
@@ -5604,7 +5604,7 @@ Hidden replicas are primarily designed for services such as backups, bulk import
 **See also**:
 
 #### image:images/no.png[no] HTTP interface (noun)
-**Description**: In Red&#160;Hat JBoss Enterprise Application Platform, do not use "HTTP interface" to refer to the management console. For the correct usage, see the [management console](#image:images/yes.png[yes]-management-console-(noun)) entry.
+**Description**: In Red Hat JBoss Enterprise Application Platform, do not use "HTTP interface" to refer to the management console. For the correct usage, see the [management console](#image:images/yes.png[yes]-management-console-(noun)) entry.
 
 **Use it**: no
 
@@ -5649,7 +5649,7 @@ Hidden replicas are primarily designed for services such as backups, bulk import
 **See also**:
 
 #### image:images/yes.png[yes] Hyper-V (noun)
-**Description**: In the Microsoft Windows operating system, _Hyper-V_ is a native hypervisor. Hyper-V can create virtual machines (VMs) on AMD64 systems running the Microsoft Windows operating system. Hyper-V drivers are required on all Red&#160;Hat Enterprise Linux (RHEL) VMs running in Microsoft Azure.
+**Description**: In the Microsoft Windows operating system, _Hyper-V_ is a native hypervisor. Hyper-V can create virtual machines (VMs) on AMD64 systems running the Microsoft Windows operating system. Hyper-V drivers are required on all Red Hat Enterprise Linux (RHEL) VMs running in Microsoft Azure.
 
 **Use it**: yes
 
@@ -5667,7 +5667,7 @@ Hidden replicas are primarily designed for services such as backups, bulk import
 **See also**:
 
 #### image:images/yes.png[yes] hyperconverged cluster (noun)
-**Description**: A _hyperconverged cluster_ is a generic phrase that refers to the set of physical machines providing compute and storage capabilities in a Red&#160;Hat Hyperconverged Infrastructure for Virtualization (RHHI-V) or Red&#160;Hat Hyperconverged Infrastructure for Cloud (RHHI-C) cluster.
+**Description**: A _hyperconverged cluster_ is a generic phrase that refers to the set of physical machines providing compute and storage capabilities in a Red Hat Hyperconverged Infrastructure for Virtualization (RHHI-V) or Red Hat Hyperconverged Infrastructure for Cloud (RHHI-C) cluster.
 
 **Use it**: yes
 
@@ -5676,7 +5676,7 @@ Hidden replicas are primarily designed for services such as backups, bulk import
 **See also**:
 
 #### image:images/yes.png[yes] hypervisor (noun)
-**Description**: A _hypervisor_ is software that runs virtual machines. Only capitalize the initial "H" at the beginning of a sentence or as part of Red&#160;Hat Enterprise Virtualization Hypervisor.
+**Description**: A _hypervisor_ is software that runs virtual machines. Only capitalize the initial "H" at the beginning of a sentence or as part of Red Hat Enterprise Virtualization Hypervisor.
 
 **Use it**: yes
 
@@ -5768,11 +5768,11 @@ Hidden replicas are primarily designed for services such as backups, bulk import
 **See also**: [IBM® LinuxONE](#image:images/yes.png[yes]-ibm®-linuxone-(noun)), [s390x](#image:images/yes.png[yes]-s390x-(noun))
 
 #### image:images/yes.png[yes] ID mapping (noun)
-**Description**: In Red&#160;Hat Enterprise Linux, SSSD can use the SID of an AD user to algorithmically generate POSIX IDs in a process called _ID mapping_. ID mapping creates a map between SIDs in AD and IDs on Linux.
+**Description**: In Red Hat Enterprise Linux, SSSD can use the SID of an AD user to algorithmically generate POSIX IDs in a process called _ID mapping_. ID mapping creates a map between SIDs in AD and IDs on Linux.
 
 * When SSSD detects a new AD domain, it assigns a range of available IDs to the new domain. Therefore, each AD domain has the same ID range on every SSSD client machine.
 * When an AD user logs in to an SSSD client machine for the first time, SSSD creates an entry for the user in the SSSD cache, including a UID based on the user’s SID and the ID range for that domain.
-* Because the IDs for an AD user are generated in a consistent way from the same SID, the user has the same UID and GID when logging in to any Red&#160;Hat Enterprise Linux system.
+* Because the IDs for an AD user are generated in a consistent way from the same SID, the user has the same UID and GID when logging in to any Red Hat Enterprise Linux system.
 
 **Use it**: yes
 
@@ -5781,7 +5781,7 @@ Hidden replicas are primarily designed for services such as backups, bulk import
 **See also**: [id ranges](#image:images/yes.png[yes]-id-ranges-(noun)), [SSSD](#image:images/yes.png[yes]-sssd-(noun))
 
 #### image:images/yes.png[yes] ID ranges (noun)
-**Description**: In Red&#160;Hat Enterprise Linux, an _ID range_ is a range of ID numbers assigned to the IdM topology or a specific replica. You can use ID ranges to specify the valid range of UIDs and GIDs for new users, hosts and groups. ID ranges are used to avoid ID number conflicts. There are two distinct types of ID ranges in IdM:
+**Description**: In Red Hat Enterprise Linux, an _ID range_ is a range of ID numbers assigned to the IdM topology or a specific replica. You can use ID ranges to specify the valid range of UIDs and GIDs for new users, hosts and groups. ID ranges are used to avoid ID number conflicts. There are two distinct types of ID ranges in IdM:
 
 * _IdM ID range_
 
@@ -5799,7 +5799,7 @@ Note that the IdM range and the DNA range match, but they are not interconnected
 **See also**: [ID mapping](#image:images/yes.png[yes]-id-mapping-(noun))
 
 #### image:images/yes.png[yes] ID views (noun)
-**Description**: In Red&#160;Hat Enterprise Linux, you can use _ID views_ to specify new values for POSIX user or group attributes, and to define on which client host or hosts the new values will apply. See examples of ID views usage:
+**Description**: In Red Hat Enterprise Linux, you can use _ID views_ to specify new values for POSIX user or group attributes, and to define on which client host or hosts the new values will apply. See examples of ID views usage:
 
 * Define different attribute values for different environments.
 * Replace a previously generated attribute value with a different value.
@@ -5823,7 +5823,7 @@ Capitalize it only when it starts a sentence.
 **See also**:
 
 #### image:images/yes.png[yes] identity provider (noun)
-**Description**: An _identity provider (IdP)_ is a service that authenticates a user. Red&#160;Hat Single Sign-On is an IdP.
+**Description**: An _identity provider (IdP)_ is a service that authenticates a user. Red Hat Single Sign-On is an IdP.
 
 **Use it**: yes
 
@@ -5832,7 +5832,7 @@ Capitalize it only when it starts a sentence.
 **See also**: [identity provider federation](#image:images/yes.png[yes]-identity-provider-federation-(noun)), [identity provider mappers](#image:images/yes.png[yes]-identity-provider-mappers-(noun))
 
 #### image:images/yes.png[yes] identity provider federation (noun)
-**Description**: In Red&#160;Hat Single Sign-On, you can delegate authentication to one or more IdPs, and this process is referred to as _identity provider federation_. Social login through Facebook or Google+ is an example of identity provider federation. You can also hook Red&#160;Hat Single Sign-On to delegate authentication to any other OpenID Connect or SAML 2.0 IdP.
+**Description**: In Red Hat Single Sign-On, you can delegate authentication to one or more IdPs, and this process is referred to as _identity provider federation_. Social login through Facebook or Google+ is an example of identity provider federation. You can also hook Red Hat Single Sign-On to delegate authentication to any other OpenID Connect or SAML 2.0 IdP.
 
 **Use it**: yes
 
@@ -5859,7 +5859,7 @@ Capitalize it only when it starts a sentence.
 **See also**: [identity provider](#image:images/yes.png[yes]-identity-provider-(noun)), [identity provider mappers](#image:images/yes.png[yes]-identity-provider-mappers-(noun)), [identity provider federation](#image:images/yes.png[yes]-identity-provider-federation-(noun))
 
 #### image:images/yes.png[yes] IdM CA renewal server (noun)
-**Description**: In Red&#160;Hat Enterprise Linux, if your IdM topology contains an integrated certificate authority (CA), one server has the unique role of the _IdM CA renewal server_. This server maintains and renews IdM system certificates. By default, the first CA server you install fulfills this role, but you can configure any CA server to be the IdM CA renewal server. In a deployment without integrated CA, there is no IdM CA renewal server.
+**Description**: In Red Hat Enterprise Linux, if your IdM topology contains an integrated certificate authority (CA), one server has the unique role of the _IdM CA renewal server_. This server maintains and renews IdM system certificates. By default, the first CA server you install fulfills this role, but you can configure any CA server to be the IdM CA renewal server. In a deployment without integrated CA, there is no IdM CA renewal server.
 
 **Use it**: yes
 
@@ -5868,7 +5868,7 @@ Capitalize it only when it starts a sentence.
 **See also**: [certificate authority](#image:images/yes.png[yes]-certificate-authority-(noun))
 
 #### image:images/yes.png[yes] IdM CA server (noun)
-**Description**: In Red&#160;Hat Enterprise Linux, an _IdM CA server_ is an IdM server on which the IdM certificate authority (CA) service is installed and running.
+**Description**: In Red Hat Enterprise Linux, an _IdM CA server_ is an IdM server on which the IdM certificate authority (CA) service is installed and running.
 
 Alternative names: **CA server**
 
@@ -5879,7 +5879,7 @@ Alternative names: **CA server**
 **See also**: [certificate authority](#image:images/yes.png[yes]-certificate-authority-(noun))
 
 #### image:images/yes.png[yes] IdM CRL publisher server (noun)
-**Description**: In Red&#160;Hat Enterprise Linux, if your IdM topology contains an integrated certificate authority (CA), one server has the unique role of the Certificate revocation list (CRL) publisher server. This server is known as an _IdM CRL publisher server_ and is responsible for maintaining the CRL. By default, the server that fulfills the `CA renewal server` role also fulfills this role, but you can configure any CA server to be the IdM CRL publisher server. In a deployment without integrated CA, there is no IdM CRL publisher server.
+**Description**: In Red Hat Enterprise Linux, if your IdM topology contains an integrated certificate authority (CA), one server has the unique role of the Certificate revocation list (CRL) publisher server. This server is known as an _IdM CRL publisher server_ and is responsible for maintaining the CRL. By default, the server that fulfills the `CA renewal server` role also fulfills this role, but you can configure any CA server to be the IdM CRL publisher server. In a deployment without integrated CA, there is no IdM CRL publisher server.
 
 **Use it**: yes
 
@@ -5888,7 +5888,7 @@ Alternative names: **CA server**
 **See also**: [IdM CA renewal server](#image:images/yes.png[yes]-idm-ca-renewal-server-(noun)), [certificate authority](#image:images/yes.png[yes]-certificate-authority-(noun))
 
 #### image:images/yes.png[yes] IdM deployment (noun)
-**Description**: In Red&#160;Hat Enterprise Linux, _IdM deployment_ is a term that refers to the entirety of your IdM installation. Your IdM deployment has many identifying components:
+**Description**: In Red Hat Enterprise Linux, _IdM deployment_ is a term that refers to the entirety of your IdM installation. Your IdM deployment has many identifying components:
 
 * Purpose: whether it is a production environment, as opposed to a testing or development environment.
 * Certificate Authority (CA) configuration: you can use the IdM integrated CA as a self-signed root CA, or as an externally-signed CA. Alternatively, if your environment has an external CA, you do not need to use the IdM integrated CA.
@@ -5902,7 +5902,7 @@ Alternative names: **CA server**
 **See also**:
 
 #### image:images/yes.png[yes] IdM server and replicas (noun)
-**Description**: In Red&#160;Hat Enterprise Linux, to install the first server in an IdM deployment, you must use the `ipa-server-install` command.
+**Description**: In Red Hat Enterprise Linux, to install the first server in an IdM deployment, you must use the `ipa-server-install` command.
 
 Administrators can then use the `ipa-replica-install` command to install _replicas_ in addition to the first _server_ that was installed. By default, installing a replica creates a replication agreement with the IdM server from which it was created, enabling receiving and sending updates to the rest of IdM.
 
@@ -5915,7 +5915,7 @@ There is no functional difference between the first server that was installed an
 **See also**:
 
 #### image:images/yes.png[yes] IdM topology (noun)
-**Description**: In Red&#160;Hat Enterprise Linux, _IdM topology_ is a term that refers to the structure of your IdM solution, especially the replication agreements between and within individual data centers and clusters.
+**Description**: In Red Hat Enterprise Linux, _IdM topology_ is a term that refers to the structure of your IdM solution, especially the replication agreements between and within individual data centers and clusters.
 
 **Use it**: yes
 
@@ -5924,7 +5924,7 @@ There is no functional difference between the first server that was installed an
 **See also**:
 
 #### image:images/yes.png[yes] iiop-openjdk subsystem (noun)
-**Description**: In Red&#160;Hat JBoss Enterprise Application Platform, the _iiop-openjdk subsystem_ is used to configure Common Object Request Broker Architecture (CORBA) services. In general text, write in lowercase as two words separated by a hyphen. Use "IIOP subsystem" when referring to the `iiop-openjdk` subsystem in titles and headings.
+**Description**: In Red Hat JBoss Enterprise Application Platform, the _iiop-openjdk subsystem_ is used to configure Common Object Request Broker Architecture (CORBA) services. In general text, write in lowercase as two words separated by a hyphen. Use "IIOP subsystem" when referring to the `iiop-openjdk` subsystem in titles and headings.
 
 **Use it**: yes
 
@@ -5942,7 +5942,7 @@ There is no functional difference between the first server that was installed an
 **See also**:
 
 #### image:images/yes.png[yes] image stream (noun)
-**Description**: In Red&#160;Hat OpenShift, an _image stream_ is a series of Docker images identified by one or more tags. Image streams are capable of aggregating images from a variety of sources into a single view, including images stored in the integrated Docker repository of OpenShift Container Platform, images from external Docker registries, and other image streams. The API object for an image stream is `ImageStream`.
+**Description**: In Red Hat OpenShift, an _image stream_ is a series of Docker images identified by one or more tags. Image streams are capable of aggregating images from a variety of sources into a single view, including images stored in the integrated Docker repository of OpenShift Container Platform, images from external Docker registries, and other image streams. The API object for an image stream is `ImageStream`.
 
 **Use it**: yes
 
@@ -5960,7 +5960,7 @@ There is no functional difference between the first server that was installed an
 **See also**:
 
 #### image:images/yes.png[yes] in-place upgrade (noun)
-**Description**: In Red&#160;Hat Enterprise Linux, during an _in-place upgrade_, you replace the earlier version with the new version without removing the earlier version first. The installed applications and utilities, along with the configurations and preferences, are incorporated into the new version.
+**Description**: In Red Hat Enterprise Linux, during an _in-place upgrade_, you replace the earlier version with the new version without removing the earlier version first. The installed applications and utilities, along with the configurations and preferences, are incorporated into the new version.
 
 **Use it**: yes
 
@@ -5978,7 +5978,7 @@ There is no functional difference between the first server that was installed an
 **See also**: [bucket index](#image:images/yes.png[yes]-bucket-index-(noun))
 
 #### image:images/yes.png[yes] inference engine (noun)
-**Description**: In Red&#160;Hat Process Automation Manager and Red&#160;Hat Decision Manager, the _inference engine_ is a part of the Red&#160;Hat Decision Manager engine, which matches production facts and data to rules. It is often called the brain of a production rules system because it is able to scale to a large number of rules and facts. It makes inferences based on its existing knowledge and performs the actions based on what it infers from the information.
+**Description**: In Red Hat Process Automation Manager and Red Hat Decision Manager, the _inference engine_ is a part of the Red Hat Decision Manager engine, which matches production facts and data to rules. It is often called the brain of a production rules system because it is able to scale to a large number of rules and facts. It makes inferences based on its existing knowledge and performs the actions based on what it infers from the information.
 
 **Use it**: yes
 
@@ -5996,7 +5996,7 @@ There is no functional difference between the first server that was installed an
 **See also**:
 
 #### image:images/yes.png[yes] Infinispan (noun)
-**Description**: _Infinispan_ is the open-source, community project on which Red&#160;Hat Data Grid is built.
+**Description**: _Infinispan_ is the open-source, community project on which Red Hat Data Grid is built.
 
 **Use it**: yes
 
@@ -6014,9 +6014,9 @@ There is no functional difference between the first server that was installed an
 **See also**:
 
 #### image:images/yes.png[yes] ingress (noun, adjective)
-**Description**: In Red&#160;Hat OpenShift, _Ingress_  is a Kubernetes API object that developers can use to expose services within the cluster through an HTTP(S) load balancer and a proxy layer by using a public DNS entry. The `Ingress` resource defines the cluster-wide configuration for ingress traffic, and provides the ability to specify TLS options, a certificate, or a public CNAME that the OpenShift `IngressController` object can accept for HTTP(S) traffic. Additionally, _ingress_ can also be used to describe the incoming direction of network traffic. In Red&#160;Hat OpenShift, for example, this traffic is described as entering (ingress) or leaving (egress) an OpenShift cluster.
+**Description**: In Red Hat OpenShift, _Ingress_  is a Kubernetes API object that developers can use to expose services within the cluster through an HTTP(S) load balancer and a proxy layer by using a public DNS entry. The `Ingress` resource defines the cluster-wide configuration for ingress traffic, and provides the ability to specify TLS options, a certificate, or a public CNAME that the OpenShift `IngressController` object can accept for HTTP(S) traffic. Additionally, _ingress_ can also be used to describe the incoming direction of network traffic. In Red Hat OpenShift, for example, this traffic is described as entering (ingress) or leaving (egress) an OpenShift cluster.
 
-Always use `Ingress` with markup when referencing the `Ingress` resource or `IngressController` object in Red&#160;Hat OpenShift. Write in lowercase and omit markup when discussing _ingress_ as a traffic direction.
+Always use `Ingress` with markup when referencing the `Ingress` resource or `IngressController` object in Red Hat OpenShift. Write in lowercase and omit markup when discussing _ingress_ as a traffic direction.
 
 **Use it**: yes
 
@@ -6025,7 +6025,7 @@ Always use `Ingress` with markup when referencing the `Ingress` resource or `Ing
 **See also**:[egress](#image:images/yes.png[yes]-egress-(adjective)), [Ingress Controller](#image:images/yes.png[yes]-ingress-controller-(noun))
 
 #### image:images/yes.png[yes] Ingress Controller (noun)
-**Description**: In Red&#160;Hat OpenShift, the _Ingress Controller_ is a resource that forwards traffic to endpoints of services.
+**Description**: In Red Hat OpenShift, the _Ingress Controller_ is a resource that forwards traffic to endpoints of services.
 
 **Use it**: yes
 
@@ -6054,7 +6054,7 @@ Always use `Ingress` with markup when referencing the `Ingress` resource or `Ing
 #### image:images/yes.png[yes] inject (verb)
 **Description**: When data is _injected_, an object or function receives other required objects or functions from external code instead of creating them internally. To _inject_ can also mean to populate application input fields with embedded control or command sequences.
 
-Red&#160;Hat Trusted Application Pipeline users can configure secrets to inject sensitive data into an application in the form of files or environment variables.
+Red Hat Trusted Application Pipeline users can configure secrets to inject sensitive data into an application in the form of files or environment variables.
 
 **Use it**: yes
 
@@ -6072,7 +6072,7 @@ Red&#160;Hat Trusted Application Pipeline users can configure secrets to inject 
 **See also**:
 
 #### image:images/yes.png[yes] Insight (noun)
-**Description**: _Insight_ is a graphical user interface to the GNU Debugger (GDB). Insight is written in Tcl/Tk and was developed by associates from Red&#160;Hat and Cygnus Solutions.
+**Description**: _Insight_ is a graphical user interface to the GNU Debugger (GDB). Insight is written in Tcl/Tk and was developed by associates from Red Hat and Cygnus Solutions.
 
 **Use it**: yes
 
@@ -6090,7 +6090,7 @@ Red&#160;Hat Trusted Application Pipeline users can configure secrets to inject 
 **See also**:
 
 #### image:images/yes.png[yes] installer-provisioned infrastructure (noun)
-**Description**: In Red&#160;Hat OpenShift, if the installation program deploys and configures the infrastructure that the cluster runs on, it is an _installer-provisioned infrastructure_ installation.
+**Description**: In Red Hat OpenShift, if the installation program deploys and configures the infrastructure that the cluster runs on, it is an _installer-provisioned infrastructure_ installation.
 
 **Use it**: yes
 
@@ -6099,7 +6099,7 @@ Red&#160;Hat Trusted Application Pipeline users can configure secrets to inject 
 **See also**:
 
 #### image:images/yes.png[yes] instance (noun)
-**Description**: In Red&#160;Hat OpenStack Platform, an _instance_ is a running virtual machine, or a virtual machine in a known state such as suspended, that can be used like a hardware server. Use the term "instance" instead of "virtual machine" unless specifically called out in the user interface or a configuration file.
+**Description**: In Red Hat OpenStack Platform, an _instance_ is a running virtual machine, or a virtual machine in a known state such as suspended, that can be used like a hardware server. Use the term "instance" instead of "virtual machine" unless specifically called out in the user interface or a configuration file.
 
 **Use it**: yes
 
@@ -6108,7 +6108,7 @@ Red&#160;Hat Trusted Application Pipeline users can configure secrets to inject 
 **See also**:
 
 #### image:images/yes.png[yes] instrumentation module (noun)
-**Description**: In Red&#160;Hat Enterprise Linux, an _instrumentation module_ is the kernel module built from a `SystemTap` script; the `SystemTap` module is built on the host system and will be loaded on the target kernel of the target system.
+**Description**: In Red Hat Enterprise Linux, an _instrumentation module_ is the kernel module built from a `SystemTap` script; the `SystemTap` module is built on the host system and will be loaded on the target kernel of the target system.
 
 **Use it**: yes
 
@@ -6117,7 +6117,7 @@ Red&#160;Hat Trusted Application Pipeline users can configure secrets to inject 
 **See also**: [host system](#image:images/yes.png[yes]-host-system-(noun)), [target kernel](#image:images/yes.png[yes]-target-kernel-(noun)), [target system](#image:images/yes.png[yes]-target-system-(noun))
 
 #### image:images/yes.png[yes] integration (noun)
-**Description**: In Red&#160;Hat Fuse Online, an _integration_ is a Camel route created.
+**Description**: In Red Hat Fuse Online, an _integration_ is a Camel route created.
 
 **Use it**: yes
 
@@ -6177,7 +6177,7 @@ _This feature can run only on Intel 64 processors_
 **See also**:
 
 #### image:images/yes.png[yes] Intelligent Process Server (noun)
-**Description**: In Red&#160;Hat Process Automation Manager and Red&#160;Hat Decision Manager, the _Intelligent Process Server_ is a standalone, out-of-the-box component that can be used to instantiate and execute rules and processes. The Intelligent Process Server is created as a WAR file that can be deployed on any web container.
+**Description**: In Red Hat Process Automation Manager and Red Hat Decision Manager, the _Intelligent Process Server_ is a standalone, out-of-the-box component that can be used to instantiate and execute rules and processes. The Intelligent Process Server is created as a WAR file that can be deployed on any web container.
 
 **Use it**: yes
 
@@ -6195,7 +6195,7 @@ _This feature can run only on Intel 64 processors_
 **See also**:
 
 #### image:images/yes.png[yes] internal mode (noun)
-**Description**: _Internal-mode_ describes using Red&#160;Hat OpenShift Container Storage where all components of OpenShift Container Storage are deployed within a cluster managed by OpenShift Container Platform and benefit from Operator-based deployment and management. For example, this situation can occur when you are using internally hosted services.
+**Description**: _Internal-mode_ describes using Red Hat OpenShift Container Storage where all components of OpenShift Container Storage are deployed within a cluster managed by OpenShift Container Platform and benefit from Operator-based deployment and management. For example, this situation can occur when you are using internally hosted services.
 
 **Use it**: yes
 
@@ -6204,7 +6204,7 @@ _This feature can run only on Intel 64 processors_
 **See also**:
 
 #### image:images/yes.png[yes] interpreted code (noun)
-**Description**: In Red&#160;Hat Enterprise Linux, _interpreted code_ is source code that runs step-by-step, without prior transformations by a language interpreter or a language virtual machine.
+**Description**: In Red Hat Enterprise Linux, _interpreted code_ is source code that runs step-by-step, without prior transformations by a language interpreter or a language virtual machine.
 
 **Use it**: yes
 
@@ -6222,7 +6222,7 @@ _This feature can run only on Intel 64 processors_
 **See also**: [shebang](#image:images/yes.png[yes]-shebang-(noun)), [hashbang](#image:images/no.png[no]-hashbang-(noun))
 
 #### image:images/yes.png[yes] inventory (noun)
-**Description**: In Red&#160;Hat Enterprise Linux, an _inventory_ is a list of managed nodes. An inventory file is also sometimes called a _hostfile_. An inventory can specify information like IP address for each managed node. An inventory can also organize managed nodes, creating and nesting groups for easier scaling.
+**Description**: In Red Hat Enterprise Linux, an _inventory_ is a list of managed nodes. An inventory file is also sometimes called a _hostfile_. An inventory can specify information like IP address for each managed node. An inventory can also organize managed nodes, creating and nesting groups for easier scaling.
 
 **Use it**: yes
 
@@ -6231,7 +6231,7 @@ _This feature can run only on Intel 64 processors_
 **See also**: [managed nodes](#image:images/yes.png[yes]-managed-nodes-(noun))
 
 #### image:images/yes.png[yes] io subsystem (noun)
-**Description**: In Red&#160;Hat JBoss Enterprise Application Platform, the _io subsystem_ is used to define workers and buffer pools used by other subsystems. In general text, write "io" in lowercase as one word. Use "IO subsystem" when referring to the `io` subsystem in titles and headings.
+**Description**: In Red Hat JBoss Enterprise Application Platform, the _io subsystem_ is used to define workers and buffer pools used by other subsystems. In general text, write "io" in lowercase as one word. Use "IO subsystem" when referring to the `io` subsystem in titles and headings.
 
 **Use it**: yes
 
@@ -6385,7 +6385,7 @@ _This feature can run only on Intel 64 processors_
 **See also**: [javascript](#image:images/yes.png[yes]-javascript-(adjective))
 
 #### image:images/yes.png[yes] jaxrs subsystem (noun)
-**Description**: In Red&#160;Hat JBoss Enterprise Application Platform, the _jaxrs subsystem_ enables the deployment and functionality of RESTful web services through the Java API for RESTful Web Services (JAX-RS). In general text, write in lowercase as one word. Use "JAX-RS subsystem" when referring to the `jaxrs` subsystem in titles and headings. When writing the term in its heading form, ensure that you include a hyphen between 'JAX' and 'RS'.
+**Description**: In Red Hat JBoss Enterprise Application Platform, the _jaxrs subsystem_ enables the deployment and functionality of RESTful web services through the Java API for RESTful Web Services (JAX-RS). In general text, write in lowercase as one word. Use "JAX-RS subsystem" when referring to the `jaxrs` subsystem in titles and headings. When writing the term in its heading form, ensure that you include a hyphen between 'JAX' and 'RS'.
 
 **Use it**: yes
 
@@ -6394,13 +6394,13 @@ _This feature can run only on Intel 64 processors_
 **See also**:
 
 #### image:images/no.png[no] JBoss AMQ (noun)
-**Description**: Do not use "JBoss AMQ" to refer to the Red&#160;Hat messaging queue product. This product has been renamed "Red&#160;Hat AMQ".
+**Description**: Do not use "JBoss AMQ" to refer to the Red Hat messaging queue product. This product has been renamed "Red Hat AMQ".
 
 **Use it**: no
 
 **Incorrect forms**:
 
-**See also**: [Red&#160;Hat AMQ](#image:images/yes.png[yes]-red&#160;hat-amq-(noun))
+**See also**: [Red Hat AMQ](#image:images/yes.png[yes]-red hat-amq-(noun))
 
 #### image:images/yes.png[yes] JBoss Community (noun)
 **Description**: Use "JBoss Community" when referring to the community of users and contributors. Do not refer to the community as "JBoss.org".
@@ -6412,16 +6412,16 @@ _This feature can run only on Intel 64 processors_
 **See also**:
 
 #### image:images/yes.png[yes] JBoss EAP (noun)
-**Description**: _JBoss EAP_ is the approved shortened form of [Red&#160;Hat JBoss Enterprise Application Platform](#image:images/yes.png[yes]-red&#160;hat-jboss-enterprise-application-platform-(noun)).
+**Description**: _JBoss EAP_ is the approved shortened form of [Red Hat JBoss Enterprise Application Platform](#image:images/yes.png[yes]-red hat-jboss-enterprise-application-platform-(noun)).
 
 **Use it**: yes
 
 **Incorrect forms**: EAP, JBoss
 
-**See also**: [Red&#160;Hat JBoss Enterprise Application Platform](#image:images/yes.png[yes]-red&#160;hat-jboss-enterprise-application-platform-(noun))
+**See also**: [Red Hat JBoss Enterprise Application Platform](#image:images/yes.png[yes]-red hat-jboss-enterprise-application-platform-(noun))
 
 #### image:images/yes.png[yes] JBoss EAP built-in messaging (noun)
-**Description**: In Red&#160;Hat JBoss Enterprise Application Platform, _JBoss EAP built-in messaging_ is an acceptable term for referring to the built-in `messaging` system. Other acceptable terms are "built-in messaging" and "JBoss EAP messaging".
+**Description**: In Red Hat JBoss Enterprise Application Platform, _JBoss EAP built-in messaging_ is an acceptable term for referring to the built-in `messaging` system. Other acceptable terms are "built-in messaging" and "JBoss EAP messaging".
 
 **Use it**: yes
 
@@ -6430,7 +6430,7 @@ _This feature can run only on Intel 64 processors_
 **See also**: [built-in messaging](#image:images/yes.png[yes]-built-in-messaging-(noun)), [JBoss EAP messaging](#image:images/yes.png[yes]-jboss-eap-messaging-(noun))
 
 #### image:images/yes.png[yes] JBoss EAP messaging (noun)
-**Description**: In Red&#160;Hat JBoss Enterprise Application Platform, "JBoss EAP messaging" is an acceptable term for referring to the built-in messaging system. Other acceptable terms are "built-in messaging" and "JBoss EAP built-in messaging".
+**Description**: In Red Hat JBoss Enterprise Application Platform, "JBoss EAP messaging" is an acceptable term for referring to the built-in messaging system. Other acceptable terms are "built-in messaging" and "JBoss EAP built-in messaging".
 
 **Use it**: yes
 
@@ -6445,10 +6445,10 @@ _This feature can run only on Intel 64 processors_
 
 **Incorrect forms**:
 
-**See also**: [Red&#160;Hat Way](#image:images/yes.png[yes]-red&#160;hat-way-(noun))
+**See also**: [Red Hat Way](#image:images/yes.png[yes]-red hat-way-(noun))
 
 #### image:images/yes.png[yes] jca subsystem (noun)
-**Description**: In Red&#160;Hat JBoss Enterprise Application Platform, the _jca subsystem_ is used to configure settings for the Jakarta EE Connector Architecture (JCA) container. In general text, write in lowercase as one word. Use "JCA subsystem" when referring to the `jca` subsystem in titles and headings.
+**Description**: In Red Hat JBoss Enterprise Application Platform, the _jca subsystem_ is used to configure settings for the Jakarta EE Connector Architecture (JCA) container. In general text, write in lowercase as one word. Use "JCA subsystem" when referring to the `jca` subsystem in titles and headings.
 
 **Use it**: yes
 
@@ -6457,7 +6457,7 @@ _This feature can run only on Intel 64 processors_
 **See also**:
 
 #### image:images/yes.png[yes] jdr subsystem (noun)
-**Description**: In Red&#160;Hat JBoss Enterprise Application Platform, the _jdr subsystem_ is used to gather diagnostic data to support troubleshooting. In general text, write in lowercase as one word. Use "JDR subsystem" when referring to the `jdr` subsystem in titles and headings.
+**Description**: In Red Hat JBoss Enterprise Application Platform, the _jdr subsystem_ is used to gather diagnostic data to support troubleshooting. In general text, write in lowercase as one word. Use "JDR subsystem" when referring to the `jdr` subsystem in titles and headings.
 
 **Use it**: yes
 
@@ -6466,7 +6466,7 @@ _This feature can run only on Intel 64 processors_
 **See also**:
 
 #### image:images/yes.png[yes] jgroups subsystem (noun)
-**Description**: In Red&#160;Hat JBoss Enterprise Application Platform, the _jgroups subsystem_ is used to configure protocol stacks and communication mechanisms for servers in a cluster. In general text, write in lower case as one word. Use "JGroups subsystem" when referring to the `jgroups` subsystem in titles and headings. When writing the term in its heading form, ensure that you include an uppercase 'G'.
+**Description**: In Red Hat JBoss Enterprise Application Platform, the _jgroups subsystem_ is used to configure protocol stacks and communication mechanisms for servers in a cluster. In general text, write in lower case as one word. Use "JGroups subsystem" when referring to the `jgroups` subsystem in titles and headings. When writing the term in its heading form, ensure that you include an uppercase 'G'.
 
 **Use it**: yes
 
@@ -6484,7 +6484,7 @@ _This feature can run only on Intel 64 processors_
 **See also**:
 
 #### image:images/yes.png[yes] jmx subsystem (noun)
-**Description**: In Red&#160;Hat JBoss Enterprise Application Platform, the _jmx subsystem_ is used to configure remote Java Management Extensions (JMX) access. In general text, write in lowercase as one word. Use "JMX subsystem" when referring to the `jmx` subsystem in titles and headings.
+**Description**: In Red Hat JBoss Enterprise Application Platform, the _jmx subsystem_ is used to configure remote Java Management Extensions (JMX) access. In general text, write in lowercase as one word. Use "JMX subsystem" when referring to the `jmx` subsystem in titles and headings.
 
 **Use it**: yes
 
@@ -6502,7 +6502,7 @@ _This feature can run only on Intel 64 processors_
 **See also**:
 
 #### image:images/yes.png[yes] jpa subsystem (noun)
-**Description**: In Red&#160;Hat JBoss Enterprise Application Platform, the _jpa subsystem_ is used to manage requirements of the Java Persistence API. In general text, write in lowercase as one word. Use "JPA subsystem" when referring to the `jpa` subsystem in titles and headings.
+**Description**: In Red Hat JBoss Enterprise Application Platform, the _jpa subsystem_ is used to manage requirements of the Java Persistence API. In general text, write in lowercase as one word. Use "JPA subsystem" when referring to the `jpa` subsystem in titles and headings.
 
 **Use it**: yes
 
@@ -6511,7 +6511,7 @@ _This feature can run only on Intel 64 processors_
 **See also**:
 
 #### image:images/yes.png[yes] jsf subsystem (noun)
-**Description**: In Red&#160;Hat JBoss Enterprise Application Platform, the _jsf subsystem_ is used to manage JavaServer Faces implementations. In general text, write in lowercase as one word. Use "JSF subsystem" when referring to the `jsf` subsystem in titles and headings.
+**Description**: In Red Hat JBoss Enterprise Application Platform, the _jsf subsystem_ is used to manage JavaServer Faces implementations. In general text, write in lowercase as one word. Use "JSF subsystem" when referring to the `jsf` subsystem in titles and headings.
 
 **Use it**: yes
 
@@ -6520,7 +6520,7 @@ _This feature can run only on Intel 64 processors_
 **See also**:
 
 #### image:images/yes.png[yes] jsr77 subsystem (noun)
-**Description**: In Red&#160;Hat JBoss Enterprise Application Platform, the _jsr77 subsystem_ provides Java EE management capabilities defined by the JSR-77 specification. In general text, write in lowercase as one word. Use "JSR-77 subsystem" when referring to the `jsr77` subsystem in titles and headings. When writing the term in its heading form, ensure that you include a hyphen between 'JSR' and '77'.
+**Description**: In Red Hat JBoss Enterprise Application Platform, the _jsr77 subsystem_ provides Java EE management capabilities defined by the JSR-77 specification. In general text, write in lowercase as one word. Use "JSR-77 subsystem" when referring to the `jsr77` subsystem in titles and headings. When writing the term in its heading form, ensure that you include a hyphen between 'JSR' and '77'.
 
 **Use it**: yes
 
@@ -6740,7 +6740,7 @@ Do not capitalize the first letter.
 **See also**: [truststore](#image:images/yes.png[yes]-truststore-(noun))
 
 #### image:images/yes.png[yes] Kickstart (noun)
-**Description**: _Kickstart_ is a tool for Red&#160;Hat Enterprise Linux and Fedora-based distributions that allows you to control various aspects of a system install process using commands in a text file. You can use "Kickstart" to change defaults or even do a fully automatic installation. Capitalize the first letter.
+**Description**: _Kickstart_ is a tool for Red Hat Enterprise Linux and Fedora-based distributions that allows you to control various aspects of a system install process using commands in a text file. You can use "Kickstart" to change defaults or even do a fully automatic installation. Capitalize the first letter.
 
 **Use it**: yes
 
@@ -6749,7 +6749,7 @@ Do not capitalize the first letter.
 **See also**:
 
 #### image:images/yes.png[yes] KIE (noun)
-**Description**: In Red&#160;Hat Process Automation Manager and Red&#160;Hat Decision Manager, "KIE" is an abbreviation for "Knowledge Is Everything". _KIE_ is a knowledge solution for Red&#160;Hat Decision Manager and Red&#160;Hat Process Automation Manager and is used for the generic parts of a unified API, such as building, deploying, and loading.
+**Description**: In Red Hat Process Automation Manager and Red Hat Decision Manager, "KIE" is an abbreviation for "Knowledge Is Everything". _KIE_ is a knowledge solution for Red Hat Decision Manager and Red Hat Process Automation Manager and is used for the generic parts of a unified API, such as building, deploying, and loading.
 
 **Use it**: yes
 
@@ -6758,7 +6758,7 @@ Do not capitalize the first letter.
 **See also**:
 
 #### image:images/yes.png[yes] KIE API (noun)
-**Description**: In Red&#160;Hat Process Automation Manager and Red&#160;Hat Decision Manager, the _KIE API_ is a knowledge-centric API, where rules and processes are first class citizens. "KIE" is used for the generic parts of unified API, such as building, deploying, and loading.
+**Description**: In Red Hat Process Automation Manager and Red Hat Decision Manager, the _KIE API_ is a knowledge-centric API, where rules and processes are first class citizens. "KIE" is used for the generic parts of unified API, such as building, deploying, and loading.
 
 **Use it**: yes
 
@@ -6767,7 +6767,7 @@ Do not capitalize the first letter.
 **See also**:
 
 #### image:images/yes.png[yes] KIE base (noun)
-**Description**: In Red&#160;Hat Process Automation Manager and Red&#160;Hat Decision Manager, the _KIE base_ is a repository of the application’s knowledge definitions. The name of the Java object is `KieBase`. It contains rules, processes, functions, and type models. A KIE base does not contain runtime data; instead KIE sessions are created from the `KieBase` into which data can be inserted and process instances started.
+**Description**: In Red Hat Process Automation Manager and Red Hat Decision Manager, the _KIE base_ is a repository of the application’s knowledge definitions. The name of the Java object is `KieBase`. It contains rules, processes, functions, and type models. A KIE base does not contain runtime data; instead KIE sessions are created from the `KieBase` into which data can be inserted and process instances started.
 
 **Use it**: yes
 
@@ -6776,7 +6776,7 @@ Do not capitalize the first letter.
 **See also**:
 
 #### image:images/yes.png[yes] KIE session (noun)
-**Description**: In Red&#160;Hat Process Automation Manager and Red&#160;Hat Decision Manager, a _KIE session_ stores runtime data created from a KIE base. The name of the Java object is `KieSession`. After the KIE base is loaded, a session can be created to interact with the engine. The session can then be used to start new processes and signal events.
+**Description**: In Red Hat Process Automation Manager and Red Hat Decision Manager, a _KIE session_ stores runtime data created from a KIE base. The name of the Java object is `KieSession`. After the KIE base is loaded, a session can be created to interact with the engine. The session can then be used to start new processes and signal events.
 
 **Use it**: yes
 
@@ -6785,7 +6785,7 @@ Do not capitalize the first letter.
 **See also**:
 
 #### image:images/yes.png[yes] KJAR (noun)
-**Description**: In Red&#160;Hat Process Automation Manager and Red&#160;Hat Decision Manager, _KJARs_ are simple jar files that include a descriptor for the KIE system to produce KieBase and KieSession. Red&#160;Hat Process Automation Manager provides a simplified and complete deployment mechanism that is based entirely on Apache Maven artifacts. The KJAR descriptor is represented as the `kmodule.xml` file.
+**Description**: In Red Hat Process Automation Manager and Red Hat Decision Manager, _KJARs_ are simple jar files that include a descriptor for the KIE system to produce KieBase and KieSession. Red Hat Process Automation Manager provides a simplified and complete deployment mechanism that is based entirely on Apache Maven artifacts. The KJAR descriptor is represented as the `kmodule.xml` file.
 
 **Use it**: yes
 
@@ -6794,7 +6794,7 @@ Do not capitalize the first letter.
 **See also**:
 
 #### image:images/yes.png[yes] knowledge base (noun)
-**Description**: Use the two-word "knowledge base" unless referring specifically to the "Red&#160;Hat Knowledgebase".
+**Description**: Use the two-word "knowledge base" unless referring specifically to the "Red Hat Knowledgebase".
 
 **Use it**: yes
 
@@ -6803,7 +6803,7 @@ Do not capitalize the first letter.
 **See also**: [Knowledgebase](#image:images/yes.png[yes]-knowledgebase-(noun))
 
 #### image:images/yes.png[yes] knowledge store (noun)
-**Description**: In Red&#160;Hat Process Automation Manager and Red&#160;Hat Decision Manager, _knowledge store_ is a centralized repository for your business knowledge. The knowledge store connects to the Git repository to store various knowledge assets and artifacts at a single location.
+**Description**: In Red Hat Process Automation Manager and Red Hat Decision Manager, _knowledge store_ is a centralized repository for your business knowledge. The knowledge store connects to the Git repository to store various knowledge assets and artifacts at a single location.
 
 **Use it**: yes
 
@@ -6812,7 +6812,7 @@ Do not capitalize the first letter.
 **See also**:
 
 #### image:images/yes.png[yes] Knowledgebase (noun)
-**Description**: [Red&#160;Hat Knowledgebase](https://access.redhat.com/search/#/knowledgebase) includes solutions and articles written mainly by GSS support engineers. The proper spelling is "Knowledgebase", not "KnowledgeBase".
+**Description**: [Red Hat Knowledgebase](https://access.redhat.com/search/#/knowledgebase) includes solutions and articles written mainly by GSS support engineers. The proper spelling is "Knowledgebase", not "KnowledgeBase".
 
 **Use it**: yes
 
@@ -6859,7 +6859,7 @@ Do not capitalize the first letter.
 #### L
 
 #### image:images/yes.png[yes] label (noun)
-**Description**: In Red&#160;Hat OpenShift, _labels_ are objects used to organize, group, or select API objects. For example, pods are tagged with labels, and then services use label selectors to identify the pods they proxy to. This makes it possible for services to reference groups of pods, even treating pods with potentially different containers as related entities.
+**Description**: In Red Hat OpenShift, _labels_ are objects used to organize, group, or select API objects. For example, pods are tagged with labels, and then services use label selectors to identify the pods they proxy to. This makes it possible for services to reference groups of pods, even treating pods with potentially different containers as related entities.
 
 **Use it**: yes
 
@@ -6886,7 +6886,7 @@ Do not capitalize the first letter.
 **See also**: [bandwidth](#image:images/yes.png[yes]-bandwidth-(noun))
 
 #### image:images/yes.png[yes] LDAP (noun)
-**Description**: The Lightweight Directory Access Protocol (_LDAP_) defines an industry standard for accessing and maintaining directory servers, such as Red&#160;Hat Directory Server. By default, the LDAP protocol is unencrypted. Do not expand the abbreviation on first use.
+**Description**: The Lightweight Directory Access Protocol (_LDAP_) defines an industry standard for accessing and maintaining directory servers, such as Red Hat Directory Server. By default, the LDAP protocol is unencrypted. Do not expand the abbreviation on first use.
 
 **Use it**: yes
 
@@ -6904,7 +6904,7 @@ Do not capitalize the first letter.
 **See also**: [LDAP](#image:images/yes.png[yes]-ldap-(noun)), [STARTTLS](#image:images/yes.png[yes]-starttls-(noun))
 
 #### image:images/yes.png[yes] librados (noun)
-**Description**: In Red&#160;Hat Ceph Storage, _librados_ is a shared library allowing applications to access the RADOS object store.
+**Description**: In Red Hat Ceph Storage, _librados_ is a shared library allowing applications to access the RADOS object store.
 
 **Use it**: yes
 
@@ -6913,7 +6913,7 @@ Do not capitalize the first letter.
 **See also**: [RADOS](#image:images/yes.png[yes]-rados-(noun))
 
 #### image:images/yes.png[yes] librbd (noun)
-**Description**: In Red&#160;Hat Ceph Storage, _librbd_ is a shared library allowing applications to access Ceph Block Devices.
+**Description**: In Red Hat Ceph Storage, _librbd_ is a shared library allowing applications to access Ceph Block Devices.
 
 **Use it**: yes
 
@@ -6940,7 +6940,7 @@ Do not capitalize the first letter.
 **See also**: [certificate authority](#image:images/yes.png[yes]-certificate-authority-(noun))
 
 #### image:images/yes.png[yes] link (noun)
-**Description**: In Red&#160;Hat AMQ, a _link_ is a message path between endpoints. Links are established over connections, and are responsible for tracking the exchange status of the messages that flow through them.
+**Description**: In Red Hat AMQ, a _link_ is a message path between endpoints. Links are established over connections, and are responsible for tracking the exchange status of the messages that flow through them.
 
 **Use it**: yes
 
@@ -6949,7 +6949,7 @@ Do not capitalize the first letter.
 **See also**:
 
 #### image:images/yes.png[yes] link routing (noun)
-**Description**: In Red&#160;Hat AMQ, _link routing_ is a routing mechanism in AMQ Interconnect. A link route is a set of links that represent a private message path between a sender and receiver. Link routes can traverse multiple brokers and routers. With link routing, a router makes a routing decision when it receives link-attach frames, and it enables the sender and receiver to use the full AMQP link protocol.
+**Description**: In Red Hat AMQ, _link routing_ is a routing mechanism in AMQ Interconnect. A link route is a set of links that represent a private message path between a sender and receiver. Link routes can traverse multiple brokers and routers. With link routing, a router makes a routing decision when it receives link-attach frames, and it enables the sender and receiver to use the full AMQP link protocol.
 
 **Use it**: yes
 
@@ -6967,7 +6967,7 @@ Do not capitalize the first letter.
 **See also**:
 
 #### image:images/yes.png[yes] listener (noun)
-**Description**: In Red&#160;Hat AMQ, a _listener_ is a configurable entity for AMQ routers and messaging APIs. A listener defines a context for accepting multiple, incoming connections on a particular TCP address and port.
+**Description**: In Red Hat AMQ, a _listener_ is a configurable entity for AMQ routers and messaging APIs. A listener defines a context for accepting multiple, incoming connections on a particular TCP address and port.
 
 **Use it**: yes
 
@@ -6976,7 +6976,7 @@ Do not capitalize the first letter.
 **See also**: [connection](#image:images/yes.png[yes]-connection-(noun))
 
 #### image:images/yes.png[yes] live-only (noun)
-**Description**: In Red&#160;Hat AMQ, _live-broker_ is a broker high availability policy for scaling down brokers. If a `live-only` broker is shut down, its messages and transaction state are copied to another live broker.
+**Description**: In Red Hat AMQ, _live-broker_ is a broker high availability policy for scaling down brokers. If a `live-only` broker is shut down, its messages and transaction state are copied to another live broker.
 
 **Use it**: yes
 
@@ -7021,7 +7021,7 @@ Do not capitalize the first letter.
 **See also**:
 
 #### image:images/yes.png[yes] logging subsystem (noun)
-**Description**: In Red&#160;Hat JBoss Enterprise Application Platform, the _logging subsystem_ is used to configure logging at the system and application levels. Write in lowercase in general text. Use "Logging subsystem" when referring to the logging subsystem in titles and headings.
+**Description**: In Red Hat JBoss Enterprise Application Platform, the _logging subsystem_ is used to configure logging at the system and application levels. Write in lowercase in general text. Use "Logging subsystem" when referring to the logging subsystem in titles and headings.
 
 **Use it**: yes
 
@@ -7088,7 +7088,7 @@ Always capitalize as shown, with the exception of UI content.
 #### M
 
 #### image:images/yes.png[yes] mail subsystem (noun)
-**Description**: In Red&#160;Hat JBoss Enterprise Application Platform, the `mail` subsystem is used to configure mail services for applications deployed to JBoss EAP. Write in lowercase in general text. Use "Mail subsystem" when referring to the mail subsystem in titles and headings.
+**Description**: In Red Hat JBoss Enterprise Application Platform, the `mail` subsystem is used to configure mail services for applications deployed to JBoss EAP. Write in lowercase in general text. Use "Mail subsystem" when referring to the mail subsystem in titles and headings.
 
 **Use it**: yes
 
@@ -7115,7 +7115,7 @@ Always capitalize as shown, with the exception of UI content.
 **See also**: [manual page](#image:images/yes.png[yes]-manual-page-(noun))
 
 #### image:images/yes.png[yes] managed domain (noun)
-**Description**: In Red&#160;Hat JBoss Enterprise Application Platform, a "_managed domain_ is a group of JBoss EAP instances managed from a single control point. This is the appropriate way to refer to the managed domain operating mode. For example, "When running the JBoss EAP server in a managed domain".
+**Description**: In Red Hat JBoss Enterprise Application Platform, a "_managed domain_ is a group of JBoss EAP instances managed from a single control point. This is the appropriate way to refer to the managed domain operating mode. For example, "When running the JBoss EAP server in a managed domain".
 
 **Use it**: yes
 
@@ -7133,7 +7133,7 @@ Always capitalize as shown, with the exception of UI content.
 **See also**:
 
 #### image:images/yes.png[yes] management CLI (noun)
-**Description**: In Red&#160;Hat JBoss Enterprise Application Platform, use "management CLI" to refer to the command-line interface for the JBoss EAP management tool. Do not capitalize "management" unless it starts a sentence.
+**Description**: In Red Hat JBoss Enterprise Application Platform, use "management CLI" to refer to the command-line interface for the JBoss EAP management tool. Do not capitalize "management" unless it starts a sentence.
 
 **Use it**: yes
 
@@ -7142,7 +7142,7 @@ Always capitalize as shown, with the exception of UI content.
 **See also**: [native interface](#image:images/no.png[no]-native-interface-(noun))
 
 #### image:images/yes.png[yes] management console (noun)
-**Description**: In Red&#160;Hat JBoss Enterprise Application Platform, use "management console" when referring to the web-based JBoss EAP management console. Do not capitalize "management" unless it starts a sentence.
+**Description**: In Red Hat JBoss Enterprise Application Platform, use "management console" when referring to the web-based JBoss EAP management console. Do not capitalize "management" unless it starts a sentence.
 
 **Use it**: yes
 
@@ -7187,7 +7187,7 @@ Always capitalize as shown, with the exception of UI content.
 **See also**: [MBR](#image:images/yes.png[yes]-mbr-(noun))
 
 #### image:images/yes.png[yes] master broker (noun)
-**Description**: In Red&#160;Hat AMQ, the _master broker_ is the broker that serves client requests in a master-slave group.
+**Description**: In Red Hat AMQ, the _master broker_ is the broker that serves client requests in a master-slave group.
 
 **Use it**: yes
 
@@ -7196,7 +7196,7 @@ Always capitalize as shown, with the exception of UI content.
 **See also**: [master-slave group](#image:images/yes.png[yes]-master-slave-group-(noun)), [slave broker](#image:images/yes.png[yes]-slave-broker-(noun))
 
 #### image:images/yes.png[yes] master-slave group (noun)
-**Description**: In Red&#160;Hat AMQ, a _master-slave group_ is a broker high availability configuration in which a master broker is linked to slave brokers. If a failover event occurs, the slave broker(s) take over the master broker’s workload.
+**Description**: In Red Hat AMQ, a _master-slave group_ is a broker high availability configuration in which a master broker is linked to slave brokers. If a failover event occurs, the slave broker(s) take over the master broker’s workload.
 
 **Use it**: yes
 
@@ -7250,7 +7250,7 @@ Always capitalize as shown, with the exception of UI content.
 **See also**: [Master Boot Record](#image:images/yes.png[yes]-master-boot-record-(noun))
 
 #### image:images/yes.png[yes] MDS (noun)
-**Description**: In Red&#160;Hat Ceph Storage, "MDS" is an abbreviation for the Ceph Metadata Server.
+**Description**: In Red Hat Ceph Storage, "MDS" is an abbreviation for the Ceph Metadata Server.
 
 **Use it**: yes
 
@@ -7277,7 +7277,7 @@ Always capitalize as shown, with the exception of UI content.
 **See also**: [command-driven](#image:images/yes.png[yes]-command-driven-(adjective))
 
 #### image:images/yes.png[yes] MEP (noun)
-**Description**: Message Exchange Pattern. In Red&#160;Hat Fuse, the _MEP_ is the part of the message exchange that selects between one of two messaging modes: one-way (`InOnly`) or request-reply (`InOut`). The default is `InOnly`.
+**Description**: Message Exchange Pattern. In Red Hat Fuse, the _MEP_ is the part of the message exchange that selects between one of two messaging modes: one-way (`InOnly`) or request-reply (`InOut`). The default is `InOnly`.
 
 **Use it**: yes
 
@@ -7286,7 +7286,7 @@ Always capitalize as shown, with the exception of UI content.
 **See also**: [message exchange](#image:images/yes.png[yes]-message-exchange-(noun))
 
 #### image:images/yes.png[yes] message (noun)
-**Description**: (1) In Red&#160;Hat AMQ, a _message_ is a mutable holder of application content. (2) In Red&#160;Hat Fuse, the message is the fundamental structure for moving data through a route. A message consists of a body (also known as payload), headers, and attachments (optional). Messages flow in one direction from sender to receiver. Headers contain metadata, such as sender IDs, content encoding hints, and so on. Attachments can be text, image, audio, or video files and are typically used with email and web service components.
+**Description**: (1) In Red Hat AMQ, a _message_ is a mutable holder of application content. (2) In Red Hat Fuse, the message is the fundamental structure for moving data through a route. A message consists of a body (also known as payload), headers, and attachments (optional). Messages flow in one direction from sender to receiver. Headers contain metadata, such as sender IDs, content encoding hints, and so on. Attachments can be text, image, audio, or video files and are typically used with email and web service components.
 
 **Use it**: yes
 
@@ -7295,7 +7295,7 @@ Always capitalize as shown, with the exception of UI content.
 **See also**: [message exchange](#image:images/yes.png[yes]-message-exchange-(noun))
 
 #### image:images/caution.png[with caution] message address (noun)
-**Description**: In Red&#160;Hat AMQ, a _message address_ is the name of a source or destination endpoint for messages within the messaging network. Message addresses can designate entities, such as queues and topics. The term "address" is also acceptable, but should not be confused with "TCP/IP addresses". In JMS, the term "destination" may be used.
+**Description**: In Red Hat AMQ, a _message address_ is the name of a source or destination endpoint for messages within the messaging network. Message addresses can designate entities, such as queues and topics. The term "address" is also acceptable, but should not be confused with "TCP/IP addresses". In JMS, the term "destination" may be used.
 
 **Use it**: with caution
 
@@ -7304,7 +7304,7 @@ Always capitalize as shown, with the exception of UI content.
 **See also**: [destination](#image:images/caution.png[with-caution]-destination-(noun))
 
 #### image:images/yes.png[yes] message exchange (noun)
-**Description**:  In Red&#160;Hat Fuse, _message exchanges_ deal with conversations and can flow in both directions. They encapsulate messages in containers while the messages are en route to their target endpoints. A message exchange consists of an exchange ID that identifies the conversation, an MEP setting to indicate whether the exchange is one- or two-way (request-reply), an Exception field that is set whenever an error occurs during routing, and global-level properties that users can store/retrieve at any time during the lifecycle of the exchange.
+**Description**:  In Red Hat Fuse, _message exchanges_ deal with conversations and can flow in both directions. They encapsulate messages in containers while the messages are en route to their target endpoints. A message exchange consists of an exchange ID that identifies the conversation, an MEP setting to indicate whether the exchange is one- or two-way (request-reply), an Exception field that is set whenever an error occurs during routing, and global-level properties that users can store/retrieve at any time during the lifecycle of the exchange.
 
 **Use it**: yes
 
@@ -7313,7 +7313,7 @@ Always capitalize as shown, with the exception of UI content.
 **See also**: [message](#image:images/yes.png[yes]-message-(noun)), [MEP](#image:images/yes.png[yes]-mep-(noun))
 
 #### image:images/yes.png[yes] message routing (noun)
-**Description**: In Red&#160;Hat AMQ, _message routing_ is a routing mechanism in AMQ Interconnect. A message route is the message distribution pattern used for a message address. With message routing, a router makes a routing decision on a per-message basis when a message arrives.
+**Description**: In Red Hat AMQ, _message routing_ is a routing mechanism in AMQ Interconnect. A message route is the message distribution pattern used for a message address. With message routing, a router makes a routing decision on a per-message basis when a message arrives.
 
 **Use it**: yes
 
@@ -7322,7 +7322,7 @@ Always capitalize as shown, with the exception of UI content.
 **See also**: [link routing](#image:images/yes.png[yes]-link-routing-(noun))
 
 #### image:images/yes.png[yes] message settlement (noun)
-**Description**: In Red&#160;Hat AMQ, _message settlement_ is the process for confirming that a message delivery has been completed, and propagating that confirmation to the appropriate endpoints. The term "settlement" is also acceptable.
+**Description**: In Red Hat AMQ, _message settlement_ is the process for confirming that a message delivery has been completed, and propagating that confirmation to the appropriate endpoints. The term "settlement" is also acceptable.
 
 **Use it**: yes
 
@@ -7331,7 +7331,7 @@ Always capitalize as shown, with the exception of UI content.
 **See also**: [delivery](#image:images/yes.png[yes]-delivery-(noun))
 
 #### image:images/yes.png[yes] Messaging - ActiveMQ (noun)
-**Description**: In Red&#160;Hat JBoss Enterprise Application Platform, use "Messaging - ActiveMQ" when describing the `messaging-activemq` subsystem in the management console. Write as two capitalized words separated by two spaces and a hyphen. Ensure that "MQ" is also in uppercase.
+**Description**: In Red Hat JBoss Enterprise Application Platform, use "Messaging - ActiveMQ" when describing the `messaging-activemq` subsystem in the management console. Write as two capitalized words separated by two spaces and a hyphen. Ensure that "MQ" is also in uppercase.
 
 **Use it**: yes
 
@@ -7340,7 +7340,7 @@ Always capitalize as shown, with the exception of UI content.
 **See also**: [messaging-activemq](#image:images/yes.png[yes]-messaging-activemq-subsystem-(noun)), [messaging subsystem](#image:images/yes.png[yes]-messaging-subsystem-(noun))
 
 #### image:images/yes.png[yes] messaging API (noun)
-**Description**: In Red&#160;Hat AMQ, the _messaging API_ is the client libraries and APIs used to create client applications. These libraries are provided by AMQ Clients.
+**Description**: In Red Hat AMQ, the _messaging API_ is the client libraries and APIs used to create client applications. These libraries are provided by AMQ Clients.
 
 **Use it**: yes
 
@@ -7349,7 +7349,7 @@ Always capitalize as shown, with the exception of UI content.
 **See also**: [AMQ Clients](#image:images/yes.png[yes]-amq-clients-(noun)), [client application](#image:images/yes.png[yes]-client-application-(noun))
 
 #### image:images/yes.png[yes] messaging subsystem (noun)
-**Description**: In Red&#160;Hat JBoss Enterprise Application Platform, _messaging subsystem_ is an acceptable generic term for referring to the `messaging-activemq` subsystem. Capitalize "messaging" only at the beginning of a sentence. However, for the correct usage when referring to the `messaging-activemq` subsystem in the management console, see the [Messaging - ActiveMQ](#image:images/yes.png[yes]-messaging---activemq-(noun)) entry.
+**Description**: In Red Hat JBoss Enterprise Application Platform, _messaging subsystem_ is an acceptable generic term for referring to the `messaging-activemq` subsystem. Capitalize "messaging" only at the beginning of a sentence. However, for the correct usage when referring to the `messaging-activemq` subsystem in the management console, see the [Messaging - ActiveMQ](#image:images/yes.png[yes]-messaging---activemq-(noun)) entry.
 
 **Use it**: yes
 
@@ -7358,7 +7358,7 @@ Always capitalize as shown, with the exception of UI content.
 **See also**: [messaging-activemq](#image:images/yes.png[yes]-messaging-activemq-subsystem-(noun)), [Messaging - ActiveMQ](#image:images/yes.png[yes]-messaging---activemq-(noun))
 
 #### image:images/yes.png[yes] messaging-activemq subsystem (noun)
-**Description**: In Red&#160;Hat JBoss Enterprise Application Platform, the _messaging-activemq subsystem_ is used to configure messaging in JBoss EAP. In general text, write in lowercase as two words separated by a hyphen. Use "Messaging subsystem" when referring to the `messaging-activemq` subsystem in titles and headings. For the correct usage when referring to the `messaging-activemq` subsystem in the management console, see the [Messaging - ActiveMQ](#image:images/yes.png[yes]-messaging---activemq-(noun)) entry.
+**Description**: In Red Hat JBoss Enterprise Application Platform, the _messaging-activemq subsystem_ is used to configure messaging in JBoss EAP. In general text, write in lowercase as two words separated by a hyphen. Use "Messaging subsystem" when referring to the `messaging-activemq` subsystem in titles and headings. For the correct usage when referring to the `messaging-activemq` subsystem in the management console, see the [Messaging - ActiveMQ](#image:images/yes.png[yes]-messaging---activemq-(noun)) entry.
 
 **Use it**: yes
 
@@ -7376,7 +7376,7 @@ Always capitalize as shown, with the exception of UI content.
 **See also**:
 
 #### image:images/yes.png[yes] Metadata Server (noun)
-**Description**: In Red&#160;Hat Ceph Storage, "Metadata Server" is another name for the `ceph-mds` daemon.
+**Description**: In Red Hat Ceph Storage, "Metadata Server" is another name for the `ceph-mds` daemon.
 
 **Use it**: yes
 
@@ -7425,7 +7425,7 @@ Azure CLI 2.0 is the most current command-line interface and is replacing Xplat-
 **See also**: [Azure CLI 2.0](#image:images/yes.png[yes]-azure-cli-2.0-(noun))
 
 #### image:images/yes.png[yes] Microsoft Azure On-Demand Marketplace (noun)
-**Description**: In Microsoft Azure, the _Microsoft Azure On-Demand Marketplace_ is a storefront where users can locate and quickly install operating systems, programming languages, frameworks, tools, databases, and devices into their Microsoft Azure environment. Red&#160;Hat Enterprise Linux is available as a VM image within the Microsoft Azure On-Demand Marketplace, along with other Red&#160;Hat open source products. Always preface "On-Demand Marketplace" with "Microsoft Azure" to provide clarity unless the term is repeated multiple times in a sentence or paragraph.
+**Description**: In Microsoft Azure, the _Microsoft Azure On-Demand Marketplace_ is a storefront where users can locate and quickly install operating systems, programming languages, frameworks, tools, databases, and devices into their Microsoft Azure environment. Red Hat Enterprise Linux is available as a VM image within the Microsoft Azure On-Demand Marketplace, along with other Red Hat open source products. Always preface "On-Demand Marketplace" with "Microsoft Azure" to provide clarity unless the term is repeated multiple times in a sentence or paragraph.
 
 **Use it**: yes
 
@@ -7452,7 +7452,7 @@ Azure CLI 2.0 is the most current command-line interface and is replacing Xplat-
 **See also**: [Windows Server](#image:images/yes.png[yes]-windows-server-(noun))
 
 #### image:images/caution.png[with caution] migration (noun)
-**Description**: In Red&#160;Hat Enterprise Linux, typically, a _migration_ indicates a change of platform: software or hardware. Moving from Windows to Linux is a migration. Moving a user from one laptop to another or a company from one server to another is a migration. However, most "migrations" also involve "upgrades", and sometimes the terms are used interchangeably.
+**Description**: In Red Hat Enterprise Linux, typically, a _migration_ indicates a change of platform: software or hardware. Moving from Windows to Linux is a migration. Moving a user from one laptop to another or a company from one server to another is a migration. However, most "migrations" also involve "upgrades", and sometimes the terms are used interchangeably.
 
 **Use it**: with caution
 
@@ -7461,7 +7461,7 @@ Azure CLI 2.0 is the most current command-line interface and is replacing Xplat-
 **See also**: [update](#image:images/yes.png[yes]-update-(noun)), [upgrade](#image:images/yes.png[yes]-upgrade-(verb)), [conversion](#image:images/yes.png[yes]-conversion-(noun))
 
 #### image:images/no.png[no] minion (noun)
-**Description**: In Red&#160;Hat OpenShift, this term is deprecated. Use "node" instead.
+**Description**: In Red Hat OpenShift, this term is deprecated. Use "node" instead.
 
 **Use it**: no
 
@@ -7479,7 +7479,7 @@ Azure CLI 2.0 is the most current command-line interface and is replacing Xplat-
 **See also**:
 
 #### image:images/yes.png[yes] modcluster subsystem (noun)
-**Description**: In Red&#160;Hat JBoss Enterprise Application Platform, the _modcluster subsystem_ is used to configure `modcluster` worker nodes. In general text, write in lowercase as one word. Use "ModCluster subsystem" when referring to the `modcluster` subsystem in titles and headings.
+**Description**: In Red Hat JBoss Enterprise Application Platform, the _modcluster subsystem_ is used to configure `modcluster` worker nodes. In general text, write in lowercase as one word. Use "ModCluster subsystem" when referring to the `modcluster` subsystem in titles and headings.
 
 **Use it**: yes
 
@@ -7488,7 +7488,7 @@ Azure CLI 2.0 is the most current command-line interface and is replacing Xplat-
 **See also**:
 
 #### image:images/yes.png[yes] module (noun)
-**Description**: In Red&#160;Hat Enterprise Linux, a _module_ is a collection of packages representing a logical unit: an application, a language stack, a database, or a set of tools. These packages are built, tested, and released together.
+**Description**: In Red Hat Enterprise Linux, a _module_ is a collection of packages representing a logical unit: an application, a language stack, a database, or a set of tools. These packages are built, tested, and released together.
 
 **Use it**: yes
 
@@ -7497,7 +7497,7 @@ Azure CLI 2.0 is the most current command-line interface and is replacing Xplat-
 **See also**:
 
 #### image:images/yes.png[yes] module profile (noun)
-**Description**: In Red&#160;Hat Enterprise Linux, a _module profile_ is a list of recommended packages to be installed together for a particular use case such as for a server, client, development, or minimal installation. These package lists can contain packages outside the module stream, usually from the BaseOS repository or the dependencies of the stream.
+**Description**: In Red Hat Enterprise Linux, a _module profile_ is a list of recommended packages to be installed together for a particular use case such as for a server, client, development, or minimal installation. These package lists can contain packages outside the module stream, usually from the BaseOS repository or the dependencies of the stream.
 
 **Use it**: yes
 
@@ -7506,7 +7506,7 @@ Azure CLI 2.0 is the most current command-line interface and is replacing Xplat-
 **See also**: [BaseOS repository](#image:images/yes.png[yes]-baseos-repository-(noun))
 
 #### image:images/yes.png[yes] module stream (noun)
-**Description**: In Red&#160;Hat Enterprise Linux, _module streams_ are filters that can be thought of as virtual repositories in the AppStream physical repository. Module streams represent versions of the Application Stream components.
+**Description**: In Red Hat Enterprise Linux, _module streams_ are filters that can be thought of as virtual repositories in the AppStream physical repository. Module streams represent versions of the Application Stream components.
 
 **Use it**: yes
 
@@ -7596,7 +7596,7 @@ Azure CLI 2.0 is the most current command-line interface and is replacing Xplat-
 **See also**:
 
 #### image:images/yes.png[yes] multisite (adjective)
-**Description**: In Red&#160;Hat Ceph Storage, you can configure the Ceph Object Gateway to participate in a _multisite_ architecture that consists of one zone group and multiple zones each zone with one or more `ceph-radosgw` instances.
+**Description**: In Red Hat Ceph Storage, you can configure the Ceph Object Gateway to participate in a _multisite_ architecture that consists of one zone group and multiple zones each zone with one or more `ceph-radosgw` instances.
 
 **Use it**: yes
 
@@ -7652,7 +7652,7 @@ Azure CLI 2.0 is the most current command-line interface and is replacing Xplat-
 #### N
 
 #### image:images/caution.png[with caution] namespace (noun)
-**Description**: In Red&#160;Hat OpenShift, "namespace" is typically synonymous with project in OpenShift parlance, which is preferred.
+**Description**: In Red Hat OpenShift, "namespace" is typically synonymous with project in OpenShift parlance, which is preferred.
 
 **Use it**: with caution
 
@@ -7670,7 +7670,7 @@ Azure CLI 2.0 is the most current command-line interface and is replacing Xplat-
 **See also**:
 
 #### image:images/yes.png[yes] namespace store (noun)
-**Description**: In Red&#160;Hat OpenShift Data Foundation, which was formerly Red&#160;Hat OpenShift Container Storage, a _namespace store_ is a type of a resource for Multicloud Object Gateway that namespace buckets use to store plain data. The supported stores are Amazon Web Services (AWS) S3, Microsoft Azure, and AWS S3 compatible.
+**Description**: In Red Hat OpenShift Data Foundation, which was formerly Red Hat OpenShift Container Storage, a _namespace store_ is a type of a resource for Multicloud Object Gateway that namespace buckets use to store plain data. The supported stores are Amazon Web Services (AWS) S3, Microsoft Azure, and AWS S3 compatible.
 
 **Use it**: yes
 
@@ -7679,7 +7679,7 @@ Azure CLI 2.0 is the most current command-line interface and is replacing Xplat-
 **See also**:
 
 #### image:images/yes.png[yes] naming subsystem (noun)
-**Description**: In Red&#160;Hat JBoss Enterprise Application Platform, the `naming` subsystem is used to manage Java naming and directory interface (JNDI) namespaces and interfaces. Write in lowercase in general text. Use "Naming subsystem" when referring to the naming subsystem in titles and headings.
+**Description**: In Red Hat JBoss Enterprise Application Platform, the `naming` subsystem is used to manage Java naming and directory interface (JNDI) namespaces and interfaces. Write in lowercase in general text. Use "Naming subsystem" when referring to the naming subsystem in titles and headings.
 
 **Use it**: yes
 
@@ -7697,7 +7697,7 @@ Azure CLI 2.0 is the most current command-line interface and is replacing Xplat-
 **See also**:
 
 #### image:images/no.png[no] native interface (noun)
-**Description**: In Red&#160;Hat JBoss Enterprise Application Platform, do not use "native interface" to refer to the command line interface for the JBoss EAP management tool. For the correct usage, see the [management CLI](#image:images/yes.png[yes]-management-cli-(noun)) entry.
+**Description**: In Red Hat JBoss Enterprise Application Platform, do not use "native interface" to refer to the command line interface for the JBoss EAP management tool. For the correct usage, see the [management CLI](#image:images/yes.png[yes]-management-cli-(noun)) entry.
 
 **Use it**: no
 
@@ -7856,7 +7856,7 @@ If your release notes are based on the templates in this guide’s [Release note
 **See also**: [Release notes](#release-notes)
 
 #### image:images/yes.png[yes] n-way replication (noun)
-**Description**: In Red&#160;Hat Gluster Storage, the term _n-way replication_ is a generic phrase that refers to data being copied to multiple storage devices so that _n_ copies are available in the storage cluster as a whole.
+**Description**: In Red Hat Gluster Storage, the term _n-way replication_ is a generic phrase that refers to data being copied to multiple storage devices so that _n_ copies are available in the storage cluster as a whole.
 
 **Use it**: yes
 
@@ -7912,7 +7912,7 @@ If your release notes are based on the templates in this guide’s [Release note
 **See also**: [block storage](#image:images/caution.png[with-caution]-block-storage-(noun)), [file storage](#image:images/yes.png[yes]-file-storage-(noun))
 
 #### image:images/yes.png[yes] Object Storage Device (noun)
-**Description**: In Red&#160;Hat Ceph Storage, _Object Storage Device_ is a storage drive in a Ceph Storage Cluster. Do not confuse "Object Storage Device" with the "Ceph OSD", which is the `ceph-osd` daemon and the underlying data disk.
+**Description**: In Red Hat Ceph Storage, _Object Storage Device_ is a storage drive in a Ceph Storage Cluster. Do not confuse "Object Storage Device" with the "Ceph OSD", which is the `ceph-osd` daemon and the underlying data disk.
 
 **Use it**: yes
 
@@ -7921,7 +7921,7 @@ If your release notes are based on the templates in this guide’s [Release note
 **See also**: [ceph-osd](#image:images/yes.png[yes]-ceph-osd-(noun)), [OSD](#image:images/yes.png[yes]-osd-(noun)), [OSD daemon](#image:images/yes.png[yes]-osd-daemon-(noun))
 
 #### image:images/yes.png[yes] Object Store (noun)
-**Description**: In Red&#160;Hat Ceph Storage, _Object Store_ is a core component of the Ceph Storage Cluster. Also referred as "RADOS".
+**Description**: In Red Hat Ceph Storage, _Object Store_ is a core component of the Ceph Storage Cluster. Also referred as "RADOS".
 
 **Use it**: yes
 
@@ -7958,7 +7958,7 @@ If your release notes are based on the templates in this guide’s [Release note
 
 #### image:images/yes.png[yes] offline (adjective)
 
-**Description**: In Red&#160;Hat build of MicroShift, use _offline_ for endpoints where no network is present or all network cards are unplugged. Also use _offline_ to describe endpoints where both conditions are true. Examples include edge devices in physically remote locations. For situations where a network is present, but devices or hosts are isolated from it, such as in restricted networks or air-gapped networks, use _disconnected_.
+**Description**: In Red Hat build of MicroShift, use _offline_ for endpoints where no network is present or all network cards are unplugged. Also use _offline_ to describe endpoints where both conditions are true. Examples include edge devices in physically remote locations. For situations where a network is present, but devices or hosts are isolated from it, such as in restricted networks or air-gapped networks, use _disconnected_.
 
 **Use it**: yes
 
@@ -8012,7 +8012,7 @@ If your release notes are based on the templates in this guide’s [Release note
 **See also**: [onboard](#image:images/caution.png[with-caution]-onboard-(verb))
 
 #### image:images/caution.png[with caution] on-premise (adjective)
-**Description**: Substitute "on-site" or "in-house" for "on-premise" whenever possible. Although "on-premises" is grammatically correct, "on-premise" is preferred by the industry and the Red&#160;Hat Cloud business unit. Capitalize "on-premise" only when using it as part of the name of the Red&#160;Hat product "Red&#160;Hat Storage Server for On-premise". For Red&#160;Hat OpenShift Container Platform, _on-premise_ is a collective term for grouping the bare-metal, VMware vSphere, Nutanix, and Red&#160;Hat OpenStack Platform (RHOSP) platforms, so you can use the term in this context.
+**Description**: Substitute "on-site" or "in-house" for "on-premise" whenever possible. Although "on-premises" is grammatically correct, "on-premise" is preferred by the industry and the Red Hat Cloud business unit. Capitalize "on-premise" only when using it as part of the name of the Red Hat product "Red Hat Storage Server for On-premise". For Red Hat OpenShift Container Platform, _on-premise_ is a collective term for grouping the bare-metal, VMware vSphere, Nutanix, and Red Hat OpenStack Platform (RHOSP) platforms, so you can use the term in this context.
 
 **Use it**: with caution
 
@@ -8115,7 +8115,7 @@ Avoid using the name "OpenShift" on its own when referring to something that app
 **See also**: [OKD](#image:images/yes.png[yes]-okd-(noun))
 
 #### image:images/yes.png[yes] OpenShift CLI (noun)
-**Description**: In Red&#160;Hat OpenShift, the `oc` tool is the command-line interface of OpenShift Container Platform 3 and 4.
+**Description**: In Red Hat OpenShift, the `oc` tool is the command-line interface of OpenShift Container Platform 3 and 4.
 
 **Use it**: yes
 
@@ -8124,13 +8124,13 @@ Avoid using the name "OpenShift" on its own when referring to something that app
 **See also**:
 
 #### image:images/yes.png[yes] OpenShift Container Registry (noun)
-**Description**: In Red&#160;Hat OpenShift, the _OpenShift Container Registry_ is the integrated container registry that is deployed as part of an installation. This container registry adds the ability to easily provision new image repositories. With OpenShift Container Registry users can automatically have a place for their builds to push the resulting images. OpenShift Container Platform has an installation option you can use to have the OpenShift Container Registry deployed, but with none of the other build options enabled.
+**Description**: In Red Hat OpenShift, the _OpenShift Container Registry_ is the integrated container registry that is deployed as part of an installation. This container registry adds the ability to easily provision new image repositories. With OpenShift Container Registry users can automatically have a place for their builds to push the resulting images. OpenShift Container Platform has an installation option you can use to have the OpenShift Container Registry deployed, but with none of the other build options enabled.
 
 **Use it**: yes
 
 **Incorrect forms**:
 
-**See also**: [container registry](#image:images/yes.png[yes]-container-registry-(noun)), [Red&#160;Hat Container Catalog](#image:images/no.png[no]-red&#160;hat-container-catalog-(noun))
+**See also**: [container registry](#image:images/yes.png[yes]-container-registry-(noun)), [Red Hat Container Catalog](#image:images/no.png[no]-red hat-container-catalog-(noun))
 
 #### image:images/yes.png[yes] OpenShift master (noun)
 **Description**: Provides a REST endpoint for interacting with the system and manages the state of the system, ensuring that all containers expected to be running are actually running and that other requests such as builds and deployments are serviced. New deployments and configurations are created with the REST API, and the state of the system can be interrogated through this endpoint as well. An _OpenShift master_ comprises the API server, scheduler, and SkyDNS.
@@ -8205,7 +8205,7 @@ The full name of an "Operator" must be a proper noun, with each word initially
 capitalized. If it includes a product name, defer to the product’s capitalization
 style guidelines. For example:
 
-* Red&#160;Hat OpenShift Logging Operator
+* Red Hat OpenShift Logging Operator
 * Prometheus Operator
 * etcd Operator
 * Node Tuning Operator
@@ -8224,7 +8224,7 @@ When referring generally to other Kubernetes components, such as pods, nodes, or
 **See also**:
 
 #### image:images/yes.png[yes] Operator Framework (noun)
-**Description**: In Red&#160;Hat OpenShift, _Operator Framework_ is a family of tools and capabilities to deliver on the customer experience. Operator Framework includes open source tools such as Operator SDK, Operator Lifecycle Manager (OLM), Operator Registry, and OperatorHub.
+**Description**: In Red Hat OpenShift, _Operator Framework_ is a family of tools and capabilities to deliver on the customer experience. Operator Framework includes open source tools such as Operator SDK, Operator Lifecycle Manager (OLM), Operator Registry, and OperatorHub.
 
 **Use it**: yes
 
@@ -8233,7 +8233,7 @@ When referring generally to other Kubernetes components, such as pods, nodes, or
 **See also**:
 
 #### image:images/yes.png[yes] Operator Lifecycle Manager (noun)
-**Description**: In Red&#160;Hat OpenShift, _Operator Lifecycle Manager_ (OLM) helps users install, update, and manage the lifecycle of Kubernetes native applications (Operators) and their associated services running across their OpenShift Container Platform clusters. OLM is part of the Operator Framework, which is an open source toolkit designed to manage Operators in an effective, automated, and scalable way.
+**Description**: In Red Hat OpenShift, _Operator Lifecycle Manager_ (OLM) helps users install, update, and manage the lifecycle of Kubernetes native applications (Operators) and their associated services running across their OpenShift Container Platform clusters. OLM is part of the Operator Framework, which is an open source toolkit designed to manage Operators in an effective, automated, and scalable way.
 
 **Use it**: yes
 
@@ -8242,7 +8242,7 @@ When referring generally to other Kubernetes components, such as pods, nodes, or
 **See also**:
 
 #### image:images/yes.png[yes] OperatorHub (noun)
-**Description**: In Red&#160;Hat OpenShift,  _OperatorHub_ is a central location where you can find a wide array of useful Operators to install.
+**Description**: In Red Hat OpenShift,  _OperatorHub_ is a central location where you can find a wide array of useful Operators to install.
 
 **Use it**: yes
 
@@ -8260,7 +8260,7 @@ When referring generally to other Kubernetes components, such as pods, nodes, or
 **See also**:
 
 #### image:images/yes.png[yes] opt in (verb)
-**Description**: For Amazon Web Services (AWS), _opt in_ refers to manually selecting AWS opt-in Regions, which are usually locations that can offer higher security requirements than default commercial AWS Regions. A Red&#160;Hat customer who wants to deploy an OpenShift Container Platform cluster in an AWS Region or AWS Local Zone location must opt in to the location by configuring their AWS management account. For the gerund form of the phrase, use "opting in".
+**Description**: For Amazon Web Services (AWS), _opt in_ refers to manually selecting AWS opt-in Regions, which are usually locations that can offer higher security requirements than default commercial AWS Regions. A Red Hat customer who wants to deploy an OpenShift Container Platform cluster in an AWS Region or AWS Local Zone location must opt in to the location by configuring their AWS management account. For the gerund form of the phrase, use "opting in".
 
 **Use it**: yes
 
@@ -8269,9 +8269,9 @@ When referring generally to other Kubernetes components, such as pods, nodes, or
 **See also**: [AWS opt-in Region](#image:images/yes.png[yes]-aws-opt-in-region-(noun)), [AWS Local Zone](#image:images/yes.png[yes]-aws-local-zone-(noun))
 
 #### image:images/yes.png[yes] Organization Administrator (noun)
-**Description**: From [Roles and Permissions for Red&#160;Hat Customer Portal](https://access.redhat.com/articles/1757953): Organization Administrator: This is the highest permission level for a Red&#160;Hat account with full access to content and features. This is the only role that can manage users and control their access and permissions on an account.
+**Description**: From [Roles and Permissions for Red Hat Customer Portal](https://access.redhat.com/articles/1757953): Organization Administrator: This is the highest permission level for a Red Hat account with full access to content and features. This is the only role that can manage users and control their access and permissions on an account.
 
-Use Organization Administrator as a proper noun when referring to the Organization Administrator role for a Red&#160;Hat corporate account.
+Use Organization Administrator as a proper noun when referring to the Organization Administrator role for a Red Hat corporate account.
 
 **Use it**: yes
 
@@ -8280,7 +8280,7 @@ Use Organization Administrator as a proper noun when referring to the Organizati
 **See also**:
 
 #### image:images/yes.png[yes] organizational unit (noun)
-**Description**: In Red&#160;Hat Process Automation Manager and Red&#160;Hat Decision Manager, an _organizational unit_ is a directory comprising repositories that store business assets.
+**Description**: In Red Hat Process Automation Manager and Red Hat Decision Manager, an _organizational unit_ is a directory comprising repositories that store business assets.
 
 **Use it**: yes
 
@@ -8289,7 +8289,7 @@ Use Organization Administrator as a proper noun when referring to the Organizati
 **See also**:
 
 #### image:images/yes.png[yes] OSD (noun)
-**Description**: In Red&#160;Hat Ceph Storage, OSD is the `ceph-osd` daemon and the underlying data disk.
+**Description**: In Red Hat Ceph Storage, OSD is the `ceph-osd` daemon and the underlying data disk.
 
 **Use it**: yes
 
@@ -8298,7 +8298,7 @@ Use Organization Administrator as a proper noun when referring to the Organizati
 **See also**: [ceph-osd](#image:images/yes.png[yes]-ceph-osd-(noun)), [Object Storage Device](#image:images/yes.png[yes]-object-storage-device-(noun)), [OSD daemon](#image:images/yes.png[yes]-osd-daemon-(noun))
 
 #### image:images/yes.png[yes] OSD Daemon (noun)
-**Description**: In Red&#160;Hat Ceph Storage, "OSD Daemon" is another name of the `ceph-osd` daemon.
+**Description**: In Red Hat Ceph Storage, "OSD Daemon" is another name of the `ceph-osd` daemon.
 
 **Use it**: yes
 
@@ -8325,7 +8325,7 @@ Use Organization Administrator as a proper noun when referring to the Organizati
 **See also**:
 
 #### image:images/yes.png[yes] overcloud (noun)
-**Description**: In Red&#160;Hat OpenStack Platform (RHOSP), the _overcloud_ is the resulting RHOSP environment that is created by using the undercloud. Write in lowercase.
+**Description**: In Red Hat OpenStack Platform (RHOSP), the _overcloud_ is the resulting RHOSP environment that is created by using the undercloud. Write in lowercase.
 
 **Use it**: yes
 
@@ -8354,7 +8354,7 @@ Use Organization Administrator as a proper noun when referring to the Organizati
 **See also**: [SaaS](#image:images/yes.png[yes]-saas-(noun)), [IaaS](#image:images/yes.png[yes]-iaas-(noun))
 
 #### image:images/yes.png[yes] package (noun)
-**Description**: In Red&#160;Hat Process Automation Manager and Red&#160;Hat Decision Manager, a _package_ is a deployable collection of assets. Rules and other assets must be collected into a package before they can be deployed. When a package is built, the assets contained in the package are validated and compiled into a deployable package.
+**Description**: In Red Hat Process Automation Manager and Red Hat Decision Manager, a _package_ is a deployable collection of assets. Rules and other assets must be collected into a package before they can be deployed. When a package is built, the assets contained in the package are validated and compiled into a deployable package.
 
 **Use it**: yes
 
@@ -8372,7 +8372,7 @@ Use Organization Administrator as a proper noun when referring to the Organizati
 **See also**:
 
 #### image:images/yes.png[yes] password policy (noun)
-**Description**: In Red&#160;Hat Enterprise Linux, a _password policy_ is a set of conditions that the passwords of a particular IdM user group must meet. The conditions can include the following parameters:
+**Description**: In Red Hat Enterprise Linux, a _password policy_ is a set of conditions that the passwords of a particular IdM user group must meet. The conditions can include the following parameters:
 
 * The length of the password
 * The number of character classes used
@@ -8394,7 +8394,7 @@ Use Organization Administrator as a proper noun when referring to the Organizati
 **See also**:
 
 #### image:images/yes.png[yes] peer pod (noun, adjective)
-**Description**: In Red&#160;Hat OpenShift sandboxed containers, a _peer pod_ extends the concept of a standard pod. For bare metal servers, workloads run as containers inside a standard pod on a virtual machine that is created on a worker node. For public clouds or environments that do not support nested virtualization, workloads run as containers inside a peer pod on a virtual machine that is created on a hypervisor, such as VMware, or a public cloud instance, such as Azure or AWS.
+**Description**: In Red Hat OpenShift sandboxed containers, a _peer pod_ extends the concept of a standard pod. For bare metal servers, workloads run as containers inside a standard pod on a virtual machine that is created on a worker node. For public clouds or environments that do not support nested virtualization, workloads run as containers inside a peer pod on a virtual machine that is created on a hypervisor, such as VMware, or a public cloud instance, such as Azure or AWS.
 
 **Use it**: yes
 
@@ -8442,7 +8442,7 @@ When combined with privileges, permissions define a user’s or resource’s ove
 **See also**: [volatile storage](#image:images/yes.png[yes]-volatile-storage-(noun))
 
 #### image:images/yes.png[yes] persistent volume (noun)
-**Description**: (1) Generically, a _persistent volume_ (PV) is a piece of storage in the cluster that an administrator provisions or uses storage classes to dynamically provision. (2) A storage volume for data in an Red&#160;Hat OpenShift cluster that remains available and usable after the pod that created it has been destroyed. A persistent volume provides persistent storage to Red&#160;Hat OpenShift applications, as distinct from the ephemeral storage provided by default. This term is sometimes abbreviated as _PV_, so it is important to clearly distinguish this term from _physical volume_ in contexts where logical volume management is discussed, such as when discussing storage for both Red&#160;Hat Enterprise Linux and OpenShift Container Platform.
+**Description**: (1) Generically, a _persistent volume_ (PV) is a piece of storage in the cluster that an administrator provisions or uses storage classes to dynamically provision. (2) A storage volume for data in an Red Hat OpenShift cluster that remains available and usable after the pod that created it has been destroyed. A persistent volume provides persistent storage to Red Hat OpenShift applications, as distinct from the ephemeral storage provided by default. This term is sometimes abbreviated as _PV_, so it is important to clearly distinguish this term from _physical volume_ in contexts where logical volume management is discussed, such as when discussing storage for both Red Hat Enterprise Linux and OpenShift Container Platform.
 
 **Use it**: yes
 
@@ -8460,7 +8460,7 @@ When combined with privileges, permissions define a user’s or resource’s ove
 **See also**:
 
 #### image:images/yes.png[yes] PG (noun)
-**Description**: In Red&#160;Hat Ceph Storage, _PG_ is an abbreviation for placement group.
+**Description**: In Red Hat Ceph Storage, _PG_ is an abbreviation for placement group.
 
 **Use it**: yes
 
@@ -8469,7 +8469,7 @@ When combined with privileges, permissions define a user’s or resource’s ove
 **See also**: [placement group](#image:images/yes.png[yes]-placement-group-(noun))
 
 #### image:images/yes.png[yes] phase (noun)
-**Description**: In Red&#160;Hat OpenShift, a _phase_ is the state of an object (storage or otherwise). For example, an object’s phase can be `available`, `bound`, `released`, or `failed`.
+**Description**: In Red Hat OpenShift, a _phase_ is the state of an object (storage or otherwise). For example, an object’s phase can be `available`, `bound`, `released`, or `failed`.
 
 **Use it**: yes
 
@@ -8505,7 +8505,7 @@ When combined with privileges, permissions define a user’s or resource’s ove
 **See also**: [logical topology](#image:images/yes.png[yes]-logical-topology-(noun)), [signal topology](#image:images/yes.png[yes]-signal-topology-(noun))
 
 #### image:images/yes.png[yes] physical volume (noun)
-**Description**: A _physical volume_ is a storage unit, a partition, or a whole disk that has been configured for use by Logical Volume Manager. Before this configuration, the physical volume is just a block device. This term is sometimes abbreviated as _PV_, so be sure that you clearly distinguish this term from _persistent volume_ in contexts where Red&#160;Hat OpenShift is discussed, such as when discussing storage for both Red&#160;Hat Enterprise Linux and OpenShift Container Platform.
+**Description**: A _physical volume_ is a storage unit, a partition, or a whole disk that has been configured for use by Logical Volume Manager. Before this configuration, the physical volume is just a block device. This term is sometimes abbreviated as _PV_, so be sure that you clearly distinguish this term from _persistent volume_ in contexts where Red Hat OpenShift is discussed, such as when discussing storage for both Red Hat Enterprise Linux and OpenShift Container Platform.
 
 **Use it**: yes
 
@@ -8514,7 +8514,7 @@ When combined with privileges, permissions define a user’s or resource’s ove
 **See also**:
 
 #### image:images/yes.png[yes] picketlink-federation subsystem (noun)
-**Description**: In Red&#160;Hat JBoss Enterprise Application Platform, the `picketlink-federation` subsystem is used to configure single sign-on (SSO) using security assertion markup language (SAML). In general text, write in lowercase as two words separated by a hyphen. Use "PicketLink Federation subsystem" when referring to the picketlink-federation subsystem in titles and headings. When writing the term in its heading form, ensure that you include an uppercase "L".
+**Description**: In Red Hat JBoss Enterprise Application Platform, the `picketlink-federation` subsystem is used to configure single sign-on (SSO) using security assertion markup language (SAML). In general text, write in lowercase as two words separated by a hyphen. Use "PicketLink Federation subsystem" when referring to the picketlink-federation subsystem in titles and headings. When writing the term in its heading form, ensure that you include an uppercase "L".
 
 **Use it**: yes
 
@@ -8523,7 +8523,7 @@ When combined with privileges, permissions define a user’s or resource’s ove
 **See also**:
 
 #### image:images/yes.png[yes] picketlink-identity-management subsystem(noun)
-**Description**: In Red&#160;Hat JBoss Enterprise Application Platform, the `picketlink-identity-management` subsystem is used to configure identity management services. In general text, write in lowercase as three words separated by hyphens. Use "PicketLink Identity Management subsystem" when referring to the `picketlink-identity-management` subsystem in titles and headings. When writing the term in its heading form, ensure that you include an uppercase "L".
+**Description**: In Red Hat JBoss Enterprise Application Platform, the `picketlink-identity-management` subsystem is used to configure identity management services. In general text, write in lowercase as three words separated by hyphens. Use "PicketLink Identity Management subsystem" when referring to the `picketlink-identity-management` subsystem in titles and headings. When writing the term in its heading form, ensure that you include an uppercase "L".
 
 **Use it**: yes
 
@@ -8541,7 +8541,7 @@ When combined with privileges, permissions define a user’s or resource’s ove
 **See also**:
 
 #### image:images/yes.png[yes] PID (noun)
-**Description**: In Red&#160;Hat Fuse, the _persistent identifier_ (PID) of a registered OSGi service is used to identify the service across container restarts. In Fuse (Karaf), PIDs map to `.cfg` configuration files located in the `FUSE_HOME/etc/` directory. A `.cfg` file contains a list of attribute/value pairs that configure a service. You can edit any `.cfg` file to configure/reconfigure the corresponding OSGi service.
+**Description**: In Red Hat Fuse, the _persistent identifier_ (PID) of a registered OSGi service is used to identify the service across container restarts. In Fuse (Karaf), PIDs map to `.cfg` configuration files located in the `FUSE_HOME/etc/` directory. A `.cfg` file contains a list of attribute/value pairs that configure a service. You can edit any `.cfg` file to configure/reconfigure the corresponding OSGi service.
 
 **Use it**: yes
 
@@ -8550,7 +8550,7 @@ When combined with privileges, permissions define a user’s or resource’s ove
 **See also**:
 
 #### image:images/yes.png[yes] placement group (noun)
-**Description**: In Red&#160;Hat Ceph Storage, a _placement group_ aggregates a series of objects into a group, and maps the group into a series of OSDs. Write "Placement Group" (both first letters in uppercase) only when explaining the PC abbreviation, then write "placement group" (in lowercase).
+**Description**: In Red Hat Ceph Storage, a _placement group_ aggregates a series of objects into a group, and maps the group into a series of OSDs. Write "Placement Group" (both first letters in uppercase) only when explaining the PC abbreviation, then write "placement group" (in lowercase).
 
 **Use it**: yes
 
@@ -8559,7 +8559,7 @@ When combined with privileges, permissions define a user’s or resource’s ove
 **See also**: [PG](#image:images/yes.png[yes]-pg-(noun))
 
 #### image:images/yes.png[yes] placement target (noun)
-**Description**: In Red&#160;Hat Ceph Storage, a _placement target_ is a configurable rule that determines where bucket data is stored.
+**Description**: In Red Hat Ceph Storage, a _placement target_ is a configurable rule that determines where bucket data is stored.
 
 **Use it**: yes
 
@@ -8649,7 +8649,7 @@ Use "plugin" rather than "plug-in", unless you are updating existing content tha
 **See also**: [container](#image:images/yes.png[yes]-container-(noun))
 
 #### image:images/yes.png[yes] pojo subsystem (noun)
-**Description**: In Red&#160;Hat JBoss Enterprise Application Platform, the `pojo` subsystem enables deployment of applications containing JBoss Microcontainer services. In general text, write in lowercase as one word. Use "POJO subsystem" when referring to the `pojo` subsystem in titles and headings.
+**Description**: In Red Hat JBoss Enterprise Application Platform, the `pojo` subsystem enables deployment of applications containing JBoss Microcontainer services. In general text, write in lowercase as one word. Use "POJO subsystem" when referring to the `pojo` subsystem in titles and headings.
 
 **Use it**: yes
 
@@ -8658,7 +8658,7 @@ Use "plugin" rather than "plug-in", unless you are updating existing content tha
 **See also**:
 
 #### image:images/yes.png[yes] pool (noun)
-**Description**: In Red&#160;Hat Ceph Storage, a _pool_ is a logical unit in which Ceph stores data. You can create pools for particular types of data, such as for Ceph Block Devices, Ceph Object Gateways, or to separate one group of users from another.
+**Description**: In Red Hat Ceph Storage, a _pool_ is a logical unit in which Ceph stores data. You can create pools for particular types of data, such as for Ceph Block Devices, Ceph Object Gateways, or to separate one group of users from another.
 
 **Use it**: yes
 
@@ -8703,7 +8703,7 @@ Use "plugin" rather than "plug-in", unless you are updating existing content tha
 **See also**:
 
 #### image:images/yes.png[yes] PowerPC (noun)
-**Description**: Depending on context, "PowerPC" refers to either "64-bit PowerPC", which covers most 64-bit PowerPC implementations, or "64-bit IBM POWER Series", which covers the IBM POWER2 and IBM POWER8 series. The _PowerPC_ version of Red&#160;Hat Enterprise Linux runs on 64-bit IBM POWER series hardware in almost all cases.
+**Description**: Depending on context, "PowerPC" refers to either "64-bit PowerPC", which covers most 64-bit PowerPC implementations, or "64-bit IBM POWER Series", which covers the IBM POWER2 and IBM POWER8 series. The _PowerPC_ version of Red Hat Enterprise Linux runs on 64-bit IBM POWER series hardware in almost all cases.
 
 **Use it**: yes
 
@@ -8732,7 +8732,7 @@ If your release notes are based on the templates in this guide’s [Release note
 **See also**: [Release notes](#release-notes)
 
 #### image:images/yes.png[yes] primary cluster (noun)
-**Description**: In Red&#160;Hat Gluster Storage, a _primary cluster_ is the storage cluster in active or production use.
+**Description**: In Red Hat Gluster Storage, a _primary cluster_ is the storage cluster in active or production use.
 
 **Use it**: yes
 
@@ -8747,7 +8747,7 @@ Use "control plane node" for the OpenShift Container Platform node that manages 
 
 Use "controller node" for the Ansible node from which jobs are executed.
 
-Use "source node" for the node in the active cluster when discussing geo-replication in Red&#160;Hat Gluster Storage.
+Use "source node" for the node in the active cluster when discussing geo-replication in Red Hat Gluster Storage.
 
 **Use it**: with caution
 
@@ -8756,7 +8756,7 @@ Use "source node" for the node in the active cluster when discussing geo-replica
 **See also**: [control plane node](#image:images/yes.png[yes]-control-plane-node-(noun)), [controller node](#image:images/yes.png[yes]-controller-node-(noun)), [source node](#image:images/yes.png[yes]-source-node-(noun))
 
 #### image:images/yes.png[yes] processor (noun)
-**Description**: In Red&#160;Hat Fuse, a _processor_ is a node that is capable of using, creating, or modifying an incoming message exchange in a Camel route. Processors are typically implementations of EIPs, but can be custom made.
+**Description**: In Red Hat Fuse, a _processor_ is a node that is capable of using, creating, or modifying an incoming message exchange in a Camel route. Processors are typically implementations of EIPs, but can be custom made.
 
 **Use it**: yes
 
@@ -8765,7 +8765,7 @@ Use "source node" for the node in the active cluster when discussing geo-replica
 **See also**: [route](#image:images/yes.png[yes]-route-(noun)), [EIP](#image:images/yes.png[yes]-eip-(noun))
 
 #### image:images/yes.png[yes] producer (noun)
-**Description**: (1) In Red&#160;Hat AMQ, a _producer_ is a client that sends messages. (2) In Red&#160;Hat Fuse, a producer is an endpoint that acts as the source of messages exiting a Camel route. It can create and send processed messages to their target destination, such as external systems or services. The producer populates the messages it creates with data that is compatible with the target destination. A route can have multiple producers.
+**Description**: (1) In Red Hat AMQ, a _producer_ is a client that sends messages. (2) In Red Hat Fuse, a producer is an endpoint that acts as the source of messages exiting a Camel route. It can create and send processed messages to their target destination, such as external systems or services. The producer populates the messages it creates with data that is compatible with the target destination. A route can have multiple producers.
 
 **Use it**: yes
 
@@ -8774,7 +8774,7 @@ Use "source node" for the node in the active cluster when discussing geo-replica
 **See also**: [client application](#image:images/yes.png[yes]-client-application-(noun)), [consumer](#image:images/yes.png[yes]-consumer-(noun))
 
 #### image:images/yes.png[yes] project (noun)
-**Description**: (1) In Red&#160;Hat OpenShift, a _project_ corresponds to a Kubernetes namespace. They organize and group objects in the system, such as services and deployments, as well as provide security policies specific to those resources. (2) In Red&#160;Hat Process Automation Manager and Red&#160;Hat Decision Manager, a project is a container that comprises packages of assets (business processes, rules, work definitions, decision tables, fact models, data models, and DSLs) and is located in the knowledge repository. This container defines the properties of the KIE base and KIE session that are applied to its content. You can edit these entities in the project editor in Business Central.
+**Description**: (1) In Red Hat OpenShift, a _project_ corresponds to a Kubernetes namespace. They organize and group objects in the system, such as services and deployments, as well as provide security policies specific to those resources. (2) In Red Hat Process Automation Manager and Red Hat Decision Manager, a project is a container that comprises packages of assets (business processes, rules, work definitions, decision tables, fact models, data models, and DSLs) and is located in the knowledge repository. This container defines the properties of the KIE base and KIE session that are applied to its content. You can edit these entities in the project editor in Business Central.
 
 **Use it**: yes
 
@@ -8815,7 +8815,7 @@ When combined with permissions, privileges define an agent’s overall access to
 **See also**:
 
 #### image:images/yes.png[yes] Properties View (noun)
-**Description**: In Red&#160;Hat Fuse, _Properties view_ displays, by default, the properties of the node that is selected on the canvas for editing. It also displays the selected node’s user documentation on the Documentation tab.
+**Description**: In Red Hat Fuse, _Properties view_ displays, by default, the properties of the node that is selected on the canvas for editing. It also displays the selected node’s user documentation on the Documentation tab.
 
 **Use it**: yes
 
@@ -8934,7 +8934,7 @@ When combined with permissions, privileges define an agent’s overall access to
 **See also**: [KVM](#image:images/yes.png[yes]-kvm-(noun))
 
 #### image:images/yes.png[yes] qdmanage (noun)
-**Description**: In Red&#160;Hat AMQ, `qdmanage` is a generic AMQP management client used for managing AMQ Interconnect.
+**Description**: In Red Hat AMQ, `qdmanage` is a generic AMQP management client used for managing AMQ Interconnect.
 
 **Use it**: yes
 
@@ -8943,7 +8943,7 @@ When combined with permissions, privileges define an agent’s overall access to
 **See also**:
 
 #### image:images/yes.png[yes] qdstat (noun)
-**Description**: In Red&#160;Hat AMQ, `qdstat` is a management client used for monitoring the status of an AMQ Interconnect router network.
+**Description**: In Red Hat AMQ, `qdstat` is a management client used for monitoring the status of an AMQ Interconnect router network.
 
 **Use it**: yes
 
@@ -8961,7 +8961,7 @@ When combined with permissions, privileges define an agent’s overall access to
 **See also**:
 
 #### image:images/yes.png[yes] queue (noun)
-**Description**: In Red&#160;Hat AMQ, a _queue_ is a stored sequence of messages. In AMQ, queues are hosted on brokers.
+**Description**: In Red Hat AMQ, a _queue_ is a stored sequence of messages. In AMQ, queues are hosted on brokers.
 
 **Use it**: yes
 
@@ -8970,7 +8970,7 @@ When combined with permissions, privileges define an agent’s overall access to
 **See also**:
 
 #### image:images/yes.png[yes] quick start (noun)
-**Description**: In Red&#160;Hat OpenShift, there are two types of _quick starts_:
+**Description**: In Red Hat OpenShift, there are two types of _quick starts_:
 
 * Quick starts that provide a guided tutorial in the web console.
 * Quick start templates that enable users to start creating new applications quickly.
@@ -8995,7 +8995,7 @@ Ensure that you provide context about which type of "quick start" you are referr
 #### R
 
 #### image:images/yes.png[yes] RADOS (noun)
-**Description**: In Red&#160;Hat Ceph Storage, _RADOS_ is an acronym for Reliable Autonomic Distributed Object Storage. A core component of the Ceph Storage Cluster. Do not expand, unless explaining what the acronym means. Also referred as _Object Store_.
+**Description**: In Red Hat Ceph Storage, _RADOS_ is an acronym for Reliable Autonomic Distributed Object Storage. A core component of the Ceph Storage Cluster. Do not expand, unless explaining what the acronym means. Also referred as _Object Store_.
 
 **Use it**: yes
 
@@ -9004,7 +9004,7 @@ Ensure that you provide context about which type of "quick start" you are referr
 **See also**: [Object Store](#image:images/yes.png[yes]-object-store-(noun))
 
 #### image:images/caution.png[with caution] RADOS Block Device (noun)
-**Description**: In Red&#160;Hat Ceph Storage, the _RADOS Block Device_ is the block storage component of Ceph. Also known as the "Ceph Block Device", which is the preferred form. Use "RADOS Block Device" only when expanding the RBD abbreviation.
+**Description**: In Red Hat Ceph Storage, the _RADOS Block Device_ is the block storage component of Ceph. Also known as the "Ceph Block Device", which is the preferred form. Use "RADOS Block Device" only when expanding the RBD abbreviation.
 
 **Use it**: with caution
 
@@ -9013,7 +9013,7 @@ Ensure that you provide context about which type of "quick start" you are referr
 **See also**: [Ceph Block Device](#image:images/yes.png[yes]-ceph-block-device-(noun)), [RBD](#image:images/yes.png[yes]-rbd-(noun)), [rbd](#image:images/yes.png[yes]-rbd-(noun)), [librbd](#image:images/yes.png[yes]-librbd-(noun))
 
 #### image:images/caution.png[with caution] RADOS Gateway (noun)
-**Description**: In Red&#160;Hat Ceph Storage, _RADOS Gateway_ is the S3/Swift component. Also known as the "Ceph Object Gateway", which is the preferred form. Use "RADOS Gateway" only when expanding the RGW abbreviation.
+**Description**: In Red Hat Ceph Storage, _RADOS Gateway_ is the S3/Swift component. Also known as the "Ceph Object Gateway", which is the preferred form. Use "RADOS Gateway" only when expanding the RGW abbreviation.
 
 **Use it**: with caution
 
@@ -9068,7 +9068,7 @@ Ensure that you provide context about which type of "quick start" you are referr
 **See also**: [interpreted code](#image:images/yes.png[yes]-interpreted-code-(noun))
 
 #### image:images/yes.png[yes] RBD (noun)
-**Description**: In Red&#160;Hat Ceph Storage, _RBD_ is an abbreviation for RADOS Block Device.
+**Description**: In Red Hat Ceph Storage, _RBD_ is an abbreviation for RADOS Block Device.
 
 **Use it**: yes
 
@@ -9077,7 +9077,7 @@ Ensure that you provide context about which type of "quick start" you are referr
 **See also**: [Ceph Block Device](#image:images/yes.png[yes]-ceph-block-device-(noun)), [RADOS Block Device](#image:images/caution.png[with-caution]-rados-block-device-(noun)), [rbd](#image:images/yes.png[yes]-rbd-(noun)), [librbd](#image:images/yes.png[yes]-librbd-(noun))
 
 #### image:images/yes.png[yes] rbd (noun)
-**Description**: In Red&#160;Hat Ceph Storage, `rbd` is a command to create, list, introspect, and remove Ceph Block Device images. Always mark it correctly (`rbd`).
+**Description**: In Red Hat Ceph Storage, `rbd` is a command to create, list, introspect, and remove Ceph Block Device images. Always mark it correctly (`rbd`).
 
 **Use it**: yes
 
@@ -9104,7 +9104,7 @@ Ensure that you provide context about which type of "quick start" you are referr
 **See also**: [read (noun)](#image:images/yes.png[yes]-read-(noun))
 
 #### image:images/yes.png[yes] realm
-**Description**: (1) A _realm_ manages a set of users, credentials, roles, and groups. A user belongs to and logs into a realm. Realms are isolated from one another and can only manage and authenticate the users that they control. (2) In Red&#160;Hat Ceph Storage, a _realm_ is a namespace context for storing a multisite configuration. The notion of a realm enables Ceph to provide multiple namespaces in the same cluster.
+**Description**: (1) A _realm_ manages a set of users, credentials, roles, and groups. A user belongs to and logs into a realm. Realms are isolated from one another and can only manage and authenticate the users that they control. (2) In Red Hat Ceph Storage, a _realm_ is a namespace context for storing a multisite configuration. The notion of a realm enables Ceph to provide multiple namespaces in the same cluster.
 
 **Use it**: yes
 
@@ -9113,7 +9113,7 @@ Ensure that you provide context about which type of "quick start" you are referr
 **See also**: [zone group](#image:images/yes.png[yes]-zone-group-(noun))
 
 #### image:images/yes.png[yes] Realtime Decision Server (noun)
-**Description**: In Red&#160;Hat Decision Manager and Red&#160;Hat Process Automation Manager, the _Realtime Decision Server_ is a standalone, built-in component that can be used to instantiate and execute rules through interfaces available for REST, JMS, or a Java client-side applications. Created as a web deployable WAR file, this server can be deployed on any web container. The current version of the Realtime Decision Server is included with default extensions for both Red&#160;Hat Decision Manager and Red&#160;Hat Process Automatio Manager.
+**Description**: In Red Hat Decision Manager and Red Hat Process Automation Manager, the _Realtime Decision Server_ is a standalone, built-in component that can be used to instantiate and execute rules through interfaces available for REST, JMS, or a Java client-side applications. Created as a web deployable WAR file, this server can be deployed on any web container. The current version of the Realtime Decision Server is included with default extensions for both Red Hat Decision Manager and Red Hat Process Automatio Manager.
 
 **Use it**: yes
 
@@ -9122,7 +9122,7 @@ Ensure that you provide context about which type of "quick start" you are referr
 **See also**:
 
 #### image:images/yes.png[yes] receiver (noun)
-**Description**: In Red&#160;Hat AMQ, a _receiver_ is a channel for receiving messages from a source.
+**Description**: In Red Hat AMQ, a _receiver_ is a channel for receiving messages from a source.
 
 **Use it**: yes
 
@@ -9131,36 +9131,36 @@ Ensure that you provide context about which type of "quick start" you are referr
 **See also**: [consumer](#image:images/yes.png[yes]-consumer-(noun)), [source](#image:images/yes.png[yes]-source-(noun)), [sender](#image:images/yes.png[yes]-sender-(noun))
 
 #### image:images/no.png[no] recommend (verb)
-**Description**: Avoid "recommends". Instead of "Red&#160;Hat recommends", direct users to take the recommended action. This allows Red&#160;Hat to be more prescriptive in documentation and prevent any user uncertainty, and is easier for upstream or downstream coordinated efforts.
+**Description**: Avoid "recommends". Instead of "Red Hat recommends", direct users to take the recommended action. This allows Red Hat to be more prescriptive in documentation and prevent any user uncertainty, and is easier for upstream or downstream coordinated efforts.
 
-For example, instead of "Red&#160;Hat recommends using X package because", write "Use this package because" or "Use this package when".
+For example, instead of "Red Hat recommends using X package because", write "Use this package because" or "Use this package when".
 
 **Use it**: no
 
-**Incorrect forms**: we recommend, we suggest, Red&#160;Hat recommends
+**Incorrect forms**: we recommend, we suggest, Red Hat recommends
 
 **See also**: [we suggest](#image:images/no.png[no]-we-suggest-(verb))
 
-#### image:images/yes.png[yes] Red&#160;Hat AMQ (noun)
-**Description**: A lightweight messaging platform that delivers information and easily integrates applications. _Red&#160;Hat AMQ_ consists of several components, such as message broker, interconnect router, and clients, that support a variety of configurations. Always use the full product name, "Red&#160;Hat AMQ", or short product name, "AMQ".
+#### image:images/yes.png[yes] Red Hat AMQ (noun)
+**Description**: A lightweight messaging platform that delivers information and easily integrates applications. _Red Hat AMQ_ consists of several components, such as message broker, interconnect router, and clients, that support a variety of configurations. Always use the full product name, "Red Hat AMQ", or short product name, "AMQ".
 
 **Use it**: yes
 
-**Incorrect forms**: A-MQ, AMQ, Red&#160;Hat A-MQ, Red&#160;Hat JBoss AMQ
+**Incorrect forms**: A-MQ, AMQ, Red Hat A-MQ, Red Hat JBoss AMQ
 
 **See also**: [AMQ](#image:images/yes.png[yes]-amq-(noun)), [JBoss AMQ](#image:images/no.png[no]-jboss-amq-(noun))
 
-#### image:images/yes.png[yes] Red&#160;Hat build of OpenJDK (noun)
-**Description**: _Red&#160;Hat build of OpenJDK_ is the Red&#160;Hat distribution of the Open Java Development Kit (OpenJDK).
+#### image:images/yes.png[yes] Red Hat build of OpenJDK (noun)
+**Description**: _Red Hat build of OpenJDK_ is the Red Hat distribution of the Open Java Development Kit (OpenJDK).
 
 **Use it**: yes
 
-**Incorrect forms**: Red&#160;Hat Java, Red&#160;Hat OpenJDK, RHOJDK
+**Incorrect forms**: Red Hat Java, Red Hat OpenJDK, RHOJDK
 
-**See also**: [Red&#160;Hat Java](#image:images/no.png[no]-red&#160;hat-java-(noun)), [Red&#160;Hat OpenJDK](#image:images/no.png[no]-red&#160;hat-openjdk-(noun))
+**See also**: [Red Hat Java](#image:images/no.png[no]-red hat-java-(noun)), [Red Hat OpenJDK](#image:images/no.png[no]-red hat-openjdk-(noun))
 
-#### image:images/yes.png[yes] Red&#160;Hat Ceph Storage (noun)
-**Description**: _Red&#160;Hat Ceph Storage_ is a Red&#160;Hat offering of the Ceph storage system.
+#### image:images/yes.png[yes] Red Hat Ceph Storage (noun)
+**Description**: _Red Hat Ceph Storage_ is a Red Hat offering of the Ceph storage system.
 
 **Use it**: yes
 
@@ -9168,8 +9168,8 @@ For example, instead of "Red&#160;Hat recommends using X package because", write
 
 **See also**: [Ceph](#image:images/yes.png[yes]-ceph-(noun))
 
-#### image:images/yes.png[yes] Red&#160;Hat Cloud Access (noun)
-**Description**: _Red&#160;Hat Cloud Access_ is a Red&#160;Hat partner program that allows customers to use their Red&#160;Hat subscriptions to build resources and import images on qualified Red&#160;Hat Certified Cloud and Service Providers (CCSPs).
+#### image:images/yes.png[yes] Red Hat Cloud Access (noun)
+**Description**: _Red Hat Cloud Access_ is a Red Hat partner program that allows customers to use their Red Hat subscriptions to build resources and import images on qualified Red Hat Certified Cloud and Service Providers (CCSPs).
 
 **Use it**: yes
 
@@ -9177,10 +9177,10 @@ For example, instead of "Red&#160;Hat recommends using X package because", write
 
 **See also**:
 
-#### image:images/no.png[no] Red&#160;Hat Container Catalog (noun)
-**Description**: _Red&#160;Hat Container Catalog_ was the Red&#160;Hat-hosted registry for enterprise-ready containers located at [https://catalog.redhat.com/](https://catalog.redhat.com/).
+#### image:images/no.png[no] Red Hat Container Catalog (noun)
+**Description**: _Red Hat Container Catalog_ was the Red Hat-hosted registry for enterprise-ready containers located at [https://catalog.redhat.com/](https://catalog.redhat.com/).
 
-The Red&#160;Hat Container Catalog no longer exists; it has become part of the Red&#160;Hat Ecosystem Catalog, which holds not only information about container images, but also information about certified software, hardware, and cloud service providers. The old [Red&#160;Hat Ecosystem Catalog](https://catalog.redhat.com/) link redirects to the [Container images](https://catalog.redhat.com/software/containers/explore) section of the Red&#160;Hat Ecosystem Catalog.
+The Red Hat Container Catalog no longer exists; it has become part of the Red Hat Ecosystem Catalog, which holds not only information about container images, but also information about certified software, hardware, and cloud service providers. The old [Red Hat Ecosystem Catalog](https://catalog.redhat.com/) link redirects to the [Container images](https://catalog.redhat.com/software/containers/explore) section of the Red Hat Ecosystem Catalog.
 
 **Use it**: no
 
@@ -9188,8 +9188,8 @@ The Red&#160;Hat Container Catalog no longer exists; it has become part of the R
 
 **See also**: [container registry](#image:images/yes.png[yes]-container-registry-(noun)), [OpenShift Container Registry](#image:images/yes.png[yes]-openshift-container-registry-(noun))
 
-#### image:images/yes.png[yes] Red&#160;Hat Customer Portal (noun)
-**Description**: _Red&#160;Hat Customer Portal_ is the official name for https://access.redhat.com. Use "Red&#160;Hat Customer Portal" on the first use. You can shorten it to "Customer Portal" after that.
+#### image:images/yes.png[yes] Red Hat Customer Portal (noun)
+**Description**: _Red Hat Customer Portal_ is the official name for https://access.redhat.com. Use "Red Hat Customer Portal" on the first use. You can shorten it to "Customer Portal" after that.
 
 **Use it**: yes
 
@@ -9197,26 +9197,26 @@ The Red&#160;Hat Container Catalog no longer exists; it has become part of the R
 
 **See also**: [Customer Portal](#image:images/caution.png[with-caution]-customer-portal-(noun))
 
-#### image:images/yes.png[yes] Red&#160;Hat Data Grid (noun)
-**Description**: _Red&#160;Hat Data Grid_, which was formerly Red&#160;Hat JBoss Data Grid, is a high-performance, distributed, in-memory data store. Use "Red&#160;Hat Data Grid" in the first instance and "Data Grid" in all subsequent instances. In 2019, Red&#160;Hat JBoss Data Grid was rebranded as Red&#160;Hat Data Grid.
+#### image:images/yes.png[yes] Red Hat Data Grid (noun)
+**Description**: _Red Hat Data Grid_, which was formerly Red Hat JBoss Data Grid, is a high-performance, distributed, in-memory data store. Use "Red Hat Data Grid" in the first instance and "Data Grid" in all subsequent instances. In 2019, Red Hat JBoss Data Grid was rebranded as Red Hat Data Grid.
 
 **Use it**: yes
 
-**Incorrect forms**: Red&#160;Hat JBoss Data Grid, JDG
+**Incorrect forms**: Red Hat JBoss Data Grid, JDG
 
-**See also**: [Data Grid](#image:images/yes.png[yes]-data-grid-(noun)), [Red&#160;Hat JBoss Data Grid](#image:images/no.png[no]-red&#160;hat-jboss-data-grid-(noun))
+**See also**: [Data Grid](#image:images/yes.png[yes]-data-grid-(noun)), [Red Hat JBoss Data Grid](#image:images/no.png[no]-red hat-jboss-data-grid-(noun))
 
-#### image:images/yes.png[yes] Red&#160;Hat Decision Manager (noun)
-**Description**: _Red&#160;Hat Decision Manager_ is a comprehensive platform for business rules management, business resource optimization, and complex event processing (CEP). Red&#160;Hat Decision Manager is a subset of Red&#160;Hat Process Automation Manager. Organizations can use Red&#160;Hat Decision Manager to incorporate sophisticated decision logic into line-of-business applications and quickly update underlying business rules as market conditions change.
+#### image:images/yes.png[yes] Red Hat Decision Manager (noun)
+**Description**: _Red Hat Decision Manager_ is a comprehensive platform for business rules management, business resource optimization, and complex event processing (CEP). Red Hat Decision Manager is a subset of Red Hat Process Automation Manager. Organizations can use Red Hat Decision Manager to incorporate sophisticated decision logic into line-of-business applications and quickly update underlying business rules as market conditions change.
 
 **Use it**: yes
 
 **Incorrect forms**: BRMS, BRM, JBoss BRMS, DM
 
-**See also**: [Red&#160;Hat Process Automation Manager](#image:images/yes.png[yes]-red&#160;hat-process-automation-manager-(noun))
+**See also**: [Red Hat Process Automation Manager](#image:images/yes.png[yes]-red hat-process-automation-manager-(noun))
 
-#### image:images/yes.png[yes] Red&#160;Hat Directory Server (noun)
-**Description**: _Red&#160;Hat Directory Server_ (RHDS) is an LDAPv3-compliant directory server and the name of the product. Use the full product name in titles of guides. Outside of titles, refer to the product as "Directory Server". Use the product name without an article. Do not use the acronym "RHDS" in documentation.
+#### image:images/yes.png[yes] Red Hat Directory Server (noun)
+**Description**: _Red Hat Directory Server_ (RHDS) is an LDAPv3-compliant directory server and the name of the product. Use the full product name in titles of guides. Outside of titles, refer to the product as "Directory Server". Use the product name without an article. Do not use the acronym "RHDS" in documentation.
 
 **Use it**: yes
 
@@ -9224,8 +9224,8 @@ The Red&#160;Hat Container Catalog no longer exists; it has become part of the R
 
 **See also**: [Directory Server](#image:images/yes.png[yes]-directory-server-(noun))
 
-#### image:images/yes.png[yes] Red&#160;Hat Ecosystem Catalog (noun)
-**Description**: The _Red&#160;Hat Ecosystem Catalog_ is the official source for discovering and learning more about the Red&#160;Hat Certified Technology Ecosystem and certified third-party products and services. The Red&#160;Hat Ecosystem Catalog is a repository for all certified partner software, hardware, and public cloud provider images that run on, in, or under Red&#160;Hat software, such as Red&#160;Hat Enterprise Linux, OpenShift Container Platform, Red&#160;Hat OpenStack Platform, and Ansible.
+#### image:images/yes.png[yes] Red Hat Ecosystem Catalog (noun)
+**Description**: The _Red Hat Ecosystem Catalog_ is the official source for discovering and learning more about the Red Hat Certified Technology Ecosystem and certified third-party products and services. The Red Hat Ecosystem Catalog is a repository for all certified partner software, hardware, and public cloud provider images that run on, in, or under Red Hat software, such as Red Hat Enterprise Linux, OpenShift Container Platform, Red Hat OpenStack Platform, and Ansible.
 
 Write this name in full the first time that you use it in a document. Subsequent uses can be shortened to "Ecosystem Catalog".
 
@@ -9233,11 +9233,11 @@ Write this name in full the first time that you use it in a document. Subsequent
 
 **Incorrect forms**:
 
-**See also**: [Red&#160;Hat Container Catalog](#image:images/no.png[no]-red&#160;hat-container-catalog-(noun))
+**See also**: [Red Hat Container Catalog](#image:images/no.png[no]-red hat-container-catalog-(noun))
 
-#### image:images/yes.png[yes] Red&#160;Hat Enterprise Linux
+#### image:images/yes.png[yes] Red Hat Enterprise Linux
 
-**Description**: _Red&#160;Hat Enterprise Linux_ is an open source operating system based on Fedora and developed by Red&#160;Hat.
+**Description**: _Red Hat Enterprise Linux_ is an open source operating system based on Fedora and developed by Red Hat.
 
 **Use it**: yes
 
@@ -9245,17 +9245,17 @@ Write this name in full the first time that you use it in a document. Subsequent
 
 **See also**: [RHEL](#image:images/caution.png[with-caution]-rhel-(noun))
 
-#### image:images/caution.png[with caution] Red&#160;Hat Enterprise Linux OpenStack Platform (noun)
-**Description**: Spell out in full. This product name applies to Red&#160;Hat Enterprise Linux OpenStack Platform 7 and earlier versions.
+#### image:images/caution.png[with caution] Red Hat Enterprise Linux OpenStack Platform (noun)
+**Description**: Spell out in full. This product name applies to Red Hat Enterprise Linux OpenStack Platform 7 and earlier versions.
 
 **Use it**: with caution
 
 **Incorrect forms**: RHELOSP, RHEL-OSP
 
-**See also**: [Red&#160;Hat OpenStack Platform](#image:images/yes.png[yes]-red&#160;hat-openstack-platform-(noun))
+**See also**: [Red Hat OpenStack Platform](#image:images/yes.png[yes]-red hat-openstack-platform-(noun))
 
-#### image:images/yes.png[yes] Red&#160;Hat Fuse Online (noun)
-**Description**: The distribution of Red&#160;Hat Fuse for non-expert integrators with a simplified workflow that is accessed through a browser-based UI.
+#### image:images/yes.png[yes] Red Hat Fuse Online (noun)
+**Description**: The distribution of Red Hat Fuse for non-expert integrators with a simplified workflow that is accessed through a browser-based UI.
 
 **Use it**: yes
 
@@ -9263,52 +9263,52 @@ Write this name in full the first time that you use it in a document. Subsequent
 
 **See also**: [Syndesis](#image:images/yes.png[yes]-syndesis-(noun)), [Fuse Online](#image:images/yes.png[yes]-fuse-online-(noun))
 
-#### image:images/no.png[no] Red&#160;Hat Java (noun)
-**Description**: Do not use _Red&#160;Hat Java_ to refer to the Red&#160;Hat distribution of the Open Java Development Kit (OpenJDK).
+#### image:images/no.png[no] Red Hat Java (noun)
+**Description**: Do not use _Red Hat Java_ to refer to the Red Hat distribution of the Open Java Development Kit (OpenJDK).
 
 Java is a registered trademark of Oracle and its affiliates.
 
-Always use the approved product name _Red&#160;Hat build of OpenJDK_ instead.
+Always use the approved product name _Red Hat build of OpenJDK_ instead.
 
 **Use it**: no
 
 **Incorrect forms**:
 
-**See also**: [Red&#160;Hat build of OpenJDK](#image:images/yes.png[yes]-red&#160;hat-build-of-openjdk-(noun)), [Red&#160;Hat OpenJDK](#image:images/no.png[no]-red&#160;hat-openjdk-(noun))
+**See also**: [Red Hat build of OpenJDK](#image:images/yes.png[yes]-red hat-build-of-openjdk-(noun)), [Red Hat OpenJDK](#image:images/no.png[no]-red hat-openjdk-(noun))
 
-#### image:images/no.png[no] Red&#160;Hat JBoss Data Grid (noun)
-**Description**: This product name applies to Red&#160;Hat Data Grid 7.2 and earlier versions.
+#### image:images/no.png[no] Red Hat JBoss Data Grid (noun)
+**Description**: This product name applies to Red Hat Data Grid 7.2 and earlier versions.
 
 **Use it**: no
 
 **Incorrect forms**:
 
-**See also**: [Red&#160;Hat Data Grid](#image:images/yes.png[yes]-red&#160;hat-data-grid-(noun))
+**See also**: [Red Hat Data Grid](#image:images/yes.png[yes]-red hat-data-grid-(noun))
 
-#### image:images/yes.png[yes] Red&#160;Hat JBoss Enterprise Application Platform (noun)
-**Description**: _Red&#160;Hat JBoss Enterprise Application Platform_ is an enterprise-grade Java application server. Spell out on first use in a guide, and use the approved abbreviation "JBoss EAP" thereafter.
+#### image:images/yes.png[yes] Red Hat JBoss Enterprise Application Platform (noun)
+**Description**: _Red Hat JBoss Enterprise Application Platform_ is an enterprise-grade Java application server. Spell out on first use in a guide, and use the approved abbreviation "JBoss EAP" thereafter.
 
 **Use it**: yes
 
-**Incorrect forms**: Red&#160;Hat JBoss EAP, JBoss Enterprise Application Platform
+**Incorrect forms**: Red Hat JBoss EAP, JBoss Enterprise Application Platform
 
 **See also**: [JBoss EAP](#image:images/yes.png[yes]-jboss-eap-(noun))
 
-#### image:images/no.png[no] Red&#160;Hat OpenJDK (noun)
-**Description**: Do not use _Red&#160;Hat OpenJDK_ to refer to the Red&#160;Hat distribution of the Open Java Development Kit (OpenJDK).
+#### image:images/no.png[no] Red Hat OpenJDK (noun)
+**Description**: Do not use _Red Hat OpenJDK_ to refer to the Red Hat distribution of the Open Java Development Kit (OpenJDK).
 
 OpenJDK is a registered trademark of Oracle and its affiliates.
 
-Always use the approved product name _Red&#160;Hat build of OpenJDK_ instead.
+Always use the approved product name _Red Hat build of OpenJDK_ instead.
 
 **Use it**: no
 
 **Incorrect forms**:
 
-**See also**: [Red&#160;Hat build of OpenJDK](#image:images/yes.png[yes]-red&#160;hat-build-of-openjdk-(noun)), [Red&#160;Hat Java](#image:images/no.png[no]-red&#160;hat-java-(noun))
+**See also**: [Red Hat build of OpenJDK](#image:images/yes.png[yes]-red hat-build-of-openjdk-(noun)), [Red Hat Java](#image:images/no.png[no]-red hat-java-(noun))
 
-#### image:images/yes.png[yes] Red&#160;Hat OpenShift Cluster Manager (noun)
-**Description**: A managed service for Red&#160;Hat OpenShift that lets users create, subscribe, and manage different types of OpenShift clusters from a single user interface. After the first mention, you can use "OpenShift Cluster Manager". [OpenShift Cluster Manager](https://console.redhat.com/openshift) is part of the Red&#160;Hat Hybrid Cloud Console.
+#### image:images/yes.png[yes] Red Hat OpenShift Cluster Manager (noun)
+**Description**: A managed service for Red Hat OpenShift that lets users create, subscribe, and manage different types of OpenShift clusters from a single user interface. After the first mention, you can use "OpenShift Cluster Manager". [OpenShift Cluster Manager](https://console.redhat.com/openshift) is part of the Red Hat Hybrid Cloud Console.
 
 **Use it**: yes
 
@@ -9316,8 +9316,8 @@ Always use the approved product name _Red&#160;Hat build of OpenJDK_ instead.
 
 **See also**:
 
-#### image:images/yes.png[yes] Red&#160;Hat OpenShift Container Platform (noun)
-**Description**: A Red&#160;Hat private, on-premise cloud application deployment and hosting platform.
+#### image:images/yes.png[yes] Red Hat OpenShift Container Platform (noun)
+**Description**: A Red Hat private, on-premise cloud application deployment and hosting platform.
 
 **Use it**: yes
 
@@ -9325,26 +9325,26 @@ Always use the approved product name _Red&#160;Hat build of OpenJDK_ instead.
 
 **See also**:
 
-#### image:images/no.png[no] Red&#160;Hat OpenShift Container Storage (noun)
-**Description**: Red&#160;Hat software-defined storage for containers that helps to develop and deploy applications quickly and efficiently across cloud platforms. In 2021, _Red&#160;Hat OpenShift Container Storage_ was rebranded as _Red&#160;Hat OpenShift Data Foundation_.
+#### image:images/no.png[no] Red Hat OpenShift Container Storage (noun)
+**Description**: Red Hat software-defined storage for containers that helps to develop and deploy applications quickly and efficiently across cloud platforms. In 2021, _Red Hat OpenShift Container Storage_ was rebranded as _Red Hat OpenShift Data Foundation_.
 
 **Use it**: no
 
 **Incorrect forms**: OCS
 
-**See also**: [Red&#160;Hat OpenShift Data Foundation](#image:images/yes.png[yes]-red&#160;hat-openshift-data-foundation-(noun))
+**See also**: [Red Hat OpenShift Data Foundation](#image:images/yes.png[yes]-red hat-openshift-data-foundation-(noun))
 
-#### image:images/yes.png[yes] Red&#160;Hat OpenShift Data Foundation (noun)
-**Description**: Red&#160;Hat software-defined, container-native storage that helps to develop and deploy applications quickly and efficiently across cloud platforms. Formerly _Red&#160;Hat OpenShift Container Storage_.
+#### image:images/yes.png[yes] Red Hat OpenShift Data Foundation (noun)
+**Description**: Red Hat software-defined, container-native storage that helps to develop and deploy applications quickly and efficiently across cloud platforms. Formerly _Red Hat OpenShift Container Storage_.
 
 **Use it**: yes
 
 **Incorrect forms**: ODF
 
-**See also**: [Red&#160;Hat OpenShift Container Storage](#image:images/no.png[no]-red&#160;hat-openshift-container-storage-(noun))
+**See also**: [Red Hat OpenShift Container Storage](#image:images/no.png[no]-red hat-openshift-container-storage-(noun))
 
-#### image:images/yes.png[yes] Red&#160;Hat OpenShift Dedicated (noun)
-**Description**: A Red&#160;Hat managed public cloud application deployment and hosting service.
+#### image:images/yes.png[yes] Red Hat OpenShift Dedicated (noun)
+**Description**: A Red Hat managed public cloud application deployment and hosting service.
 
 **Use it**: yes
 
@@ -9352,8 +9352,8 @@ Always use the approved product name _Red&#160;Hat build of OpenJDK_ instead.
 
 **See also**:
 
-#### image:images/yes.png[yes] Red&#160;Hat OpenShift Online (noun)
-**Description**: A Red&#160;Hat public cloud application deployment and hosting platform.
+#### image:images/yes.png[yes] Red Hat OpenShift Online (noun)
+**Description**: A Red Hat public cloud application deployment and hosting platform.
 
 **Use it**: yes
 
@@ -9361,36 +9361,36 @@ Always use the approved product name _Red&#160;Hat build of OpenJDK_ instead.
 
 **See also**:
 
-#### image:images/yes.png[yes] Red&#160;Hat OpenStack Platform (noun)
-**Description**: On first use in a module, use the complete product name and the abbreviation in parentheses: "Red&#160;Hat OpenStack Platform (RHOSP)". After the first instance, use "RHOSP". This product name applies to RHOSP version 8 and later. If you need to use the indefinite article before "RHOSP", use 'a' not 'an'.
+#### image:images/yes.png[yes] Red Hat OpenStack Platform (noun)
+**Description**: On first use in a module, use the complete product name and the abbreviation in parentheses: "Red Hat OpenStack Platform (RHOSP)". After the first instance, use "RHOSP". This product name applies to RHOSP version 8 and later. If you need to use the indefinite article before "RHOSP", use 'a' not 'an'.
 
 **Use it**: yes
 
 **Incorrect forms**: OpenStack Platform, RHOS, RH-OSP
 
-**See also**: [Red&#160;Hat Enterprise Linux OpenStack Platform](#image:images/caution.png[with-caution]-red&#160;hat-enterprise-linux-openstack-platform-(noun))
+**See also**: [Red Hat Enterprise Linux OpenStack Platform](#image:images/caution.png[with-caution]-red hat-enterprise-linux-openstack-platform-(noun))
 
-#### image:images/yes.png[yes] Red&#160;Hat Process Automation Manager (noun)
-**Description**: _Red&#160;Hat Process Automation Manager_ is the Red&#160;Hat platform for Business Process Management (BPM). With Red&#160;Hat Process Automation Manager enterprise business and IT users can document, simulate, manage, automate, and monitor business processes and policies. It is designed to empower business and IT users to collaborate more effectively, so business applications can be changed more easily and quickly.
+#### image:images/yes.png[yes] Red Hat Process Automation Manager (noun)
+**Description**: _Red Hat Process Automation Manager_ is the Red Hat platform for Business Process Management (BPM). With Red Hat Process Automation Manager enterprise business and IT users can document, simulate, manage, automate, and monitor business processes and policies. It is designed to empower business and IT users to collaborate more effectively, so business applications can be changed more easily and quickly.
 
 **Use it**: yes
 
 **Incorrect forms**: BPMS, BPM, JBoss BPMS, PAM
 
-**See also**: [Red&#160;Hat Decision Manager](#image:images/yes.png[yes]-red&#160;hat-decision-manager-(noun))
+**See also**: [Red Hat Decision Manager](#image:images/yes.png[yes]-red hat-decision-manager-(noun))
 
-#### image:images/yes.png[yes] Red&#160;Hat Way (noun)
+#### image:images/yes.png[yes] Red Hat Way (noun)
 
-**Description**: _Red&#160;Hat Way_ refers to the culture valued and maintained by Red&#160;Hat associates.
+**Description**: _Red Hat Way_ refers to the culture valued and maintained by Red Hat associates.
 
 **Use it**: yes
 
-**Incorrect forms**: Red&#160;Hat way
+**Incorrect forms**: Red Hat way
 
 **See also**:
 
 #### image:images/yes.png[yes] RedBoot (noun)
-**Description**: _RedBoot_ is an abbreviation for _Red&#160;Hat Embedded Debug and Bootstrap_ firmware. RedBoot is a complete bootstrap environment for embedded systems. Based on the eCos Hardware Abstraction Layer, RedBoot inherits the eCos qualities of reliability, compactness, configurability, and portability.
+**Description**: _RedBoot_ is an abbreviation for _Red Hat Embedded Debug and Bootstrap_ firmware. RedBoot is a complete bootstrap environment for embedded systems. Based on the eCos Hardware Abstraction Layer, RedBoot inherits the eCos qualities of reliability, compactness, configurability, and portability.
 
 **Use it**: yes
 
@@ -9408,7 +9408,7 @@ Always use the approved product name _Red&#160;Hat build of OpenJDK_ instead.
 **See also**: [OSTree](#image:images/yes.png[yes]-ostree-(noun))
 
 #### image:images/yes.png[yes] region (noun)
-**Description**: In Red&#160;Hat Ceph Storage, a _region_ is the deprecated term for referring to a zone group. Red&#160;Hat Ceph Storage 1.3 uses regions.
+**Description**: In Red Hat Ceph Storage, a _region_ is the deprecated term for referring to a zone group. Red Hat Ceph Storage 1.3 uses regions.
 
 **Use it**: yes
 
@@ -9471,7 +9471,7 @@ Always use the approved product name _Red&#160;Hat build of OpenJDK_ instead.
 **See also**: [remote access](#image:images/yes.png[yes]-remote-access-(noun))
 
 #### image:images/yes.png[yes] remote execution (noun, adjective)
-**Description**: In Red&#160;Hat Satellite, you can use the _remote execution_ feature to run jobs on hosts from Capsule by using shell scripts or Ansible. For example, you can enable remote execution for Capsule and then run a remote execution job to apply errata to hosts.
+**Description**: In Red Hat Satellite, you can use the _remote execution_ feature to run jobs on hosts from Capsule by using shell scripts or Ansible. For example, you can enable remote execution for Capsule and then run a remote execution job to apply errata to hosts.
 
 **Use it**: yes
 
@@ -9480,7 +9480,7 @@ Always use the approved product name _Red&#160;Hat build of OpenJDK_ instead.
 **See also**: [REX](#image:images/yes.png[yes]-rex-(noun,-adjective))
 
 #### image:images/yes.png[yes] remoting subsystem (noun)
-**Description**: In Red&#160;Hat JBoss Enterprise Application Platform, the _remoting" subsystem_ is used to configure inbound and outbound connections for local and remote servers. Write in lowercase in general text. Use "Remoting subsystem" when referring to the remoting subsystem in titles and headings.
+**Description**: In Red Hat JBoss Enterprise Application Platform, the _remoting" subsystem_ is used to configure inbound and outbound connections for local and remote servers. Write in lowercase in general text. Use "Remoting subsystem" when referring to the remoting subsystem in titles and headings.
 
 **Use it**: yes
 
@@ -9489,7 +9489,7 @@ Always use the approved product name _Red&#160;Hat build of OpenJDK_ instead.
 **See also**:
 
 #### image:images/yes.png[yes] replica (noun)
-**Description**: In Red&#160;Hat Directory Server, a _replica_ is a copy of the Directory Server database on a different host. For example, a consumer can also be called a "replica" because it has a copy of the data received from the supplier.
+**Description**: In Red Hat Directory Server, a _replica_ is a copy of the Directory Server database on a different host. For example, a consumer can also be called a "replica" because it has a copy of the data received from the supplier.
 
 **Use it**: yes
 
@@ -9498,7 +9498,7 @@ Always use the approved product name _Red&#160;Hat build of OpenJDK_ instead.
 **See also**:
 
 #### image:images/yes.png[yes] replicated volume (noun)
-**Description**: A _replicated volume_ is a Red&#160;Hat Gluster Storage volume that clones data on one brick to one or more other bricks.
+**Description**: A _replicated volume_ is a Red Hat Gluster Storage volume that clones data on one brick to one or more other bricks.
 
 **Use it**: yes
 
@@ -9507,7 +9507,7 @@ Always use the approved product name _Red&#160;Hat build of OpenJDK_ instead.
 **See also**:
 
 #### image:images/yes.png[yes] replication agreement (noun)
-**Description**: In Red&#160;Hat Enterprise Linux, a _replication agreement_ is an agreement between two IdM servers in the same IdM deployment. The replication agreement ensures that the data and configuration is continuously replicated between the two servers.
+**Description**: In Red Hat Enterprise Linux, a _replication agreement_ is an agreement between two IdM servers in the same IdM deployment. The replication agreement ensures that the data and configuration is continuously replicated between the two servers.
 IdM uses two types of replication agreements: _domain replication_ agreements, which replicate identity information, and _certificate replication_ agreements, which replicate certificate information.
 
 **Use it**: yes
@@ -9517,7 +9517,7 @@ IdM uses two types of replication agreements: _domain replication_ agreements, w
 **See also**: [IdM deployment](#image:images/yes.png[yes]-idm-deployment-(noun))
 
 #### image:images/yes.png[yes] replication controller (noun)
-**Description**: In Red&#160;Hat OpenShift, a _replication controller_ is a Kubernetes object that ensures a specified number of pods for an application are running at a given time. The replication controller automatically reacts to changes to deployed pods, both the removal of existing pods, for example, deletion or crashing, or the addition of extra pods that are not wanted. The pods are automatically added or removed from the service to ensure its uptime.
+**Description**: In Red Hat OpenShift, a _replication controller_ is a Kubernetes object that ensures a specified number of pods for an application are running at a given time. The replication controller automatically reacts to changes to deployed pods, both the removal of existing pods, for example, deletion or crashing, or the addition of extra pods that are not wanted. The pods are automatically added or removed from the service to ensure its uptime.
 
 **Use it**: yes
 
@@ -9526,7 +9526,7 @@ IdM uses two types of replication agreements: _domain replication_ agreements, w
 **See also**:
 
 #### image:images/yes.png[yes] repository (noun)
-**Description**: _Repositories_ provide the packages required for Red&#160;Hat products. Using Red&#160;Hat Subscription Management (RHSM), you register a system, attach a subscription, and enable repositories. Do not confuse this with "Red&#160;Hat Network" (RHN), where you subscribed to channels.
+**Description**: _Repositories_ provide the packages required for Red Hat products. Using Red Hat Subscription Management (RHSM), you register a system, attach a subscription, and enable repositories. Do not confuse this with "Red Hat Network" (RHN), where you subscribed to channels.
 
 **Use it**: yes
 
@@ -9535,7 +9535,7 @@ IdM uses two types of replication agreements: _domain replication_ agreements, w
 **See also**: [subscription](#image:images/yes.png[yes]-subscription-(noun)), [entitlement](#image:images/caution.png[with-caution]-entitlement-(noun))
 
 #### image:images/yes.png[yes] request-controller subsystem (noun)
-**Description**: In Red&#160;Hat JBoss Enterprise Application Platform, the _request-controller_ subsystem is used to configure settings to suspend servers or to shut them down gracefully. In general text, write in lowercase as two words separated by a hyphen. Use "Request Controller subsystem" when referring to the request-controller subsystem in titles and headings.
+**Description**: In Red Hat JBoss Enterprise Application Platform, the _request-controller_ subsystem is used to configure settings to suspend servers or to shut them down gracefully. In general text, write in lowercase as two words separated by a hyphen. Use "Request Controller subsystem" when referring to the request-controller subsystem in titles and headings.
 
 **Use it**: yes
 
@@ -9564,7 +9564,7 @@ IdM uses two types of replication agreements: _domain replication_ agreements, w
 
 #### image:images/yes.png[yes] Resilient Storage Add-On (noun)
 
-**Description**: _Resilient Storage Add-On_ is an add-on to Red&#160;Hat Enterprise Linux that allows a shared storage or clustered file system to access the same storage device over a network. The Resilient Storage Add-On creates a pool of data that is available to each server in a group by creating consistent storage across a cluster of servers that is protected if any one server fails.
+**Description**: _Resilient Storage Add-On_ is an add-on to Red Hat Enterprise Linux that allows a shared storage or clustered file system to access the same storage device over a network. The Resilient Storage Add-On creates a pool of data that is available to each server in a group by creating consistent storage across a cluster of servers that is protected if any one server fails.
 
 **Use it**: yes
 
@@ -9573,7 +9573,7 @@ IdM uses two types of replication agreements: _domain replication_ agreements, w
 **See also**:
 
 #### image:images/yes.png[yes] resource-adapters subsystem (noun)
-**Description**: In Red&#160;Hat JBoss Enterprise Application Platform, the _resource-adapters_ subsystem is used to configure and maintain resource adapters for communication between Java EE applications and an Enterprise Information System (EIS). In general text, write in lowercase as two words separated by a hyphen. Use "Resource Adapters subsystem" when referring to the resource-adapters subsystem in titles and headings.
+**Description**: In Red Hat JBoss Enterprise Application Platform, the _resource-adapters_ subsystem is used to configure and maintain resource adapters for communication between Java EE applications and an Enterprise Information System (EIS). In general text, write in lowercase as two words separated by a hyphen. Use "Resource Adapters subsystem" when referring to the resource-adapters subsystem in titles and headings.
 
 **Use it**: yes
 
@@ -9582,7 +9582,7 @@ IdM uses two types of replication agreements: _domain replication_ agreements, w
 **See also**:
 
 #### image:images/yes.png[yes] restore (verb)
-**Description**: In Red&#160;Hat OpenShift, to _restore_ is to correct or replace data that was lost or corrupted after a problem occurred in the cluster.
+**Description**: In Red Hat OpenShift, to _restore_ is to correct or replace data that was lost or corrupted after a problem occurred in the cluster.
 
 **Use it**: yes
 
@@ -9610,7 +9610,7 @@ IdM uses two types of replication agreements: _domain replication_ agreements, w
 **See also**: [OSTree](#image:images/yes.png[yes]-ostree-(noun))
 
 #### image:images/yes.png[yes] REX (noun, adjective)
-**Description**: In Red&#160;Hat Satellite, _REX_ is an acronym for _remote execution_. You can use REX to run jobs on hosts from Capsule by using shell scripts or Ansible. For example, you can enable REX for Capsule and then run a REX job to apply errata to hosts.
+**Description**: In Red Hat Satellite, _REX_ is an acronym for _remote execution_. You can use REX to run jobs on hosts from Capsule by using shell scripts or Ansible. For example, you can enable REX for Capsule and then run a REX job to apply errata to hosts.
 
 **Use it**: yes
 
@@ -9619,7 +9619,7 @@ IdM uses two types of replication agreements: _domain replication_ agreements, w
 **See also**: [remote execution](#image:images/yes.png[yes]-remote-execution-(noun,-adjective))
 
 #### image:images/yes.png[yes] RGW (noun)
-**Description**: In Red&#160;Hat Ceph Storage, _RGW_ is an abbreviation for RADOS Gateway.
+**Description**: In Red Hat Ceph Storage, _RGW_ is an abbreviation for RADOS Gateway.
 
 **Use it**: yes
 
@@ -9628,13 +9628,13 @@ IdM uses two types of replication agreements: _domain replication_ agreements, w
 **See also**: [RADOS Gateway](#image:images/caution.png[with-caution]-rados-gateway-(noun)), [Ceph Object Gateway](#image:images/yes.png[yes]-ceph-object-gateway-(noun))
 
 #### image:images/caution.png[with caution] RHEL (noun)
-**Description**: _RHEL_ is an acronym for _Red&#160;Hat Enterprise Linux_. The conventions for using this acronym vary for different products and teams. If you are not sure whether to use the acronym or only the full version, ask your team members.
+**Description**: _RHEL_ is an acronym for _Red Hat Enterprise Linux_. The conventions for using this acronym vary for different products and teams. If you are not sure whether to use the acronym or only the full version, ask your team members.
 
 **Use it**: with caution
 
 **Incorrect forms**:
 
-**See also**: [Red&#160;Hat Enterprise Linux](#red-hat-enterprise-linux)
+**See also**: [Red Hat Enterprise Linux](#red-hat-enterprise-linux)
 
 #### image:images/yes.png[yes] role
 **Description**: A _role_ identifies a type or category of user. `administrator`, `user`, `manager`, and `employee` are all typical roles that might exist in an organization. Applications often assign access and permissions to specific roles rather than individual users because dealing with users can be too granular and hard to manage.
@@ -9646,7 +9646,7 @@ IdM uses two types of replication agreements: _domain replication_ agreements, w
 **See also**:
 
 #### image:images/yes.png[yes] Rolling Stream (noun)
-**Description**: _Rolling Streams_, also referred to as Rolling Application Streams, include Red&#160;Hat Enterprise Linux tools and applications that are updated frequently. Later versions of these streams replace earlier versions. Therefore, only one version at a time is supported.
+**Description**: _Rolling Streams_, also referred to as Rolling Application Streams, include Red Hat Enterprise Linux tools and applications that are updated frequently. Later versions of these streams replace earlier versions. Therefore, only one version at a time is supported.
 
 **Use it**: yes
 
@@ -9692,7 +9692,7 @@ IdM uses two types of replication agreements: _domain replication_ agreements, w
 
 #### image:images/yes.png[yes] Rook-Ceph Operator (noun)
 
-**Description**: In Red&#160;Hat OpenShift Data Foundation, which was formerly Red&#160;Hat OpenShift Container Storage, the _Rook-Ceph Operator_ automates the packaging, deployment, management, upgrading, and scaling of persistent storage and file, block, and object services.
+**Description**: In Red Hat OpenShift Data Foundation, which was formerly Red Hat OpenShift Container Storage, the _Rook-Ceph Operator_ automates the packaging, deployment, management, upgrading, and scaling of persistent storage and file, block, and object services.
 
 **Use it**: yes
 
@@ -9720,7 +9720,7 @@ IdM uses two types of replication agreements: _domain replication_ agreements, w
 **See also**: [round table](#image:images/yes.png[yes]-round-table-(noun))
 
 #### image:images/yes.png[yes] route (noun)
-**Description**: (1) In Red&#160;Hat OpenShift, a _route_ exposes a service at a hostname, like www.example.com, so that external clients can reach it by name. (2) In Red&#160;Hat Fuse, routes specify paths through which messages move. A _route_ is basically a chain of processors that execute actions on messages as they move between the route’s consumer and producer endpoints. A routing context can contain multiple routes.
+**Description**: (1) In Red Hat OpenShift, a _route_ exposes a service at a hostname, like www.example.com, so that external clients can reach it by name. (2) In Red Hat Fuse, routes specify paths through which messages move. A _route_ is basically a chain of processors that execute actions on messages as they move between the route’s consumer and producer endpoints. A routing context can contain multiple routes.
 
 **Use it**: yes
 
@@ -9729,7 +9729,7 @@ IdM uses two types of replication agreements: _domain replication_ agreements, w
 **See also**: [consumer](#image:images/yes.png[yes]-consumer-(noun)), [endpoint](#image:images/caution.png[with-caution]-endpoint-(noun)), [processor](#image:images/yes.png[yes]-processor-(noun)), [producer](#image:images/yes.png[yes]-producer-(noun)), [routing context](#image:images/yes.png[yes]-routing-context-(noun))
 
 #### image:images/yes.png[yes] router (noun)
-**Description**: In Red&#160;Hat AMQ, a _router_ is a configurable instance of AMQ Interconnect. Routers are application layer programs that route AMQP messages between message producers and consumers. Routers are typically deployed in networks of multiple routers with redundant paths. When using this term, be careful not to confuse it with network device routers.
+**Description**: In Red Hat AMQ, a _router_ is a configurable instance of AMQ Interconnect. Routers are application layer programs that route AMQP messages between message producers and consumers. Routers are typically deployed in networks of multiple routers with redundant paths. When using this term, be careful not to confuse it with network device routers.
 
 **Use it**: yes
 
@@ -9748,7 +9748,7 @@ IdM uses two types of replication agreements: _domain replication_ agreements, w
 **See also**:
 
 #### image:images/yes.png[yes] routing context (noun)
-**Description**: In Red&#160;Hat Fuse, a routing context specifies the routing rules for a Camel application. Among other things, routing rules specify the source and type of input, how to process it, and where to send the output when processing is done. For Spring-based projects, the default name of the routing context file is `camelContext.xml`. For Blueprint-based projects, the default name of the routing context file is `blueprint.xml`.
+**Description**: In Red Hat Fuse, a routing context specifies the routing rules for a Camel application. Among other things, routing rules specify the source and type of input, how to process it, and where to send the output when processing is done. For Spring-based projects, the default name of the routing context file is `camelContext.xml`. For Blueprint-based projects, the default name of the routing context file is `blueprint.xml`.
 
 **Use it**: yes
 
@@ -9757,7 +9757,7 @@ IdM uses two types of replication agreements: _domain replication_ agreements, w
 **See also**: [Camel context](#image:images/caution.png[with-caution]-camel-context-(noun)), [routing rules](#image:images/yes.png[yes]-routing-rules-(noun))
 
 #### image:images/yes.png[yes] routing mechanism (noun)
-**Description**: In Red&#160;Hat AMQ, a _routing mechanism_ is the type of routing to be used for an address. Routing mechanisms include message routing and link routing.
+**Description**: In Red Hat AMQ, a _routing mechanism_ is the type of routing to be used for an address. Routing mechanisms include message routing and link routing.
 
 **Use it**: yes
 
@@ -9766,7 +9766,7 @@ IdM uses two types of replication agreements: _domain replication_ agreements, w
 **See also**:
 
 #### image:images/yes.png[yes] routing pattern (noun)
-**Description**: In Red&#160;Hat AMQ, a _routing pattern_ is the path messages sent to a particular address can take across the network. Messages can be distributed in balanced, closest, and multicast routing patterns.
+**Description**: In Red Hat AMQ, a _routing pattern_ is the path messages sent to a particular address can take across the network. Messages can be distributed in balanced, closest, and multicast routing patterns.
 
 **Use it**: yes
 
@@ -9775,7 +9775,7 @@ IdM uses two types of replication agreements: _domain replication_ agreements, w
 **See also**:
 
 #### image:images/yes.png[yes] routing rules (noun)
-**Description**: In Red&#160;Hat Fuse, routing rules are declarative statements that define the paths that messages take from their origin to their target destination. The origin is known as the _source_, and the target destination is known as the _sink_. Routing rules, which are written in Java or XML DSL, start with a `from` consumer endpoint, and typically end with one or more `to` producer endpoints. Between the consumer and producer endpoints, messages can enter various processors, which might transform them or redirect them to other processors or to specific producer endpoints.
+**Description**: In Red Hat Fuse, routing rules are declarative statements that define the paths that messages take from their origin to their target destination. The origin is known as the _source_, and the target destination is known as the _sink_. Routing rules, which are written in Java or XML DSL, start with a `from` consumer endpoint, and typically end with one or more `to` producer endpoints. Between the consumer and producer endpoints, messages can enter various processors, which might transform them or redirect them to other processors or to specific producer endpoints.
 
 **Use it**: yes
 
@@ -9784,7 +9784,7 @@ IdM uses two types of replication agreements: _domain replication_ agreements, w
 **See also**: [routing context](#image:images/yes.png[yes]-routing-context-(noun))
 
 #### image:images/yes.png[yes] RPM (noun)
-**Description**: _RPM_ is the recursive initialism for the _RPM Package Manager_. RPM manages files in the RPM format. Those files are referred to as "RPM packages". Even though RPM packages are known informally as `rpm` files, do not use this informal term in Red&#160;Hat documentation to avoid confusion with the command name.
+**Description**: _RPM_ is the recursive initialism for the _RPM Package Manager_. RPM manages files in the RPM format. Those files are referred to as "RPM packages". Even though RPM packages are known informally as `rpm` files, do not use this informal term in Red Hat documentation to avoid confusion with the command name.
 
 **Use it**: yes
 
@@ -9811,7 +9811,7 @@ IdM uses two types of replication agreements: _domain replication_ agreements, w
 **See also**: [OSTree](#image:images/yes.png[yes]-ostree-(noun))
 
 #### image:images/yes.png[yes] rts subsystem (noun)
-**Description**: In Red&#160;Hat JBoss Enterprise Application Platform, the _rts subsystem_ is an implementation of REST AT that is not supported in JBoss EAP. In general text, write in lowercase as one word. Use "RTS subsystem" when referring to the `rts` subsystem in titles and headings.
+**Description**: In Red Hat JBoss Enterprise Application Platform, the _rts subsystem_ is an implementation of REST AT that is not supported in JBoss EAP. In general text, write in lowercase as one word. Use "RTS subsystem" when referring to the `rts` subsystem in titles and headings.
 
 **Use it**: yes
 
@@ -9820,7 +9820,7 @@ IdM uses two types of replication agreements: _domain replication_ agreements, w
 **See also**:
 
 #### image:images/yes.png[yes] rule (noun)
-**Description**: In Red&#160;Hat Decision Manager and Red&#160;Hat Process Automation Manager, a _rule_ provides the logic for the rule engine to execute against. A rule includes a name, attributes, a “when” statement on the left side of the rule, and a “then” statement on the right side of the rule.
+**Description**: In Red Hat Decision Manager and Red Hat Process Automation Manager, a _rule_ provides the logic for the rule engine to execute against. A rule includes a name, attributes, a “when” statement on the left side of the rule, and a “then” statement on the right side of the rule.
 
 **Use it**: yes
 
@@ -9829,7 +9829,7 @@ IdM uses two types of replication agreements: _domain replication_ agreements, w
 **See also**:
 
 #### image:images/yes.png[yes] rule template (noun)
-**Description**: In Red&#160;Hat Decision Manager and Red&#160;Hat Process Automation Manager, a _rule template_ enables the user to define a rule structure. Rule templates provide a placeholder for values and data, and they populate templates to generate many rules.
+**Description**: In Red Hat Decision Manager and Red Hat Process Automation Manager, a _rule template_ enables the user to define a rule structure. Rule templates provide a placeholder for values and data, and they populate templates to generate many rules.
 
 **Use it**: yes
 
@@ -9862,7 +9862,7 @@ Examples:
 **See also**:
 
 #### image:images/yes.png[yes] runtime manager (noun)
-**Description**: In Red&#160;Hat Decision Manager and Red&#160;Hat Process Automation Manager, the _runtime manager_ is an interface that enables and simplifies the usage of a KIE API within the processes. The name of the interface is `RuntimeManager`. It provides configurable strategies that control actual runtime execution. The strategies are singleton, per request, and per process instance.
+**Description**: In Red Hat Decision Manager and Red Hat Process Automation Manager, the _runtime manager_ is an interface that enables and simplifies the usage of a KIE API within the processes. The name of the interface is `RuntimeManager`. It provides configurable strategies that control actual runtime execution. The strategies are singleton, per request, and per process instance.
 
 **Use it**: yes
 
@@ -9915,7 +9915,7 @@ Specify the system architecture of your cluster, such as `s390x` or `x86_64`.
 **See also**:
 
 #### image:images/yes.png[yes] sar subsystem (noun)
-**Description**: In Red&#160;Hat JBoss Enterprise Application Platform, the _sar subsystem_ enables deployment of SAR archives containing MBean services. In general text, write in lowercase as one word. Use "SAR subsystem" when referring to the `sar` subsystem in titles and headings.
+**Description**: In Red Hat JBoss Enterprise Application Platform, the _sar subsystem_ enables deployment of SAR archives containing MBean services. In general text, write in lowercase as one word. Use "SAR subsystem" when referring to the `sar` subsystem in titles and headings.
 
 **Use it**: yes
 
@@ -9924,7 +9924,7 @@ Specify the system architecture of your cluster, such as `s390x` or `x86_64`.
 **See also**:
 
 #### image:images/yes.png[yes] Satellite Server (noun)
-**Description**: In Red&#160;Hat Satellite, _Satellite Server_ synchronizes the content from Red&#160;Hat Customer Portal and other sources, and provides lifecycle management, user and group role-based access control, integrated subscription management, as well as GUI, CLI, and API access. It is the core component of Red&#160;Hat Satellite, the systems management tool for Linux-based infrastructure. Use the two-word name on first use in a section; the single term "Satellite" is acceptable thereafter.
+**Description**: In Red Hat Satellite, _Satellite Server_ synchronizes the content from Red Hat Customer Portal and other sources, and provides lifecycle management, user and group role-based access control, integrated subscription management, as well as GUI, CLI, and API access. It is the core component of Red Hat Satellite, the systems management tool for Linux-based infrastructure. Use the two-word name on first use in a section; the single term "Satellite" is acceptable thereafter.
 
 **Use it**: yes
 
@@ -9951,7 +9951,7 @@ Specify the system architecture of your cluster, such as `s390x` or `x86_64`.
 **See also**: [scale out](#image:images/yes.png[yes]-scale-out-(verb))
 
 #### image:images/yes.png[yes] scheduler (noun)
-**Description**: In Red&#160;Hat OpenShift, the _scheduler_ is a control plane component that manages the state of the system, places pods on nodes, and ensures that all containers that are expected to be running are actually running.
+**Description**: In Red Hat OpenShift, the _scheduler_ is a control plane component that manages the state of the system, places pods on nodes, and ensures that all containers that are expected to be running are actually running.
 
 **Use it**: yes
 
@@ -9960,7 +9960,7 @@ Specify the system architecture of your cluster, such as `s390x` or `x86_64`.
 **See also**:
 
 #### image:images/yes.png[yes] Scorecard (noun)
-**Description**: In Red&#160;Hat Process Automation Manager and Red&#160;Hat Decision Manager, _Scorecard_ is a risk management tool that is a graphical representation of a formula used to calculate an overall score. It is mostly used by financial institutions or banks to calculate the risk they can take to sell a product in the market. It can predict the likelihood or probability of a certain outcome. Red&#160;Hat Decision Manager supports additive scorecards that calculates an overall score by adding all partial scores assigned to individual rule conditions.
+**Description**: In Red Hat Process Automation Manager and Red Hat Decision Manager, _Scorecard_ is a risk management tool that is a graphical representation of a formula used to calculate an overall score. It is mostly used by financial institutions or banks to calculate the risk they can take to sell a product in the market. It can predict the likelihood or probability of a certain outcome. Red Hat Decision Manager supports additive scorecards that calculates an overall score by adding all partial scores assigned to individual rule conditions.
 
 **Use it**: yes
 
@@ -9996,7 +9996,7 @@ Specify the system architecture of your cluster, such as `s390x` or `x86_64`.
 **See also**:
 
 #### image:images/yes.png[yes] scrubbing (noun)
-**Description**: In Red&#160;Hat Ceph Storage, _scrubbing_ is a process when Ceph OSD Daemons compare object metadata in one placement group with its replicas in placement groups stored on other OSD node.
+**Description**: In Red Hat Ceph Storage, _scrubbing_ is a process when Ceph OSD Daemons compare object metadata in one placement group with its replicas in placement groups stored on other OSD node.
 
 **Use it**: yes
 
@@ -10005,7 +10005,7 @@ Specify the system architecture of your cluster, such as `s390x` or `x86_64`.
 **See also**:
 
 #### image:images/yes.png[yes] secondary cluster (noun)
-**Description**: In Red&#160;Hat Gluster Storage, a _secondary cluster_ is a cluster that exists as a backup if the primary cluster becomes unavailable.
+**Description**: In Red Hat Gluster Storage, a _secondary cluster_ is a cluster that exists as a backup if the primary cluster becomes unavailable.
 
 **Use it**: yes
 
@@ -10014,7 +10014,7 @@ Specify the system architecture of your cluster, such as `s390x` or `x86_64`.
 **See also**:
 
 #### image:images/yes.png[yes] Security - Elytron (noun)
-**Description**: In Red&#160;Hat JBoss Enterprise Application Platform, use "Security - Elytron" when describing the `elytron` subsystem in the management console. Write as two capitalized words separated by two spaces and a hyphen.
+**Description**: In Red Hat JBoss Enterprise Application Platform, use "Security - Elytron" when describing the `elytron` subsystem in the management console. Write as two capitalized words separated by two spaces and a hyphen.
 
 **Use it**: yes
 
@@ -10023,7 +10023,7 @@ Specify the system architecture of your cluster, such as `s390x` or `x86_64`.
 **See also**: [elytron](#image:images/yes.png[yes]-elytron-subsystem-(noun))
 
 #### image:images/yes.png[yes] security subsystem (noun)
-**Description**: In Red&#160;Hat JBoss Enterprise Application Platform, the legacy security subsystem is called _security_. Write in lowercase in general text. Use "Security subsystem" when referring to the legacy `security` subsystem in titles and headings.
+**Description**: In Red Hat JBoss Enterprise Application Platform, the legacy security subsystem is called _security_. Write in lowercase in general text. Use "Security subsystem" when referring to the legacy `security` subsystem in titles and headings.
 
 **Use it**: yes
 
@@ -10032,7 +10032,7 @@ Specify the system architecture of your cluster, such as `s390x` or `x86_64`.
 **See also**:
 
 #### image:images/yes.png[yes] security-manager subsystem (noun)
-**Description**: In Red&#160;Hat JBoss Enterprise Application Platform, the _security-manager subsystem_ is used to configure security policies used by the Java Security Manager. In general text, write in lowercase as two words separated by a hyphen. Use "Security Manager subsystem" when referring to the `security-manager` subsystem in titles and headings.
+**Description**: In Red Hat JBoss Enterprise Application Platform, the _security-manager subsystem_ is used to configure security policies used by the Java Security Manager. In general text, write in lowercase as two words separated by a hyphen. Use "Security Manager subsystem" when referring to the `security-manager` subsystem in titles and headings.
 
 **Use it**: yes
 
@@ -10041,7 +10041,7 @@ Specify the system architecture of your cluster, such as `s390x` or `x86_64`.
 **See also**:
 
 #### image:images/yes.png[yes] see (verb)
-**Description**: Use "see" to refer readers to another resource, for example, "For more information, see the _Red&#160;Hat Enterprise Linux Installation Guide_." Avoid using "refer to" in this context.
+**Description**: Use "see" to refer readers to another resource, for example, "For more information, see the _Red Hat Enterprise Linux Installation Guide_." Avoid using "refer to" in this context.
 
 **Use it**: yes
 
@@ -10059,7 +10059,7 @@ Specify the system architecture of your cluster, such as `s390x` or `x86_64`.
 **See also**:
 
 #### image:images/yes.png[yes] self-healing (noun)
-**Description**: After an error has occurred in a Red&#160;Hat Gluster Storage cluster, _self-healing_ refers to the ability of the system to determine automatically which data is most correct and then to copy the correct data to the correct location in the cluster.
+**Description**: After an error has occurred in a Red Hat Gluster Storage cluster, _self-healing_ refers to the ability of the system to determine automatically which data is most correct and then to copy the correct data to the correct location in the cluster.
 
 **Use it**: yes
 
@@ -10077,7 +10077,7 @@ Specify the system architecture of your cluster, such as `s390x` or `x86_64`.
 **See also**:
 
 #### image:images/yes.png[yes] sender (noun)
-**Description**: In Red&#160;Hat AMQ, a _sender_ is a channel for sending messages to a target.
+**Description**: In Red Hat AMQ, a _sender_ is a channel for sending messages to a target.
 
 **Use it**: yes
 
@@ -10113,7 +10113,7 @@ Specify the system architecture of your cluster, such as `s390x` or `x86_64`.
 **See also**: [server cluster](#image:images/yes.png[yes]-server-cluster-(noun))
 
 #### image:images/yes.png[yes] service (noun)
-**Description**: (1) Generically, software that performs automated tasks and listens to and responds to hardware events and requests from other software. (2) In Red&#160;Hat OpenShift, a _service_ functions as a load balancer and proxy to underlying pods. Services are assigned IP addresses and ports and delegate requests to an appropriate pod that can field it. The API object for a service is `Service`.
+**Description**: (1) Generically, software that performs automated tasks and listens to and responds to hardware events and requests from other software. (2) In Red Hat OpenShift, a _service_ functions as a load balancer and proxy to underlying pods. Services are assigned IP addresses and ports and delegate requests to an appropriate pod that can field it. The API object for a service is `Service`.
 
 **Use it**: yes
 
@@ -10122,7 +10122,7 @@ Specify the system architecture of your cluster, such as `s390x` or `x86_64`.
 **See also**:
 
 #### image:images/yes.png[yes] service account (noun)
-**Description**: In Red&#160;Hat Single Sign-On, each client has a built-in _service account_ to obtain an access token.
+**Description**: In Red Hat Single Sign-On, each client has a built-in _service account_ to obtain an access token.
 
 **Use it**: yes
 
@@ -10131,7 +10131,7 @@ Specify the system architecture of your cluster, such as `s390x` or `x86_64`.
 **See also**:
 
 #### image:images/caution.png[with caution] session (noun)
-**Description**: (1) In Red&#160;Hat Single Sign-On, when a user logs in, a _session_ is created to manage the login session. A session contains information such as when the user logged in and what applications have participated within single sign-on during that session. Both administrators and users can view session information. (2) In Red&#160;Hat AMQ, a _session_ is a serialized context for producing and consuming messages. Sessions are established between AMQ peers over connections. Sending and receiving links are established over sessions. Use this term with caution, as users typically do not need to understand it to use AMQ.
+**Description**: (1) In Red Hat Single Sign-On, when a user logs in, a _session_ is created to manage the login session. A session contains information such as when the user logged in and what applications have participated within single sign-on during that session. Both administrators and users can view session information. (2) In Red Hat AMQ, a _session_ is a serialized context for producing and consuming messages. Sessions are established between AMQ peers over connections. Sending and receiving links are established over sessions. Use this term with caution, as users typically do not need to understand it to use AMQ.
 
 **Use it**: with caution
 
@@ -10140,7 +10140,7 @@ Specify the system architecture of your cluster, such as `s390x` or `x86_64`.
 **See also**: [connection](#image:images/yes.png[yes]-connection-(noun))
 
 #### image:images/yes.png[yes] session externalization (noun)
-**Description**: In Red&#160;Hat Data Grid, clusters can provide external cache containers that store application-specific data. These external caches store HTTP sessions and other data to make applications stateless and achieve elastic scalability as well as high availability.
+**Description**: In Red Hat Data Grid, clusters can provide external cache containers that store application-specific data. These external caches store HTTP sessions and other data to make applications stateless and achieve elastic scalability as well as high availability.
 
 **Use it**: yes
 
@@ -10194,13 +10194,13 @@ Specify the system architecture of your cluster, such as `s390x` or `x86_64`.
 **See also**:
 
 #### image:images/yes.png[yes] Shadowman (noun)
-**Description**: _Shadowman_ is a Red&#160;Hat corporate logo and is a trademark of Red&#160;Hat, Inc., registered in the United States and other countries.
+**Description**: _Shadowman_ is a Red Hat corporate logo and is a trademark of Red Hat, Inc., registered in the United States and other countries.
 
 **Use it**: yes
 
 **Incorrect forms**: Shadow Man, ShadowMan
 
-**See also**: [Red&#160;Hat Brand Standards: Our history](https://www.redhat.com/en/about/brand/standards/history)
+**See also**: [Red Hat Brand Standards: Our history](https://www.redhat.com/en/about/brand/standards/history)
 
 #### image:images/yes.png[yes] shard (noun)
 **Description**: (1) A database _shard_ is a horizontal partition of data in a database or search engine. Each individual partition is referred to as a _shard_ or _database shard_. To spread load, each shard is held in a separate database server instance. (2) In storage, a _shard_ is a small part of a larger container. Shards replicate independently in parallel with other shards. Operations on shards take less time than operations on the whole container, which makes replication and maintenance more reliable.
@@ -10212,7 +10212,7 @@ Specify the system architecture of your cluster, such as `s390x` or `x86_64`.
 **See also**: [bucket sharding](#image:images/yes.png[yes]-bucket-sharding-(noun))
 
 #### image:images/yes.png[yes] sharded queue (noun)
-**Description**: In Red&#160;Hat AMQ, a _sharded queue_ is a distributed queue in which a single logical queue is hosted on multiple brokers. Routers are typically used with sharded queues to enable clients to access the entire sharded queue instead of only a single shard of the queue.
+**Description**: In Red Hat AMQ, a _sharded queue_ is a distributed queue in which a single logical queue is hosted on multiple brokers. Routers are typically used with sharded queues to enable clients to access the entire sharded queue instead of only a single shard of the queue.
 
 **Use it**: yes
 
@@ -10275,7 +10275,7 @@ Specify the system architecture of your cluster, such as `s390x` or `x86_64`.
 **See also**: [logical topology](#image:images/yes.png[yes]-logical-topology-(noun)), [physical topology](#image:images/yes.png[yes]-physical-topology-(noun))
 
 #### image:images/yes.png[yes] singleton subsystem (noun)
-**Description**: In Red&#160;Hat JBoss Enterprise Application Platform, the _singleton subsystem_ is used to configure the behavior of singleton deployments. Write in lowercase in general text. Use "Singleton subsystem" when referring to the `singleton` subsystem in titles and headings.
+**Description**: In Red Hat JBoss Enterprise Application Platform, the _singleton subsystem_ is used to configure the behavior of singleton deployments. Write in lowercase in general text. Use "Singleton subsystem" when referring to the `singleton` subsystem in titles and headings.
 
 **Use it**: yes
 
@@ -10293,7 +10293,7 @@ Specify the system architecture of your cluster, such as `s390x` or `x86_64`.
 **See also**:
 
 #### image:images/yes.png[yes] SkyDNS (noun)
-**Description**: In Red&#160;Hat OpenShift 3.11, _SkyDNS_ is a component that provides cluster-wide DNS resolution of internal hostnames for services and pods.
+**Description**: In Red Hat OpenShift 3.11, _SkyDNS_ is a component that provides cluster-wide DNS resolution of internal hostnames for services and pods.
 
 **Use it**: yes
 
@@ -10311,7 +10311,7 @@ Specify the system architecture of your cluster, such as `s390x` or `x86_64`.
 **See also**: [consumer](#image:images/yes.png[yes]-consumer-(noun)), [hub](#image:images/yes.png[yes]-hub-(noun))
 
 #### image:images/yes.png[yes] slave broker (noun)
-**Description**: In Red&#160;Hat AMQ, in a master-slave group, _slave broker_ is the broker (or brokers) that takes over for the master broker to which it is linked.
+**Description**: In Red Hat AMQ, in a master-slave group, _slave broker_ is the broker (or brokers) that takes over for the master broker to which it is linked.
 
 **Use it**: yes
 
@@ -10338,7 +10338,7 @@ Specify the system architecture of your cluster, such as `s390x` or `x86_64`.
 **See also**: [NIC](#image:images/yes.png[yes]-nic), [vNIC](#image:images/yes.png[yes]-vnic-(noun))
 
 #### image:images/yes.png[yes] snap (noun)
-**Description**: In Red&#160;Hat Ceph Storage, a _snap_ is the snapshot identifier of an object. The only writable version of the object is called "head". If an object is a clone, this field includes its sequential identifier. Always mark it correctly (`snap`).
+**Description**: In Red Hat Ceph Storage, a _snap_ is the snapshot identifier of an object. The only writable version of the object is called "head". If an object is a clone, this field includes its sequential identifier. Always mark it correctly (`snap`).
 
 **Use it**: yes
 
@@ -10356,7 +10356,7 @@ Specify the system architecture of your cluster, such as `s390x` or `x86_64`.
 **See also**:
 
 #### image:images/yes.png[yes] snapshot set (noun)
-**Description**: In Red&#160;Hat Ceph Storage, the _snapshot set_ stores information about a snapshot as a list of key-values pairs. The pairs are called attributes of a snapshot set.
+**Description**: In Red Hat Ceph Storage, the _snapshot set_ stores information about a snapshot as a list of key-values pairs. The pairs are called attributes of a snapshot set.
 
 **Use it**: yes
 
@@ -10411,7 +10411,7 @@ Specify the system architecture of your cluster, such as `s390x` or `x86_64`.
 
 #### image:images/caution.png[with caution] sos report (noun)
 **Description**: In RHEL 8 and later, an _sos report_ is a collection of files that contain configuration details, system information, and diagnostic data.
-Red&#160;Hat Support engineers review an sos report when troubleshooting system problems.
+Red Hat Support engineers review an sos report when troubleshooting system problems.
 To generate the sos report, customers run the `sos report` command; that is, the `sos` command with the `report` argument.
 
 Write as shown: two words.
@@ -10428,7 +10428,7 @@ Therefore, if you need to use the indefinite article before "sos report", use _a
 
 #### image:images/caution.png[with caution] sosreport (noun)
 **Description**: In RHEL 7 and earlier, an _sosreport_ is a collection of files that contain configuration details, system information, and diagnostic data.
-Red&#160;Hat Support engineers review an sosreport when troubleshooting system problems.
+Red Hat Support engineers review an sosreport when troubleshooting system problems.
 To generate the sosreport, customers run the `sosreport` command.
 
 Write as shown: one word.
@@ -10453,7 +10453,7 @@ Therefore, if you need to use the indefinite article before "sosreport", use _an
 **See also**:
 
 #### image:images/yes.png[yes] source (noun)
-**Description**: In Red&#160;Hat AMQ, _source_ is a message’s named point of origin.
+**Description**: In Red Hat AMQ, _source_ is a message’s named point of origin.
 
 **Use it**: yes
 
@@ -10471,7 +10471,7 @@ Therefore, if you need to use the indefinite article before "sosreport", use _an
 **See also**: [spec file](#image:images/yes.png[yes]-spec-file-(noun)), [RPM](#image:images/yes.png[yes]-rpm-(noun))
 
 #### image:images/yes.png[yes] Source-Navigator^TM^ (noun)
-**Description**: _Source-Navigator^TM^_ is a source code analysis tool and is a Red&#160;Hat trademark.
+**Description**: _Source-Navigator^TM^_ is a source code analysis tool and is a Red Hat trademark.
 
 **Use it**: yes
 
@@ -10480,7 +10480,7 @@ Therefore, if you need to use the indefinite article before "sosreport", use _an
 **See also**:
 
 #### image:images/yes.png[yes] source node (noun)
-**Description**: When discussing geo-replication in Red&#160;Hat Gluster Storage, _source node_ refers to a node in the active cluster.
+**Description**: When discussing geo-replication in Red Hat Gluster Storage, _source node_ refers to a node in the active cluster.
 
 **Use it**: yes
 
@@ -10525,7 +10525,7 @@ Therefore, if you need to use the indefinite article before "sosreport", use _an
 **See also**: [space](#image:images/yes.png[yes]-space-(noun))
 
 #### image:images/yes.png[yes] spec (noun)
-**Description**: In Red&#160;Hat OpenShift, use "spec" and "spec file" when you want to describe an RPM spec file. You can also use "spec" for general usage when you describe Kubernetes or OpenShift Container Platform object specs, manifests, or definitions.
+**Description**: In Red Hat OpenShift, use "spec" and "spec file" when you want to describe an RPM spec file. You can also use "spec" for general usage when you describe Kubernetes or OpenShift Container Platform object specs, manifests, or definitions.
 
 Example of correct usage:
 
@@ -10630,7 +10630,7 @@ Always capitalize as shown, except in commands, packages, or UI content.
 **See also**:
 
 #### image:images/yes.png[yes] SSSD (noun)
-**Description**: In Red&#160;Hat Enterprise Linux, the _System Security Services Daemon (SSSD)_ is a system service that manages user authentication and user authorization on a RHEL host. SSSD optionally keeps a cache of user identities and credentials retrieved from remote providers for offline authentication.
+**Description**: In Red Hat Enterprise Linux, the _System Security Services Daemon (SSSD)_ is a system service that manages user authentication and user authorization on a RHEL host. SSSD optionally keeps a cache of user identities and credentials retrieved from remote providers for offline authentication.
 
 **Use it**: yes
 
@@ -10639,7 +10639,7 @@ Always capitalize as shown, except in commands, packages, or UI content.
 **See also**:
 
 #### image:images/yes.png[yes] SSSD back end (noun)
-**Description**: In Red&#160;Hat Enterprise Linux, a _System Security Services Daemon (SSSD) back end_, often also called a data provider, is an SSSD child process that manages and creates the SSSD cache. This process communicates with an LDAP server, performs different lookup queries and stores the results in the cache. It also performs online authentication against LDAP or Kerberos and applies access and password policy to the user that is logging in.
+**Description**: In Red Hat Enterprise Linux, a _System Security Services Daemon (SSSD) back end_, often also called a data provider, is an SSSD child process that manages and creates the SSSD cache. This process communicates with an LDAP server, performs different lookup queries and stores the results in the cache. It also performs online authentication against LDAP or Kerberos and applies access and password policy to the user that is logging in.
 
 **Use it**: yes
 
@@ -10657,7 +10657,7 @@ Always capitalize as shown, except in commands, packages, or UI content.
 **See also**:
 
 #### image:images/no.png[no] standalone mode (noun)
-**Description**: In Red&#160;Hat JBoss Enterprise Application Platform, do not use "standalone mode" to refer to the standalone operating mode of JBoss EAP server. For the correct usage, see the [standalone server](#image:images/yes.png[yes]-standalone-server-(noun)) entry.
+**Description**: In Red Hat JBoss Enterprise Application Platform, do not use "standalone mode" to refer to the standalone operating mode of JBoss EAP server. For the correct usage, see the [standalone server](#image:images/yes.png[yes]-standalone-server-(noun)) entry.
 
 **Use it**: no
 
@@ -10666,7 +10666,7 @@ Always capitalize as shown, except in commands, packages, or UI content.
 **See also**: [standalone server](#image:images/yes.png[yes]-standalone-server-(noun))
 
 #### image:images/yes.png[yes] standalone server (noun)
-**Description**: In Red&#160;Hat JBoss Enterprise Application Platform, use "standalone server" to refer to the standalone operating mode of JBoss EAP server. For example, when running JBoss EAP as a standalone server.
+**Description**: In Red Hat JBoss Enterprise Application Platform, use "standalone server" to refer to the standalone operating mode of JBoss EAP server. For example, when running JBoss EAP as a standalone server.
 
 **Use it**: yes
 
@@ -10738,7 +10738,7 @@ Always capitalize as shown, except in commands, packages, or UI content.
 **See also**:
 
 #### image:images/yes.png[yes] storage class (noun)
-**Description**: (1) In Red&#160;Hat OpenShift, a _storage class_ is a type of storage device categorized by performance characteristics. Storage class devices can be traditional hard disk drives, a solid state drives, or non-volatile memory express (NVMe) drives. (2) In Red&#160;Hat OpenShift Data Foundation (formerly Red&#160;Hat OpenShift Container Storage), use "storage classes" to describe the types of storage a product offers.
+**Description**: (1) In Red Hat OpenShift, a _storage class_ is a type of storage device categorized by performance characteristics. Storage class devices can be traditional hard disk drives, a solid state drives, or non-volatile memory express (NVMe) drives. (2) In Red Hat OpenShift Data Foundation (formerly Red Hat OpenShift Container Storage), use "storage classes" to describe the types of storage a product offers.
 
 **Use it**: yes
 
@@ -10819,7 +10819,7 @@ Always capitalize as shown, except in commands, packages, or UI content.
 **See also**:
 
 #### image:images/yes.png[yes] subpackage (noun)
-**Description**: "Subpackage" has a specific, specialized meaning in Red&#160;Hat products. An RPM spec file can define more than one package; these additional packages are called _subpackages_. CCS strongly discourages any other use of "subpackage". Subpackages are not the same as dependencies; do not treat them as if they are.
+**Description**: "Subpackage" has a specific, specialized meaning in Red Hat products. An RPM spec file can define more than one package; these additional packages are called _subpackages_. CCS strongly discourages any other use of "subpackage". Subpackages are not the same as dependencies; do not treat them as if they are.
 
 **Use it**: yes
 
@@ -10828,7 +10828,7 @@ Always capitalize as shown, except in commands, packages, or UI content.
 **See also**:
 
 #### image:images/yes.png[yes] subscription (noun)
-**Description**: _Subscriptions_ provide access to Red&#160;Hat products. Using Red&#160;Hat Subscription Management (RHSM), you register a system, attach a subscription, and enable repositories. Do not confuse this with Red&#160;Hat Network (RHN), where you subscribed to channels. Do not use "subscription" and "entitlement" interchangeably. See [https://access.redhat.com/discussions/3119981](https://access.redhat.com/discussions/3119981) for details.
+**Description**: _Subscriptions_ provide access to Red Hat products. Using Red Hat Subscription Management (RHSM), you register a system, attach a subscription, and enable repositories. Do not confuse this with Red Hat Network (RHN), where you subscribed to channels. Do not use "subscription" and "entitlement" interchangeably. See [https://access.redhat.com/discussions/3119981](https://access.redhat.com/discussions/3119981) for details.
 
 **Use it**: yes
 
@@ -10837,7 +10837,7 @@ Always capitalize as shown, except in commands, packages, or UI content.
 **See also**: [entitlement](#image:images/caution.png[with-caution]-entitlement-(noun)), [repository](#image:images/yes.png[yes]-repository-(noun))
 
 #### image:images/yes.png[yes] subscription manifest (noun)
-**Description**: In Red&#160;Hat Satellite, a _subscription manifest_ is a mechanism for transferring subscriptions from Red&#160;Hat Customer Portal to Red&#160;Hat Satellite 6. Use the two-word name in full on first use in a section; the word "manifest" is acceptable thereafter.
+**Description**: In Red Hat Satellite, a _subscription manifest_ is a mechanism for transferring subscriptions from Red Hat Customer Portal to Red Hat Satellite 6. Use the two-word name in full on first use in a section; the word "manifest" is acceptable thereafter.
 
 **Use it**: yes
 
@@ -10850,8 +10850,8 @@ Always capitalize as shown, except in commands, packages, or UI content.
 
 * Generically, a _subvolume_ is a logical partition of a larger volume.
 * In Logical Volume Manager (LVM), an _LVM subvolume_ is a logical partition of an LVM volume, usually to store metadata related to the rest of the file system on the volume.
-* In Red&#160;Hat Gluster Storage, a _gluster subvolume_ is a gluster brick whose data has been processed by at least one translator, for example, to replicate files in the volume.
-* In Red&#160;Hat Ceph Storage, a _Ceph subvolume_ is an abstraction of a Ceph file system export that Ceph Manager can make available for consumption by a service, such as a Red&#160;Hat OpenStack file system service (Manila).
+* In Red Hat Gluster Storage, a _gluster subvolume_ is a gluster brick whose data has been processed by at least one translator, for example, to replicate files in the volume.
+* In Red Hat Ceph Storage, a _Ceph subvolume_ is an abstraction of a Ceph file system export that Ceph Manager can make available for consumption by a service, such as a Red Hat OpenStack file system service (Manila).
 
 Use the expanded term before you use "subvolume" by itself.
 
@@ -10871,7 +10871,7 @@ Use the expanded term before you use "subvolume" by itself.
 **See also**:
 
 #### image:images/yes.png[yes] suffix (noun)
-**Description**: The name of the entry at the top of the directory tree is called a _suffix_. In Red&#160;Hat Directory Server, an instance can store multiple suffixes, and each suffix has its own database.
+**Description**: The name of the entry at the top of the directory tree is called a _suffix_. In Red Hat Directory Server, an instance can store multiple suffixes, and each suffix has its own database.
 
 **Use it**: yes
 
@@ -10945,7 +10945,7 @@ With the exception of "sysprep file", which has a specific function, use "syspre
 **See also**:
 
 #### image:images/yes.png[yes] systemd (noun)
-**Description**: _Systemd_ is a system and service manager that is used as the default system daemon for Red&#160;Hat Enterprise Linux 7 and later.
+**Description**: _Systemd_ is a system and service manager that is used as the default system daemon for Red Hat Enterprise Linux 7 and later.
 
 **Use it**: yes
 
@@ -10965,7 +10965,7 @@ With the exception of "sysprep file", which has a specific function, use "syspre
 #### T
 
 #### image:images/yes.png[yes] target (noun)
-**Description**: (1) Generically, a _target_ is synonymous with destination. A _target_ can be a file, a device or any type of location to which data is moved or copied. (2) In Red&#160;Hat AMQ, a _target_ is a message’s destination. The _target_ is usually a queue or topic.
+**Description**: (1) Generically, a _target_ is synonymous with destination. A _target_ can be a file, a device or any type of location to which data is moved or copied. (2) In Red Hat AMQ, a _target_ is a message’s destination. The _target_ is usually a queue or topic.
 
 **Use it**: yes
 
@@ -10974,7 +10974,7 @@ With the exception of "sysprep file", which has a specific function, use "syspre
 **See also**: [source](#image:images/yes.png[yes]-source-(noun))
 
 #### image:images/yes.png[yes] target kernel (noun)
-**Description**: In Red&#160;Hat Enterprise Linux, the _target kernel_ is the kernel of the target system. This is the kernel that loads and runs the instrumentation module.
+**Description**: In Red Hat Enterprise Linux, the _target kernel_ is the kernel of the target system. This is the kernel that loads and runs the instrumentation module.
 
 **Use it**: yes
 
@@ -10983,7 +10983,7 @@ With the exception of "sysprep file", which has a specific function, use "syspre
 **See also**: [target system](#image:images/yes.png[yes]-target-system-(noun)), [instrumentation module](#image:images/yes.png[yes]-instrumentation-module-(noun))
 
 #### image:images/yes.png[yes] target system (noun)
-**Description**: In Red&#160;Hat Enterprise Linux, the _target system_ is the system in which the instrumentation module is being built from `SystemTap` scripts.
+**Description**: In Red Hat Enterprise Linux, the _target system_ is the system in which the instrumentation module is being built from `SystemTap` scripts.
 
 **Use it**: yes
 
@@ -11022,7 +11022,7 @@ With the exception of "sysprep file", which has a specific function, use "syspre
 **See also**: [Technology Preview](#technology-preview)
 
 #### image:images/yes.png[yes] template (noun)
-**Description**: In Red&#160;Hat OpenShift, a _template_ describes a set of objects that can be parameterized and processed to produce a list of objects for creation by OpenShift Container Platform.
+**Description**: In Red Hat OpenShift, a _template_ describes a set of objects that can be parameterized and processed to produce a list of objects for creation by OpenShift Container Platform.
 
 **Use it**: yes
 
@@ -11168,7 +11168,7 @@ A client requests a certificate from a web server. On receiving the certificate,
 **See also**: [TLS](#image:images/yes.png[yes]-tls-(noun)), [symmetric encryption](#image:images/yes.png[yes]-symmetric-encryption-(noun)), [trusted certificate authority](#image:images/yes.png[yes]-trusted-certificate-authority-(noun))
 
 #### image:images/yes.png[yes] topic (noun)
-**Description**: In Red&#160;Hat AMQ, a _topic_ is a stored sequence of messages for read-only distribution.
+**Description**: In Red Hat AMQ, a _topic_ is a stored sequence of messages for read-only distribution.
 
 **Use it**: yes
 
@@ -11195,7 +11195,7 @@ A client requests a certificate from a web server. On receiving the certificate,
 **See also**: [basically](#image:images/no.png[no]-basically-(adverb))
 
 #### image:images/yes.png[yes] transactions subsystem (noun)
-**Description**: In Red&#160;Hat JBoss Enterprise Application Platform, the _transactions subsystem_ is used to configure options in the Transaction Manager. Write in lowercase in general text. Use "Transactions subsystem" when referring to the `transactions` subsystem in titles and headings.
+**Description**: In Red Hat JBoss Enterprise Application Platform, the _transactions subsystem_ is used to configure options in the Transaction Manager. Write in lowercase in general text. Use "Transactions subsystem" when referring to the `transactions` subsystem in titles and headings.
 
 **Use it**: yes
 
@@ -11204,7 +11204,7 @@ A client requests a certificate from a web server. On receiving the certificate,
 **See also**:
 
 #### image:images/yes.png[yes] translator (noun)
-**Description**: In Red&#160;Hat Gluster Storage, a _translator_ is a software module that converts user requests into a storage operation. Multiple translators may interact with the data in the request, but translators always work in a specific order, with data passed from one to another as appropriate, depending on the Gluster volume configuration.
+**Description**: In Red Hat Gluster Storage, a _translator_ is a software module that converts user requests into a storage operation. Multiple translators may interact with the data in the request, but translators always work in a specific order, with data passed from one to another as appropriate, depending on the Gluster volume configuration.
 
 **Use it**: yes
 
@@ -11213,7 +11213,7 @@ A client requests a certificate from a web server. On receiving the certificate,
 **See also**:
 
 #### image:images/yes.png[yes] trigger directive (noun)
-**Description**: In Red&#160;Hat Enterprise Linux, a _trigger directive_ is a special form of a transaction scriptlet that runs conditionally when another specific package is installed or uninstalled.
+**Description**: In Red Hat Enterprise Linux, a _trigger directive_ is a special form of a transaction scriptlet that runs conditionally when another specific package is installed or uninstalled.
 
 **Use it**: yes
 
@@ -11242,7 +11242,7 @@ A web server uses its public key to obtain a certificate from a trusted CA. The 
 **See also**: [keystore](#image:images/yes.png[yes]-keystore-(noun))
 
 #### image:images/yes.png[yes] truth maintenance system (noun)
-**Description**: In Red&#160;Hat Process Automation Manager and Red&#160;Hat Decision Manager, a _truth maintenance system (TMS)_ refers to the ability of the inference engine to enforce truthfulness when applying rules. The truth maintenance system uses the mechanism of truth maintenance to efficiently handle the inferred information from rules. It provides justified reasoning for each and every action taken by the inference engine and validates the conclusions of the engine. If the inference engine asserts data as a result of firing a rule, the engine uses the truth maintenance to justify the assertion.
+**Description**: In Red Hat Process Automation Manager and Red Hat Decision Manager, a _truth maintenance system (TMS)_ refers to the ability of the inference engine to enforce truthfulness when applying rules. The truth maintenance system uses the mechanism of truth maintenance to efficiently handle the inferred information from rules. It provides justified reasoning for each and every action taken by the inference engine and validates the conclusions of the engine. If the inference engine asserts data as a result of firing a rule, the engine uses the truth maintenance to justify the assertion.
 
 **Use it**: yes
 
@@ -11289,7 +11289,7 @@ A web server uses its public key to obtain a certificate from a trusted CA. The 
 **See also**:
 
 #### image:images/yes.png[yes] undercloud (noun)
-**Description**: In Red&#160;Hat OpenStack Platform (RHOSP), the _undercloud_ is the director node. It is a single-system within the RHOSP installation that includes components for provisioning and managing the RHOSP nodes that form your environment, known as the overcloud. Write in lowercase.
+**Description**: In Red Hat OpenStack Platform (RHOSP), the _undercloud_ is the director node. It is a single-system within the RHOSP installation that includes components for provisioning and managing the RHOSP nodes that form your environment, known as the overcloud. Write in lowercase.
 
 **Use it**: yes
 
@@ -11298,7 +11298,7 @@ A web server uses its public key to obtain a certificate from a trusted CA. The 
 **See also**: [overcloud](#image:images/yes.png[yes]-overcloud-(noun)), [node](#image:images/yes.png[yes]-node-(noun))
 
 #### image:images/yes.png[yes] undertow subsystem (noun)
-**Description**: In Red&#160;Hat JBoss Enterprise Application Platform, the _undertow subsystem_ is used to configure the JBoss EAP web server and servlet container settings. Write in lowercase in general text. Use "Undertow subsystem" when referring to the `undertow` subsystem in titles and headings. For the correct usage when referring to the `undertow` subsystem in the management console, see the [WebHTTP - Undertow](#image:images/yes.png[yes]-webhttp---undertow-(noun)) entry.
+**Description**: In Red Hat JBoss Enterprise Application Platform, the _undertow subsystem_ is used to configure the JBoss EAP web server and servlet container settings. Write in lowercase in general text. Use "Undertow subsystem" when referring to the `undertow` subsystem in titles and headings. For the correct usage when referring to the `undertow` subsystem in the management console, see the [WebHTTP - Undertow](#image:images/yes.png[yes]-webhttp---undertow-(noun)) entry.
 
 **Use it**: yes
 
@@ -11307,7 +11307,7 @@ A web server uses its public key to obtain a certificate from a trusted CA. The 
 **See also**: [WebHTTP - Undertow](#image:images/yes.png[yes]-webhttp---undertow-(noun))
 
 #### image:images/yes.png[yes] uninterruptible (adjective)
-**Description**: Although "uninterruptible" is not listed in the American Heritage Dictionary, it is listed in the Merriam-Webster Unabridged Dictionary and is considered acceptable in Red&#160;Hat documentation, especially in the context of "uninterruptible power supply (UPS)".
+**Description**: Although "uninterruptible" is not listed in the American Heritage Dictionary, it is listed in the Merriam-Webster Unabridged Dictionary and is considered acceptable in Red Hat documentation, especially in the context of "uninterruptible power supply (UPS)".
 
 **Use it**: yes
 
@@ -11343,7 +11343,7 @@ A web server uses its public key to obtain a certificate from a trusted CA. The 
 **See also**:
 
 #### image:images/yes.png[yes] update (noun)
-**Description**: In Red&#160;Hat Enterprise Linux, sometimes called a software patch, an _update_ is an addition to the current version of the application, operating system, or software that you are running. A software update addresses any issues or bugs to provide a better experience of working with the technology. In Red&#160;Hat Enterprise Linux (RHEL), an update relates to a minor release, for example, updating from RHEL 8.1 to 8.2.
+**Description**: In Red Hat Enterprise Linux, sometimes called a software patch, an _update_ is an addition to the current version of the application, operating system, or software that you are running. A software update addresses any issues or bugs to provide a better experience of working with the technology. In Red Hat Enterprise Linux (RHEL), an update relates to a minor release, for example, updating from RHEL 8.1 to 8.2.
 
 **Use it**: yes
 
@@ -11352,7 +11352,7 @@ A web server uses its public key to obtain a certificate from a trusted CA. The 
 **See also**:
 
 #### image:images/yes.png[yes] upgrade (verb)
-**Description**: (1) To _upgrade_ means to raise (something) to a higher standard, in particular to improve by adding or replacing components. (2) In Red&#160;Hat Enterprise Linux, an _upgrade_ is when you replace the application, operating system, or software that you are currently running with a newer version. There are two ways to upgrade to RHEL: in-place upgrade or clean install.
+**Description**: (1) To _upgrade_ means to raise (something) to a higher standard, in particular to improve by adding or replacing components. (2) In Red Hat Enterprise Linux, an _upgrade_ is when you replace the application, operating system, or software that you are currently running with a newer version. There are two ways to upgrade to RHEL: in-place upgrade or clean install.
 
 **Use it**: yes
 
@@ -11415,7 +11415,7 @@ A web server uses its public key to obtain a certificate from a trusted CA. The 
 **See also**:
 
 #### image:images/yes.png[yes] URI (noun)
-**Description**: _URI_ is an initialism for "Uniform Resource Identifier". A string of characters that identifies a resource, it enables interaction with representations of the resource over a network using schemes with specific syntax and associated protocols. In Camel, URIs are used to create and configure endpoints. In Red&#160;Hat Fuse, Camel URIs have a specific syntax: **scheme:context_path?options**. **scheme** specifies the component to use to create and handle endpoints of its type; **context_path** specifies the location of the input data; and **options**, in the form of property=value pairs, configure the behavior of the created endpoints. For example, the URI `file:data/orders?delay=5000` in the consumer endpoint `<from uri="file:data/orders?delay=5000" />` employs the File component to create a file endpoint, whose input source, the `data/orders` directory, is polled for files at 5 second intervals.
+**Description**: _URI_ is an initialism for "Uniform Resource Identifier". A string of characters that identifies a resource, it enables interaction with representations of the resource over a network using schemes with specific syntax and associated protocols. In Camel, URIs are used to create and configure endpoints. In Red Hat Fuse, Camel URIs have a specific syntax: **scheme:context_path?options**. **scheme** specifies the component to use to create and handle endpoints of its type; **context_path** specifies the location of the input data; and **options**, in the form of property=value pairs, configure the behavior of the created endpoints. For example, the URI `file:data/orders?delay=5000` in the consumer endpoint `<from uri="file:data/orders?delay=5000" />` employs the File component to create a file endpoint, whose input source, the `data/orders` directory, is polled for files at 5 second intervals.
 
 **Use it**: yes
 
@@ -11460,7 +11460,7 @@ A web server uses its public key to obtain a certificate from a trusted CA. The 
 **See also**:
 
 #### image:images/yes.png[yes] user federation provider (noun)
-**Description**: In Red&#160;Hat Single Sign-On, you can store and manage users. Often, companies already have LDAP or Active Directory services that store user and credential information. You can point Red&#160;Hat Single Sign-On to validate credentials from those external stores and pull in identity information.
+**Description**: In Red Hat Single Sign-On, you can store and manage users. Often, companies already have LDAP or Active Directory services that store user and credential information. You can point Red Hat Single Sign-On to validate credentials from those external stores and pull in identity information.
 
 **Use it**: yes
 
@@ -11496,7 +11496,7 @@ A web server uses its public key to obtain a certificate from a trusted CA. The 
 **See also**: [user-space](#image:images/yes.png[yes]-user-space-(adjective))
 
 #### image:images/yes.png[yes] user-provisioned infrastructure (noun)
-**Description**: In Red&#160;Hat OpenShift, if the user must deploy and configure separate virtual or physical hosts as part of the cluster deployment process, it is a _user-provisioned infrastructure_ installation.
+**Description**: In Red Hat OpenShift, if the user must deploy and configure separate virtual or physical hosts as part of the cluster deployment process, it is a _user-provisioned infrastructure_ installation.
 
 **Use it**: yes
 
@@ -11545,7 +11545,7 @@ Use lowercase "v" and uppercase "CPU".
 **See also**:
 
 #### image:images/yes.png[yes] verb (noun)
-**Description**: In Red&#160;Hat OpenShift, a _verb_ is a `get`, `list`, `create`, or `update` operation.
+**Description**: In Red Hat OpenShift, a _verb_ is a `get`, `list`, `create`, or `update` operation.
 
 **Use it**: yes
 
@@ -11720,7 +11720,7 @@ Although the _IBM Style_ guide recommends using "diskette drive" instead of "flo
 **See also**: [persistent storage](#image:images/yes.png[yes]-persistent-storage-(noun))
 
 #### image:images/yes.png[yes] volume file (noun)
-**Description**: In Red&#160;Hat Gluster Storage, a _volume file_ is a configuration file that determines the behavior of the trusted storage pool.
+**Description**: In Red Hat Gluster Storage, a _volume file_ is a configuration file that determines the behavior of the trusted storage pool.
 
 **Use it**: yes
 
@@ -11776,7 +11776,7 @@ Although the _IBM Style_ guide recommends using "diskette drive" instead of "flo
 **See also**:
 
 #### image:images/yes.png[yes] Weak dependencies (noun)
-**Description**: In Red&#160;Hat Enterprise Linux, _Weak dependencies_ are variants of the `Requires` directive that describe dependencies that are not necessary for the package to work but are considered useful by the package author.
+**Description**: In Red Hat Enterprise Linux, _Weak dependencies_ are variants of the `Requires` directive that describe dependencies that are not necessary for the package to work but are considered useful by the package author.
 
 **Use it**: yes
 
@@ -11802,7 +11802,7 @@ Although the _IBM Style_ guide recommends using "diskette drive" instead of "flo
 **See also**: [Directory Server](#image:images/yes.png[yes]-directory-server-(noun)), [certificate authority](#image:images/yes.png[yes]-certificate-authority-(noun))
 
 #### image:images/yes.png[yes] Web services (noun)
-**Description**: In Red&#160;Hat JBoss Enterprise Application Platform, use "Web services" when referring to the general concept of Web services. Write as two words. Capitalize "Web" and write "services" in lowercase.
+**Description**: In Red Hat JBoss Enterprise Application Platform, use "Web services" when referring to the general concept of Web services. Write as two words. Capitalize "Web" and write "services" in lowercase.
 
 **Use it**: yes
 
@@ -11820,7 +11820,7 @@ Although the _IBM Style_ guide recommends using "diskette drive" instead of "flo
 **See also**:
 
 #### image:images/yes.png[yes] WebHTTP - Undertow (noun)
-**Description**: In Red&#160;Hat JBoss Enterprise Application Platform, use "WebHTTP - Undertow" when describing the `undertow` subsystem in the management console. Write as two capitalized words separated by two spaces and a hyphen. Ensure that "HTTP" is also in uppercase.
+**Description**: In Red Hat JBoss Enterprise Application Platform, use "WebHTTP - Undertow" when describing the `undertow` subsystem in the management console. Write as two capitalized words separated by two spaces and a hyphen. Ensure that "HTTP" is also in uppercase.
 
 **Use it**: yes
 
@@ -11829,7 +11829,7 @@ Although the _IBM Style_ guide recommends using "diskette drive" instead of "flo
 **See also**: [undertow](#image:images/yes.png[yes]-undertow-subsystem-(noun))
 
 #### image:images/yes.png[yes] webservices subsystem (noun)
-**Description**: In Red&#160;Hat JBoss Enterprise Application Platform, the _webservices subsystem_ is used to configure the Web services provider. In general text, write in lowercase as one word. Use "Web Services subsystem" when referring to the `webservices` subsystem in titles and headings.
+**Description**: In Red Hat JBoss Enterprise Application Platform, the _webservices subsystem_ is used to configure the Web services provider. In general text, write in lowercase as one word. Use "Web Services subsystem" when referring to the `webservices` subsystem in titles and headings.
 
 **Use it**: yes
 
@@ -11838,7 +11838,7 @@ Although the _IBM Style_ guide recommends using "diskette drive" instead of "flo
 **See also**:
 
 #### image:images/yes.png[yes] weld subsystem (noun)
-**Description**: In Red&#160;Hat JBoss Enterprise Application Platform, the _weld subsystem_ is used to configure Contexts and Dependency Injection (CDI) functionality for JBoss EAP. Write in lowercase in general text. Use "Weld subsystem" when referring to the `weld` subsystem in titles and headings.
+**Description**: In Red Hat JBoss Enterprise Application Platform, the _weld subsystem_ is used to configure Contexts and Dependency Injection (CDI) functionality for JBoss EAP. Write in lowercase in general text. Use "Weld subsystem" when referring to the `weld` subsystem in titles and headings.
 
 **Use it**: yes
 
@@ -11892,7 +11892,7 @@ Although the _IBM Style_ guide recommends using "diskette drive" instead of "flo
 **See also**: [Microsoft Windows](#image:images/no.png[no]-microsoft-windows-(noun))
 
 #### image:images/yes.png[yes] worker node (noun)
-**Description**: In Red&#160;Hat OpenShift, a _worker node_ runs containerized applications.
+**Description**: In Red Hat OpenShift, a _worker node_ runs containerized applications.
 
 **Use it**: yes
 
@@ -11901,7 +11901,7 @@ Although the _IBM Style_ guide recommends using "diskette drive" instead of "flo
 **See also**:[compute node](#image:images/yes.png[yes]-compute-node-(noun))
 
 #### image:images/yes.png[yes] working memory (noun)
-**Description**: In Red&#160;Hat Process Automation Manager and Red&#160;Hat Decision Manager, _working memory_ is a stateful object that provides temporary storage and enables manipulation of facts. The working memory includes an API that contains methods that enable access to the working memory from rule files.
+**Description**: In Red Hat Process Automation Manager and Red Hat Decision Manager, _working memory_ is a stateful object that provides temporary storage and enables manipulation of facts. The working memory includes an API that contains methods that enable access to the working memory from rule files.
 
 **Use it**: yes
 
@@ -11964,7 +11964,7 @@ Example 1:
 **See also**:
 
 #### image:images/yes.png[yes] XP (noun)
-**Description**: In Red&#160;Hat JBoss Enterprise Application Platform, "XP" is an acceptable shortened form of "Expansion Pack". Write in upper case.
+**Description**: In Red Hat JBoss Enterprise Application Platform, "XP" is an acceptable shortened form of "Expansion Pack". Write in upper case.
 
 **Use it**: yes
 
@@ -11982,7 +11982,7 @@ Example 1:
 **See also**:
 
 #### image:images/yes.png[yes] xts subsystem (noun)
-**Description**: In Red&#160;Hat JBoss Enterprise Application Platform, the _xts subsystem_ is used to configure settings for coordinating Web services in a transaction. In general text, write in lowercase as one word. Use "XTS subsystem" when referring to the `xts` subsystem in titles and headings.
+**Description**: In Red Hat JBoss Enterprise Application Platform, the _xts subsystem_ is used to configure settings for coordinating Web services in a transaction. In general text, write in lowercase as one word. Use "XTS subsystem" when referring to the `xts` subsystem in titles and headings.
 
 **Use it**: yes
 
@@ -12022,7 +12022,7 @@ Example 1:
 **See also**: [micro release](#image:images/caution.png[with-caution]-micro-release-(noun))
 
 #### image:images/yes.png[yes] zone (noun)
-**Description**: In Red&#160;Hat Ceph Storage, a _zone_ represents a physical location consisting of a Ceph Storage Cluster and nodes running the Ceph Object Gateway daemons.
+**Description**: In Red Hat Ceph Storage, a _zone_ represents a physical location consisting of a Ceph Storage Cluster and nodes running the Ceph Object Gateway daemons.
 
 **Use it**: yes
 
@@ -12031,7 +12031,7 @@ Example 1:
 **See also**: [zone group](#image:images/yes.png[yes]-zone-group-(noun))
 
 #### image:images/yes.png[yes] zone group (noun)
-**Description**: In Red&#160;Hat Ceph Storage, a _zone group_ is a list of zones. A zone group always has one master zone, and can have multiple secondary zones. A realm has one master zone group, which manages users and metadata for the realm.
+**Description**: In Red Hat Ceph Storage, a _zone group_ is a list of zones. A zone group always has one master zone, and can have multiple secondary zones. A realm has one master zone group, which manages users and metadata for the realm.
 
 **Use it**: yes
 
