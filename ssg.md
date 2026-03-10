@@ -44,7 +44,7 @@ The _Red Hat supplementary style guide for product documentation_ is also availa
 
 ## Markdown version
 
-The _Red Hat supplementary style guide for product documentation_ is also available as a Markdown file. You can download or reference the [Markdown version of the guide](https://redhat-documentation.github.io/supplementary-style-guide/ssg.md) for use with tools and workflows that consume Markdown.
+The _Red Hat supplementary style guide for product documentation_ is also available as a Markdown file. You can download or reference the [Markdown version of the guide](ssg.md) for use with tools and workflows that consume Markdown.
 
 # What's new
 
@@ -80,7 +80,7 @@ See the [Contributing guide](https://github.com/redhat-documentation/supplementa
   * Provided instructions for **[release note formatting in AsciiDoc](#release-note-formatting-in-asciidoc)** , which will simplify DITA migration
   * Provided a single set of approved names for all **[release note types and sections](#release-note-types-and-sections)**
 * **[Commands in code blocks](#commands-in-code-blocks)**. The guidance in this section has changed. When formatting code blocks, put the command input and the example output in separate code blocks. In November, we also updated and improved the ASCIIDoc example for this update.
-* **[Explanation of commands and variables used in code blocks](#explanation-of-commands-and-variables-used-in-code-blocks)**. Customer Content Services is no longer using callouts in documentation. Callouts are not supported by DITA and do not work for AI.
+* **[Explanation of commands and variables used in code blocks](#explanation-of-commands-and-variables-used-in-code-blocks)**. Customer Content Services is no longer using callouts in documentation. Callouts are not supported by DITA.
 
 ## 2024
 
@@ -1350,6 +1350,16 @@ Follow these guidelines when specifying link text:
 * Contextually describe what the user will find at the target location so that they can decide if they want to leave their current location.
 * Use a concise sentence or sentence fragment as the link text.
 * Avoid irrelevant link text.
+
+## Links to Red Hat documentation
+
+* Use `latest` in the URL so that the link resolves to the last published version.
+
+**Example AsciiDoc: Latest version**
+
+```
+For more information, see link:https://docs.redhat.com/en/documentation/openshift_container_platform/latest/html/disconnected_environments/oc-mirror-migration-v1-to-v2[Migrating from oc-mirror plugin v1 to v2].
+```
 
 ## Links to Red Hat Knowledgebase articles
 
